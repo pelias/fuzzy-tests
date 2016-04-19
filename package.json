@@ -20,7 +20,7 @@
     "pelias-fuzzy-tester": "0.6.1"
   },
   "devDependencies": {
-    "jshint": "^2.6.3",
+    "jshint": "^2.9.2",
     "precommit-hook": "3.0.0"
   },
   "repository": {
@@ -36,7 +36,7 @@
     "lint",
     "validate"
   ],
-  "engines" : {
-    "npm" : "~2.0.0"
+  "engines": {
+    "npm": "~2.0.0"
   }
 }

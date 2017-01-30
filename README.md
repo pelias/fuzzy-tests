@@ -2,6 +2,8 @@
 
 # Fuzzy tests
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pelias/fuzzy-tests.svg)](https://greenkeeper.io/)
+
 This repository contains all of the Pelias API "fuzzy" tests, which are automated tests used to identify
 improvements and regressions between various versions of the API and the underlying data.
 

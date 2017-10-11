@@ -1,7 +1,10 @@
 language: node_js
 before_script:
-    - npm prune
-    - 'echo "{ \"mapzen\": { \"api_key\": { \"search.mapzen.com\": \"$API_KEY\" } }, \"acceptance-tests\": { \"endpoints\": { \"prod\": \"http://search.mapzen.com/v1\" } } }" > ~/pelias.json'
+  - npm prune
+  - >-
+    echo "{ \"mapzen\": { \"api_key\": { \"search.mapzen.com\": \"$API_KEY\" }
+    }, \"acceptance-tests\": { \"endpoints\": { \"prod\":
+    \"http://search.mapzen.com/v1\" } } }" > ~/pelias.json
 node_js:
   - 6
 sudo: false

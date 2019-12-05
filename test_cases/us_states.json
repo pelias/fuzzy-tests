@@ -1,0 +1,866 @@
+{
+  "name": "US States",
+  "description": "",
+  "priorityThresh": 2,
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "text": "Alabama"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Alabama",
+            "region": "Alabama",
+            "region_a": "AL",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "text": "Alaska"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Alaska",
+            "region": "Alaska",
+            "region_a": "AK",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "in": {
+        "text": "Arizona"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Arizona",
+            "region": "Arizona",
+            "region_a": "AZ",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "in": {
+        "text": "Arkansas"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Arkansas",
+            "region": "Arkansas",
+            "region_a": "AR",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "in": {
+        "text": "California"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "California",
+            "region": "California",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "in": {
+        "text": "Colorado"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Colorado",
+            "region": "Colorado",
+            "region_a": "CO",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "in": {
+        "text": "Connecticut"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Connecticut",
+            "region": "Connecticut",
+            "region_a": "CT",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "in": {
+        "text": "Delaware"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Delaware",
+            "region": "Delaware",
+            "region_a": "DE",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "in": {
+        "text": "Florida"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Florida",
+            "region": "Florida",
+            "region_a": "FL",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "in": {
+        "text": "Georgia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Georgia",
+            "region": "Georgia",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "in": {
+        "text": "Hawaii"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Hawaii",
+            "region": "Hawaii",
+            "region_a": "HI",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "in": {
+        "text": "Idaho"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Idaho",
+            "region": "Idaho",
+            "region_a": "ID",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "in": {
+        "text": "Illinois"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Illinois",
+            "region": "Illinois",
+            "region_a": "IL",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "in": {
+        "text": "Indiana"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Indiana",
+            "region": "Indiana",
+            "region_a": "IN",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "in": {
+        "text": "Iowa"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Iowa",
+            "region": "Iowa",
+            "region_a": "IA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "status": "pass",
+      "in": {
+        "text": "Kansas"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Kansas",
+            "region": "Kansas",
+            "region_a": "KS",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "status": "pass",
+      "in": {
+        "text": "Kentucky"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Kentucky",
+            "region": "Kentucky",
+            "region_a": "KY",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "status": "pass",
+      "in": {
+        "text": "Louisiana"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Louisiana",
+            "region": "Louisiana",
+            "region_a": "LA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "in": {
+        "text": "Maine"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Maine",
+            "region": "Maine",
+            "region_a": "ME",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "status": "pass",
+      "in": {
+        "text": "Maryland"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Maryland",
+            "region": "Maryland",
+            "region_a": "MD",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "status": "pass",
+      "in": {
+        "text": "Massachusetts"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Massachusetts",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "status": "pass",
+      "in": {
+        "text": "Michigan"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Michigan",
+            "region": "Michigan",
+            "region_a": "MI",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "status": "pass",
+      "in": {
+        "text": "Minnesota"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Minnesota",
+            "region": "Minnesota",
+            "region_a": "MN",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "status": "pass",
+      "in": {
+        "text": "Mississippi"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mississippi",
+            "region": "Mississippi",
+            "region_a": "MS",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "in": {
+        "text": "Missouri"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Missouri",
+            "region": "Missouri",
+            "region_a": "MO",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "in": {
+        "text": "Montana"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Montana",
+            "region": "Montana",
+            "region_a": "MT",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "status": "pass",
+      "in": {
+        "text": "Nebraska"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Nebraska",
+            "region": "Nebraska",
+            "region_a": "NE",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "status": "pass",
+      "in": {
+        "text": "Nevada"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Nevada",
+            "region": "Nevada",
+            "region_a": "NV",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "status": "pass",
+      "in": {
+        "text": "New Hampshire"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New Hampshire",
+            "region": "New Hampshire",
+            "region_a": "NH",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "status": "pass",
+      "in": {
+        "text": "New Jersey"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New Jersey",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "status": "pass",
+      "in": {
+        "text": "New Mexico"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New Mexico",
+            "region": "New Mexico",
+            "region_a": "NM",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "status": "pass",
+      "in": {
+        "text": "New York"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New York",
+            "region": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "status": "pass",
+      "in": {
+        "text": "North Carolina"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "North Carolina",
+            "region": "North Carolina",
+            "region_a": "NC",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "status": "pass",
+      "in": {
+        "text": "North Dakota"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "North Dakota",
+            "region": "North Dakota",
+            "region_a": "ND",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "status": "pass",
+      "in": {
+        "text": "Ohio"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Ohio",
+            "region": "Ohio",
+            "region_a": "OH",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "status": "pass",
+      "in": {
+        "text": "Oklahoma"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Oklahoma",
+            "region": "Oklahoma",
+            "region_a": "OK",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "status": "pass",
+      "in": {
+        "text": "Oregon"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Oregon",
+            "region": "Oregon",
+            "region_a": "OR",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "status": "pass",
+      "in": {
+        "text": "Pennsylvania"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Pennsylvania",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "status": "pass",
+      "in": {
+        "text": "Rhode Island"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Rhode Island",
+            "region": "Rhode Island",
+            "region_a": "RI",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "status": "pass",
+      "in": {
+        "text": "South Carolina"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "South Carolina",
+            "region": "South Carolina",
+            "region_a": "SC",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "status": "pass",
+      "in": {
+        "text": "South Dakota"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "South Dakota",
+            "region": "South Dakota",
+            "region_a": "SD",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "status": "pass",
+      "in": {
+        "text": "Tennessee"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Tennessee",
+            "region": "Tennessee",
+            "region_a": "TN",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "status": "pass",
+      "in": {
+        "text": "Texas"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Texas",
+            "region": "Texas",
+            "region_a": "TX",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "status": "pass",
+      "in": {
+        "text": "Utah"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Utah",
+            "region": "Utah",
+            "region_a": "UT",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "status": "pass",
+      "in": {
+        "text": "Vermont"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Vermont",
+            "region": "Vermont",
+            "region_a": "VT",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "status": "pass",
+      "in": {
+        "text": "Virginia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Virginia",
+            "region": "Virginia",
+            "region_a": "VA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "status": "pass",
+      "in": {
+        "text": "Washington"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Washington",
+            "region": "Washington",
+            "region_a": "WA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "status": "pass",
+      "in": {
+        "text": "West Virginia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "West Virginia",
+            "region": "West Virginia",
+            "region_a": "WV",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "status": "pass",
+      "in": {
+        "text": "Wisconsin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Wisconsin",
+            "region": "Wisconsin",
+            "region_a": "WI",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "status": "pass",
+      "in": {
+        "text": "Wyoming"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Wyoming",
+            "region": "Wyoming",
+            "region_a": "WY",
+            "country_a": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}

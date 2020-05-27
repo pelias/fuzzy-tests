@@ -1,0 +1,741 @@
+{
+  "name": "SD Transit",
+  "description": "",
+  "priorityThresh": 5,
+  "source": "OSM",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "text": "70th Street",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.0420326,
+          32.7721712
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "70th Street",
+            "gid": "openstreetmap:venue:node/1630990751",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "text": "SDSU Transit Center",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.0706227,
+          32.7733084
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "SDSU Transit Center",
+            "gid": "openstreetmap:venue:node/2607827443",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "in": {
+        "text": "AMTRAK",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1699359,
+          32.7168749
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "AMTRAK",
+            "gid": "openstreetmap:venue:node/6108409728",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "in": {
+        "text": "Old Town",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1996007,
+          32.7549768
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Old Town",
+            "gid": "openstreetmap:venue:node/6108409729",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "in": {
+        "text": "Seaport Village",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1685734,
+          32.7119019
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Seaport Village",
+            "gid": "openstreetmap:venue:node/6184516208",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "in": {
+        "text": "Courthouse",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1659105,
+          32.7166453
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Courthouse",
+            "gid": "openstreetmap:venue:node/6184516227",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "in": {
+        "text": "America Plaza",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1688218,
+          32.716457
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "America Plaza",
+            "gid": "openstreetmap:venue:node/6184516237",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "in": {
+        "text": "Iris Avenue Trolley Station",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.0665659,
+          32.5693891
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Iris Avenue Trolley Station",
+            "gid": "openstreetmap:venue:node/6184516240",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "in": {
+        "text": "5th Avenue",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1597872,
+          32.7166889
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "5th Avenue",
+            "gid": "openstreetmap:venue:node/6184516242",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "in": {
+        "text": "12th & Imperial Transit Center",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1533713,
+          32.7056605
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "12th & Imperial Transit Center",
+            "gid": "openstreetmap:venue:node/6184516244",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "in": {
+        "text": "Pacific Fleet",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1250818,
+          32.6862501
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Pacific Fleet",
+            "gid": "openstreetmap:venue:node/6184516260",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "in": {
+        "text": "Beyer Boulevard Trolley Station",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.0468655,
+          32.5575987
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Beyer Boulevard Trolley Station",
+            "gid": "openstreetmap:venue:node/6184516265",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "in": {
+        "text": "Harborside",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1329724,
+          32.6912561
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Harborside",
+            "gid": "openstreetmap:venue:node/6184516276",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "in": {
+        "text": "Hazard Center",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1581332,
+          32.7703654
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Hazard Center",
+            "gid": "openstreetmap:venue:node/6184516277",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "in": {
+        "text": "El Cajon",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -116.9760701,
+          32.7919757
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "El Cajon",
+            "gid": "openstreetmap:venue:node/6184516279",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "status": "pass",
+      "in": {
+        "text": "Grantville",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.0974561,
+          32.7804741
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Grantville",
+            "gid": "openstreetmap:venue:node/6184516280",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "status": "pass",
+      "in": {
+        "text": "Civic Center",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.162314,
+          32.7167939
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Civic Center",
+            "gid": "openstreetmap:venue:node/6184516282",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "status": "pass",
+      "in": {
+        "text": "Lemon Grove Depot",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.030829,
+          32.7433352
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Lemon Grove Depot",
+            "gid": "openstreetmap:venue:node/6184516283",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "in": {
+        "text": "Barrio Logan",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1467326,
+          32.6980605
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Barrio Logan",
+            "gid": "openstreetmap:venue:node/6184516284",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "status": "pass",
+      "in": {
+        "text": "Convention Center",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1635664,
+          32.7090678
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Convention Center",
+            "gid": "openstreetmap:venue:node/6184516685",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "status": "pass",
+      "in": {
+        "text": "Grossmont",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.0113209,
+          32.7817742
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Grossmont",
+            "gid": "openstreetmap:venue:node/6184516687",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "status": "pass",
+      "in": {
+        "text": "Fashion Valley",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1690328,
+          32.765461
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Fashion Valley",
+            "gid": "openstreetmap:venue:node/6184516690",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "status": "pass",
+      "in": {
+        "text": "Stadium",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1195976,
+          32.7810543
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Stadium",
+            "gid": "openstreetmap:venue:node/6184516694",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "status": "pass",
+      "in": {
+        "text": "Washington Street",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1842436,
+          32.7415586
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Washington Street",
+            "gid": "openstreetmap:venue:node/6184516698",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "in": {
+        "text": "Gaslamp Quarter",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.159622,
+          32.7068957
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Gaslamp Quarter",
+            "gid": "openstreetmap:venue:node/6184516699",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "in": {
+        "text": "Park & Market",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1537613,
+          32.7109822
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Park & Market",
+            "gid": "openstreetmap:venue:node/6184516702",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "status": "pass",
+      "in": {
+        "text": "8th Street",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.113073,
+          32.674664
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "8th Street",
+            "gid": "openstreetmap:venue:node/6184516704",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "status": "pass",
+      "in": {
+        "text": "City College",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1542201,
+          32.7162975
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "City College",
+            "gid": "openstreetmap:venue:node/6184516705",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "status": "pass",
+      "in": {
+        "text": "Morena/Linda Vista",
+        "focus.point.lat": 32.7086,
+        "focus.point.lon": -117.1565
+      },
+      "expected": {
+        "coordinates": [
+          -117.1968189,
+          32.7636273
+        ],
+        "distanceThresh": 500,
+        "properties": [
+          {
+            "name": "Morena/Linda Vista",
+            "gid": "openstreetmap:venue:node/6184516706",
+            "layer": "venue",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3526 @@
+{
+  "name": "wikipedia scrape: List_of_largest_art_museums",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Louvre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée du Louvre"
+      },
+      "expected": {
+        "coordinates": [
+          2.33639,
+          48.86111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Louvre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Louvre"
+      },
+      "expected": {
+        "coordinates": [
+          2.33639,
+          48.86111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "State Hermitage Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Эрмитаж"
+      },
+      "expected": {
+        "coordinates": [
+          30.3129,
+          59.941
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "State Hermitage Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "State Hermitage Museum"
+      },
+      "expected": {
+        "coordinates": [
+          30.3129,
+          59.941
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of China",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "中国国家博物馆"
+      },
+      "expected": {
+        "coordinates": [
+          116.39528,
+          39.90389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of China",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Museum of China"
+      },
+      "expected": {
+        "coordinates": [
+          116.39528,
+          39.90389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Metropolitan Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -73.9631,
+          40.7794
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Vatican Museums",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musei Vaticani"
+      },
+      "expected": {
+        "coordinates": [
+          12.45444,
+          41.90639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Vatican Museums",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vatican Museums"
+      },
+      "expected": {
+        "coordinates": [
+          12.45444,
+          41.90639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tokyo National Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "東京国立博物館"
+      },
+      "expected": {
+        "coordinates": [
+          139.77583,
+          35.71889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tokyo National Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tokyo National Museum"
+      },
+      "expected": {
+        "coordinates": [
+          139.77583,
+          35.71889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Anthropology (Mexico)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo Nacional de Antropología (México)"
+      },
+      "expected": {
+        "coordinates": [
+          -99.186,
+          19.426
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Anthropology (Mexico)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Museum of Anthropology"
+      },
+      "expected": {
+        "coordinates": [
+          -99.186,
+          19.426
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Victoria and Albert Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Amgueddfa Victoria ac Albert"
+      },
+      "expected": {
+        "coordinates": [
+          -0.17194,
+          51.49639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Victoria and Albert Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Músaem Victoria agus Albert"
+      },
+      "expected": {
+        "coordinates": [
+          -0.17194,
+          51.49639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Victoria and Albert Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Victoria and Albert Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -0.17194,
+          51.49639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Korea",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "국립중앙박물관"
+      },
+      "expected": {
+        "coordinates": [
+          126.9797,
+          37.5233
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Korea",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Museum of Korea"
+      },
+      "expected": {
+        "coordinates": [
+          126.9797,
+          37.5233
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Art Institute of Chicago",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Art Institute of Chicago"
+      },
+      "expected": {
+        "coordinates": [
+          -87.62389,
+          41.87944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Nanjing Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "南京博物院"
+      },
+      "expected": {
+        "coordinates": [
+          118.82017,
+          32.04264
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Nanjing Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nanjing Museum"
+      },
+      "expected": {
+        "coordinates": [
+          118.82017,
+          32.04264
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "British Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yr Amgueddfa Brydeinig"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1269,
+          51.5195
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "British Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Músaem na Breataine"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1269,
+          51.5195
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "British Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gwithti Bretennek"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1269,
+          51.5195
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "British Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "British Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1269,
+          51.5195
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -77.02001,
+          38.89147
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Massachusetts Museum of Contemporary Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Massachusetts Museum of Contemporary Art"
+      },
+      "expected": {
+        "coordinates": [
+          -73.11639,
+          42.70139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Art & History Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée Art et Histoire"
+      },
+      "expected": {
+        "coordinates": [
+          4.39187,
+          50.83903
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Art & History Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum Kunst & Geschiedenis"
+      },
+      "expected": {
+        "coordinates": [
+          4.39187,
+          50.83903
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Art & History Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Art & History Museum"
+      },
+      "expected": {
+        "coordinates": [
+          4.39187,
+          50.83903
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Three Gorges Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "重庆中国三峡博物馆"
+      },
+      "expected": {
+        "coordinates": [
+          106.55047,
+          29.56197
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Three Gorges Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Three Gorges Museum"
+      },
+      "expected": {
+        "coordinates": [
+          106.55047,
+          29.56197
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum of Fine Arts, Boston",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum of Fine Arts, Boston"
+      },
+      "expected": {
+        "coordinates": [
+          -71.09417,
+          42.33917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Israel Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Israel Museum"
+      },
+      "expected": {
+        "coordinates": [
+          35.20452,
+          31.77238
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery Singapore",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "新加坡國家美術館"
+      },
+      "expected": {
+        "coordinates": [
+          103.85156,
+          1.29025
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery Singapore",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery Singapore"
+      },
+      "expected": {
+        "coordinates": [
+          103.85156,
+          1.29025
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Minneapolis Institute of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Minneapolis Institute of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -93.27417,
+          44.95861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Birmingham Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Birmingham Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -86.81018,
+          33.52195
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Musée d'Orsay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée d'Orsay"
+      },
+      "expected": {
+        "coordinates": [
+          2.32639,
+          48.86
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Ōtsuka Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ōtsuka Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          134.63767,
+          34.23244
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "San Francisco Museum of Modern Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Francisco Museum of Modern Art"
+      },
+      "expected": {
+        "coordinates": [
+          -122.4008,
+          37.7858
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museo del Prado",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo del Prado"
+      },
+      "expected": {
+        "coordinates": [
+          -3.69222,
+          40.41389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum of Modern Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum of Modern Art"
+      },
+      "expected": {
+        "coordinates": [
+          -73.9776,
+          40.7616
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Philadelphia Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Philadelphia Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -75.181,
+          39.966
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Denver Art Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Denver Art Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -104.98972,
+          39.73722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Egyptian Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "المتحف المصري"
+      },
+      "expected": {
+        "coordinates": [
+          31.23333,
+          30.04778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Egyptian Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Egyptian Museum"
+      },
+      "expected": {
+        "coordinates": [
+          31.23333,
+          30.04778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museo di Capodimonte",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo nazionale di Capodimonte"
+      },
+      "expected": {
+        "coordinates": [
+          14.25053,
+          40.86701
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museo di Capodimonte",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo di Capodimonte"
+      },
+      "expected": {
+        "coordinates": [
+          14.25053,
+          40.86701
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Dia:Beacon",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dia:Beacon"
+      },
+      "expected": {
+        "coordinates": [
+          -73.98248,
+          41.49971
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Dallas Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dallas Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -96.80083,
+          32.78722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museo Reina Sofía",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo Nacional Centro de Arte Reina Sofía"
+      },
+      "expected": {
+        "coordinates": [
+          -3.69444,
+          40.40889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museo Reina Sofía",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo Reina Sofía"
+      },
+      "expected": {
+        "coordinates": [
+          -3.69444,
+          40.40889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Detroit Institute of Arts",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Detroit Institute of Arts"
+      },
+      "expected": {
+        "coordinates": [
+          -83.06472,
+          42.35944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Kunsthistorisches Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kunsthistorisches Museum"
+      },
+      "expected": {
+        "coordinates": [
+          16.3618,
+          48.2037
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "The National Art Center, Tokyo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "国立新美術館"
+      },
+      "expected": {
+        "coordinates": [
+          139.72634,
+          35.66528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "The National Art Center, Tokyo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The National Art Center, Tokyo"
+      },
+      "expected": {
+        "coordinates": [
+          139.72634,
+          35.66528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Taiwan Museum of Fine Arts",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "國立臺灣美術館"
+      },
+      "expected": {
+        "coordinates": [
+          120.66358,
+          24.14136
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Taiwan Museum of Fine Arts",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Taiwan Museum of Fine Arts"
+      },
+      "expected": {
+        "coordinates": [
+          120.66358,
+          24.14136
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery in Prague",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Národní galerie Praha"
+      },
+      "expected": {
+        "coordinates": [
+          14.4325,
+          50.1015
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery in Prague",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery in Prague"
+      },
+      "expected": {
+        "coordinates": [
+          14.4325,
+          50.1015
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Indianapolis Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Indianapolis Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -86.1855,
+          39.8259
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Bavarian National Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bayerisches Nationalmuseum"
+      },
+      "expected": {
+        "coordinates": [
+          11.59111,
+          48.14306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Bavarian National Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bavarian National Museum"
+      },
+      "expected": {
+        "coordinates": [
+          11.59111,
+          48.14306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Brooklyn Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brooklyn Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -73.96375,
+          40.67131
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Capital Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "首都博物馆"
+      },
+      "expected": {
+        "coordinates": [
+          116.336,
+          39.905
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Capital Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Capital Museum"
+      },
+      "expected": {
+        "coordinates": [
+          116.336,
+          39.905
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Montreal Museum of Fine Arts",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée des beaux-arts de Montréal"
+      },
+      "expected": {
+        "coordinates": [
+          -73.5801,
+          45.4987
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Montreal Museum of Fine Arts",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Montreal Museum of Fine Arts"
+      },
+      "expected": {
+        "coordinates": [
+          -73.5801,
+          45.4987
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yr Oriel Genedlaethol (Llundain)"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1283,
+          51.5086
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "An Gailearaí Náisiúnta"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1283,
+          51.5086
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1283,
+          51.5086
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Victoria",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery of Victoria"
+      },
+      "expected": {
+        "coordinates": [
+          144.96863,
+          -37.82259
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Palais de Tokyo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palais de Tokyo"
+      },
+      "expected": {
+        "coordinates": [
+          2.29722,
+          48.86389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Salar Jung Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "सालार जंग संग्रहालय"
+      },
+      "expected": {
+        "coordinates": [
+          78.48035,
+          17.37143
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Salar Jung Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Salar Jung Museum"
+      },
+      "expected": {
+        "coordinates": [
+          78.48035,
+          17.37143
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Virginia Museum of Fine Arts",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virginia Museum of Fine Arts"
+      },
+      "expected": {
+        "coordinates": [
+          -77.47472,
+          37.55639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tate Modern",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tate Modern"
+      },
+      "expected": {
+        "coordinates": [
+          -0.0994,
+          51.5076
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Cleveland Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cleveland Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -81.61167,
+          41.50889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Canada",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée des beaux-arts du Canada"
+      },
+      "expected": {
+        "coordinates": [
+          -75.69839,
+          45.42943
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Canada",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery of Canada"
+      },
+      "expected": {
+        "coordinates": [
+          -75.69839,
+          45.42943
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Art Gallery of Ontario",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée des beaux-arts de l'Ontario"
+      },
+      "expected": {
+        "coordinates": [
+          -79.39278,
+          43.65389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Art Gallery of Ontario",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Art Gallery of Ontario"
+      },
+      "expected": {
+        "coordinates": [
+          -79.39278,
+          43.65389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Hamburger Kunsthalle",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hamburger Kunsthalle"
+      },
+      "expected": {
+        "coordinates": [
+          10.00278,
+          53.555
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum Boijmans Van Beuningen",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum Boijmans Van Beuningen"
+      },
+      "expected": {
+        "coordinates": [
+          4.4732,
+          51.914
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum of Fine Arts, Houston",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum of Fine Arts, Houston"
+      },
+      "expected": {
+        "coordinates": [
+          -95.39042,
+          29.72569
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Modern Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "राष्ट्रीय आधुनिक कला संग्रहालय"
+      },
+      "expected": {
+        "coordinates": [
+          77.2344,
+          28.61008
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Modern Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery of Modern Art"
+      },
+      "expected": {
+        "coordinates": [
+          77.2344,
+          28.61008
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Palais des Beaux-Arts de Lille",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palais des Beaux-Arts de Lille"
+      },
+      "expected": {
+        "coordinates": [
+          3.06291,
+          50.63035
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Pinakothek der Moderne",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pinakothek der Moderne"
+      },
+      "expected": {
+        "coordinates": [
+          11.57222,
+          48.14694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Rijksmuseum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rijksmuseum Amsterdam"
+      },
+      "expected": {
+        "coordinates": [
+          4.88528,
+          52.36
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Rijksmuseum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rijksmuseum"
+      },
+      "expected": {
+        "coordinates": [
+          4.88528,
+          52.36
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tretyakov Gallery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Государственная Третьяковская галерея"
+      },
+      "expected": {
+        "coordinates": [
+          37.62028,
+          55.74139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tretyakov Gallery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tretyakov Gallery"
+      },
+      "expected": {
+        "coordinates": [
+          37.62028,
+          55.74139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Milwaukee Art Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Milwaukee Art Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -87.8971,
+          43.0393
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Taipei Fine Arts Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "臺北市立美術館"
+      },
+      "expected": {
+        "coordinates": [
+          121.52472,
+          25.0725
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Taipei Fine Arts Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Taipei Fine Arts Museum"
+      },
+      "expected": {
+        "coordinates": [
+          121.52472,
+          25.0725
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Art Gallery of New South Wales",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Art Gallery of New South Wales"
+      },
+      "expected": {
+        "coordinates": [
+          151.21714,
+          -33.86869
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Capitoline Museums",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musei Capitolini"
+      },
+      "expected": {
+        "coordinates": [
+          12.4824,
+          41.8928
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Capitoline Museums",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Capitoline Museums"
+      },
+      "expected": {
+        "coordinates": [
+          12.4824,
+          41.8928
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Guggenheim Museum Bilbao",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo Guggenheim Bilbao"
+      },
+      "expected": {
+        "coordinates": [
+          -2.93389,
+          43.26861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Guggenheim Museum Bilbao",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Guggenheim Museum Bilbao"
+      },
+      "expected": {
+        "coordinates": [
+          -2.93389,
+          43.26861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Los Angeles County Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Los Angeles County Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -118.35784,
+          34.06289
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum of Contemporary Art, University of São Paulo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museu de Arte Contemporânea da Universidade de São Paulo"
+      },
+      "expected": {
+        "coordinates": [
+          -46.65111,
+          -23.58889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum of Contemporary Art, University of São Paulo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum of Contemporary Art, University of São Paulo"
+      },
+      "expected": {
+        "coordinates": [
+          -46.65111,
+          -23.58889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Pergamon Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pergamonmuseum"
+      },
+      "expected": {
+        "coordinates": [
+          13.396,
+          52.521
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Pergamon Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pergamon Museum"
+      },
+      "expected": {
+        "coordinates": [
+          13.396,
+          52.521
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Shaanxi History Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "陕西历史博物馆"
+      },
+      "expected": {
+        "coordinates": [
+          108.95139,
+          34.22528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Shaanxi History Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shaanxi History Museum"
+      },
+      "expected": {
+        "coordinates": [
+          108.95139,
+          34.22528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museu Nacional d'Art de Catalunya",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo Nacional de Arte de Cataluña"
+      },
+      "expected": {
+        "coordinates": [
+          2.15333,
+          41.36833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museu Nacional d'Art de Catalunya",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museu Nacional d'Art de Catalunya"
+      },
+      "expected": {
+        "coordinates": [
+          2.15333,
+          41.36833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tibet Museum (Lhasa)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "西藏博物馆"
+      },
+      "expected": {
+        "coordinates": [
+          91.09687,
+          29.65133
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tibet Museum (Lhasa)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tibet Museum"
+      },
+      "expected": {
+        "coordinates": [
+          91.09687,
+          29.65133
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Portland Art Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Portland Art Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -122.68351,
+          45.51621
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum of Fine Arts (Budapest)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Szépművészeti Múzeum"
+      },
+      "expected": {
+        "coordinates": [
+          19.07639,
+          47.51611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum of Fine Arts (Budapest)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum of Fine Arts"
+      },
+      "expected": {
+        "coordinates": [
+          19.07639,
+          47.51611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Carnegie Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Carnegie Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -79.94898,
+          40.44369
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Hamburger Bahnhof",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hamburger Bahnhof – Museum für Gegenwart"
+      },
+      "expected": {
+        "coordinates": [
+          13.37222,
+          52.52833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Hamburger Bahnhof",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hamburger Bahnhof"
+      },
+      "expected": {
+        "coordinates": [
+          13.37222,
+          52.52833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Kunstmuseum Basel",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kunstmuseum Basel"
+      },
+      "expected": {
+        "coordinates": [
+          7.59417,
+          47.55417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Kunstmuseum Basel",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kunstmuseum (Bâle)"
+      },
+      "expected": {
+        "coordinates": [
+          7.59417,
+          47.55417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "MAXXI",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "MAXXI - Museo nazionale delle arti del XXI secolo"
+      },
+      "expected": {
+        "coordinates": [
+          12.466,
+          41.929
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "MAXXI",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "MAXXI"
+      },
+      "expected": {
+        "coordinates": [
+          12.466,
+          41.929
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museo Egizio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo egizio (Torino)"
+      },
+      "expected": {
+        "coordinates": [
+          7.68444,
+          45.06833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museo Egizio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo Egizio"
+      },
+      "expected": {
+        "coordinates": [
+          7.68444,
+          45.06833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum Kunstpalast",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum Kunstpalast"
+      },
+      "expected": {
+        "coordinates": [
+          6.77333,
+          51.23444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum, Poznań",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Muzeum Narodowe w Poznaniu"
+      },
+      "expected": {
+        "coordinates": [
+          16.92889,
+          52.40861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum, Poznań",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Museum, Poznań"
+      },
+      "expected": {
+        "coordinates": [
+          16.92889,
+          52.40861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Russian Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Государственный Русский музей"
+      },
+      "expected": {
+        "coordinates": [
+          30.33239,
+          59.93874
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Russian Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Russian Museum"
+      },
+      "expected": {
+        "coordinates": [
+          30.33239,
+          59.93874
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Saint Louis Art Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Saint Louis Art Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -90.29444,
+          38.63944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Sforza Castle",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Castello Sforzesco"
+      },
+      "expected": {
+        "coordinates": [
+          9.17861,
+          45.47
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Sforza Castle",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sforza Castle"
+      },
+      "expected": {
+        "coordinates": [
+          9.17861,
+          45.47
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tel Aviv Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "متحف تل أبيب للفنون"
+      },
+      "expected": {
+        "coordinates": [
+          34.78685,
+          32.07744
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tel Aviv Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "מוזיאון תל אביב לאמנות"
+      },
+      "expected": {
+        "coordinates": [
+          34.78685,
+          32.07744
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Tel Aviv Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tel Aviv Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          34.78685,
+          32.07744
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Palace Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "國立故宮博物院"
+      },
+      "expected": {
+        "coordinates": [
+          121.54861,
+          25.10194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Palace Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Palace Museum"
+      },
+      "expected": {
+        "coordinates": [
+          121.54861,
+          25.10194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Musée Fabre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée Fabre"
+      },
+      "expected": {
+        "coordinates": [
+          3.88,
+          43.612
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Cité de l'Architecture et du Patrimoine",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cité de l'architecture et du patrimoine"
+      },
+      "expected": {
+        "coordinates": [
+          2.2885,
+          48.8627
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Cité de l'Architecture et du Patrimoine",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cité de l'Architecture et du Patrimoine"
+      },
+      "expected": {
+        "coordinates": [
+          2.2885,
+          48.8627
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum, New Delhi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "राष्ट्रीय पुरातात्विक संग्रहालय, नई दिल्ली"
+      },
+      "expected": {
+        "coordinates": [
+          77.21926,
+          28.61181
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum, New Delhi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Museum, New Delhi"
+      },
+      "expected": {
+        "coordinates": [
+          77.21926,
+          28.61181
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery (Norway)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery"
+      },
+      "expected": {
+        "coordinates": [
+          10.7375,
+          59.9162
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Smithsonian American Art Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Smithsonian American Art Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -77.02333,
+          38.89778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Musée du quai Branly – Jacques Chirac",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée du Quai Branly - Jacques-Chirac"
+      },
+      "expected": {
+        "coordinates": [
+          2.2975,
+          48.86083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Musée du quai Branly – Jacques Chirac",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Musée du quai Branly – Jacques Chirac"
+      },
+      "expected": {
+        "coordinates": [
+          2.2975,
+          48.86083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "High Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "High Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -84.38517,
+          33.79051
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Liaoning Provincial Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "辽宁省博物馆"
+      },
+      "expected": {
+        "coordinates": [
+          123.43028,
+          41.80083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Liaoning Provincial Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Liaoning Provincial Museum"
+      },
+      "expected": {
+        "coordinates": [
+          123.43028,
+          41.80083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Gallerie di Piazza Scala",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gallerie di piazza della Scala"
+      },
+      "expected": {
+        "coordinates": [
+          9.19102,
+          45.46827
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Gallerie di Piazza Scala",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gallerie di Piazza Scala"
+      },
+      "expected": {
+        "coordinates": [
+          9.19102,
+          45.46827
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Art Museum of China",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "中国美术馆"
+      },
+      "expected": {
+        "coordinates": [
+          116.40278,
+          39.92361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Art Museum of China",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Art Museum of China"
+      },
+      "expected": {
+        "coordinates": [
+          116.40278,
+          39.92361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Galleria degli Uffizi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Galleria degli Uffizi"
+      },
+      "expected": {
+        "coordinates": [
+          11.2556,
+          43.7684
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Galleria Nazionale d'Arte Moderna",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Galleria nazionale d'arte moderna e contemporanea"
+      },
+      "expected": {
+        "coordinates": [
+          12.4821,
+          41.917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Galleria Nazionale d'Arte Moderna",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Galleria Nazionale d'Arte Moderna"
+      },
+      "expected": {
+        "coordinates": [
+          12.4821,
+          41.917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Gemäldegalerie",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gemäldegalerie (Berlin)"
+      },
+      "expected": {
+        "coordinates": [
+          13.36542,
+          52.50847
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Gemäldegalerie",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gemäldegalerie"
+      },
+      "expected": {
+        "coordinates": [
+          13.36542,
+          52.50847
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Louvre Abu Dhabi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Louvre Abu Dhabi"
+      },
+      "expected": {
+        "coordinates": [
+          54.39846,
+          24.53366
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museum Ludwig",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum Ludwig"
+      },
+      "expected": {
+        "coordinates": [
+          6.96028,
+          50.94083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Archaeological Museum, Athens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Εθνικό Αρχαιολογικό Μουσείο (Αθήνα)"
+      },
+      "expected": {
+        "coordinates": [
+          23.73222,
+          37.98917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Archaeological Museum, Athens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Archaeological Museum, Athens"
+      },
+      "expected": {
+        "coordinates": [
+          23.73222,
+          37.98917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Neues Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Neues Museum (Berlin)"
+      },
+      "expected": {
+        "coordinates": [
+          13.39778,
+          52.52056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Neues Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Neues Museum"
+      },
+      "expected": {
+        "coordinates": [
+          13.39778,
+          52.52056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Petit Palais",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Petit Palais"
+      },
+      "expected": {
+        "coordinates": [
+          2.31521,
+          48.86598
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Pushkin Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Государственный музей изобразительных искусств имени А. С. Пушкина"
+      },
+      "expected": {
+        "coordinates": [
+          37.605,
+          55.74722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Pushkin Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pushkin Museum"
+      },
+      "expected": {
+        "coordinates": [
+          37.605,
+          55.74722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Stedelijk Museum Amsterdam",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stedelijk Museum Amsterdam"
+      },
+      "expected": {
+        "coordinates": [
+          4.87972,
+          52.35806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Thyssen-Bornemisza Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museo Thyssen-Bornemisza"
+      },
+      "expected": {
+        "coordinates": [
+          -3.695,
+          40.41611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Thyssen-Bornemisza Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Thyssen-Bornemisza Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -3.695,
+          40.41611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Toledo Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Toledo Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -83.55944,
+          41.65806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Nelson-Atkins Museum of Art",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nelson-Atkins Museum of Art"
+      },
+      "expected": {
+        "coordinates": [
+          -94.58101,
+          39.04497
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "de Young (museum)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "de Young"
+      },
+      "expected": {
+        "coordinates": [
+          -122.46861,
+          37.77139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Alte Pinakothek",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alte Pinakothek"
+      },
+      "expected": {
+        "coordinates": [
+          11.57,
+          48.14833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Acropolis Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Μουσείο Ακρόπολης"
+      },
+      "expected": {
+        "coordinates": [
+          23.7283,
+          37.96911
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Acropolis Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Acropolis Museum"
+      },
+      "expected": {
+        "coordinates": [
+          23.7283,
+          37.96911
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Bangkok National Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "พิพิธภัณฑสถานแห่งชาติ พระนคร"
+      },
+      "expected": {
+        "coordinates": [
+          100.49222,
+          13.7575
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Bangkok National Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bangkok National Museum"
+      },
+      "expected": {
+        "coordinates": [
+          100.49222,
+          13.7575
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Pinacoteca di Brera",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pinacoteca di Brera"
+      },
+      "expected": {
+        "coordinates": [
+          9.18806,
+          45.47194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "China Art Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "中华艺术宫"
+      },
+      "expected": {
+        "coordinates": [
+          121.49,
+          31.18639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "China Art Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "China Art Museum"
+      },
+      "expected": {
+        "coordinates": [
+          121.49,
+          31.18639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Lenbachhaus",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Städtische Galerie im Lenbachhaus"
+      },
+      "expected": {
+        "coordinates": [
+          11.56361,
+          48.14694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Lenbachhaus",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lenbachhaus"
+      },
+      "expected": {
+        "coordinates": [
+          11.56361,
+          48.14694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Museu Nacional de Arte Antiga",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museu Nacional de Arte Antiga"
+      },
+      "expected": {
+        "coordinates": [
+          -9.1618,
+          38.70442
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Palazzo Pitti",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palazzo Pitti"
+      },
+      "expected": {
+        "coordinates": [
+          11.2501,
+          43.7652
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Denmark",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Statens Museum for Kunst"
+      },
+      "expected": {
+        "coordinates": [
+          12.57861,
+          55.68889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Gallery of Denmark",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Gallery of Denmark"
+      },
+      "expected": {
+        "coordinates": [
+          12.57861,
+          55.68889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Art of Romania",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Muzeul Național de Artă al României"
+      },
+      "expected": {
+        "coordinates": [
+          26.09553,
+          44.44016
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Art of Romania",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Museum of Art of Romania"
+      },
+      "expected": {
+        "coordinates": [
+          26.09553,
+          44.44016
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Iran",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "موزه ملی ایران"
+      },
+      "expected": {
+        "coordinates": [
+          51.41461,
+          35.68704
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "National Museum of Iran",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Museum of Iran"
+      },
+      "expected": {
+        "coordinates": [
+          51.41461,
+          35.68704
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Ny Carlsberg Glyptotek",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ny Carlsberg Glyptotek"
+      },
+      "expected": {
+        "coordinates": [
+          12.57194,
+          55.6725
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Chimei Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "奇美博物館"
+      },
+      "expected": {
+        "coordinates": [
+          120.2259,
+          22.93459
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    },
+    {
+      "id": "Chimei Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chimei Museum"
+      },
+      "expected": {
+        "coordinates": [
+          120.2259,
+          22.93459
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue"
+        }
+      }
+    }
+  ]
+}

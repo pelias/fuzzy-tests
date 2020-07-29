@@ -26,7 +26,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée du Louvre"
         }
       }
     },
@@ -44,7 +45,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Louvre"
         }
       }
     },
@@ -62,7 +64,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Эрмитаж"
         }
       }
     },
@@ -80,7 +83,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "State Hermitage Museum"
         }
       }
     },
@@ -98,7 +102,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "中国国家博物馆"
         }
       }
     },
@@ -116,7 +121,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Museum of China"
         }
       }
     },
@@ -134,7 +140,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Metropolitan Museum of Art"
         }
       }
     },
@@ -152,7 +159,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musei Vaticani"
         }
       }
     },
@@ -170,7 +178,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Vatican Museums"
         }
       }
     },
@@ -188,7 +197,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "東京国立博物館"
         }
       }
     },
@@ -206,7 +216,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tokyo National Museum"
         }
       }
     },
@@ -224,7 +235,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo Nacional de Antropología (México)"
         }
       }
     },
@@ -242,7 +254,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Museum of Anthropology"
         }
       }
     },
@@ -260,7 +273,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Amgueddfa Victoria ac Albert"
         }
       }
     },
@@ -278,7 +292,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Músaem Victoria agus Albert"
         }
       }
     },
@@ -296,7 +311,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Victoria and Albert Museum"
         }
       }
     },
@@ -314,7 +330,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "국립중앙박물관"
         }
       }
     },
@@ -332,7 +349,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Museum of Korea"
         }
       }
     },
@@ -350,7 +368,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Art Institute of Chicago"
         }
       }
     },
@@ -368,7 +387,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "南京博物院"
         }
       }
     },
@@ -386,7 +406,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Nanjing Museum"
         }
       }
     },
@@ -404,7 +425,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Yr Amgueddfa Brydeinig"
         }
       }
     },
@@ -422,7 +444,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Músaem na Breataine"
         }
       }
     },
@@ -440,7 +463,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gwithti Bretennek"
         }
       }
     },
@@ -458,7 +482,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "British Museum"
         }
       }
     },
@@ -476,7 +501,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery of Art"
         }
       }
     },
@@ -494,7 +520,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Massachusetts Museum of Contemporary Art"
         }
       }
     },
@@ -512,7 +539,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée Art et Histoire"
         }
       }
     },
@@ -530,7 +558,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum Kunst & Geschiedenis"
         }
       }
     },
@@ -548,7 +577,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Art & History Museum"
         }
       }
     },
@@ -566,7 +596,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "重庆中国三峡博物馆"
         }
       }
     },
@@ -584,7 +615,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Three Gorges Museum"
         }
       }
     },
@@ -602,7 +634,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum of Fine Arts, Boston"
         }
       }
     },
@@ -620,7 +653,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Israel Museum"
         }
       }
     },
@@ -638,7 +672,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "新加坡國家美術館"
         }
       }
     },
@@ -656,7 +691,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery Singapore"
         }
       }
     },
@@ -674,7 +710,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Minneapolis Institute of Art"
         }
       }
     },
@@ -692,7 +729,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Birmingham Museum of Art"
         }
       }
     },
@@ -710,7 +748,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée d'Orsay"
         }
       }
     },
@@ -728,7 +767,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ōtsuka Museum of Art"
         }
       }
     },
@@ -746,7 +786,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "San Francisco Museum of Modern Art"
         }
       }
     },
@@ -764,7 +805,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo del Prado"
         }
       }
     },
@@ -782,7 +824,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum of Modern Art"
         }
       }
     },
@@ -800,7 +843,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Philadelphia Museum of Art"
         }
       }
     },
@@ -818,7 +862,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Denver Art Museum"
         }
       }
     },
@@ -836,7 +881,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "المتحف المصري"
         }
       }
     },
@@ -854,7 +900,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Egyptian Museum"
         }
       }
     },
@@ -872,7 +919,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo nazionale di Capodimonte"
         }
       }
     },
@@ -890,7 +938,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo di Capodimonte"
         }
       }
     },
@@ -908,7 +957,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Dia:Beacon"
         }
       }
     },
@@ -926,7 +976,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Dallas Museum of Art"
         }
       }
     },
@@ -944,7 +995,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo Nacional Centro de Arte Reina Sofía"
         }
       }
     },
@@ -962,7 +1014,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo Reina Sofía"
         }
       }
     },
@@ -980,7 +1033,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Detroit Institute of Arts"
         }
       }
     },
@@ -998,7 +1052,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kunsthistorisches Museum"
         }
       }
     },
@@ -1016,7 +1071,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "国立新美術館"
         }
       }
     },
@@ -1034,7 +1090,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "The National Art Center, Tokyo"
         }
       }
     },
@@ -1052,7 +1109,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "國立臺灣美術館"
         }
       }
     },
@@ -1070,7 +1128,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Taiwan Museum of Fine Arts"
         }
       }
     },
@@ -1088,7 +1147,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Národní galerie Praha"
         }
       }
     },
@@ -1106,7 +1166,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery in Prague"
         }
       }
     },
@@ -1124,7 +1185,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Indianapolis Museum of Art"
         }
       }
     },
@@ -1142,7 +1204,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bayerisches Nationalmuseum"
         }
       }
     },
@@ -1160,7 +1223,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bavarian National Museum"
         }
       }
     },
@@ -1178,7 +1242,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Brooklyn Museum"
         }
       }
     },
@@ -1196,7 +1261,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "首都博物馆"
         }
       }
     },
@@ -1214,7 +1280,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Capital Museum"
         }
       }
     },
@@ -1232,7 +1299,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée des beaux-arts de Montréal"
         }
       }
     },
@@ -1250,7 +1318,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Montreal Museum of Fine Arts"
         }
       }
     },
@@ -1268,7 +1337,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Yr Oriel Genedlaethol (Llundain)"
         }
       }
     },
@@ -1286,7 +1356,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "An Gailearaí Náisiúnta"
         }
       }
     },
@@ -1304,7 +1375,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery"
         }
       }
     },
@@ -1322,7 +1394,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery of Victoria"
         }
       }
     },
@@ -1340,7 +1413,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Palais de Tokyo"
         }
       }
     },
@@ -1358,7 +1432,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "सालार जंग संग्रहालय"
         }
       }
     },
@@ -1376,7 +1451,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Salar Jung Museum"
         }
       }
     },
@@ -1394,7 +1470,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Virginia Museum of Fine Arts"
         }
       }
     },
@@ -1412,7 +1489,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tate Modern"
         }
       }
     },
@@ -1430,7 +1508,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cleveland Museum of Art"
         }
       }
     },
@@ -1448,7 +1527,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée des beaux-arts du Canada"
         }
       }
     },
@@ -1466,7 +1546,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery of Canada"
         }
       }
     },
@@ -1484,7 +1565,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée des beaux-arts de l'Ontario"
         }
       }
     },
@@ -1502,7 +1584,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Art Gallery of Ontario"
         }
       }
     },
@@ -1520,7 +1603,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Hamburger Kunsthalle"
         }
       }
     },
@@ -1538,7 +1622,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum Boijmans Van Beuningen"
         }
       }
     },
@@ -1556,7 +1641,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum of Fine Arts, Houston"
         }
       }
     },
@@ -1574,7 +1660,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "राष्ट्रीय आधुनिक कला संग्रहालय"
         }
       }
     },
@@ -1592,7 +1679,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery of Modern Art"
         }
       }
     },
@@ -1610,7 +1698,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Palais des Beaux-Arts de Lille"
         }
       }
     },
@@ -1628,7 +1717,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Pinakothek der Moderne"
         }
       }
     },
@@ -1646,7 +1736,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Rijksmuseum Amsterdam"
         }
       }
     },
@@ -1664,7 +1755,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Rijksmuseum"
         }
       }
     },
@@ -1682,7 +1774,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Государственная Третьяковская галерея"
         }
       }
     },
@@ -1700,7 +1793,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tretyakov Gallery"
         }
       }
     },
@@ -1718,7 +1812,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Milwaukee Art Museum"
         }
       }
     },
@@ -1736,7 +1831,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "臺北市立美術館"
         }
       }
     },
@@ -1754,7 +1850,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Taipei Fine Arts Museum"
         }
       }
     },
@@ -1772,7 +1869,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Art Gallery of New South Wales"
         }
       }
     },
@@ -1790,7 +1888,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musei Capitolini"
         }
       }
     },
@@ -1808,7 +1907,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Capitoline Museums"
         }
       }
     },
@@ -1826,7 +1926,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo Guggenheim Bilbao"
         }
       }
     },
@@ -1844,7 +1945,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Guggenheim Museum Bilbao"
         }
       }
     },
@@ -1862,7 +1964,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Los Angeles County Museum of Art"
         }
       }
     },
@@ -1880,7 +1983,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museu de Arte Contemporânea da Universidade de São Paulo"
         }
       }
     },
@@ -1898,7 +2002,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum of Contemporary Art, University of São Paulo"
         }
       }
     },
@@ -1916,7 +2021,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Pergamonmuseum"
         }
       }
     },
@@ -1934,7 +2040,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Pergamon Museum"
         }
       }
     },
@@ -1952,7 +2059,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "陕西历史博物馆"
         }
       }
     },
@@ -1970,7 +2078,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Shaanxi History Museum"
         }
       }
     },
@@ -1988,7 +2097,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo Nacional de Arte de Cataluña"
         }
       }
     },
@@ -2006,7 +2116,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museu Nacional d'Art de Catalunya"
         }
       }
     },
@@ -2024,7 +2135,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "西藏博物馆"
         }
       }
     },
@@ -2042,7 +2154,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tibet Museum"
         }
       }
     },
@@ -2060,7 +2173,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Portland Art Museum"
         }
       }
     },
@@ -2078,7 +2192,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Szépművészeti Múzeum"
         }
       }
     },
@@ -2096,7 +2211,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum of Fine Arts"
         }
       }
     },
@@ -2114,7 +2230,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Carnegie Museum of Art"
         }
       }
     },
@@ -2123,7 +2240,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hamburger Bahnhof – Museum für Gegenwart"
+        "text": "Hamburger Bahnhof - Museum für Gegenwart"
       },
       "expected": {
         "coordinates": [
@@ -2132,7 +2249,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Hamburger Bahnhof - Museum für Gegenwart"
         }
       }
     },
@@ -2150,7 +2268,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Hamburger Bahnhof"
         }
       }
     },
@@ -2168,7 +2287,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kunstmuseum Basel"
         }
       }
     },
@@ -2186,7 +2306,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kunstmuseum (Bâle)"
         }
       }
     },
@@ -2204,7 +2325,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "MAXXI - Museo nazionale delle arti del XXI secolo"
         }
       }
     },
@@ -2222,7 +2344,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "MAXXI"
         }
       }
     },
@@ -2240,7 +2363,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo egizio (Torino)"
         }
       }
     },
@@ -2258,7 +2382,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo Egizio"
         }
       }
     },
@@ -2276,7 +2401,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum Kunstpalast"
         }
       }
     },
@@ -2294,7 +2420,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Muzeum Narodowe w Poznaniu"
         }
       }
     },
@@ -2312,7 +2439,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Museum, Poznań"
         }
       }
     },
@@ -2330,7 +2458,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Государственный Русский музей"
         }
       }
     },
@@ -2348,7 +2477,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Russian Museum"
         }
       }
     },
@@ -2366,7 +2496,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Saint Louis Art Museum"
         }
       }
     },
@@ -2384,7 +2515,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Castello Sforzesco"
         }
       }
     },
@@ -2402,7 +2534,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Sforza Castle"
         }
       }
     },
@@ -2420,7 +2553,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "متحف تل أبيب للفنون"
         }
       }
     },
@@ -2438,7 +2572,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "מוזיאון תל אביב לאמנות"
         }
       }
     },
@@ -2456,7 +2591,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tel Aviv Museum of Art"
         }
       }
     },
@@ -2474,7 +2610,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "國立故宮博物院"
         }
       }
     },
@@ -2492,7 +2629,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Palace Museum"
         }
       }
     },
@@ -2510,7 +2648,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée Fabre"
         }
       }
     },
@@ -2528,7 +2667,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cité de l'architecture et du patrimoine"
         }
       }
     },
@@ -2546,7 +2686,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cité de l'Architecture et du Patrimoine"
         }
       }
     },
@@ -2564,7 +2705,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "राष्ट्रीय पुरातात्विक संग्रहालय, नई दिल्ली"
         }
       }
     },
@@ -2582,7 +2724,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Museum, New Delhi"
         }
       }
     },
@@ -2600,7 +2743,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery"
         }
       }
     },
@@ -2618,7 +2762,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Smithsonian American Art Museum"
         }
       }
     },
@@ -2636,7 +2781,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée du Quai Branly - Jacques-Chirac"
         }
       }
     },
@@ -2645,7 +2791,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Musée du quai Branly – Jacques Chirac"
+        "text": "Musée du quai Branly - Jacques Chirac"
       },
       "expected": {
         "coordinates": [
@@ -2654,7 +2800,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Musée du quai Branly - Jacques Chirac"
         }
       }
     },
@@ -2672,7 +2819,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "High Museum of Art"
         }
       }
     },
@@ -2690,7 +2838,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "辽宁省博物馆"
         }
       }
     },
@@ -2708,7 +2857,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Liaoning Provincial Museum"
         }
       }
     },
@@ -2726,7 +2876,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gallerie di piazza della Scala"
         }
       }
     },
@@ -2744,7 +2895,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gallerie di Piazza Scala"
         }
       }
     },
@@ -2762,7 +2914,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "中国美术馆"
         }
       }
     },
@@ -2780,7 +2933,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Art Museum of China"
         }
       }
     },
@@ -2798,7 +2952,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Galleria degli Uffizi"
         }
       }
     },
@@ -2816,7 +2971,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Galleria nazionale d'arte moderna e contemporanea"
         }
       }
     },
@@ -2834,7 +2990,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Galleria Nazionale d'Arte Moderna"
         }
       }
     },
@@ -2852,7 +3009,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gemäldegalerie (Berlin)"
         }
       }
     },
@@ -2870,7 +3028,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gemäldegalerie"
         }
       }
     },
@@ -2888,7 +3047,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Louvre Abu Dhabi"
         }
       }
     },
@@ -2906,7 +3066,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museum Ludwig"
         }
       }
     },
@@ -2924,7 +3085,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Εθνικό Αρχαιολογικό Μουσείο (Αθήνα)"
         }
       }
     },
@@ -2942,7 +3104,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Archaeological Museum, Athens"
         }
       }
     },
@@ -2960,7 +3123,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Neues Museum (Berlin)"
         }
       }
     },
@@ -2978,7 +3142,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Neues Museum"
         }
       }
     },
@@ -2996,7 +3161,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Petit Palais"
         }
       }
     },
@@ -3014,7 +3180,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Государственный музей изобразительных искусств имени А. С. Пушкина"
         }
       }
     },
@@ -3032,7 +3199,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Pushkin Museum"
         }
       }
     },
@@ -3050,7 +3218,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Stedelijk Museum Amsterdam"
         }
       }
     },
@@ -3068,7 +3237,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museo Thyssen-Bornemisza"
         }
       }
     },
@@ -3086,7 +3256,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Thyssen-Bornemisza Museum"
         }
       }
     },
@@ -3104,7 +3275,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Toledo Museum of Art"
         }
       }
     },
@@ -3122,7 +3294,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Nelson-Atkins Museum of Art"
         }
       }
     },
@@ -3140,7 +3313,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "de Young"
         }
       }
     },
@@ -3158,7 +3332,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Alte Pinakothek"
         }
       }
     },
@@ -3176,7 +3351,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Μουσείο Ακρόπολης"
         }
       }
     },
@@ -3194,7 +3370,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Acropolis Museum"
         }
       }
     },
@@ -3212,7 +3389,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "พิพิธภัณฑสถานแห่งชาติ พระนคร"
         }
       }
     },
@@ -3230,7 +3408,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bangkok National Museum"
         }
       }
     },
@@ -3248,7 +3427,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Pinacoteca di Brera"
         }
       }
     },
@@ -3266,7 +3446,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "中华艺术宫"
         }
       }
     },
@@ -3284,7 +3465,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "China Art Museum"
         }
       }
     },
@@ -3302,7 +3484,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Städtische Galerie im Lenbachhaus"
         }
       }
     },
@@ -3320,7 +3503,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Lenbachhaus"
         }
       }
     },
@@ -3338,7 +3522,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Museu Nacional de Arte Antiga"
         }
       }
     },
@@ -3356,7 +3541,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Palazzo Pitti"
         }
       }
     },
@@ -3374,7 +3560,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Statens Museum for Kunst"
         }
       }
     },
@@ -3392,7 +3579,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Gallery of Denmark"
         }
       }
     },
@@ -3410,7 +3598,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Muzeul Național de Artă al României"
         }
       }
     },
@@ -3428,7 +3617,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Museum of Art of Romania"
         }
       }
     },
@@ -3446,7 +3636,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "موزه ملی ایران"
         }
       }
     },
@@ -3464,7 +3655,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "National Museum of Iran"
         }
       }
     },
@@ -3482,7 +3674,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ny Carlsberg Glyptotek"
         }
       }
     },
@@ -3500,7 +3693,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "奇美博物館"
         }
       }
     },
@@ -3518,7 +3712,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Chimei Museum"
         }
       }
     }

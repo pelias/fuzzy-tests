@@ -26,7 +26,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kyle Field"
         }
       }
     },
@@ -44,7 +45,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gaylord Family Oklahoma Memorial Stadium"
         }
       }
     },
@@ -62,7 +64,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "MetLife Stadium"
         }
       }
     },
@@ -80,7 +83,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Lambeau Field"
         }
       }
     },
@@ -98,7 +102,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Notre Dame Stadium"
         }
       }
     },
@@ -116,7 +121,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Camp Randall Stadium"
         }
       }
     },
@@ -134,7 +140,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Williams-Brice Stadium"
         }
       }
     },
@@ -152,7 +159,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "AT&T Stadium"
         }
       }
     },
@@ -170,7 +178,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Doak Campbell Stadium"
         }
       }
     },
@@ -188,7 +197,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Los Angeles Memorial Coliseum"
         }
       }
     },
@@ -206,7 +216,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "TIAA Bank Field"
         }
       }
     },
@@ -224,7 +235,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Arrowhead Stadium"
         }
       }
     },
@@ -242,7 +254,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Empower Field at Mile High"
         }
       }
     },
@@ -260,7 +273,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Donald W. Reynolds Razorback Stadium"
         }
       }
     },
@@ -278,7 +292,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bank of America Stadium"
         }
       }
     },
@@ -296,7 +311,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Mercedes-Benz Superdome"
         }
       }
     },
@@ -314,7 +330,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "CenturyLink Field"
         }
       }
     },
@@ -332,7 +349,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "New Era Field"
         }
       }
     },
@@ -350,7 +368,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Legion Field"
         }
       }
     },
@@ -368,7 +387,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "NRG Stadium"
         }
       }
     },
@@ -386,7 +406,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "SDCCU Stadium"
         }
       }
     },
@@ -404,7 +425,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "M&T Bank Stadium"
         }
       }
     },
@@ -422,7 +444,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Faurot Field"
         }
       }
     },
@@ -440,7 +463,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Mercedes-Benz Stadium"
         }
       }
     },
@@ -458,7 +482,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kinnick Stadium"
         }
       }
     },
@@ -476,7 +501,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "SoFi Stadium"
         }
       }
     },
@@ -494,7 +520,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Husky Stadium"
         }
       }
     },
@@ -512,7 +539,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Nissan Stadium"
         }
       }
     },
@@ -530,7 +558,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gillette Stadium"
         }
       }
     },
@@ -548,7 +577,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Lincoln Financial Field"
         }
       }
     },
@@ -566,7 +596,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Levi's Stadium"
         }
       }
     },
@@ -584,7 +615,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Heinz Field"
         }
       }
     },
@@ -602,7 +634,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "FirstEnergy Stadium"
         }
       }
     },
@@ -620,7 +653,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Lucas Oil Stadium"
         }
       }
     },
@@ -638,7 +672,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "The Dome at America's Center"
         }
       }
     },
@@ -656,7 +691,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "U.S. Bank Stadium"
         }
       }
     },
@@ -674,7 +710,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Lane Stadium"
         }
       }
     },
@@ -692,7 +729,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Raymond James Stadium"
         }
       }
     },
@@ -710,7 +748,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Paul Brown Stadium"
         }
       }
     },
@@ -728,7 +767,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Hard Rock Stadium"
         }
       }
     },
@@ -746,7 +786,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Camping World Stadium"
         }
       }
     },
@@ -764,7 +805,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Alamodome"
         }
       }
     },
@@ -782,7 +824,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ford Field"
         }
       }
     },
@@ -800,7 +843,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Allegiant Stadium"
         }
       }
     },
@@ -818,7 +862,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Vaught-Hemingway Stadium"
         }
       }
     },
@@ -836,7 +881,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "LaVell Edwards Stadium"
         }
       }
     },
@@ -854,7 +900,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "State Farm Stadium"
         }
       }
     },
@@ -872,7 +919,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "RingCentral Coliseum"
         }
       }
     },
@@ -890,7 +938,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "California Memorial Stadium"
         }
       }
     },
@@ -908,7 +957,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ross-Ade Stadium"
         }
       }
     },
@@ -926,7 +976,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Liberty Bowl Memorial Stadium"
         }
       }
     },
@@ -944,7 +995,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Soldier Field"
         }
       }
     },
@@ -962,7 +1014,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Jack Trice Stadium"
         }
       }
     },
@@ -980,7 +1033,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Scott Stadium"
         }
       }
     },
@@ -998,7 +1052,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Yale Bowl"
         }
       }
     },
@@ -1016,7 +1071,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Davis Wade Stadium"
         }
       }
     },
@@ -1034,7 +1090,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Jones AT&T Stadium"
         }
       }
     },
@@ -1052,7 +1109,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kroger Field"
         }
       }
     },
@@ -1070,7 +1128,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cardinal Stadium"
         }
       }
     },
@@ -1088,7 +1147,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Mississippi Veterans Memorial Stadium"
         }
       }
     },
@@ -1106,7 +1166,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Boone Pickens Stadium"
         }
       }
     },
@@ -1124,7 +1185,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Arizona Stadium"
         }
       }
     },
@@ -1142,7 +1204,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "RFK Stadium"
         }
       }
     },
@@ -1160,7 +1223,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Sun Devil Stadium"
         }
       }
     },
@@ -1178,7 +1242,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bobby Dodd Stadium at Historic Grant Field"
         }
       }
     },
@@ -1196,7 +1261,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Autzen Stadium"
         }
       }
     },
@@ -1214,7 +1280,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Folsom Field"
         }
       }
     },
@@ -1232,7 +1299,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Franklin Field"
         }
       }
     },
@@ -1250,7 +1318,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Falcon Stadium"
         }
       }
     },
@@ -1268,7 +1337,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "HighPoint.com Stadium"
         }
       }
     },
@@ -1286,7 +1356,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bill Snyder Family Football Stadium"
         }
       }
     },
@@ -1304,7 +1375,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Maryland Stadium"
         }
       }
     },
@@ -1322,7 +1394,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Sun Bowl Stadium"
         }
       }
     },
@@ -1340,7 +1413,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "TCF Bank Stadium"
         }
       }
     },
@@ -1358,7 +1432,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kenan Memorial Stadium"
         }
       }
     },
@@ -1376,7 +1451,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "David Booth Kansas Memorial Stadium"
         }
       }
     },
@@ -1394,7 +1470,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Aloha Stadium"
         }
       }
     },
@@ -1412,7 +1489,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Stanford Stadium"
         }
       }
     },
@@ -1430,7 +1508,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Carrier Dome"
         }
       }
     },
@@ -1448,7 +1527,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Globe Life Park in Arlington"
         }
       }
     },
@@ -1466,7 +1546,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "T-Mobile Park"
         }
       }
     },
@@ -1484,7 +1565,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Reser Stadium"
         }
       }
     },
@@ -1502,7 +1584,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Rice-Eccles Stadium"
         }
       }
     },
@@ -1520,7 +1603,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Spectrum Stadium"
         }
       }
     },
@@ -1538,7 +1622,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "McLane Stadium"
         }
       }
     },
@@ -1556,7 +1641,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Alumni Stadium"
         }
       }
     },
@@ -1574,7 +1660,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Amon G. Carter Stadium"
         }
       }
     },
@@ -1592,7 +1679,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Canvas Stadium"
         }
       }
     },
@@ -1610,7 +1698,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Truist Park"
         }
       }
     },
@@ -1628,7 +1717,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bulldog Stadium"
         }
       }
     },
@@ -1646,7 +1736,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ladd-Peebles Stadium"
         }
       }
     },
@@ -1664,7 +1755,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Dreamstyle Stadium"
         }
       }
     },
@@ -1682,7 +1774,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Howard J. Lamade Stadium"
         }
       }
     },
@@ -1700,7 +1793,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Rentschler Field"
         }
       }
     },
@@ -1718,7 +1812,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Michie Stadium"
         }
       }
     },
@@ -1736,7 +1831,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Nippert Stadium"
         }
       }
     },
@@ -1754,7 +1850,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "TDECU Stadium"
         }
       }
     },
@@ -1772,7 +1869,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Globe Life Field"
         }
       }
     },
@@ -1790,7 +1888,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Joan C. Edwards Stadium"
         }
       }
     },
@@ -1808,7 +1907,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Albertsons Stadium"
         }
       }
     },
@@ -1826,7 +1926,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Sam Boyd Stadium"
         }
       }
     },
@@ -1844,7 +1945,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "M. M. Roberts Stadium"
         }
       }
     },
@@ -1862,7 +1964,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Martin Stadium"
         }
       }
     },
@@ -1880,7 +1983,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Navy-Marine Corps Memorial Stadium"
         }
       }
     },
@@ -1898,7 +2002,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Wallace Wade Stadium"
         }
       }
     },
@@ -1916,7 +2021,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gerald J. Ford Stadium"
         }
       }
     },
@@ -1934,7 +2040,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "BB&T Field at Groves Stadium"
         }
       }
     },
@@ -1952,7 +2059,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cajun Field"
         }
       }
     },
@@ -1970,7 +2078,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Brigham Field at Huskie Stadium"
         }
       }
     },
@@ -1988,7 +2097,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Centennial Bank Stadium"
         }
       }
     },
@@ -2006,7 +2116,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Apogee Stadium"
         }
       }
     },
@@ -2024,7 +2135,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Johnny \"Red\" Floyd Stadium"
         }
       }
     },
@@ -2042,7 +2154,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Joe Aillet Stadium"
         }
       }
     },
@@ -2060,7 +2173,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "CEFCU Stadium"
         }
       }
     },
@@ -2078,7 +2192,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Malone Stadium"
         }
       }
     },
@@ -2096,7 +2211,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Aggie Memorial Stadium"
         }
       }
     },
@@ -2114,7 +2230,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Harvard Stadium"
         }
       }
     },
@@ -2132,7 +2249,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kelly/Shorts Stadium"
         }
       }
     },
@@ -2150,7 +2268,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Rynearson Stadium"
         }
       }
     },
@@ -2168,7 +2287,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Waldo Stadium"
         }
       }
     },
@@ -2186,7 +2306,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "FAU Stadium"
         }
       }
     },
@@ -2204,7 +2325,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Benson Field at Yulman Stadium"
         }
       }
     },
@@ -2222,7 +2344,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "ASU Stadium"
         }
       }
     },
@@ -2240,7 +2363,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "H. A. Chapman Stadium"
         }
       }
     },
@@ -2258,7 +2382,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "InfoCision Stadium - Summa Field"
         }
       }
     },
@@ -2276,7 +2401,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "William \"Dick\" Price Stadium"
         }
       }
     },
@@ -2294,7 +2420,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kidd Brewer Stadium"
         }
       }
     },
@@ -2312,7 +2439,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "UB Stadium"
         }
       }
     },
@@ -2330,7 +2458,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ace W. Mumford Stadium"
         }
       }
     },
@@ -2348,7 +2477,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Joe Albi Stadium"
         }
       }
     },
@@ -2366,7 +2496,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Doyt L. Perry Stadium"
         }
       }
     },
@@ -2384,7 +2515,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Paulson Stadium"
         }
       }
     },
@@ -2402,7 +2534,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Princeton University Stadium"
         }
       }
     },
@@ -2420,7 +2553,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Dignity Health Sports Park"
         }
       }
     },
@@ -2438,7 +2572,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Eddie Robinson Stadium"
         }
       }
     },
@@ -2456,7 +2591,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Schoellkopf Field"
         }
       }
     },
@@ -2474,7 +2610,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Maverik Stadium"
         }
       }
     },
@@ -2492,7 +2629,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bragg Memorial Stadium"
         }
       }
     },
@@ -2510,7 +2648,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Exploria Stadium"
         }
       }
     },
@@ -2528,7 +2667,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Dix Stadium"
         }
       }
     },
@@ -2546,7 +2686,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Providence Park"
         }
       }
     },
@@ -2564,7 +2705,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Washington-Grizzly Stadium"
         }
       }
     },
@@ -2582,7 +2724,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Williams Stadium"
         }
       }
     },
@@ -2600,7 +2743,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Bridgeforth Stadium"
         }
       }
     },
@@ -2618,7 +2762,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cramton Bowl"
         }
       }
     },
@@ -2636,7 +2781,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Georgia State Stadium"
         }
       }
     },
@@ -2654,7 +2800,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Fred C. Yager Stadium"
         }
       }
     },
@@ -2672,7 +2819,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "TD Ameritrade Park Omaha"
         }
       }
     },
@@ -2690,7 +2838,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "JSU Stadium"
         }
       }
     },
@@ -2708,7 +2857,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Arthur Ashe Stadium"
         }
       }
     },
@@ -2726,7 +2876,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Fitton Field"
         }
       }
     },
@@ -2744,7 +2895,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Jack Spinks Stadium"
         }
       }
     },
@@ -2762,7 +2914,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "BBVA Stadium"
         }
       }
     },
@@ -2780,7 +2933,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Banc of California Stadium"
         }
       }
     },
@@ -2798,7 +2952,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Delaware Stadium"
         }
       }
     },
@@ -2816,7 +2971,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Houchens Industries-L. T. Smith Stadium"
         }
       }
     },
@@ -2834,7 +2990,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Oliver C. Dawson Stadium"
         }
       }
     },
@@ -2852,7 +3009,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "BB&T Stadium"
         }
       }
     },
@@ -2870,7 +3028,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Johnson Hagood Stadium"
         }
       }
     },
@@ -2888,7 +3047,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Louis Crews Stadium"
         }
       }
     },
@@ -2906,7 +3066,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Alerus Center"
         }
       }
     },
@@ -2924,7 +3085,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Finley Stadium"
         }
       }
     },
@@ -2942,7 +3104,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Stambaugh Stadium"
         }
       }
     },
@@ -2960,7 +3123,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "豊田スタジアム"
         }
       }
     },
@@ -2978,7 +3142,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Toyota Stadium"
         }
       }
     },
@@ -2996,7 +3161,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Rio Tinto Stadium"
         }
       }
     },
@@ -3014,7 +3180,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Brown Stadium"
         }
       }
     },
@@ -3032,7 +3199,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Riccardo Silva Stadium"
         }
       }
     },
@@ -3050,7 +3218,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Roy Kidd Stadium"
         }
       }
     },
@@ -3068,7 +3237,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Mesquite Memorial Stadium"
         }
       }
     },
@@ -3086,7 +3256,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kimbrough Memorial Stadium"
         }
       }
     },
@@ -3104,7 +3275,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "SeatGeek Stadium"
         }
       }
     },
@@ -3122,7 +3294,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Audi Field"
         }
       }
     },
@@ -3140,7 +3313,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Brooks Stadium"
         }
       }
     },
@@ -3158,7 +3332,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Mapfre Stadium"
         }
       }
     },
@@ -3176,7 +3351,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Dana J. Dykhouse Stadium"
         }
       }
     },
@@ -3194,7 +3370,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Allianz Field"
         }
       }
     },
@@ -3212,7 +3389,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Fargodome"
         }
       }
     },
@@ -3230,7 +3408,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Talen Energy Stadium"
         }
       }
     },
@@ -3248,7 +3427,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Children's Mercy Park"
         }
       }
     },
@@ -3266,7 +3446,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Dick's Sporting Goods Park"
         }
       }
     },
@@ -3284,7 +3465,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Earthquakes Stadium"
         }
       }
     },
@@ -3302,7 +3484,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Inter Miami CF Stadium"
         }
       }
     }

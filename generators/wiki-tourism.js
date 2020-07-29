@@ -1,7 +1,7 @@
 const wtf = require('wtf_wikipedia');
 const _ = require('lodash');
 const Bluebird = require('bluebird');
-const {promises: fs} = require('fs');
+const { promises: fs } = require('fs');
 const wiki = require('wikijs').default;
 const crg = require('country-reverse-geocoding').country_reverse_geocoding();
 const countryinfo = require('countryinfo');
@@ -10,7 +10,7 @@ const wikiFetcher = wiki({
   headers: {
     'Api-User-Agent': 'blackmad@radar.io',
     'User-Agent': 'blackmad@radar.io',
-  }
+  },
 });
 
 async function fetchDoc(id) {
@@ -24,14 +24,14 @@ async function fetchDoc(id) {
   return doc;
 }
 
-async function getOtherNames({id, lat, lon}) {
+async function getOtherNames({ id, lat, lon }) {
   const country = crg.get_country(lat, lon);
   if (!country) {
     return [];
   }
 
-  const lang2codes = [...(countryinfo.languages(country.code) || []).map(l => l.alpha2), 'en'];
-  
+  const lang2codes = [...(countryinfo.languages(country.code) || []).map((l) => l.alpha2), 'en'];
+
   const w = await wikiFetcher.page(id);
   if (!w) {
     return [];
@@ -40,7 +40,9 @@ async function getOtherNames({id, lat, lon}) {
     const langlinks = await w.langlinks();
 
     // filter down the langlinks to just the languages spoken in the country of the poi + english
-    const filteredLinks = _.uniq(langlinks.filter((ll) => lang2codes.includes(ll.lang)).map((ll) => ll.title));
+    const filteredLinks = _.uniq(
+      langlinks.filter((ll) => lang2codes.includes(ll.lang)).map((ll) => ll.title)
+    );
     return filteredLinks;
   } catch {
     return [];
@@ -81,15 +83,18 @@ async function fetchPlace(id) {
     // In case the page uses disambiguation, like Adventure Island (water park), remove the part in parens
     const hackedName = id.replace(/ \(.*\)/, '');
 
-    const allNames = _.uniq([...(await getOtherNames({id, lat, lon})), hackedName]);
+    const allNames = _.uniq([...(await getOtherNames({ id, lat, lon })), hackedName]);
 
-    return allNames.map((name) => ({
+    return allNames.map((name) => {
+      // At least one artile likes en-dashes, but pelias only understands basic hyphens
+      const normalizedName = name.replace('–', '-');
+
+      return {
         id,
         status: 'pass',
         type: 'wiki-poi',
         in: {
-          // It seems like wikipedia like en-dashes in titles, but pelias only understands basic hyphens
-          text: name.replace('–', '-'),
+          text: normalizedName,
         },
         expected: {
           coordinates: [lon, lat],
@@ -98,10 +103,11 @@ async function fetchPlace(id) {
             region: findGeoName('State'),
             locality: findGeoName('City'),
             layer: 'venue',
+            name: normalizedName,
           },
         },
-      })
-    );
+      };
+    });
   } else {
     console.error('no coordinates for', id);
   }
@@ -124,11 +130,11 @@ async function fetchPageWithTables({ pageName, tableKeys }) {
       });
     })
     .filter((p) => !!p);
-  
+
   let links = _.uniq(places.flatMap((p) => (p.links ? [p.links[0].page] : [])));
 
   if (links.length === 0) {
-    // now try with wikijs which sometimes is better at parsing tables but worse about giving 
+    // now try with wikijs which sometimes is better at parsing tables but worse about giving
     // us the exact links we need
 
     const w = await wikiFetcher.page(pageName);
@@ -144,7 +150,7 @@ async function fetchPageWithTables({ pageName, tableKeys }) {
       });
     }
   }
-  
+
   console.error(links);
   console.error(links.length);
 
@@ -163,24 +169,69 @@ async function fetchPageWithTables({ pageName, tableKeys }) {
 }
 
 async function fetchAndWritePageWithTables({ pageName, tableKeys }) {
-  const data = await fetchPageWithTables({pageName, tableKeys});
+  const data = await fetchPageWithTables({ pageName, tableKeys });
   await fs.writeFile(`test_cases/${pageName}.json`, JSON.stringify(data, null, 2));
 }
 
-// fetchAndWritePageWithTables({
-//   pageName: 'Tourist_attractions_in_the_United_States',
-//   tableKeys: ['Place']
-// });
-// fetchAndWritePageWithTables({
-//   pageName: 'List_of_amusement_park_rankings',
-//   tableKeys: ['Amusement park', 'Water park'],
-// });
-// fetchAndWritePageWithTables({
-//   pageName: 'List_of_largest_art_museums',
-//   tableKeys: ['Name'],
-// });
+fetchAndWritePageWithTables({
+  pageName: 'Tourist_attractions_in_the_United_States',
+  tableKeys: ['Place'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_amusement_park_rankings',
+  tableKeys: ['Amusement park', 'Water park'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_largest_art_museums',
+  tableKeys: ['Name'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_urban_parks_by_size',
+  tableKeys: ['Name'],
+});
+
+// Zoos, and, I love this word 'Aquaria'
+fetchAndWritePageWithTables({
+  pageName: 'List_of_AZA_member_zoos_and_aquaria',
+  tableKeys: ['Name'],
+});
+
+// Stadiums
 fetchAndWritePageWithTables({
   pageName: 'List_of_U.S._stadiums_by_capacity',
   tableKeys: ['Stadium'],
 });
+fetchAndWritePageWithTables({
+  pageName: 'List_of_association_football_stadiums_by_capacity',
+  tableKeys: ['Stadium'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_stadiums_by_capacity',
+  tableKeys: ['Stadium'],
+});
 
+// UNESCO world heritage sites
+fetchAndWritePageWithTables({
+  pageName: 'List_of_World_Heritage_Sites_in_Northern_Europe',
+  tableKeys: ['Name'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_World_Heritage_Sites_in_Eastern_Europe',
+  tableKeys: ['Name'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_World_Heritage_Sites_in_Western_Europe',
+  tableKeys: ['Name'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_World_Heritage_Sites_in_Southern_Europe',
+  tableKeys: ['Name'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_World_Heritage_Sites_in_North_America',
+  tableKeys: ['Name'],
+});
+fetchAndWritePageWithTables({
+  pageName: 'List_of_World_Heritage_Sites_in_Africa',
+  tableKeys: ['Name'],
+});

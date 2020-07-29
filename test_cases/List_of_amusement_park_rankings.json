@@ -26,7 +26,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Magic Kingdom"
         }
       }
     },
@@ -44,7 +45,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disneyland"
         }
       }
     },
@@ -62,7 +64,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "東京ディズニーランド"
         }
       }
     },
@@ -80,7 +83,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tokyo Disneyland"
         }
       }
     },
@@ -98,7 +102,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "東京ディズニーシー"
         }
       }
     },
@@ -116,7 +121,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tokyo DisneySea"
         }
       }
     },
@@ -134,7 +140,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "ユニバーサル・スタジオ・ジャパン"
         }
       }
     },
@@ -152,7 +159,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Universal Studios Japan"
         }
       }
     },
@@ -170,7 +178,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disney's Animal Kingdom"
         }
       }
     },
@@ -188,7 +197,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Epcot"
         }
       }
     },
@@ -206,7 +216,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Chimelong Ocean Kingdom"
         }
       }
     },
@@ -224,7 +235,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disney's Hollywood Studios"
         }
       }
     },
@@ -242,7 +254,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "上海迪士尼樂園"
         }
       }
     },
@@ -260,7 +273,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Shanghai Disneyland Park"
         }
       }
     },
@@ -278,7 +292,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Universal Studios Florida"
         }
       }
     },
@@ -296,7 +311,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Universal's Islands of Adventure"
         }
       }
     },
@@ -314,7 +330,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disney California Adventure"
         }
       }
     },
@@ -332,7 +349,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Parc Disneyland (Paris)"
         }
       }
     },
@@ -350,7 +368,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disneyland Park"
         }
       }
     },
@@ -368,7 +387,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Universal Studios Hollywood"
         }
       }
     },
@@ -386,7 +406,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "에버랜드"
         }
       }
     },
@@ -404,7 +425,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Everland"
         }
       }
     },
@@ -422,7 +444,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "롯데월드"
         }
       }
     },
@@ -440,7 +463,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Lotte World"
         }
       }
     },
@@ -458,7 +482,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "ナガシマスパーランド"
         }
       }
     },
@@ -476,7 +501,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Nagashima Spa Land"
         }
       }
     },
@@ -494,7 +520,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Europa-Park"
         }
       }
     },
@@ -512,7 +539,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "香港海洋公園"
         }
       }
     },
@@ -530,7 +558,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ocean Park Hong Kong"
         }
       }
     },
@@ -548,7 +577,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Hong Kong Disneyland"
         }
       }
     },
@@ -566,7 +596,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Efteling"
         }
       }
     },
@@ -584,7 +615,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Parc Walt Disney Studios"
         }
       }
     },
@@ -602,7 +634,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Walt Disney Studios Park"
         }
       }
     },
@@ -620,7 +653,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "北京欢乐谷"
         }
       }
     },
@@ -638,7 +672,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Happy Valley Beijing"
         }
       }
     },
@@ -656,7 +691,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "长隆欢乐世界"
         }
       }
     },
@@ -674,7 +710,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Chimelong Paradise"
         }
       }
     },
@@ -692,7 +729,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "SeaWorld Orlando"
         }
       }
     },
@@ -710,7 +748,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Knott's Berry Farm"
         }
       }
     },
@@ -728,7 +767,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Busch Gardens Tampa"
         }
       }
     },
@@ -746,7 +786,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Canada's Wonderland"
         }
       }
     },
@@ -764,7 +805,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cedar Point"
         }
       }
     },
@@ -782,7 +824,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags Magic Mountain"
         }
       }
     },
@@ -800,7 +843,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Kings Island"
         }
       }
     },
@@ -818,7 +862,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "SeaWorld San Diego"
         }
       }
     },
@@ -836,7 +881,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags Great Adventure"
         }
       }
     },
@@ -854,7 +900,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Hersheypark"
         }
       }
     },
@@ -872,7 +919,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags Great America"
         }
       }
     },
@@ -890,7 +938,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tivoli"
         }
       }
     },
@@ -908,7 +957,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tivoli Gardens"
         }
       }
     },
@@ -926,7 +976,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "PortAventura Park"
         }
       }
     },
@@ -944,7 +995,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Liseberg"
         }
       }
     },
@@ -962,7 +1014,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Gardaland"
         }
       }
     },
@@ -980,7 +1033,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Legoland Windsor Resort"
         }
       }
     },
@@ -998,7 +1052,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Parc Astérix"
         }
       }
     },
@@ -1016,7 +1071,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Puy du Fou"
         }
       }
     },
@@ -1034,7 +1090,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Parque Warner Madrid"
         }
       }
     },
@@ -1052,7 +1109,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Alton Towers"
         }
       }
     },
@@ -1070,7 +1128,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Phantasialand"
         }
       }
     },
@@ -1088,7 +1147,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Legoland Billund Resort"
         }
       }
     },
@@ -1106,7 +1166,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Thorpe Park"
         }
       }
     },
@@ -1124,7 +1185,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Futuroscope"
         }
       }
     },
@@ -1142,7 +1204,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Legoland#Legoland Deutschland"
         }
       }
     },
@@ -1160,7 +1223,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Legoland Deutschland Resort"
         }
       }
     },
@@ -1178,7 +1242,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Heide Park Resort"
         }
       }
     },
@@ -1196,7 +1261,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Heide Park"
         }
       }
     },
@@ -1214,7 +1280,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Chessington World of Adventures"
         }
       }
     },
@@ -1232,7 +1299,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags México"
         }
       }
     },
@@ -1250,7 +1318,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Beto Carrero World"
         }
       }
     },
@@ -1268,7 +1337,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "La Feria de Chapultepec"
         }
       }
     },
@@ -1286,7 +1356,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "La Feria Chapultepec Mágico"
         }
       }
     },
@@ -1304,7 +1375,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Fantasilandia"
         }
       }
     },
@@ -1322,7 +1394,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Parque de la Costa"
         }
       }
     },
@@ -1340,7 +1413,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Universal Studios Singapore"
         }
       }
     },
@@ -1358,7 +1432,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "யூனிவர்சல் ஸ்டூடியோஸ், சிங்கப்பூர்"
         }
       }
     },
@@ -1376,7 +1451,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "新加坡環球影城"
         }
       }
     },
@@ -1394,7 +1470,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "中华恐龙园"
         }
       }
     },
@@ -1412,7 +1489,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "China Dinosaurs Park"
         }
       }
     },
@@ -1430,7 +1508,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "世界之窗 (深圳)"
         }
       }
     },
@@ -1448,7 +1527,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Window of the World"
         }
       }
     },
@@ -1466,7 +1546,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "深圳欢乐谷"
         }
       }
     },
@@ -1484,7 +1565,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Happy Valley Shenzhen"
         }
       }
     },
@@ -1502,7 +1584,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Happy Valley Chengdu"
         }
       }
     },
@@ -1520,7 +1603,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "上海欢乐谷"
         }
       }
     },
@@ -1538,7 +1622,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Happy Valley Shanghai"
         }
       }
     },
@@ -1556,7 +1641,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disney's Typhoon Lagoon"
         }
       }
     },
@@ -1574,7 +1660,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disney's Blizzard Beach"
         }
       }
     },
@@ -1592,7 +1679,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Therme Erding"
         }
       }
     },
@@ -1610,7 +1698,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Volcano Bay"
         }
       }
     },
@@ -1628,7 +1717,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Aquatica"
         }
       }
     },
@@ -1646,7 +1736,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "캐리비안 베이"
         }
       }
     },
@@ -1664,7 +1755,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Caribbean Bay"
         }
       }
     },
@@ -1682,7 +1774,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Aquapalace Praha"
         }
       }
     },
@@ -1700,7 +1793,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Aquapalace Prague"
         }
       }
     },
@@ -1718,7 +1812,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tropical Islands"
         }
       }
     },
@@ -1736,7 +1831,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Tropical Islands Resort"
         }
       }
     },
@@ -1754,7 +1850,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Sunway Lagoon"
         }
       }
     },
@@ -1772,7 +1869,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Siam Park"
         }
       }
     },
@@ -1790,7 +1888,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Wet'n'Wild Gold Coast"
         }
       }
     },
@@ -1808,7 +1907,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Schlitterbahn"
         }
       }
     },
@@ -1826,7 +1926,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Water Country USA"
         }
       }
     },
@@ -1844,7 +1945,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Adventure Island"
         }
       }
     },
@@ -1862,7 +1964,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Splish Splash"
         }
       }
     },
@@ -1880,7 +1983,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags Hurricane Harbor"
         }
       }
     },
@@ -1898,7 +2002,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags White Water"
         }
       }
     },
@@ -1916,7 +2021,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags Hurricane Harbor SplashTown"
         }
       }
     },
@@ -1934,7 +2040,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Zoombezi Bay"
         }
       }
     },
@@ -1952,7 +2059,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Six Flags Hurricane Harbor Phoenix"
         }
       }
     },
@@ -1970,7 +2078,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Camelbeach Waterpark"
         }
       }
     },
@@ -1988,7 +2097,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Cedar Point Shores"
         }
       }
     },
@@ -2006,7 +2116,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Beach Park"
         }
       }
     },
@@ -2024,7 +2135,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Taman Impian Jaya Ancol"
         }
       }
     },
@@ -2042,7 +2154,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Ancol Dreamland"
         }
       }
     },
@@ -2060,7 +2173,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "حديقة وايلد وادي المائية"
         }
       }
     },
@@ -2078,7 +2192,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Wild Wadi Water Park"
         }
       }
     }

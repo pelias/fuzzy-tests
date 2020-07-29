@@ -26,7 +26,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Times Square"
         }
       }
     },
@@ -44,7 +45,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Mall Of America"
         }
       }
     },
@@ -62,7 +64,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Central Park"
         }
       }
     },
@@ -80,7 +83,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Union Station"
         }
       }
     },
@@ -98,7 +102,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Millennium Park"
         }
       }
     },
@@ -116,7 +121,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Lincoln Park"
         }
       }
     },
@@ -134,7 +140,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Magic Kingdom"
         }
       }
     },
@@ -152,7 +159,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disneyland Resort"
         }
       }
     },
@@ -170,7 +178,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Golden Gate Bridge"
         }
       }
     },
@@ -188,7 +197,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Faneuil Hall"
         }
       }
     },
@@ -206,7 +216,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Golden Gate Park"
         }
       }
     },
@@ -224,7 +235,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Balboa Park"
         }
       }
     },
@@ -242,7 +254,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Epcot"
         }
       }
     },
@@ -260,7 +273,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Pike Place Market"
         }
       }
     },
@@ -278,7 +292,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disney's Animal Kingdom"
         }
       }
     },
@@ -296,7 +311,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Disney's Hollywood Studios"
         }
       }
     },
@@ -314,7 +330,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Great Smoky Mountains National Park"
         }
       }
     },
@@ -332,7 +349,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "South Street Seaport"
         }
       }
     },
@@ -350,7 +368,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Mackinac Bridge"
         }
       }
     },
@@ -368,7 +387,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Navy Pier"
         }
       }
     },
@@ -386,7 +406,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "Pier 39"
         }
       }
     },
@@ -404,7 +425,8 @@
         ],
         "distanceThresh": 5000,
         "properties": {
-          "layer": "venue"
+          "layer": "venue",
+          "name": "High Line"
         }
       }
     }

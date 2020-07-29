@@ -125,7 +125,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Williams–Brice Stadium"
+        "text": "Williams-Brice Stadium"
       },
       "expected": {
         "coordinates": [
@@ -809,7 +809,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Vaught–Hemingway Stadium"
+        "text": "Vaught-Hemingway Stadium"
       },
       "expected": {
         "coordinates": [
@@ -899,7 +899,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ross–Ade Stadium"
+        "text": "Ross-Ade Stadium"
       },
       "expected": {
         "coordinates": [
@@ -1637,7 +1637,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ladd–Peebles Stadium"
+        "text": "Ladd-Peebles Stadium"
       },
       "expected": {
         "coordinates": [
@@ -1871,7 +1871,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Navy–Marine Corps Memorial Stadium"
+        "text": "Navy-Marine Corps Memorial Stadium"
       },
       "expected": {
         "coordinates": [
@@ -2249,7 +2249,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "InfoCision Stadium – Summa Field"
+        "text": "InfoCision Stadium - Summa Field"
       },
       "expected": {
         "coordinates": [
@@ -2555,7 +2555,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Washington–Grizzly Stadium"
+        "text": "Washington-Grizzly Stadium"
       },
       "expected": {
         "coordinates": [
@@ -2807,7 +2807,7 @@
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Houchens Industries–L. T. Smith Stadium"
+        "text": "Houchens Industries-L. T. Smith Stadium"
       },
       "expected": {
         "coordinates": [

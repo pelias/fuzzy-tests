@@ -88,7 +88,8 @@ async function fetchPlace(id) {
         status: 'pass',
         type: 'wiki-poi',
         in: {
-          text: name,
+          // It seems like wikipedia like en-dashes in titles, but pelias only understands basic hyphens
+          text: name.replace('–', '-'),
         },
         expected: {
           coordinates: [lon, lat],

@@ -108,6 +108,25 @@
       }
     },
     {
+      "id": "Grand Central Terminal",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Grand Central Terminal"
+      },
+      "expected": {
+        "coordinates": [
+          -73.97722222,
+          40.75277778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Grand Central Terminal"
+        }
+      }
+    },
+    {
       "id": "Lincoln Park",
       "status": "pass",
       "type": "wiki-poi",

@@ -1,0 +1,1194 @@
+{
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_North_America",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Agave Landscape and Ancient Industrial Facilities of Tequila",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Agave Landscape and Ancient Industrial Facilities of Tequila"
+      },
+      "expected": {
+        "coordinates": [
+          -103.7666,
+          20.8595
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Agave Landscape and Ancient Industrial Facilities of Tequila"
+        }
+      }
+    },
+    {
+      "id": "Ancient Maya City of Calakmul, Campeche",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ancient Maya City of Calakmul, Campeche"
+      },
+      "expected": {
+        "coordinates": [
+          -89.81083,
+          18.10539
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ancient Maya City of Calakmul, Campeche"
+        }
+      }
+    },
+    {
+      "id": "Aqueduct of Padre Tembleque Hydraulic System",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aqueduct of Padre Tembleque Hydraulic System"
+      },
+      "expected": {
+        "coordinates": [
+          -98.6625,
+          19.83444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aqueduct of Padre Tembleque Hydraulic System"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Monuments Zone of Xochicalco",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Monuments Zone of Xochicalco"
+      },
+      "expected": {
+        "coordinates": [
+          -99.29592,
+          18.80389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Monuments Zone of Xochicalco"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Zone of Paquimé, Casas Grandes",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Zone of Paquimé, Casas Grandes"
+      },
+      "expected": {
+        "coordinates": [
+          -107.9475,
+          30.36639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Zone of Paquimé, Casas Grandes"
+        }
+      }
+    },
+    {
+      "id": "Archipiélago de Revillagigedo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archipiélago de Revillagigedo"
+      },
+      "expected": {
+        "coordinates": [
+          -112.76667,
+          18.81667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archipiélago de Revillagigedo"
+        }
+      }
+    },
+    {
+      "id": "Cahokia Mounds State Historic Site",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cahokia Mounds State Historic Site"
+      },
+      "expected": {
+        "coordinates": [
+          -90.06444444,
+          38.65388889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cahokia Mounds State Historic Site"
+        }
+      }
+    },
+    {
+      "id": "Camino Real de Tierra Adentro",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Camino Real de Tierra Adentro"
+      },
+      "expected": {
+        "coordinates": [
+          -102.37917,
+          22.60806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Camino Real de Tierra Adentro"
+        }
+      }
+    },
+    {
+      "id": "Canadian Rocky Mountain Parks",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Canadian Rocky Mountain Parks"
+      },
+      "expected": {
+        "coordinates": [
+          -116.47972,
+          51.42472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Canadian Rocky Mountain Parks"
+        }
+      }
+    },
+    {
+      "id": "Carlsbad Caverns National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Carlsbad Caverns National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -104.44388889,
+          32.17527778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Carlsbad Caverns National Park"
+        }
+      }
+    },
+    {
+      "id": "Chaco Culture",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chaco Culture"
+      },
+      "expected": {
+        "coordinates": [
+          -107.97,
+          36.06
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chaco Culture"
+        }
+      }
+    },
+    {
+      "id": "Dinosaur Provincial Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dinosaur Provincial Park"
+      },
+      "expected": {
+        "coordinates": [
+          -111.485,
+          50.76167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dinosaur Provincial Park"
+        }
+      }
+    },
+    {
+      "id": "Earliest 16th-Century Monasteries on the Slopes of Popocatepetl",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Earliest 16th-Century Monasteries on the Slopes of Popocatepetl"
+      },
+      "expected": {
+        "coordinates": [
+          -98.89778,
+          18.93472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Earliest 16th-Century Monasteries on the Slopes of Popocatepetl"
+        }
+      }
+    },
+    {
+      "id": "Everglades National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Everglades National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -80.6875,
+          25.3125
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Everglades National Park"
+        }
+      }
+    },
+    {
+      "id": "Franciscan Missions in the Sierra Gorda of Querétaro",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Franciscan Missions in the Sierra Gorda of Querétaro"
+      },
+      "expected": {
+        "coordinates": [
+          -99.464,
+          21.204
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Franciscan Missions in the Sierra Gorda of Querétaro"
+        }
+      }
+    },
+    {
+      "id": "Grand Canyon National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Grand Canyon National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -112.1218355,
+          36.0552608
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Grand Canyon National Park"
+        }
+      }
+    },
+    {
+      "id": "Great Smoky Mountains National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Great Smoky Mountains National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -83.51667,
+          35.6
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Great Smoky Mountains National Park"
+        }
+      }
+    },
+    {
+      "id": "Gros Morne National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gros Morne National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -57.73806,
+          49.68944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gros Morne National Park"
+        }
+      }
+    },
+    {
+      "id": "Head-Smashed-In Buffalo Jump",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Head-Smashed-In Buffalo Jump"
+      },
+      "expected": {
+        "coordinates": [
+          -113.625,
+          49.74944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Head-Smashed-In Buffalo Jump"
+        }
+      }
+    },
+    {
+      "id": "Historic Town of St George and Related Fortifications, Bermuda",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Town of St George and Related Fortifications, Bermuda"
+      },
+      "expected": {
+        "coordinates": [
+          -64.67778,
+          32.37944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Town of St George and Related Fortifications, Bermuda"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Mexico City and Xochimilco",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Mexico City and Xochimilco"
+      },
+      "expected": {
+        "coordinates": [
+          -99.13306,
+          19.43278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Mexico City and Xochimilco"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Morelia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Morelia"
+      },
+      "expected": {
+        "coordinates": [
+          -101.18944,
+          19.76833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Morelia"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Zacatecas",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Zacatecas"
+      },
+      "expected": {
+        "coordinates": [
+          -102.57361,
+          22.77361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Zacatecas"
+        }
+      }
+    },
+    {
+      "id": "Historic District of Old Québec",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic District of Old Québec"
+      },
+      "expected": {
+        "coordinates": [
+          -71.208,
+          46.813
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic District of Old Québec"
+        }
+      }
+    },
+    {
+      "id": "Historic Fortified Town of Campeche",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Fortified Town of Campeche"
+      },
+      "expected": {
+        "coordinates": [
+          -90.53056,
+          19.85
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Fortified Town of Campeche"
+        }
+      }
+    },
+    {
+      "id": "Historic Monuments Zone of Querétaro",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Monuments Zone of Querétaro"
+      },
+      "expected": {
+        "coordinates": [
+          -100.39278,
+          20.5875
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Monuments Zone of Querétaro"
+        }
+      }
+    },
+    {
+      "id": "Historic Monuments Zone of Tlacotalpan",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Monuments Zone of Tlacotalpan"
+      },
+      "expected": {
+        "coordinates": [
+          -95.66667,
+          18.61667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Monuments Zone of Tlacotalpan"
+        }
+      }
+    },
+    {
+      "id": "Historic Town of Guanajuato and Adjacent Mines",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Town of Guanajuato and Adjacent Mines"
+      },
+      "expected": {
+        "coordinates": [
+          -101.25667,
+          21.01778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Town of Guanajuato and Adjacent Mines"
+        }
+      }
+    },
+    {
+      "id": "Hospicio Cabañas, Guadalajara",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hospicio Cabañas, Guadalajara"
+      },
+      "expected": {
+        "coordinates": [
+          -103.33786,
+          20.67687
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hospicio Cabañas, Guadalajara"
+        }
+      }
+    },
+    {
+      "id": "Ilulissat Icefjord",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ilulissat Icefjord"
+      },
+      "expected": {
+        "coordinates": [
+          -49.5,
+          69.13333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ilulissat Icefjord"
+        }
+      }
+    },
+    {
+      "id": "Independence Hall",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Independence Hall"
+      },
+      "expected": {
+        "coordinates": [
+          -75.15,
+          39.94889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Independence Hall"
+        }
+      }
+    },
+    {
+      "id": "Islands and Protected Areas of the Gulf of California",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Islands and Protected Areas of the Gulf of California"
+      },
+      "expected": {
+        "coordinates": [
+          -112,
+          28
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Islands and Protected Areas of the Gulf of California"
+        }
+      }
+    },
+    {
+      "id": "Joggins Fossil Cliffs",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Joggins Fossil Cliffs"
+      },
+      "expected": {
+        "coordinates": [
+          -64.44357,
+          45.69188
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Joggins Fossil Cliffs"
+        }
+      }
+    },
+    {
+      "id": "Kluane / Wrangell-St Elias / Glacier Bay / Tatshenshini-Alsek",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kluane / Wrangell-St Elias / Glacier Bay / Tatshenshini-Alsek"
+      },
+      "expected": {
+        "coordinates": [
+          -140.992,
+          61.1975
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kluane / Wrangell-St Elias / Glacier Bay / Tatshenshini-Alsek"
+        }
+      }
+    },
+    {
+      "id": "L’Anse aux Meadows National Historic Site",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "L’Anse aux Meadows National Historic Site"
+      },
+      "expected": {
+        "coordinates": [
+          -55.53333,
+          51.59639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "L’Anse aux Meadows National Historic Site"
+        }
+      }
+    },
+    {
+      "id": "Luis Barragán House and Studio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Luis Barragán House and Studio"
+      },
+      "expected": {
+        "coordinates": [
+          -99.19222,
+          19.41083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Luis Barragán House and Studio"
+        }
+      }
+    },
+    {
+      "id": "Mammoth Cave National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mammoth Cave National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -86.10111,
+          37.18694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mammoth Cave National Park"
+        }
+      }
+    },
+    {
+      "id": "Mesa Verde National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mesa Verde National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -108.48869,
+          37.18378
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mesa Verde National Park"
+        }
+      }
+    },
+    {
+      "id": "Miguasha National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Miguasha National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -66.36944,
+          48.11056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Miguasha National Park"
+        }
+      }
+    },
+    {
+      "id": "Mistaken Point",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mistaken Point"
+      },
+      "expected": {
+        "coordinates": [
+          -53.19028,
+          46.63194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mistaken Point"
+        }
+      }
+    },
+    {
+      "id": "Monarch Butterfly Biosphere Reserve",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monarch Butterfly Biosphere Reserve"
+      },
+      "expected": {
+        "coordinates": [
+          -100.24167,
+          19.60639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monarch Butterfly Biosphere Reserve"
+        }
+      }
+    },
+    {
+      "id": "Pimachiowin Aki",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pimachiowin Aki"
+      },
+      "expected": {
+        "coordinates": [
+          -95.4,
+          51.81667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pimachiowin Aki"
+        }
+      }
+    },
+    {
+      "id": "Nahanni National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nahanni National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -125.58944,
+          61.54722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nahanni National Park"
+        }
+      }
+    },
+    {
+      "id": "Old Town Lunenburg",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old Town Lunenburg"
+      },
+      "expected": {
+        "coordinates": [
+          -64.31667,
+          44.38333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old Town Lunenburg"
+        }
+      }
+    },
+    {
+      "id": "Olympic National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Olympic National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -123.49856,
+          47.96935
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Olympic National Park"
+        }
+      }
+    },
+    {
+      "id": "Pre-Hispanic City and National Park of Palenque",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pre-Hispanic City and National Park of Palenque"
+      },
+      "expected": {
+        "coordinates": [
+          -92.04639,
+          17.48417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pre-Hispanic City and National Park of Palenque"
+        }
+      }
+    },
+    {
+      "id": "Pre-Hispanic City of Chichen-Itza",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pre-Hispanic City of Chichen-Itza"
+      },
+      "expected": {
+        "coordinates": [
+          -88.56861,
+          20.68306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pre-Hispanic City of Chichen-Itza"
+        }
+      }
+    },
+    {
+      "id": "Pre-Hispanic City of Teotihuacan",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pre-Hispanic City of Teotihuacan"
+      },
+      "expected": {
+        "coordinates": [
+          -98.84389,
+          19.6925
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pre-Hispanic City of Teotihuacan"
+        }
+      }
+    },
+    {
+      "id": "Pre-Hispanic Town of Uxmal",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pre-Hispanic Town of Uxmal"
+      },
+      "expected": {
+        "coordinates": [
+          -89.77139,
+          20.35944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pre-Hispanic Town of Uxmal"
+        }
+      }
+    },
+    {
+      "id": "Pueblo de Taos",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pueblo de Taos"
+      },
+      "expected": {
+        "coordinates": [
+          -105.54559,
+          36.43917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pueblo de Taos"
+        }
+      }
+    },
+    {
+      "id": "Red Bay Basque Whaling Station",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Red Bay Basque Whaling Station"
+      },
+      "expected": {
+        "coordinates": [
+          -56.42556,
+          51.73194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Red Bay Basque Whaling Station"
+        }
+      }
+    },
+    {
+      "id": "Redwood National and State Parks",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Redwood National and State Parks"
+      },
+      "expected": {
+        "coordinates": [
+          -124,
+          41.3
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Redwood National and State Parks"
+        }
+      }
+    },
+    {
+      "id": "Rideau Canal",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rideau Canal"
+      },
+      "expected": {
+        "coordinates": [
+          -75.69722,
+          45.42583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rideau Canal"
+        }
+      }
+    },
+    {
+      "id": "Rock Paintings of the Sierra de San Francisco",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rock Paintings of the Sierra de San Francisco"
+      },
+      "expected": {
+        "coordinates": [
+          -112.91611,
+          27.65556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rock Paintings of the Sierra de San Francisco"
+        }
+      }
+    },
+    {
+      "id": "Sian Ka'an",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sian Ka'an"
+      },
+      "expected": {
+        "coordinates": [
+          -87.75,
+          19.5
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sian Ka'an"
+        }
+      }
+    },
+    {
+      "id": "Statue of Liberty",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Statue of Liberty"
+      },
+      "expected": {
+        "coordinates": [
+          -74.04444,
+          40.68917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Statue of Liberty"
+        }
+      }
+    },
+    {
+      "id": "Tehuacán-Cuicatlán Biosphere Reserve",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tehuacán-Cuicatlán Biosphere Reserve"
+      },
+      "expected": {
+        "coordinates": [
+          -97.39944,
+          18.21139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tehuacán-Cuicatlán Biosphere Reserve"
+        }
+      }
+    },
+    {
+      "id": "Waterton Glacier International Peace Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Waterton Glacier International Peace Park"
+      },
+      "expected": {
+        "coordinates": [
+          -113.91667,
+          49
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Waterton Glacier International Peace Park"
+        }
+      }
+    },
+    {
+      "id": "Whale Sanctuary of El Vizcaino",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Whale Sanctuary of El Vizcaino"
+      },
+      "expected": {
+        "coordinates": [
+          -114.22777778,
+          27.79222222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Whale Sanctuary of El Vizcaino"
+        }
+      }
+    },
+    {
+      "id": "Wood Buffalo National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wood Buffalo National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -112.25167,
+          58.27167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wood Buffalo National Park"
+        }
+      }
+    },
+    {
+      "id": "Yellowstone National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yellowstone National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -110.5,
+          44.6
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Yellowstone National Park"
+        }
+      }
+    },
+    {
+      "id": "Yosemite National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yosemite National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -119.55,
+          37.85
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Yosemite National Park"
+        }
+      }
+    }
+  ]
+}

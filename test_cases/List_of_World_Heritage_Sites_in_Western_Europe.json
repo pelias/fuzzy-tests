@@ -1,5 +1,5 @@
 {
-  "name": "wikipedia scrape: List_of_largest_art_museums",
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_Western_Europe",
   "description": "",
   "priorityThresh": "",
   "source": "Wikipedia",
@@ -13,2320 +13,2187 @@
   },
   "tests": [
     {
-      "id": "Louvre",
+      "id": "Aachen Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Louvre"
+        "text": "Aachen Cathedral"
       },
       "expected": {
         "coordinates": [
-          2.33639,
-          48.86111
+          6.08392,
+          50.77475
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Louvre"
+          "name": "Aachen Cathedral"
         }
       }
     },
     {
-      "id": "State Hermitage Museum",
+      "id": "Abbey and Altenmünster of Lorsch",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "State Hermitage Museum"
+        "text": "Abbey and Altenmünster of Lorsch"
       },
       "expected": {
         "coordinates": [
-          30.3129,
-          59.941
+          8.56972,
+          49.65361
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "State Hermitage Museum"
+          "name": "Abbey and Altenmünster of Lorsch"
         }
       }
     },
     {
-      "id": "National Museum of China",
+      "id": "Abbey Church of Saint-Savin-sur-Gartempe",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of China"
+        "text": "Abbey Church of Saint-Savin-sur-Gartempe"
       },
       "expected": {
         "coordinates": [
-          116.39528,
-          39.90389
+          0.86611,
+          46.56417
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of China"
+          "name": "Abbey Church of Saint-Savin-sur-Gartempe"
         }
       }
     },
     {
-      "id": "Metropolitan Museum of Art",
+      "id": "Amiens Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Metropolitan Museum of Art"
+        "text": "Amiens Cathedral"
       },
       "expected": {
         "coordinates": [
-          -73.9631,
-          40.7794
+          2.30222,
+          49.895
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Metropolitan Museum of Art"
+          "name": "Amiens Cathedral"
         }
       }
     },
     {
-      "id": "Vatican Museums",
+      "id": "Arles, Roman and Romanesque Monuments",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Vatican Museums"
+        "text": "Arles, Roman and Romanesque Monuments"
       },
       "expected": {
         "coordinates": [
-          12.45444,
-          41.90639
+          4.63069,
+          43.67764
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Vatican Museums"
+          "name": "Arles, Roman and Romanesque Monuments"
         }
       }
     },
     {
-      "id": "Tokyo National Museum",
+      "id": "Bauhaus and its sites in Weimar, Dessau and Bernau",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tokyo National Museum"
+        "text": "Bauhaus and its sites in Weimar, Dessau and Bernau"
       },
       "expected": {
         "coordinates": [
-          139.77583,
-          35.71889
+          11.32944,
+          50.97472
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tokyo National Museum"
+          "name": "Bauhaus and its sites in Weimar, Dessau and Bernau"
         }
       }
     },
     {
-      "id": "National Museum of Anthropology (Mexico)",
+      "id": "Belfries of Belgium and France",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of Anthropology"
+        "text": "Belfries of Belgium and France"
       },
       "expected": {
         "coordinates": [
-          -99.186,
-          19.426
+          2.8824,
+          50.68645
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of Anthropology"
+          "name": "Belfries of Belgium and France"
         }
       }
     },
     {
-      "id": "Victoria and Albert Museum",
+      "id": "Berlin Modernism Housing Estates",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Victoria and Albert Museum"
+        "text": "Berlin Modernism Housing Estates"
       },
       "expected": {
         "coordinates": [
-          -0.17194,
-          51.49639
+          13.45,
+          52.44833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Victoria and Albert Museum"
+          "name": "Berlin Modernism Housing Estates"
         }
       }
     },
     {
-      "id": "National Museum of Korea",
+      "id": "Blaenavon Industrial Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of Korea"
+        "text": "Blaenavon Industrial Landscape"
       },
       "expected": {
         "coordinates": [
-          126.9797,
-          37.5233
+          -3.08806,
+          51.77639
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of Korea"
+          "name": "Blaenavon Industrial Landscape"
         }
       }
     },
     {
-      "id": "Art Institute of Chicago",
+      "id": "Blenheim Palace",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art Institute of Chicago"
+        "text": "Blenheim Palace"
       },
       "expected": {
         "coordinates": [
-          -87.62389,
-          41.87944
+          -1.36139,
+          51.84194
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art Institute of Chicago"
+          "name": "Blenheim Palace"
         }
       }
     },
     {
-      "id": "Nanjing Museum",
+      "id": "Bourges Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Nanjing Museum"
+        "text": "Bourges Cathedral"
       },
       "expected": {
         "coordinates": [
-          118.82017,
-          32.04264
+          2.39944,
+          47.08194
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Nanjing Museum"
+          "name": "Bourges Cathedral"
         }
       }
     },
     {
-      "id": "British Museum",
+      "id": "Canal du Midi",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "British Museum"
+        "text": "Canal du Midi"
       },
       "expected": {
         "coordinates": [
-          -0.1269,
-          51.5195
+          1.41844,
+          43.61102
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "British Museum"
+          "name": "Canal du Midi"
         }
       }
     },
     {
-      "id": "National Gallery of Art",
+      "id": "Castles and Town Walls of King Edward in Gwynedd",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Art"
+        "text": "Castles and Town Walls of King Edward in Gwynedd"
       },
       "expected": {
         "coordinates": [
-          -77.02001,
-          38.89147
+          -4.27694,
+          53.13972
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Art"
+          "name": "Castles and Town Walls of King Edward in Gwynedd"
         }
       }
     },
     {
-      "id": "Massachusetts Museum of Contemporary Art",
+      "id": "Castles of Augustusburg and Falkenlust at Brühl",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Massachusetts Museum of Contemporary Art"
+        "text": "Castles of Augustusburg and Falkenlust at Brühl"
       },
       "expected": {
         "coordinates": [
-          -73.11639,
-          42.70139
+          6.90806,
+          50.8275
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Massachusetts Museum of Contemporary Art"
+          "name": "Castles of Augustusburg and Falkenlust at Brühl"
         }
       }
     },
     {
-      "id": "Art & History Museum",
+      "id": "Champagne hillsides, houses and cellars",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art & History Museum"
+        "text": "Champagne hillsides, houses and cellars"
       },
       "expected": {
         "coordinates": [
-          4.39187,
-          50.83903
+          3.94611,
+          49.0775
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art & History Museum"
+          "name": "Champagne hillsides, houses and cellars"
         }
       }
     },
     {
-      "id": "Three Gorges Museum",
+      "id": "Chartres Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Three Gorges Museum"
+        "text": "Chartres Cathedral"
       },
       "expected": {
         "coordinates": [
-          106.55047,
-          29.56197
+          1.48778,
+          48.44722
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Three Gorges Museum"
+          "name": "Chartres Cathedral"
         }
       }
     },
     {
-      "id": "Museum of Fine Arts, Boston",
+      "id": "Chaîne des Puys",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Fine Arts, Boston"
+        "text": "Chaîne des Puys"
       },
       "expected": {
         "coordinates": [
-          -71.09417,
-          42.33917
+          2.8,
+          45.5
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Fine Arts, Boston"
+          "name": "Chaîne des Puys"
         }
       }
     },
     {
-      "id": "Israel Museum",
+      "id": "Cistercian Abbey of Fontenay",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Israel Museum"
+        "text": "Cistercian Abbey of Fontenay"
       },
       "expected": {
         "coordinates": [
-          35.20452,
-          31.77238
+          4.38911,
+          47.63944
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Israel Museum"
+          "name": "Cistercian Abbey of Fontenay"
         }
       }
     },
     {
-      "id": "National Gallery Singapore",
+      "id": "City of Bath",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery Singapore"
+        "text": "City of Bath"
       },
       "expected": {
         "coordinates": [
-          103.85156,
-          1.29025
+          -2.36,
+          51.38
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery Singapore"
+          "name": "City of Bath"
         }
       }
     },
     {
-      "id": "Minneapolis Institute of Art",
+      "id": "City of Graz – Historic Centre and Schloss Eggenberg",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Minneapolis Institute of Art"
+        "text": "City of Graz - Historic Centre and Schloss Eggenberg"
       },
       "expected": {
         "coordinates": [
-          -93.27417,
-          44.95861
+          15.43333,
+          47.06667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Minneapolis Institute of Art"
+          "name": "City of Graz - Historic Centre and Schloss Eggenberg"
         }
       }
     },
     {
-      "id": "Birmingham Museum of Art",
+      "id": "Classical Weimar",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Birmingham Museum of Art"
+        "text": "Classical Weimar"
       },
       "expected": {
         "coordinates": [
-          -86.81018,
-          33.52195
+          11.31667,
+          50.98333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Birmingham Museum of Art"
+          "name": "Classical Weimar"
         }
       }
     },
     {
-      "id": "Musée d'Orsay",
+      "id": "The Climats, terroirs of Burgundy",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Musée d'Orsay"
+        "text": "The Climats, terroirs of Burgundy"
       },
       "expected": {
         "coordinates": [
-          2.32639,
-          48.86
+          4.8644,
+          47.0581
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Musée d'Orsay"
+          "name": "The Climats, terroirs of Burgundy"
         }
       }
     },
     {
-      "id": "Ōtsuka Museum of Art",
+      "id": "Cologne Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ōtsuka Museum of Art"
+        "text": "Cologne Cathedral"
       },
       "expected": {
         "coordinates": [
-          134.63767,
-          34.23244
+          6.95817,
+          50.94129
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ōtsuka Museum of Art"
+          "name": "Cologne Cathedral"
         }
       }
     },
     {
-      "id": "San Francisco Museum of Modern Art",
+      "id": "Cornwall and West Devon Mining Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "San Francisco Museum of Modern Art"
+        "text": "Cornwall and West Devon Mining Landscape"
       },
       "expected": {
         "coordinates": [
-          -122.4008,
-          37.7858
+          -5.38361,
+          50.13611
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "San Francisco Museum of Modern Art"
+          "name": "Cornwall and West Devon Mining Landscape"
         }
       }
     },
     {
-      "id": "Museo del Prado",
+      "id": "Defence Line of Amsterdam",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo del Prado"
+        "text": "Defence Line of Amsterdam"
       },
       "expected": {
         "coordinates": [
-          -3.69222,
-          40.41389
+          4.89306,
+          52.37444
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo del Prado"
+          "name": "Defence Line of Amsterdam"
         }
       }
     },
     {
-      "id": "Museum of Modern Art",
+      "id": "Derwent Valley Mills",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Modern Art"
+        "text": "Derwent Valley Mills"
       },
       "expected": {
         "coordinates": [
-          -73.9776,
-          40.7616
+          -1.48806,
+          53.02889
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Modern Art"
+          "name": "Derwent Valley Mills"
         }
       }
     },
     {
-      "id": "Philadelphia Museum of Art",
+      "id": "Dorset and East Devon Coast",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Philadelphia Museum of Art"
+        "text": "Dorset and East Devon Coast"
       },
       "expected": {
         "coordinates": [
-          -75.181,
-          39.966
+          -2.99,
+          50.70556
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Philadelphia Museum of Art"
+          "name": "Dorset and East Devon Coast"
         }
       }
     },
     {
-      "id": "Denver Art Museum",
+      "id": "Droogmakerij de Beemster (Beemster Polder)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Denver Art Museum"
+        "text": "Droogmakerij de Beemster"
       },
       "expected": {
         "coordinates": [
-          -104.98972,
-          39.73722
+          4.91667,
+          52.55
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Denver Art Museum"
+          "name": "Droogmakerij de Beemster"
         }
       }
     },
     {
-      "id": "Egyptian Museum",
+      "id": "The English Lake District",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Egyptian Museum"
+        "text": "The English Lake District"
       },
       "expected": {
         "coordinates": [
-          31.23333,
-          30.04778
+          -3.16667,
+          54.5
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Egyptian Museum"
+          "name": "The English Lake District"
         }
       }
     },
     {
-      "id": "Museo di Capodimonte",
+      "id": "Cité épiscopale d'Albi",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo di Capodimonte"
+        "text": "Cité épiscopale d'Albi"
       },
       "expected": {
         "coordinates": [
-          14.25053,
-          40.86701
+          2.1464,
+          43.9289
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo di Capodimonte"
+          "name": "Cité épiscopale d'Albi"
         }
       }
     },
     {
-      "id": "Dia:Beacon",
+      "id": "Fertö / Neusiedlersee Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dia:Beacon"
+        "text": "Fertö / Neusiedlersee Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          -73.98248,
-          41.49971
+          16.75,
+          47.83333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dia:Beacon"
+          "name": "Fertö / Neusiedlersee Cultural Landscape"
         }
       }
     },
     {
-      "id": "Dallas Museum of Art",
+      "id": "Flemish Béguinages",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dallas Museum of Art"
+        "text": "Flemish Béguinages"
       },
       "expected": {
         "coordinates": [
-          -96.80083,
-          32.78722
+          4.47375,
+          51.03097
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dallas Museum of Art"
+          "name": "Flemish Béguinages"
         }
       }
     },
     {
-      "id": "Museo Reina Sofía",
+      "id": "Forth Bridge",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo Reina Sofía"
+        "text": "Forth Bridge"
       },
       "expected": {
         "coordinates": [
-          -3.69444,
-          40.40889
+          -3.3886,
+          56.0004
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo Reina Sofía"
+          "name": "Forth Bridge"
         }
       }
     },
     {
-      "id": "Detroit Institute of Arts",
+      "id": "Fortifications of Vauban",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Detroit Institute of Arts"
+        "text": "Fortifications of Vauban"
       },
       "expected": {
         "coordinates": [
-          -83.06472,
-          42.35944
+          6.02694,
+          47.23611
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Detroit Institute of Arts"
+          "name": "Fortifications of Vauban"
         }
       }
     },
     {
-      "id": "Kunsthistorisches Museum",
+      "id": "Frontiers of the Roman Empire",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kunsthistorisches Museum"
+        "text": "Frontiers of the Roman Empire"
       },
       "expected": {
         "coordinates": [
-          16.3618,
-          48.2037
+          -3.215,
+          54.95222
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kunsthistorisches Museum"
+          "name": "Frontiers of the Roman Empire"
         }
       }
     },
     {
-      "id": "The National Art Center, Tokyo",
+      "id": "Garden Kingdom of Dessau-Wörlitz",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "The National Art Center, Tokyo"
+        "text": "Garden Kingdom of Dessau-Wörlitz"
       },
       "expected": {
         "coordinates": [
-          139.72634,
-          35.66528
+          12.42083,
+          51.8425
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "The National Art Center, Tokyo"
+          "name": "Garden Kingdom of Dessau-Wörlitz"
         }
       }
     },
     {
-      "id": "National Taiwan Museum of Fine Arts",
+      "id": "Giant's Causeway and Causeway Coast",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Taiwan Museum of Fine Arts"
+        "text": "Giant's Causeway and Causeway Coast"
       },
       "expected": {
         "coordinates": [
-          120.66358,
-          24.14136
+          -6.51167,
+          55.24083
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Taiwan Museum of Fine Arts"
+          "name": "Giant's Causeway and Causeway Coast"
         }
       }
     },
     {
-      "id": "National Gallery in Prague",
+      "id": "La Grand-Place, Brussels",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery in Prague"
+        "text": "La Grand-Place, Brussels"
       },
       "expected": {
         "coordinates": [
-          14.4325,
-          50.1015
+          4.3525,
+          50.84667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery in Prague"
+          "name": "La Grand-Place, Brussels"
         }
       }
     },
     {
-      "id": "Indianapolis Museum of Art",
+      "id": "Hallstatt-Dachstein / Salzkammergut Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Indianapolis Museum of Art"
+        "text": "Hallstatt-Dachstein / Salzkammergut Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          -86.1855,
-          39.8259
+          13.649,
+          47.562
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Indianapolis Museum of Art"
+          "name": "Hallstatt-Dachstein / Salzkammergut Cultural Landscape"
         }
       }
     },
     {
-      "id": "Bavarian National Museum",
+      "id": "Hanseatic City of Lübeck",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bavarian National Museum"
+        "text": "Hanseatic City of Lübeck"
       },
       "expected": {
         "coordinates": [
-          11.59111,
-          48.14306
+          10.68639,
+          53.86972
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bavarian National Museum"
+          "name": "Hanseatic City of Lübeck"
         }
       }
     },
     {
-      "id": "Brooklyn Museum",
+      "id": "Heart of Neolithic Orkney",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Brooklyn Museum"
+        "text": "Heart of Neolithic Orkney"
       },
       "expected": {
         "coordinates": [
-          -73.96375,
-          40.67131
+          -3.20806,
+          58.99406
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Brooklyn Museum"
+          "name": "Heart of Neolithic Orkney"
         }
       }
     },
     {
-      "id": "Capital Museum",
+      "id": "Historic Centre of Brugge",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Capital Museum"
+        "text": "Historic Centre of Brugge"
       },
       "expected": {
         "coordinates": [
-          116.336,
-          39.905
+          3.22417,
+          51.20889
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Capital Museum"
+          "name": "Historic Centre of Brugge"
         }
       }
     },
     {
-      "id": "Montreal Museum of Fine Arts",
+      "id": "Historic Centre of the City of Salzburg",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Montreal Museum of Fine Arts"
+        "text": "Historic Centre of the City of Salzburg"
       },
       "expected": {
         "coordinates": [
-          -73.5801,
-          45.4987
+          13.03333,
+          47.8
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Montreal Museum of Fine Arts"
+          "name": "Historic Centre of the City of Salzburg"
         }
       }
     },
     {
-      "id": "National Gallery",
+      "id": "Historic Centre of Vienna",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery"
+        "text": "Historic Centre of Vienna"
       },
       "expected": {
         "coordinates": [
-          -0.1283,
-          51.5086
+          16.37,
+          48.20972
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery"
+          "name": "Historic Centre of Vienna"
         }
       }
     },
     {
-      "id": "National Gallery of Victoria",
+      "id": "Historic Fortified City of Carcassonne",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Victoria"
+        "text": "Historic Fortified City of Carcassonne"
       },
       "expected": {
         "coordinates": [
-          144.96863,
-          -37.82259
+          2.35,
+          43.21
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Victoria"
+          "name": "Historic Fortified City of Carcassonne"
         }
       }
     },
     {
-      "id": "Palais de Tokyo",
+      "id": "Ir.D.F. Woudagemaal (D.F. Wouda Steam Pumping Station)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Palais de Tokyo"
+        "text": "Ir.D.F. Woudagemaal"
       },
       "expected": {
         "coordinates": [
-          2.29722,
-          48.86389
+          5.67889,
+          52.84583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Palais de Tokyo"
+          "name": "Ir.D.F. Woudagemaal"
         }
       }
     },
     {
-      "id": "Salar Jung Museum",
+      "id": "Ironbridge Gorge",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Salar Jung Museum"
+        "text": "Ironbridge Gorge"
       },
       "expected": {
         "coordinates": [
-          78.48035,
-          17.37143
+          -2.47278,
+          52.62639
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Salar Jung Museum"
+          "name": "Ironbridge Gorge"
         }
       }
     },
     {
-      "id": "Virginia Museum of Fine Arts",
+      "id": "Jodrell Bank Observatory",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Virginia Museum of Fine Arts"
+        "text": "Jodrell Bank Observatory"
       },
       "expected": {
         "coordinates": [
-          -77.47472,
-          37.55639
+          -2.30713889,
+          53.23625
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Virginia Museum of Fine Arts"
+          "name": "Jodrell Bank Observatory"
         }
       }
     },
     {
-      "id": "Tate Modern",
+      "id": "Jurisdiction of Saint-Emilion",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tate Modern"
+        "text": "Jurisdiction of Saint-Emilion"
       },
       "expected": {
         "coordinates": [
-          -0.0994,
-          51.5076
+          -0.1547,
+          44.8936
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tate Modern"
+          "name": "Jurisdiction of Saint-Emilion"
         }
       }
     },
     {
-      "id": "Cleveland Museum of Art",
+      "id": "Mill Network at Kinderdijk-Elshout",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cleveland Museum of Art"
+        "text": "Mill Network at Kinderdijk-Elshout"
       },
       "expected": {
         "coordinates": [
-          -81.61167,
-          41.50889
+          4.64944,
+          51.8825
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cleveland Museum of Art"
+          "name": "Mill Network at Kinderdijk-Elshout"
         }
       }
     },
     {
-      "id": "National Gallery of Canada",
+      "id": "Le Havre",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Canada"
+        "text": "Le Havre"
       },
       "expected": {
         "coordinates": [
-          -75.69839,
-          45.42943
+          0.1,
+          49.49
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Canada"
+          "name": "Le Havre"
         }
       }
     },
     {
-      "id": "Art Gallery of Ontario",
+      "id": "Liverpool – Maritime Mercantile City",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art Gallery of Ontario"
+        "text": "Liverpool - Maritime Mercantile City"
       },
       "expected": {
         "coordinates": [
-          -79.39278,
-          43.65389
+          -2.99444,
+          53.40667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art Gallery of Ontario"
+          "name": "Liverpool - Maritime Mercantile City"
         }
       }
     },
     {
-      "id": "Hamburger Kunsthalle",
+      "id": "The Loire Valley between Sully-sur-Loire and Chalonnes",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hamburger Kunsthalle"
+        "text": "The Loire Valley between Sully-sur-Loire and Chalonnes"
       },
       "expected": {
         "coordinates": [
-          10.00278,
-          53.555
+          2.37611,
+          47.76583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Hamburger Kunsthalle"
+          "name": "The Loire Valley between Sully-sur-Loire and Chalonnes"
         }
       }
     },
     {
-      "id": "Museum Boijmans Van Beuningen",
+      "id": "Major Mining Sites of Wallonia",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum Boijmans Van Beuningen"
+        "text": "Major Mining Sites of Wallonia"
       },
       "expected": {
         "coordinates": [
-          4.4732,
-          51.914
+          3.83833,
+          50.43528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum Boijmans Van Beuningen"
+          "name": "Major Mining Sites of Wallonia"
         }
       }
     },
     {
-      "id": "Museum of Fine Arts, Houston",
+      "id": "Major Town Houses of the Architect Victor Horta (Brussels)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Fine Arts, Houston"
+        "text": "Major Town Houses of the Architect Victor Horta"
       },
       "expected": {
         "coordinates": [
-          -95.39042,
-          29.72569
+          4.36222,
+          50.82806
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Fine Arts, Houston"
+          "name": "Major Town Houses of the Architect Victor Horta"
         }
       }
     },
     {
-      "id": "National Gallery of Modern Art",
+      "id": "Margravial Opera House Bayreuth",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Modern Art"
+        "text": "Margravial Opera House Bayreuth"
       },
       "expected": {
         "coordinates": [
-          77.2344,
-          28.61008
+          11.57861,
+          49.94444
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Modern Art"
+          "name": "Margravial Opera House Bayreuth"
         }
       }
     },
     {
-      "id": "Palais des Beaux-Arts de Lille",
+      "id": "Maritime Greenwich",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Palais des Beaux-Arts de Lille"
+        "text": "Maritime Greenwich"
       },
       "expected": {
         "coordinates": [
-          3.06291,
-          50.63035
+          0,
+          51.48
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Palais des Beaux-Arts de Lille"
+          "name": "Maritime Greenwich"
         }
       }
     },
     {
-      "id": "Pinakothek der Moderne",
+      "id": "Maulbronn Monastery Complex",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pinakothek der Moderne"
+        "text": "Maulbronn Monastery Complex"
       },
       "expected": {
         "coordinates": [
-          11.57222,
-          48.14694
+          8.81278,
+          49.00111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pinakothek der Moderne"
+          "name": "Maulbronn Monastery Complex"
         }
       }
     },
     {
-      "id": "Rijksmuseum",
+      "id": "Messel Pit Fossil Site",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Rijksmuseum"
+        "text": "Messel Pit Fossil Site"
       },
       "expected": {
         "coordinates": [
-          4.88528,
-          52.36
+          8.7567,
+          49.9175
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Rijksmuseum"
+          "name": "Messel Pit Fossil Site"
         }
       }
     },
     {
-      "id": "Tretyakov Gallery",
+      "id": "Monastic Island of Reichenau",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tretyakov Gallery"
+        "text": "Monastic Island of Reichenau"
       },
       "expected": {
         "coordinates": [
-          37.62028,
-          55.74139
+          9.0625,
+          47.69444
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tretyakov Gallery"
+          "name": "Monastic Island of Reichenau"
         }
       }
     },
     {
-      "id": "Milwaukee Art Museum",
+      "id": "Mont-Saint-Michel and its Bay",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Milwaukee Art Museum"
+        "text": "Mont-Saint-Michel and its Bay"
       },
       "expected": {
         "coordinates": [
-          -87.8971,
-          43.0393
+          -1.51056,
+          48.63472
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Milwaukee Art Museum"
+          "name": "Mont-Saint-Michel and its Bay"
         }
       }
     },
     {
-      "id": "Taipei Fine Arts Museum",
+      "id": "Monte San Giorgio",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Taipei Fine Arts Museum"
+        "text": "Monte San Giorgio"
       },
       "expected": {
         "coordinates": [
-          121.52472,
-          25.0725
+          8.94972,
+          45.91361
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Taipei Fine Arts Museum"
+          "name": "Monte San Giorgio"
         }
       }
     },
     {
-      "id": "Art Gallery of New South Wales",
+      "id": "Museumsinsel (Museum Island), Berlin",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art Gallery of New South Wales"
+        "text": "Museumsinsel, Berlin"
       },
       "expected": {
         "coordinates": [
-          151.21714,
-          -33.86869
+          13.39556,
+          52.52139
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art Gallery of New South Wales"
+          "name": "Museumsinsel, Berlin"
         }
       }
     },
     {
-      "id": "Capitoline Museums",
+      "id": "Muskauer Park / Park Mużakowski",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Capitoline Museums"
+        "text": "Muskauer Park / Park Mużakowski"
       },
       "expected": {
         "coordinates": [
-          12.4824,
-          41.8928
+          14.72667,
+          51.55028
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Capitoline Museums"
+          "name": "Muskauer Park / Park Mużakowski"
         }
       }
     },
     {
-      "id": "Guggenheim Museum Bilbao",
+      "id": "Naumburg Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Guggenheim Museum Bilbao"
+        "text": "Naumburg Cathedral"
       },
       "expected": {
         "coordinates": [
-          -2.93389,
-          43.26861
+          11.80389,
+          51.15472
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Guggenheim Museum Bilbao"
+          "name": "Naumburg Cathedral"
         }
       }
     },
     {
-      "id": "Los Angeles County Museum of Art",
+      "id": "Van Nellefabriek",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Los Angeles County Museum of Art"
+        "text": "Van Nellefabriek"
       },
       "expected": {
         "coordinates": [
-          -118.35784,
-          34.06289
+          4.43361,
+          51.92278
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Los Angeles County Museum of Art"
+          "name": "Van Nellefabriek"
         }
       }
     },
     {
-      "id": "Museum of Contemporary Art, University of São Paulo",
+      "id": "Neolithic Flint Mines at Spiennes (Mons)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Contemporary Art, University of São Paulo"
+        "text": "Neolithic Flint Mines at Spiennes"
       },
       "expected": {
         "coordinates": [
-          -46.65111,
-          -23.58889
+          3.98944,
+          50.42528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Contemporary Art, University of São Paulo"
+          "name": "Neolithic Flint Mines at Spiennes"
         }
       }
     },
     {
-      "id": "Pergamon Museum",
+      "id": "New Lanark",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pergamon Museum"
+        "text": "New Lanark"
       },
       "expected": {
         "coordinates": [
-          13.396,
-          52.521
+          -3.78,
+          55.66
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pergamon Museum"
+          "name": "New Lanark"
         }
       }
     },
     {
-      "id": "Shaanxi History Museum",
+      "id": "Nord-Pas de Calais Mining Basin",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Shaanxi History Museum"
+        "text": "Nord-Pas de Calais Mining Basin"
       },
       "expected": {
         "coordinates": [
-          108.95139,
-          34.22528
+          3.54611,
+          50.4625
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Shaanxi History Museum"
+          "name": "Nord-Pas de Calais Mining Basin"
         }
       }
     },
     {
-      "id": "Museu Nacional d'Art de Catalunya",
+      "id": "Notre-Dame Cathedral in Tournai",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museu Nacional d'Art de Catalunya"
+        "text": "Notre-Dame Cathedral in Tournai"
       },
       "expected": {
         "coordinates": [
-          2.15333,
-          41.36833
+          3.38886,
+          50.60655
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museu Nacional d'Art de Catalunya"
+          "name": "Notre-Dame Cathedral in Tournai"
         }
       }
     },
     {
-      "id": "Tibet Museum (Lhasa)",
+      "id": "Old City of Bern",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tibet Museum"
+        "text": "Old City of Bern"
       },
       "expected": {
         "coordinates": [
-          91.09687,
-          29.65133
+          7.45028,
+          46.94806
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tibet Museum"
+          "name": "Old City of Bern"
         }
       }
     },
     {
-      "id": "Portland Art Museum",
+      "id": "Old and New Towns of Edinburgh",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Portland Art Museum"
+        "text": "Old and New Towns of Edinburgh"
       },
       "expected": {
         "coordinates": [
-          -122.68351,
-          45.51621
+          -3.189,
+          55.953
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Portland Art Museum"
+          "name": "Old and New Towns of Edinburgh"
         }
       }
     },
     {
-      "id": "Museum of Fine Arts (Budapest)",
+      "id": "Old town of Regensburg with Stadtamhof",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Fine Arts"
+        "text": "Old town of Regensburg with Stadtamhof"
       },
       "expected": {
         "coordinates": [
-          19.07639,
-          47.51611
+          12.08333,
+          49.01667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Fine Arts"
+          "name": "Old town of Regensburg with Stadtamhof"
         }
       }
     },
     {
-      "id": "Carnegie Museum of Art",
+      "id": "Palace and Gardens of Schönbrunn",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Carnegie Museum of Art"
+        "text": "Palace and Gardens of Schönbrunn"
       },
       "expected": {
         "coordinates": [
-          -79.94898,
-          40.44369
+          16.31187,
+          48.18452
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Carnegie Museum of Art"
+          "name": "Palace and Gardens of Schönbrunn"
         }
       }
     },
     {
-      "id": "Hamburger Bahnhof",
+      "id": "Palace and Park of Fontainebleau",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hamburger Bahnhof"
+        "text": "Palace and Park of Fontainebleau"
       },
       "expected": {
         "coordinates": [
-          13.37222,
-          52.52833
+          2.70056,
+          48.40222
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Hamburger Bahnhof"
+          "name": "Palace and Park of Fontainebleau"
         }
       }
     },
     {
-      "id": "Kunstmuseum Basel",
+      "id": "Palace and Park of Versailles",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kunstmuseum Basel"
+        "text": "Palace and Park of Versailles"
       },
       "expected": {
         "coordinates": [
-          7.59417,
-          47.55417
+          2.1203,
+          48.8048
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kunstmuseum Basel"
+          "name": "Palace and Park of Versailles"
         }
       }
     },
     {
-      "id": "MAXXI",
+      "id": "Palaces and Parks of Potsdam and Berlin",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "MAXXI"
+        "text": "Palaces and Parks of Potsdam and Berlin"
       },
       "expected": {
         "coordinates": [
-          12.466,
-          41.929
+          13.03333,
+          52.4
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "MAXXI"
+          "name": "Palaces and Parks of Potsdam and Berlin"
         }
       }
     },
     {
-      "id": "Museo Egizio",
+      "id": "Paris, Banks of the Seine",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo Egizio"
+        "text": "Paris, Banks of the Seine"
       },
       "expected": {
         "coordinates": [
-          7.68444,
-          45.06833
+          2.35222,
+          48.85661
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo Egizio"
+          "name": "Paris, Banks of the Seine"
         }
       }
     },
     {
-      "id": "Museum Kunstpalast",
+      "id": "Pilgrimage Church of Wies",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum Kunstpalast"
+        "text": "Pilgrimage Church of Wies"
       },
       "expected": {
         "coordinates": [
-          6.77333,
-          51.23444
+          10.9,
+          47.68111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum Kunstpalast"
+          "name": "Pilgrimage Church of Wies"
         }
       }
     },
     {
-      "id": "National Museum, Poznań",
+      "id": "Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum, Poznań"
+        "text": "Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy"
       },
       "expected": {
         "coordinates": [
-          16.92889,
-          52.40861
+          6.18306,
+          48.69361
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum, Poznań"
+          "name": "Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy"
         }
       }
     },
     {
-      "id": "Russian Museum",
+      "id": "Plantin-Moretus House-Workshops-Museum Complex",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Russian Museum"
+        "text": "Plantin-Moretus House-Workshops-Museum Complex"
       },
       "expected": {
         "coordinates": [
-          30.33239,
-          59.93874
+          4.39778,
+          51.21833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Russian Museum"
+          "name": "Plantin-Moretus House-Workshops-Museum Complex"
         }
       }
     },
     {
-      "id": "Saint Louis Art Museum",
+      "id": "Pont du Gard (Roman Aqueduct)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Saint Louis Art Museum"
+        "text": "Pont du Gard"
       },
       "expected": {
         "coordinates": [
-          -90.29444,
-          38.63944
+          4.53556,
+          43.94722
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Saint Louis Art Museum"
+          "name": "Pont du Gard"
         }
       }
     },
     {
-      "id": "Sforza Castle",
+      "id": "Prehistoric Pile Dwellings around the Alps",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Sforza Castle"
+        "text": "Prehistoric Pile Dwellings around the Alps"
       },
       "expected": {
         "coordinates": [
-          9.17861,
-          45.47
+          8.20762,
+          47.27862
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Sforza Castle"
+          "name": "Prehistoric Pile Dwellings around the Alps"
         }
       }
     },
     {
-      "id": "Tel Aviv Museum of Art",
+      "id": "Prehistoric Sites and Decorated Caves of the Vézère Valley",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tel Aviv Museum of Art"
+        "text": "Prehistoric Sites and Decorated Caves of the Vézère Valley"
       },
       "expected": {
         "coordinates": [
-          34.78685,
-          32.07744
+          1.17,
+          45.0575
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tel Aviv Museum of Art"
+          "name": "Prehistoric Sites and Decorated Caves of the Vézère Valley"
         }
       }
     },
     {
-      "id": "National Palace Museum",
+      "id": "Provins, Town of Medieval Fairs",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Palace Museum"
+        "text": "Provins, Town of Medieval Fairs"
       },
       "expected": {
         "coordinates": [
-          121.54861,
-          25.10194
+          3.299,
+          48.5604
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Palace Museum"
+          "name": "Provins, Town of Medieval Fairs"
         }
       }
     },
     {
-      "id": "Musée Fabre",
+      "id": "Pyrénées - Mont Perdu",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Musée Fabre"
+        "text": "Pyrénées - Mont Perdu"
       },
       "expected": {
         "coordinates": [
-          3.88,
-          43.612
+          0.03333,
+          42.66667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Musée Fabre"
+          "name": "Pyrénées - Mont Perdu"
         }
       }
     },
     {
-      "id": "Cité de l'Architecture et du Patrimoine",
+      "id": "Rhaetian Railway",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cité de l'Architecture et du Patrimoine"
+        "text": "Rhaetian Railway"
       },
       "expected": {
         "coordinates": [
-          2.2885,
-          48.8627
+          10.01972,
+          46.40889
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cité de l'Architecture et du Patrimoine"
+          "name": "Rhaetian Railway"
         }
       }
     },
     {
-      "id": "National Museum, New Delhi",
+      "id": "Rietveld Schröder House",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum, New Delhi"
+        "text": "Rietveld Schröder House"
       },
       "expected": {
         "coordinates": [
-          77.21926,
-          28.61181
+          5.14722,
+          52.08528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum, New Delhi"
+          "name": "Rietveld Schröder House"
         }
       }
     },
     {
-      "id": "National Gallery (Norway)",
+      "id": "Routes of Santiago de Compostela in France",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery"
+        "text": "Routes of Santiago de Compostela in France"
       },
       "expected": {
         "coordinates": [
-          10.7375,
-          59.9162
+          -0.72294,
+          45.18406
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery"
+          "name": "Routes of Santiago de Compostela in France"
         }
       }
     },
     {
-      "id": "Smithsonian American Art Museum",
+      "id": "Royal Saltworks of Arc-et-Senans",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Smithsonian American Art Museum"
+        "text": "Royal Saltworks of Arc-et-Senans"
       },
       "expected": {
         "coordinates": [
-          -77.02333,
-          38.89778
+          5.778,
+          47.033
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Smithsonian American Art Museum"
+          "name": "Royal Saltworks of Arc-et-Senans"
         }
       }
     },
     {
-      "id": "Musée du quai Branly – Jacques Chirac",
+      "id": "Saltaire",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Musée du quai Branly - Jacques Chirac"
+        "text": "Saltaire"
       },
       "expected": {
         "coordinates": [
-          2.2975,
-          48.86083
+          -1.79028,
+          53.83722
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Musée du quai Branly - Jacques Chirac"
+          "name": "Saltaire"
         }
       }
     },
     {
-      "id": "High Museum of Art",
+      "id": "Schokland and Surroundings",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "High Museum of Art"
+        "text": "Schokland and Surroundings"
       },
       "expected": {
         "coordinates": [
-          -84.38517,
-          33.79051
+          5.77788,
+          52.63418
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "High Museum of Art"
+          "name": "Schokland and Surroundings"
         }
       }
     },
     {
-      "id": "Liaoning Provincial Museum",
+      "id": "Semmering railway",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Liaoning Provincial Museum"
+        "text": "Semmering railway"
       },
       "expected": {
         "coordinates": [
-          123.43028,
-          41.80083
+          15.831,
+          47.643
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Liaoning Provincial Museum"
+          "name": "Semmering railway"
         }
       }
     },
     {
-      "id": "Gallerie di Piazza Scala",
+      "id": "Sceilg Mhichíl",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gallerie di Piazza Scala"
+        "text": "Sceilg Mhichíl"
       },
       "expected": {
         "coordinates": [
-          9.19102,
-          45.46827
+          -10.54056,
+          51.77111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gallerie di Piazza Scala"
+          "name": "Sceilg Mhichíl"
         }
       }
     },
     {
-      "id": "National Art Museum of China",
+      "id": "Speicherstadt",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Art Museum of China"
+        "text": "Speicherstadt"
       },
       "expected": {
         "coordinates": [
-          116.40278,
-          39.92361
+          9.99194,
+          53.54333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Art Museum of China"
+          "name": "Speicherstadt"
         }
       }
     },
     {
-      "id": "Galleria degli Uffizi",
+      "id": "Speyer Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Galleria degli Uffizi"
+        "text": "Speyer Cathedral"
       },
       "expected": {
         "coordinates": [
-          11.2556,
-          43.7684
+          8.4424,
+          49.3172
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Galleria degli Uffizi"
+          "name": "Speyer Cathedral"
         }
       }
     },
     {
-      "id": "Galleria Nazionale d'Arte Moderna",
+      "id": "Stoclet House",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Galleria Nazionale d'Arte Moderna"
+        "text": "Stoclet House"
       },
       "expected": {
         "coordinates": [
-          12.4821,
-          41.917
+          4.41611,
+          50.83528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Galleria Nazionale d'Arte Moderna"
+          "name": "Stoclet House"
         }
       }
     },
     {
-      "id": "Gemäldegalerie",
+      "id": "Stonehenge, Avebury and Associated Sites",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gemäldegalerie"
+        "text": "Stonehenge, Avebury and Associated Sites"
       },
       "expected": {
         "coordinates": [
-          13.36542,
-          52.50847
+          -1.82528,
+          51.17889
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gemäldegalerie"
+          "name": "Stonehenge, Avebury and Associated Sites"
         }
       }
     },
     {
-      "id": "Louvre Abu Dhabi",
+      "id": "Strasbourg – Grande île",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Louvre Abu Dhabi"
+        "text": "Strasbourg - Grande île"
       },
       "expected": {
         "coordinates": [
-          54.39846,
-          24.53366
+          7.748,
+          48.583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Louvre Abu Dhabi"
+          "name": "Strasbourg - Grande île"
         }
       }
     },
     {
-      "id": "Museum Ludwig",
+      "id": "Studley Royal Park including the Ruins of Fountains Abbey",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum Ludwig"
+        "text": "Studley Royal Park including the Ruins of Fountains Abbey"
       },
       "expected": {
         "coordinates": [
-          6.96028,
-          50.94083
+          -1.57306,
+          54.11611
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum Ludwig"
+          "name": "Studley Royal Park including the Ruins of Fountains Abbey"
         }
       }
     },
     {
-      "id": "National Archaeological Museum, Athens",
+      "id": "Swiss Alps Jungfrau-Aletsch",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Archaeological Museum, Athens"
+        "text": "Swiss Alps Jungfrau-Aletsch"
       },
       "expected": {
         "coordinates": [
-          23.73222,
-          37.98917
+          8.03333,
+          46.5
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Archaeological Museum, Athens"
+          "name": "Swiss Alps Jungfrau-Aletsch"
         }
       }
     },
     {
-      "id": "Neues Museum",
+      "id": "Swiss Tectonic Arena Sardona",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Neues Museum"
+        "text": "Swiss Tectonic Arena Sardona"
       },
       "expected": {
         "coordinates": [
-          13.39778,
-          52.52056
+          9.25,
+          46.91667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Neues Museum"
+          "name": "Swiss Tectonic Arena Sardona"
         }
       }
     },
     {
-      "id": "Petit Palais",
+      "id": "Three Castles of Bellinzona",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Petit Palais"
+        "text": "Three Castles of Bellinzona"
       },
       "expected": {
         "coordinates": [
-          2.31521,
-          48.86598
+          9.02242,
+          46.19314
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Petit Palais"
+          "name": "Three Castles of Bellinzona"
         }
       }
     },
     {
-      "id": "Pushkin Museum",
+      "id": "Tower of London",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pushkin Museum"
+        "text": "Tower of London"
       },
       "expected": {
         "coordinates": [
-          37.605,
-          55.74722
+          -0.07611,
+          51.50806
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pushkin Museum"
+          "name": "Tower of London"
         }
       }
     },
     {
-      "id": "Stedelijk Museum Amsterdam",
+      "id": "Town of Bamberg",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Stedelijk Museum Amsterdam"
+        "text": "Town of Bamberg"
       },
       "expected": {
         "coordinates": [
-          4.87972,
-          52.35806
+          10.9,
+          49.9
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Stedelijk Museum Amsterdam"
+          "name": "Town of Bamberg"
         }
       }
     },
     {
-      "id": "Thyssen-Bornemisza Museum",
+      "id": "Upper Middle Rhine Valley",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Thyssen-Bornemisza Museum"
+        "text": "Upper Middle Rhine Valley"
       },
       "expected": {
         "coordinates": [
-          -3.695,
-          40.41611
+          7.69417,
+          50.1736
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Thyssen-Bornemisza Museum"
+          "name": "Upper Middle Rhine Valley"
         }
       }
     },
     {
-      "id": "Toledo Museum of Art",
+      "id": "Vézelay, Church and Hill",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Toledo Museum of Art"
+        "text": "Vézelay, Church and Hill"
       },
       "expected": {
         "coordinates": [
-          -83.55944,
-          41.65806
+          3.74861,
+          47.46639
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Toledo Museum of Art"
+          "name": "Vézelay, Church and Hill"
         }
       }
     },
     {
-      "id": "Nelson-Atkins Museum of Art",
+      "id": "Völklingen Ironworks",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Nelson-Atkins Museum of Art"
+        "text": "Völklingen Ironworks"
       },
       "expected": {
         "coordinates": [
-          -94.58101,
-          39.04497
+          6.85,
+          49.24444
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Nelson-Atkins Museum of Art"
+          "name": "Völklingen Ironworks"
         }
       }
     },
     {
-      "id": "de Young (museum)",
+      "id": "Wachau Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "de Young"
+        "text": "Wachau Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          -122.46861,
-          37.77139
+          15.43417,
+          48.36444
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "de Young"
+          "name": "Wachau Cultural Landscape"
         }
       }
     },
     {
-      "id": "Alte Pinakothek",
+      "id": "The Wadden Sea",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Alte Pinakothek"
+        "text": "The Wadden Sea"
       },
       "expected": {
         "coordinates": [
-          11.57,
-          48.14833
+          5.66583,
+          53.39083
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Alte Pinakothek"
+          "name": "The Wadden Sea"
         }
       }
     },
     {
-      "id": "Acropolis Museum",
+      "id": "Wartburg Castle",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Acropolis Museum"
+        "text": "Wartburg Castle"
       },
       "expected": {
         "coordinates": [
-          23.7283,
-          37.96911
+          10.3065,
+          50.9662
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Acropolis Museum"
+          "name": "Wartburg Castle"
         }
       }
     },
     {
-      "id": "Bangkok National Museum",
+      "id": "Augsburg",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bangkok National Museum"
+        "text": "Augsburg"
       },
       "expected": {
         "coordinates": [
-          100.49222,
-          13.7575
+          10.9,
+          48.36667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bangkok National Museum"
+          "name": "Augsburg"
         }
       }
     },
     {
-      "id": "Pinacoteca di Brera",
+      "id": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pinacoteca di Brera"
+        "text": "Westminster Palace, Westminster Abbey and Saint Margaret's Church"
       },
       "expected": {
         "coordinates": [
-          9.18806,
-          45.47194
+          -0.1275,
+          51.49944
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pinacoteca di Brera"
+          "name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church"
         }
       }
     },
     {
-      "id": "China Art Museum",
+      "id": "Würzburg Residence with the Court Gardens and Residence Square",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "China Art Museum"
+        "text": "Würzburg Residence with the Court Gardens and Residence Square"
       },
       "expected": {
         "coordinates": [
-          121.49,
-          31.18639
+          9.93861,
+          49.79278
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "China Art Museum"
+          "name": "Würzburg Residence with the Court Gardens and Residence Square"
         }
       }
     },
     {
-      "id": "Lenbachhaus",
+      "id": "Zollverein Coal Mine Industrial Complex in Essen",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Lenbachhaus"
+        "text": "Zollverein Coal Mine Industrial Complex in Essen"
       },
       "expected": {
         "coordinates": [
-          11.56361,
-          48.14694
+          7.04611,
+          51.49139
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Lenbachhaus"
-        }
-      }
-    },
-    {
-      "id": "Museu Nacional de Arte Antiga",
-      "status": "pass",
-      "type": "wiki-poi",
-      "in": {
-        "text": "Museu Nacional de Arte Antiga"
-      },
-      "expected": {
-        "coordinates": [
-          -9.1618,
-          38.70442
-        ],
-        "distanceThresh": 5000,
-        "properties": {
-          "layer": "venue",
-          "name": "Museu Nacional de Arte Antiga"
-        }
-      }
-    },
-    {
-      "id": "Palazzo Pitti",
-      "status": "pass",
-      "type": "wiki-poi",
-      "in": {
-        "text": "Palazzo Pitti"
-      },
-      "expected": {
-        "coordinates": [
-          11.2501,
-          43.7652
-        ],
-        "distanceThresh": 5000,
-        "properties": {
-          "layer": "venue",
-          "name": "Palazzo Pitti"
-        }
-      }
-    },
-    {
-      "id": "National Gallery of Denmark",
-      "status": "pass",
-      "type": "wiki-poi",
-      "in": {
-        "text": "National Gallery of Denmark"
-      },
-      "expected": {
-        "coordinates": [
-          12.57861,
-          55.68889
-        ],
-        "distanceThresh": 5000,
-        "properties": {
-          "layer": "venue",
-          "name": "National Gallery of Denmark"
-        }
-      }
-    },
-    {
-      "id": "National Museum of Art of Romania",
-      "status": "pass",
-      "type": "wiki-poi",
-      "in": {
-        "text": "National Museum of Art of Romania"
-      },
-      "expected": {
-        "coordinates": [
-          26.09553,
-          44.44016
-        ],
-        "distanceThresh": 5000,
-        "properties": {
-          "layer": "venue",
-          "name": "National Museum of Art of Romania"
-        }
-      }
-    },
-    {
-      "id": "National Museum of Iran",
-      "status": "pass",
-      "type": "wiki-poi",
-      "in": {
-        "text": "National Museum of Iran"
-      },
-      "expected": {
-        "coordinates": [
-          51.41461,
-          35.68704
-        ],
-        "distanceThresh": 5000,
-        "properties": {
-          "layer": "venue",
-          "name": "National Museum of Iran"
-        }
-      }
-    },
-    {
-      "id": "Ny Carlsberg Glyptotek",
-      "status": "pass",
-      "type": "wiki-poi",
-      "in": {
-        "text": "Ny Carlsberg Glyptotek"
-      },
-      "expected": {
-        "coordinates": [
-          12.57194,
-          55.6725
-        ],
-        "distanceThresh": 5000,
-        "properties": {
-          "layer": "venue",
-          "name": "Ny Carlsberg Glyptotek"
-        }
-      }
-    },
-    {
-      "id": "Chimei Museum",
-      "status": "pass",
-      "type": "wiki-poi",
-      "in": {
-        "text": "Chimei Museum"
-      },
-      "expected": {
-        "coordinates": [
-          120.2259,
-          22.93459
-        ],
-        "distanceThresh": 5000,
-        "properties": {
-          "layer": "venue",
-          "name": "Chimei Museum"
+          "name": "Zollverein Coal Mine Industrial Complex in Essen"
         }
       }
     }

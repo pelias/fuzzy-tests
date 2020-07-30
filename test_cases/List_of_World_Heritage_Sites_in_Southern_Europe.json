@@ -1,5 +1,5 @@
 {
-  "name": "wikipedia scrape: List_of_amusement_park_rankings",
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_Southern_Europe",
   "description": "",
   "priorityThresh": "",
   "source": "Wikipedia",
@@ -13,1674 +13,1750 @@
   },
   "tests": [
     {
-      "id": "Magic Kingdom",
+      "id": "Acropolis, Athens",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Magic Kingdom"
+        "text": "Acropolis, Athens"
       },
       "expected": {
         "coordinates": [
-          -81.58111,
-          28.41861
+          23.72611,
+          37.97083
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Magic Kingdom"
+          "name": "Acropolis, Athens"
         }
       }
     },
     {
-      "id": "Disneyland",
+      "id": "Alto Douro Wine Region",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Disneyland"
+        "text": "Alto Douro Wine Region"
       },
       "expected": {
         "coordinates": [
-          -117.92,
-          33.81
+          -7.79889,
+          41.10167
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Disneyland"
+          "name": "Alto Douro Wine Region"
         }
       }
     },
     {
-      "id": "Tokyo Disneyland",
+      "id": "Aranjuez Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tokyo Disneyland"
+        "text": "Aranjuez Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          139.88056,
-          35.63278
+          -3.60278,
+          40.03333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tokyo Disneyland"
+          "name": "Aranjuez Cultural Landscape"
         }
       }
     },
     {
-      "id": "Tokyo DisneySea",
+      "id": "Archaeological Area of Agrigento",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tokyo DisneySea"
+        "text": "Archaeological Area of Agrigento"
       },
       "expected": {
         "coordinates": [
-          139.88806,
-          35.62667
+          13.59333,
+          37.28972
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tokyo DisneySea"
+          "name": "Archaeological Area of Agrigento"
         }
       }
     },
     {
-      "id": "Universal Studios Japan",
+      "id": "Archaeological Ensemble of Tárraco",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Universal Studios Japan"
+        "text": "Archaeological Ensemble of Tárraco"
       },
       "expected": {
         "coordinates": [
-          135.43306,
-          34.66472
+          1.25931,
+          41.11472
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Universal Studios Japan"
+          "name": "Archaeological Ensemble of Tárraco"
         }
       }
     },
     {
-      "id": "Disney's Animal Kingdom",
+      "id": "Archaeological Ensemble of Mérida",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Disney's Animal Kingdom"
+        "text": "Archaeological Ensemble of Mérida"
       },
       "expected": {
         "coordinates": [
-          -81.59,
-          28.358
+          -6.33333,
+          38.91667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Disney's Animal Kingdom"
+          "name": "Archaeological Ensemble of Mérida"
         }
       }
     },
     {
-      "id": "Epcot",
+      "id": "Archaeological Site of Atapuerca",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Epcot"
+        "text": "Archaeological Site of Atapuerca"
       },
       "expected": {
         "coordinates": [
-          -81.55,
-          28.371
+          -3.51833,
+          42.3525
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Epcot"
+          "name": "Archaeological Site of Atapuerca"
         }
       }
     },
     {
-      "id": "Chimelong Ocean Kingdom",
+      "id": "Archaeological Site of Delphi",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Chimelong Ocean Kingdom"
+        "text": "Archaeological Site of Delphi"
       },
       "expected": {
         "coordinates": [
-          113.53,
-          22.1001
+          22.5013,
+          38.4823
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Chimelong Ocean Kingdom"
+          "name": "Archaeological Site of Delphi"
         }
       }
     },
     {
-      "id": "Disney's Hollywood Studios",
+      "id": "Archaeological Site of Mystras",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Disney's Hollywood Studios"
+        "text": "Archaeological Site of Mystras"
       },
       "expected": {
         "coordinates": [
-          -81.5561,
-          28.357
+          22.38333,
+          37.06667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Disney's Hollywood Studios"
+          "name": "Archaeological Site of Mystras"
         }
       }
     },
     {
-      "id": "Shanghai Disneyland Park",
+      "id": "Archaeological Site of Olympia",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Shanghai Disneyland Park"
+        "text": "Archaeological Site of Olympia"
       },
       "expected": {
         "coordinates": [
-          121.657,
-          31.144
+          21.63,
+          37.638
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Shanghai Disneyland Park"
+          "name": "Archaeological Site of Olympia"
         }
       }
     },
     {
-      "id": "Universal Studios Florida",
+      "id": "Burgos Cathedral",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Universal Studios Florida"
+        "text": "Burgos Cathedral"
       },
       "expected": {
         "coordinates": [
-          -81.467,
-          28.4752
+          -3.70447,
+          42.34081
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Universal Studios Florida"
+          "name": "Burgos Cathedral"
         }
       }
     },
     {
-      "id": "Universal's Islands of Adventure",
+      "id": "Butrint",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Universal's Islands of Adventure"
+        "text": "Butrint"
       },
       "expected": {
         "coordinates": [
-          -81.47139,
-          28.47167
+          20.02056,
+          39.74556
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Universal's Islands of Adventure"
+          "name": "Butrint"
         }
       }
     },
     {
-      "id": "Disney California Adventure",
+      "id": "Catalan Romanesque Churches of the Vall de Boí",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Disney California Adventure"
+        "text": "Catalan Romanesque Churches of the Vall de Boí"
       },
       "expected": {
         "coordinates": [
-          -117.92195,
-          33.80547
+          0.80361,
+          42.50472
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Disney California Adventure"
+          "name": "Catalan Romanesque Churches of the Vall de Boí"
         }
       }
     },
     {
-      "id": "Disneyland Park (Paris)",
+      "id": "Cave of Altamira and Paleolithic Cave Art of Northern Spain",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Disneyland Park"
+        "text": "Cave of Altamira and Paleolithic Cave Art of Northern Spain"
       },
       "expected": {
         "coordinates": [
-          2.77675,
-          48.87261
+          -4.1225,
+          43.3774
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Disneyland Park"
+          "name": "Cave of Altamira and Paleolithic Cave Art of Northern Spain"
         }
       }
     },
     {
-      "id": "Universal Studios Hollywood",
+      "id": "Central Zone of the Town of Angra do Heroismo in the Azores",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Universal Studios Hollywood"
+        "text": "Central Zone of the Town of Angra do Heroismo in the Azores"
       },
       "expected": {
         "coordinates": [
-          -118.35605,
-          34.13652
+          -27.21944,
+          38.65556
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Universal Studios Hollywood"
+          "name": "Central Zone of the Town of Angra do Heroismo in the Azores"
         }
       }
     },
     {
-      "id": "Everland",
+      "id": "City of Verona",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Everland"
+        "text": "City of Verona"
       },
       "expected": {
         "coordinates": [
-          127.204,
-          37.29563
+          10.99278,
+          45.43861
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Everland"
+          "name": "City of Verona"
         }
       }
     },
     {
-      "id": "Lotte World",
+      "id": "City of Vicenza and the Palladian Villas of the Veneto",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Lotte World"
+        "text": "City of Vicenza and the Palladian Villas of the Veneto"
       },
       "expected": {
         "coordinates": [
-          127.1,
-          37.51
+          11.54944,
+          45.54917
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Lotte World"
+          "name": "City of Vicenza and the Palladian Villas of the Veneto"
         }
       }
     },
     {
-      "id": "Nagashima Spa Land",
+      "id": "Costiera Amalfitana",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Nagashima Spa Land"
+        "text": "Costiera Amalfitana"
       },
       "expected": {
         "coordinates": [
-          136.73001,
-          35.0297
+          14.6,
+          40.65
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Nagashima Spa Land"
+          "name": "Costiera Amalfitana"
         }
       }
     },
     {
-      "id": "Europa-Park",
+      "id": "Crespi d'Adda",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Europa-Park"
+        "text": "Crespi d'Adda"
       },
       "expected": {
         "coordinates": [
-          7.72083,
-          48.26833
+          9.53611,
+          45.59667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Europa-Park"
+          "name": "Crespi d'Adda"
         }
       }
     },
     {
-      "id": "Ocean Park Hong Kong",
+      "id": "Delos",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ocean Park Hong Kong"
+        "text": "Delos"
       },
       "expected": {
         "coordinates": [
-          114.17592,
-          22.24586
+          25.27111,
+          37.39333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ocean Park Hong Kong"
+          "name": "Delos"
         }
       }
     },
     {
-      "id": "Hong Kong Disneyland",
+      "id": "Doñana National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hong Kong Disneyland"
+        "text": "Doñana National Park"
       },
       "expected": {
         "coordinates": [
-          114.04333,
-          22.31333
+          -6.5,
+          37
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Hong Kong Disneyland"
+          "name": "Doñana National Park"
         }
       }
     },
     {
-      "id": "Efteling",
+      "id": "Durmitor National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Efteling"
+        "text": "Durmitor National Park"
       },
       "expected": {
         "coordinates": [
-          5.04806,
-          51.65028
+          19.03333,
+          43.12778
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Efteling"
+          "name": "Durmitor National Park"
         }
       }
     },
     {
-      "id": "Walt Disney Studios Park",
+      "id": "Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Walt Disney Studios Park"
+        "text": "Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč"
       },
       "expected": {
         "coordinates": [
-          2.77901,
-          48.8673
+          13.59361,
+          45.22861
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Walt Disney Studios Park"
+          "name": "Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč"
         }
       }
     },
     {
-      "id": "Happy Valley Beijing",
+      "id": "Garajonay National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Happy Valley Beijing"
+        "text": "Garajonay National Park"
       },
       "expected": {
         "coordinates": [
-          116.48863,
-          39.86642
+          -17.23722222,
+          28.12611111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Happy Valley Beijing"
+          "name": "Garajonay National Park"
         }
       }
     },
     {
-      "id": "Chimelong Paradise",
+      "id": "Garrison Border Town of Elvas and its Fortifications",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Chimelong Paradise"
+        "text": "Garrison Border Town of Elvas and its Fortifications"
       },
       "expected": {
         "coordinates": [
-          113.32691,
-          23.00436
+          -7.16332,
+          38.88062
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Chimelong Paradise"
+          "name": "Garrison Border Town of Elvas and its Fortifications"
         }
       }
     },
     {
-      "id": "SeaWorld Orlando",
+      "id": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "SeaWorld Orlando"
+        "text": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli"
       },
       "expected": {
         "coordinates": [
-          -81.4625,
-          28.41083
+          8.93111,
+          44.41222
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "SeaWorld Orlando"
+          "name": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli"
         }
       }
     },
     {
-      "id": "Knott's Berry Farm",
+      "id": "Gorham's Cave",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Knott's Berry Farm"
+        "text": "Gorham's Cave"
       },
       "expected": {
         "coordinates": [
-          -118.00027,
-          33.84418
+          -5.34207,
+          36.1204
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Knott's Berry Farm"
+          "name": "Gorham's Cave"
         }
       }
     },
     {
-      "id": "Busch Gardens Tampa",
+      "id": "Ħal Saflieni Hypogeum",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Busch Gardens Tampa"
+        "text": "Ħal Saflieni Hypogeum"
       },
       "expected": {
         "coordinates": [
-          -82.4216,
-          28.0379
+          14.50681,
+          35.86958
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Busch Gardens Tampa"
+          "name": "Ħal Saflieni Hypogeum"
         }
       }
     },
     {
-      "id": "Canada's Wonderland",
+      "id": "Heritage of Mercury. Almadén and Idrija",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Canada's Wonderland"
+        "text": "Heritage of Mercury. Almadén and Idrija"
       },
       "expected": {
         "coordinates": [
-          -79.54306,
-          43.84167
+          -4.83889,
+          38.77528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Canada's Wonderland"
+          "name": "Heritage of Mercury. Almadén and Idrija"
         }
       }
     },
     {
-      "id": "Cedar Point",
+      "id": "Historical Complex of Split with the Palace of Diocletian",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cedar Point"
+        "text": "Historical Complex of Split with the Palace of Diocletian"
       },
       "expected": {
         "coordinates": [
-          -82.67891,
-          41.47809
+          16.44,
+          43.50833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cedar Point"
+          "name": "Historical Complex of Split with the Palace of Diocletian"
         }
       }
     },
     {
-      "id": "Six Flags Magic Mountain",
+      "id": "Historic Centre of Cordoba",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags Magic Mountain"
+        "text": "Historic Centre of Cordoba"
       },
       "expected": {
         "coordinates": [
-          -118.597,
-          34.427
+          -4.77972,
+          37.87919
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags Magic Mountain"
+          "name": "Historic Centre of Cordoba"
         }
       }
     },
     {
-      "id": "Kings Island",
+      "id": "Historic Centre of Florence",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kings Island"
+        "text": "Historic Centre of Florence"
       },
       "expected": {
         "coordinates": [
-          -84.26861,
-          39.34479
+          11.25611,
+          43.77306
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kings Island"
+          "name": "Historic Centre of Florence"
         }
       }
     },
     {
-      "id": "SeaWorld San Diego",
+      "id": "Historic Centre of Guimarães",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "SeaWorld San Diego"
+        "text": "Historic Centre of Guimarães"
       },
       "expected": {
         "coordinates": [
-          -117.22727,
-          32.76575
+          -8.2928,
+          41.44373
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "SeaWorld San Diego"
+          "name": "Historic Centre of Guimarães"
         }
       }
     },
     {
-      "id": "Six Flags Great Adventure",
+      "id": "Historic Centre of San Gimignano",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags Great Adventure"
+        "text": "Historic Centre of San Gimignano"
       },
       "expected": {
         "coordinates": [
-          -74.44046,
-          40.1377
+          11.042,
+          43.468
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags Great Adventure"
+          "name": "Historic Centre of San Gimignano"
         }
       }
     },
     {
-      "id": "Hersheypark",
+      "id": "Historic Centre of Siena",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hersheypark"
+        "text": "Historic Centre of Siena"
       },
       "expected": {
         "coordinates": [
-          -76.65694,
-          40.28806
+          11.33056,
+          43.31861
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Hersheypark"
+          "name": "Historic Centre of Siena"
         }
       }
     },
     {
-      "id": "Six Flags Great America",
+      "id": "Historic Centre of the City of Pienza",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags Great America"
+        "text": "Historic Centre of the City of Pienza"
       },
       "expected": {
         "coordinates": [
-          -87.93579,
-          42.37
+          11.67889,
+          43.07861
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags Great America"
+          "name": "Historic Centre of the City of Pienza"
         }
       }
     },
     {
-      "id": "Tivoli Gardens",
+      "id": "Historic Centre of Urbino",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tivoli Gardens"
+        "text": "Historic Centre of Urbino"
       },
       "expected": {
         "coordinates": [
-          12.56833,
-          55.67361
+          12.63333,
+          43.71667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tivoli Gardens"
+          "name": "Historic Centre of Urbino"
         }
       }
     },
     {
-      "id": "PortAventura Park",
+      "id": "Historic City of Toledo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "PortAventura Park"
+        "text": "Historic City of Toledo"
       },
       "expected": {
         "coordinates": [
-          1.15767,
-          41.08771
+          -4.02444,
+          39.85667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "PortAventura Park"
+          "name": "Historic City of Toledo"
         }
       }
     },
     {
-      "id": "Liseberg",
+      "id": "Historic City of Trogir",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Liseberg"
+        "text": "Historic City of Trogir"
       },
       "expected": {
         "coordinates": [
-          11.99,
-          57.69556
+          16.25136,
+          43.5169
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Liseberg"
+          "name": "Historic City of Trogir"
         }
       }
     },
     {
-      "id": "Gardaland",
+      "id": "Ivrea",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gardaland"
+        "text": "Ivrea"
       },
       "expected": {
         "coordinates": [
-          10.71389,
-          45.45444
+          7.88333,
+          45.46667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gardaland"
+          "name": "Ivrea"
         }
       }
     },
     {
-      "id": "Legoland Windsor Resort",
+      "id": "La Lonja de la Seda de Valencia",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Legoland Windsor Resort"
+        "text": "La Lonja de la Seda de Valencia"
       },
       "expected": {
         "coordinates": [
-          -0.65114,
-          51.46351
+          -0.37844,
+          39.47442
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Legoland Windsor Resort"
+          "name": "La Lonja de la Seda de Valencia"
         }
       }
     },
     {
-      "id": "Parc Astérix",
+      "id": "Landscape of the Pico Island Vineyard Culture",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Parc Astérix"
+        "text": "Landscape of the Pico Island Vineyard Culture"
       },
       "expected": {
         "coordinates": [
-          2.57028,
-          49.13444
+          -28.54117,
+          38.51344
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Parc Astérix"
+          "name": "Landscape of the Pico Island Vineyard Culture"
         }
       }
     },
     {
-      "id": "Puy du Fou",
+      "id": "Las Médulas",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Puy du Fou"
+        "text": "Las Médulas"
       },
       "expected": {
         "coordinates": [
-          -0.93207,
-          46.89334
+          -6.77075,
+          42.46939
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Puy du Fou"
+          "name": "Las Médulas"
         }
       }
     },
     {
-      "id": "Parque Warner Madrid",
+      "id": "Madriu-Perafita-Claror Valley",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Parque Warner Madrid"
+        "text": "Madriu-Perafita-Claror Valley"
       },
       "expected": {
         "coordinates": [
-          -3.5937,
-          40.23
+          1.59556,
+          42.49472
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Parque Warner Madrid"
+          "name": "Madriu-Perafita-Claror Valley"
         }
       }
     },
     {
-      "id": "Alton Towers",
+      "id": "Medieval City of Rhodes",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Alton Towers"
+        "text": "Medieval City of Rhodes"
       },
       "expected": {
         "coordinates": [
-          -1.89083,
-          52.9875
+          28.21667,
+          36.43333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Alton Towers"
+          "name": "Medieval City of Rhodes"
         }
       }
     },
     {
-      "id": "Phantasialand",
+      "id": "Medici Villas and Gardens in Tuscany",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Phantasialand"
+        "text": "Medici Villas and Gardens in Tuscany"
       },
       "expected": {
         "coordinates": [
-          6.87944,
-          50.8
+          11.30417,
+          43.85778
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Phantasialand"
+          "name": "Medici Villas and Gardens in Tuscany"
         }
       }
     },
     {
-      "id": "Legoland Billund Resort",
+      "id": "Medieval Monuments in Kosovo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Legoland Billund Resort"
+        "text": "Medieval Monuments in Kosovo"
       },
       "expected": {
         "coordinates": [
-          9.12611,
-          55.73556
+          20.26556,
+          42.66111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Legoland Billund Resort"
+          "name": "Medieval Monuments in Kosovo"
         }
       }
     },
     {
-      "id": "Thorpe Park",
+      "id": "Megalithic Temples of Malta",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Thorpe Park"
+        "text": "Megalithic Temples of Malta"
       },
       "expected": {
         "coordinates": [
-          -0.51306,
-          51.40472
+          14.26917,
+          36.04722
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Thorpe Park"
+          "name": "Megalithic Temples of Malta"
         }
       }
     },
     {
-      "id": "Futuroscope",
+      "id": "Meteora",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Futuroscope"
+        "text": "Meteora"
       },
       "expected": {
         "coordinates": [
-          0.36889,
-          46.66917
+          21.63111,
+          39.71417
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Futuroscope"
+          "name": "Meteora"
         }
       }
     },
     {
-      "id": "Legoland Deutschland Resort",
+      "id": "Monastery of Alcobaça",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Legoland Deutschland Resort"
+        "text": "Monastery of Alcobaça"
       },
       "expected": {
         "coordinates": [
-          10.29972,
-          48.42444
+          -8.98,
+          39.54833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Legoland Deutschland Resort"
+          "name": "Monastery of Alcobaça"
         }
       }
     },
     {
-      "id": "Heide Park",
+      "id": "Monastery of Batalha",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Heide Park"
+        "text": "Monastery of Batalha"
       },
       "expected": {
         "coordinates": [
-          9.86917,
-          53.02806
+          -8.82611,
+          39.65917
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Heide Park"
+          "name": "Monastery of Batalha"
         }
       }
     },
     {
-      "id": "Chessington World of Adventures",
+      "id": "Monte San Giorgio",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Chessington World of Adventures"
+        "text": "Monte San Giorgio"
       },
       "expected": {
         "coordinates": [
-          -0.31667,
-          51.34861
+          8.94972,
+          45.91361
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Chessington World of Adventures"
+          "name": "Monte San Giorgio"
         }
       }
     },
     {
-      "id": "Six Flags México",
+      "id": "Mount Athos",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags México"
+        "text": "Mount Athos"
       },
       "expected": {
         "coordinates": [
-          -99.209,
-          19.295
+          24.32639,
+          40.15722
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags México"
+          "name": "Mount Athos"
         }
       }
     },
     {
-      "id": "Beto Carrero World",
+      "id": "Mount Etna",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Beto Carrero World"
+        "text": "Mount Etna"
       },
       "expected": {
         "coordinates": [
-          -48.61437,
-          -26.80248
+          14.995,
+          37.755
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Beto Carrero World"
+          "name": "Mount Etna"
         }
       }
     },
     {
-      "id": "La Feria Chapultepec Mágico",
+      "id": "Mudéjar Architecture of Aragon",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "La Feria Chapultepec Mágico"
+        "text": "Mudéjar Architecture of Aragon"
       },
       "expected": {
         "coordinates": [
-          -99.19556,
-          19.41639
+          -1.10722,
+          40.34389
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "La Feria Chapultepec Mágico"
+          "name": "Mudéjar Architecture of Aragon"
         }
       }
     },
     {
-      "id": "Fantasilandia",
+      "id": "Natural and Culturo-Historical Region of Kotor",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Fantasilandia"
+        "text": "Natural and Culturo-Historical Region of Kotor"
       },
       "expected": {
         "coordinates": [
-          -70.66278,
-          -33.45956
+          18.7,
+          42.48333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Fantasilandia"
+          "name": "Natural and Culturo-Historical Region of Kotor"
         }
       }
     },
     {
-      "id": "Parque de la Costa",
+      "id": "Old Bridge Area of the Old City of Mostar",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Parque de la Costa"
+        "text": "Old Bridge Area of the Old City of Mostar"
       },
       "expected": {
         "coordinates": [
-          -58.57625,
-          -34.41819
+          17.81485,
+          43.3371
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Parque de la Costa"
+          "name": "Old Bridge Area of the Old City of Mostar"
         }
       }
     },
     {
-      "id": "Universal Studios Singapore",
+      "id": "Old City of Dubrovnik",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Universal Studios Singapore"
+        "text": "Old City of Dubrovnik"
       },
       "expected": {
         "coordinates": [
-          103.824,
-          1.254
+          18.10833,
+          42.64028
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Universal Studios Singapore"
+          "name": "Old City of Dubrovnik"
         }
       }
     },
     {
-      "id": "China Dinosaurs Park",
+      "id": "Old Town of Cáceres",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "China Dinosaurs Park"
+        "text": "Old Town of Cáceres"
       },
       "expected": {
         "coordinates": [
-          119.99761,
-          31.82617
+          -6.371,
+          39.474
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "China Dinosaurs Park"
+          "name": "Old Town of Cáceres"
         }
       }
     },
     {
-      "id": "Window of the World",
+      "id": "Old Town of Corfu",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Window of the World"
+        "text": "Old Town of Corfu"
       },
       "expected": {
         "coordinates": [
-          113.96976,
-          22.53751
+          19.92139,
+          39.62389
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Window of the World"
+          "name": "Old Town of Corfu"
         }
       }
     },
     {
-      "id": "Happy Valley Shenzhen",
+      "id": "Paleochristian and Byzantine Monuments of Thessalonika",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Happy Valley Shenzhen"
+        "text": "Paleochristian and Byzantine Monuments of Thessalonika"
       },
       "expected": {
         "coordinates": [
-          113.97395,
-          22.54157
+          22.965,
+          40.63833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Happy Valley Shenzhen"
+          "name": "Paleochristian and Byzantine Monuments of Thessalonika"
         }
       }
     },
     {
-      "id": "Happy Valley Chengdu",
+      "id": "Palmeral of Elche",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Happy Valley Chengdu"
+        "text": "Palmeral of Elche"
       },
       "expected": {
         "coordinates": [
-          104.03282,
-          30.72352
+          -0.698,
+          38.27
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Happy Valley Chengdu"
+          "name": "Palmeral of Elche"
         }
       }
     },
     {
-      "id": "Happy Valley Shanghai",
+      "id": "Piazza del Duomo, Pisa",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Happy Valley Shanghai"
+        "text": "Piazza del Duomo, Pisa"
       },
       "expected": {
         "coordinates": [
-          121.2137,
-          31.0983
+          10.39639,
+          43.72306
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Happy Valley Shanghai"
+          "name": "Piazza del Duomo, Pisa"
         }
       }
     },
     {
-      "id": "Disney's Typhoon Lagoon",
+      "id": "Plitvice Lakes National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Disney's Typhoon Lagoon"
+        "text": "Plitvice Lakes National Park"
       },
       "expected": {
         "coordinates": [
-          -81.52777,
-          28.36503
+          15.61611,
+          44.88056
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Disney's Typhoon Lagoon"
+          "name": "Plitvice Lakes National Park"
         }
       }
     },
     {
-      "id": "Disney's Blizzard Beach",
+      "id": "Poblet Monastery",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Disney's Blizzard Beach"
+        "text": "Poblet Monastery"
       },
       "expected": {
         "coordinates": [
-          -81.57542,
-          28.3518
+          1.0825,
+          41.38083
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Disney's Blizzard Beach"
+          "name": "Poblet Monastery"
         }
       }
     },
     {
-      "id": "Therme Erding",
+      "id": "Prehistoric Pile dwellings around the Alps",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Therme Erding"
+        "text": "Prehistoric Pile dwellings around the Alps"
       },
       "expected": {
         "coordinates": [
-          11.88667,
-          48.29028
+          8.20762,
+          47.27862
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Therme Erding"
+          "name": "Prehistoric Pile dwellings around the Alps"
         }
       }
     },
     {
-      "id": "Volcano Bay",
+      "id": "Pyrénées - Mont Perdu",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Volcano Bay"
+        "text": "Pyrénées - Mont Perdu"
       },
       "expected": {
         "coordinates": [
-          -81.79194,
-          28.77056
+          0.03333,
+          42.66667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Volcano Bay"
+          "name": "Pyrénées - Mont Perdu"
         }
       }
     },
     {
-      "id": "Aquatica (water parks)",
+      "id": "Residences of the Royal House of Savoy",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Aquatica"
+        "text": "Residences of the Royal House of Savoy"
       },
       "expected": {
         "coordinates": [
-          -81.456,
-          28.4156
+          7.68583,
+          45.0725
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Aquatica"
+          "name": "Residences of the Royal House of Savoy"
         }
       }
     },
     {
-      "id": "Caribbean Bay",
+      "id": "Rhaetian Railway in the Albula / Bernina Landscapes",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Caribbean Bay"
+        "text": "Rhaetian Railway in the Albula / Bernina Landscapes"
       },
       "expected": {
         "coordinates": [
-          127.20056,
-          37.29694
+          9.84639,
+          46.49833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Caribbean Bay"
+          "name": "Rhaetian Railway in the Albula / Bernina Landscapes"
         }
       }
     },
     {
-      "id": "Aquapalace Prague",
+      "id": "Rock Art of the Mediterranean Basin on the Iberian Peninsula",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Aquapalace Prague"
+        "text": "Rock Art of the Mediterranean Basin on the Iberian Peninsula"
       },
       "expected": {
         "coordinates": [
-          14.57111,
-          50.0075
+          -1.03333,
+          39.79
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Aquapalace Prague"
+          "name": "Rock Art of the Mediterranean Basin on the Iberian Peninsula"
         }
       }
     },
     {
-      "id": "Tropical Islands Resort",
+      "id": "Rock Drawings in Valcamonica",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tropical Islands Resort"
+        "text": "Rock Drawings in Valcamonica"
       },
       "expected": {
         "coordinates": [
-          13.74861,
-          52.0375
+          10.29733,
+          45.95706
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tropical Islands Resort"
+          "name": "Rock Drawings in Valcamonica"
         }
       }
     },
     {
-      "id": "Sunway Lagoon",
+      "id": "Roman Walls of Lugo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Sunway Lagoon"
+        "text": "Roman Walls of Lugo"
       },
       "expected": {
         "coordinates": [
-          101.60675,
-          3.06914
+          -7.5533,
+          43.0111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Sunway Lagoon"
+          "name": "Roman Walls of Lugo"
         }
       }
     },
     {
-      "id": "Siam Park (Tenerife)",
+      "id": "Royal Monastery of Santa María de Guadalupe",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Siam Park"
+        "text": "Royal Monastery of Santa María de Guadalupe"
       },
       "expected": {
         "coordinates": [
-          -16.72657,
-          28.07176
+          -5.3275,
+          39.45278
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Siam Park"
+          "name": "Royal Monastery of Santa María de Guadalupe"
         }
       }
     },
     {
-      "id": "Wet'n'Wild Gold Coast",
+      "id": "Sacri Monti of Piedmont and Lombardy",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Wet'n'Wild Gold Coast"
+        "text": "Sacri Monti of Piedmont and Lombardy"
       },
       "expected": {
         "coordinates": [
-          153.31767,
-          -27.91511
+          9.16956,
+          45.97456
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Wet'n'Wild Gold Coast"
+          "name": "Sacri Monti of Piedmont and Lombardy"
         }
       }
     },
     {
-      "id": "Schlitterbahn",
+      "id": "Sanctuary of Asklepios at Epidaurus",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Schlitterbahn"
+        "text": "Sanctuary of Asklepios at Epidaurus"
       },
       "expected": {
         "coordinates": [
-          -98.12505,
-          29.71336
+          23.0744,
+          37.5986
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Schlitterbahn"
+          "name": "Sanctuary of Asklepios at Epidaurus"
         }
       }
     },
     {
-      "id": "Water Country USA",
+      "id": "San Cristóbal de La Laguna",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Water Country USA"
+        "text": "San Cristóbal de La Laguna"
       },
       "expected": {
         "coordinates": [
-          -76.63561,
-          37.26253
+          -16.3,
+          28.48333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Water Country USA"
+          "name": "San Cristóbal de La Laguna"
         }
       }
     },
     {
-      "id": "Adventure Island (water park)",
+      "id": "Mafra Palace",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Adventure Island"
+        "text": "Mafra Palace"
       },
       "expected": {
         "coordinates": [
-          -82.41306,
-          28.04167
+          -9.32553,
+          38.93717
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Adventure Island"
+          "name": "Mafra Palace"
         }
       }
     },
     {
-      "id": "Splish Splash",
+      "id": "Škocjan Caves",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Splish Splash"
+        "text": "Škocjan Caves"
       },
       "expected": {
         "coordinates": [
-          -72.72824,
-          40.92074
+          14,
+          45.66667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Splish Splash"
+          "name": "Škocjan Caves"
         }
       }
     },
     {
-      "id": "Six Flags Hurricane Harbor",
+      "id": "Stari Grad Plain",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags Hurricane Harbor"
+        "text": "Stari Grad Plain"
       },
       "expected": {
         "coordinates": [
-          -93.5,
-          34
+          16.63861,
+          43.18167
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags Hurricane Harbor"
+          "name": "Stari Grad Plain"
         }
       }
     },
     {
-      "id": "Six Flags White Water",
+      "id": "Stećci Medieval Tombstones Graveyards",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags White Water"
+        "text": "Stećci Medieval Tombstones Graveyards"
       },
       "expected": {
         "coordinates": [
-          -84.52139,
-          33.95806
+          17.92405,
+          43.09221
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags White Water"
+          "name": "Stećci Medieval Tombstones Graveyards"
         }
       }
     },
     {
-      "id": "Six Flags Hurricane Harbor SplashTown",
+      "id": "Studenica Monastery",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags Hurricane Harbor SplashTown"
+        "text": "Studenica Monastery"
       },
       "expected": {
         "coordinates": [
-          -95.43193,
-          30.07017
+          20.53667,
+          43.48611
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags Hurricane Harbor SplashTown"
+          "name": "Studenica Monastery"
         }
       }
     },
     {
-      "id": "Zoombezi Bay",
+      "id": "Su Nuraxi di Barumini",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Zoombezi Bay"
+        "text": "Su Nuraxi di Barumini"
       },
       "expected": {
         "coordinates": [
-          -83.11987,
-          40.1549
+          8.99056,
+          39.70583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Zoombezi Bay"
+          "name": "Su Nuraxi di Barumini"
         }
       }
     },
     {
-      "id": "Six Flags Hurricane Harbor Phoenix",
+      "id": "Temple of Apollo Epicurius at Bassae",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Six Flags Hurricane Harbor Phoenix"
+        "text": "Temple of Apollo Epicurius at Bassae"
       },
       "expected": {
         "coordinates": [
-          -112.15027,
-          33.69588
+          21.89694,
+          37.435
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Six Flags Hurricane Harbor Phoenix"
+          "name": "Temple of Apollo Epicurius at Bassae"
         }
       }
     },
     {
-      "id": "Camelbeach Waterpark",
+      "id": "The Cathedral of St James in Šibenik",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Camelbeach Waterpark"
+        "text": "The Cathedral of St James in Šibenik"
       },
       "expected": {
         "coordinates": [
-          -75.3535,
-          41.0526
+          15.88915,
+          43.73566
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Camelbeach Waterpark"
+          "name": "The Cathedral of St James in Šibenik"
         }
       }
     },
     {
-      "id": "Cedar Point Shores",
+      "id": "The Dolomites",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cedar Point Shores"
+        "text": "The Dolomites"
       },
       "expected": {
         "coordinates": [
-          -82.68722,
-          41.48806
+          11.85,
+          46.43333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cedar Point Shores"
+          "name": "The Dolomites"
         }
       }
     },
     {
-      "id": "Beach Park (water park)",
+      "id": "Tower of Hercules",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Beach Park"
+        "text": "Tower of Hercules"
       },
       "expected": {
         "coordinates": [
-          -38.39056,
-          -3.84444
+          -8.40639,
+          43.38583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Beach Park"
+          "name": "Tower of Hercules"
         }
       }
     },
     {
-      "id": "Ancol Dreamland",
+      "id": "Val d'Orcia",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ancol Dreamland"
+        "text": "Val d'Orcia"
       },
       "expected": {
         "coordinates": [
-          106.83153,
-          -6.12274
+          11.55,
+          43.06667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ancol Dreamland"
+          "name": "Val d'Orcia"
         }
       }
     },
     {
-      "id": "Wild Wadi Water Park",
+      "id": "Vatican City",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Wild Wadi Water Park"
+        "text": "Vatican City"
       },
       "expected": {
         "coordinates": [
-          55.18917,
-          25.13944
+          12.4525,
+          41.9025
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Wild Wadi Water Park"
+          "name": "Vatican City"
+        }
+      }
+    },
+    {
+      "id": "Villa Romana del Casale",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Villa Romana del Casale"
+      },
+      "expected": {
+        "coordinates": [
+          14.33472,
+          37.36472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Villa Romana del Casale"
+        }
+      }
+    },
+    {
+      "id": "Vineyard Landscape of Piedmont",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vineyard Landscape of Piedmont"
+      },
+      "expected": {
+        "coordinates": [
+          7.96361,
+          44.60861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vineyard Landscape of Piedmont"
+        }
+      }
+    },
+    {
+      "id": "Vizcaya Bridge",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vizcaya Bridge"
+      },
+      "expected": {
+        "coordinates": [
+          -3.0169,
+          43.3231
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vizcaya Bridge"
+        }
+      }
+    },
+    {
+      "id": "Works of Antoni Gaudí",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Works of Antoni Gaudí"
+      },
+      "expected": {
+        "coordinates": [
+          2.17444,
+          41.40361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Works of Antoni Gaudí"
         }
       }
     }

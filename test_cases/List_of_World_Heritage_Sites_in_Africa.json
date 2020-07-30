@@ -1,5 +1,5 @@
 {
-  "name": "wikipedia scrape: List_of_largest_art_museums",
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_Africa",
   "description": "",
   "priorityThresh": "",
   "source": "Wikipedia",
@@ -13,2320 +13,2415 @@
   },
   "tests": [
     {
-      "id": "Louvre",
+      "id": "Aapravasi Ghat",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Louvre"
+        "text": "Aapravasi Ghat"
       },
       "expected": {
         "coordinates": [
-          2.33639,
-          48.86111
+          57.50306,
+          -20.15861
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Louvre"
+          "name": "Aapravasi Ghat"
         }
       }
     },
     {
-      "id": "State Hermitage Museum",
+      "id": "Abu Mena",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "State Hermitage Museum"
+        "text": "Abu Mena"
       },
       "expected": {
         "coordinates": [
-          30.3129,
-          59.941
+          29.66349,
+          30.84105
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "State Hermitage Museum"
+          "name": "Abu Mena"
         }
       }
     },
     {
-      "id": "National Museum of China",
+      "id": "Air and Ténéré Natural Reserves",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of China"
+        "text": "Air and Ténéré Natural Reserves"
       },
       "expected": {
         "coordinates": [
-          116.39528,
-          39.90389
+          8,
+          18.27667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of China"
+          "name": "Air and Ténéré Natural Reserves"
         }
       }
     },
     {
-      "id": "Metropolitan Museum of Art",
+      "id": "Aksum",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Metropolitan Museum of Art"
+        "text": "Aksum"
       },
       "expected": {
         "coordinates": [
-          -73.9631,
-          40.7794
+          38.72778,
+          14.12083
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Metropolitan Museum of Art"
+          "name": "Aksum"
         }
       }
     },
     {
-      "id": "Vatican Museums",
+      "id": "Al Qal'a of Beni Hammad",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Vatican Museums"
+        "text": "Al Qal'a of Beni Hammad"
       },
       "expected": {
         "coordinates": [
-          12.45444,
-          41.90639
+          4.79333,
+          35.81389
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Vatican Museums"
+          "name": "Al Qal'a of Beni Hammad"
         }
       }
     },
     {
-      "id": "Tokyo National Museum",
+      "id": "Aldabra Atoll",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tokyo National Museum"
+        "text": "Aldabra Atoll"
       },
       "expected": {
         "coordinates": [
-          139.77583,
-          35.71889
+          46.35,
+          -9.41667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tokyo National Museum"
+          "name": "Aldabra Atoll"
         }
       }
     },
     {
-      "id": "National Museum of Anthropology (Mexico)",
+      "id": "Amphitheatre of El Jem",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of Anthropology"
+        "text": "Amphitheatre of El Jem"
       },
       "expected": {
         "coordinates": [
-          -99.186,
-          19.426
+          10.70694,
+          35.29639
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of Anthropology"
+          "name": "Amphitheatre of El Jem"
         }
       }
     },
     {
-      "id": "Victoria and Albert Museum",
+      "id": "Ancient Thebes with its Necropolis",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Victoria and Albert Museum"
+        "text": "Ancient Thebes with its Necropolis"
       },
       "expected": {
         "coordinates": [
-          -0.17194,
-          51.49639
+          32.61028,
+          25.72056
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Victoria and Albert Museum"
+          "name": "Ancient Thebes with its Necropolis"
         }
       }
     },
     {
-      "id": "National Museum of Korea",
+      "id": "Archaeological Site of Carthage",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of Korea"
+        "text": "Archaeological Site of Carthage"
       },
       "expected": {
         "coordinates": [
-          126.9797,
-          37.5233
+          10.3233,
+          36.8528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of Korea"
+          "name": "Archaeological Site of Carthage"
         }
       }
     },
     {
-      "id": "Art Institute of Chicago",
+      "id": "Archaeological Site of Cyrene",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art Institute of Chicago"
+        "text": "Archaeological Site of Cyrene"
       },
       "expected": {
         "coordinates": [
-          -87.62389,
-          41.87944
+          21.85806,
+          32.825
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art Institute of Chicago"
+          "name": "Archaeological Site of Cyrene"
         }
       }
     },
     {
-      "id": "Nanjing Museum",
+      "id": "Archaeological Site of Leptis Magna",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Nanjing Museum"
+        "text": "Archaeological Site of Leptis Magna"
       },
       "expected": {
         "coordinates": [
-          118.82017,
-          32.04264
+          14.29056,
+          32.63917
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Nanjing Museum"
+          "name": "Archaeological Site of Leptis Magna"
         }
       }
     },
     {
-      "id": "British Museum",
+      "id": "Archaeological Site of Sabratha",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "British Museum"
+        "text": "Archaeological Site of Sabratha"
       },
       "expected": {
         "coordinates": [
-          -0.1269,
-          51.5195
+          12.48417,
+          32.79222
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "British Museum"
+          "name": "Archaeological Site of Sabratha"
         }
       }
     },
     {
-      "id": "National Gallery of Art",
+      "id": "Archaeological Site of Volubilis",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Art"
+        "text": "Archaeological Site of Volubilis"
       },
       "expected": {
         "coordinates": [
-          -77.02001,
-          38.89147
+          -5.55361,
+          34.07111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Art"
+          "name": "Archaeological Site of Volubilis"
         }
       }
     },
     {
-      "id": "Massachusetts Museum of Contemporary Art",
+      "id": "Asante Traditional Buildings",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Massachusetts Museum of Contemporary Art"
+        "text": "Asante Traditional Buildings"
       },
       "expected": {
         "coordinates": [
-          -73.11639,
-          42.70139
+          -1.62583,
+          6.40111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Massachusetts Museum of Contemporary Art"
+          "name": "Asante Traditional Buildings"
         }
       }
     },
     {
-      "id": "Art & History Museum",
+      "id": "Asmara",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art & History Museum"
+        "text": "Asmara"
       },
       "expected": {
         "coordinates": [
-          4.39187,
-          50.83903
+          38.925,
+          15.32278
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art & History Museum"
+          "name": "Asmara"
         }
       }
     },
     {
-      "id": "Three Gorges Museum",
+      "id": "Banc d'Arguin National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Three Gorges Museum"
+        "text": "Banc d'Arguin National Park"
       },
       "expected": {
         "coordinates": [
-          106.55047,
-          29.56197
+          -16.1,
+          20.23333333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Three Gorges Museum"
+          "name": "Banc d'Arguin National Park"
         }
       }
     },
     {
-      "id": "Museum of Fine Arts, Boston",
+      "id": "Bwindi Impenetrable National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Fine Arts, Boston"
+        "text": "Bwindi Impenetrable National Park"
       },
       "expected": {
         "coordinates": [
-          -71.09417,
-          42.33917
+          29.68333,
+          -1.01667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Fine Arts, Boston"
+          "name": "Bwindi Impenetrable National Park"
         }
       }
     },
     {
-      "id": "Israel Museum",
+      "id": "Cape Floral Region Protected Areas",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Israel Museum"
+        "text": "Cape Floral Region Protected Areas"
       },
       "expected": {
         "coordinates": [
-          35.20452,
-          31.77238
+          18.375,
+          -34.16667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Israel Museum"
+          "name": "Cape Floral Region Protected Areas"
         }
       }
     },
     {
-      "id": "National Gallery Singapore",
+      "id": "Chongoni Rock-Art Area",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery Singapore"
+        "text": "Chongoni Rock-Art Area"
       },
       "expected": {
         "coordinates": [
-          103.85156,
-          1.29025
+          34.27917,
+          -14.29333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery Singapore"
+          "name": "Chongoni Rock-Art Area"
         }
       }
     },
     {
-      "id": "Minneapolis Institute of Art",
+      "id": "Cliff of Bandiagara (Land of the Dogons)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Minneapolis Institute of Art"
+        "text": "Cliff of Bandiagara"
       },
       "expected": {
         "coordinates": [
-          -93.27417,
-          44.95861
+          -3.41667,
+          14.33333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Minneapolis Institute of Art"
+          "name": "Cliff of Bandiagara"
         }
       }
     },
     {
-      "id": "Birmingham Museum of Art",
+      "id": "Comoé National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Birmingham Museum of Art"
+        "text": "Comoé National Park"
       },
       "expected": {
         "coordinates": [
-          -86.81018,
-          33.52195
+          -3.7725,
+          9.16361
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Birmingham Museum of Art"
+          "name": "Comoé National Park"
         }
       }
     },
     {
-      "id": "Musée d'Orsay",
+      "id": "Dja Faunal Reserve",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Musée d'Orsay"
+        "text": "Dja Faunal Reserve"
       },
       "expected": {
         "coordinates": [
-          2.32639,
-          48.86
+          13,
+          3
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Musée d'Orsay"
+          "name": "Dja Faunal Reserve"
         }
       }
     },
     {
-      "id": "Ōtsuka Museum of Art",
+      "id": "Djémila",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ōtsuka Museum of Art"
+        "text": "Djémila"
       },
       "expected": {
         "coordinates": [
-          134.63767,
-          34.23244
+          5.73333,
+          36.31667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ōtsuka Museum of Art"
+          "name": "Djémila"
         }
       }
     },
     {
-      "id": "San Francisco Museum of Modern Art",
+      "id": "Djoudj National Bird Sanctuary",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "San Francisco Museum of Modern Art"
+        "text": "Djoudj National Bird Sanctuary"
       },
       "expected": {
         "coordinates": [
-          -122.4008,
-          37.7858
+          -16.16667,
+          16.5
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "San Francisco Museum of Modern Art"
+          "name": "Djoudj National Bird Sanctuary"
         }
       }
     },
     {
-      "id": "Museo del Prado",
+      "id": "Ecosystem and Relict Cultural Landscape of Lopé-Okanda",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo del Prado"
+        "text": "Ecosystem and Relict Cultural Landscape of Lopé-Okanda"
       },
       "expected": {
         "coordinates": [
-          -3.69222,
-          40.41389
+          11.5,
+          -0.5
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo del Prado"
+          "name": "Ecosystem and Relict Cultural Landscape of Lopé-Okanda"
         }
       }
     },
     {
-      "id": "Museum of Modern Art",
+      "id": "Fasil Ghebbi, Gondar Region",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Modern Art"
+        "text": "Fasil Ghebbi, Gondar Region"
       },
       "expected": {
         "coordinates": [
-          -73.9776,
-          40.7616
+          37.47,
+          12.6075
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Modern Art"
+          "name": "Fasil Ghebbi, Gondar Region"
         }
       }
     },
     {
-      "id": "Philadelphia Museum of Art",
+      "id": "Forts and Castles, Volta, Greater Accra, Central and Western Regions",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Philadelphia Museum of Art"
+        "text": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
       },
       "expected": {
         "coordinates": [
-          -75.181,
-          39.966
+          0.99361,
+          5.92167
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Philadelphia Museum of Art"
+          "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
         }
       }
     },
     {
-      "id": "Denver Art Museum",
+      "id": "French Austral Lands and Seas",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Denver Art Museum"
+        "text": "French Austral Lands and Seas"
       },
       "expected": {
         "coordinates": [
-          -104.98972,
-          39.73722
+          69.167,
+          -49.25
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Denver Art Museum"
+          "name": "French Austral Lands and Seas"
         }
       }
     },
     {
-      "id": "Egyptian Museum",
+      "id": "Garajonay National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Egyptian Museum"
+        "text": "Garajonay National Park"
       },
       "expected": {
         "coordinates": [
-          31.23333,
-          30.04778
+          -17.23722222,
+          28.12611111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Egyptian Museum"
+          "name": "Garajonay National Park"
         }
       }
     },
     {
-      "id": "Museo di Capodimonte",
+      "id": "Garamba National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo di Capodimonte"
+        "text": "Garamba National Park"
       },
       "expected": {
         "coordinates": [
-          14.25053,
-          40.86701
+          29.25,
+          4
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo di Capodimonte"
+          "name": "Garamba National Park"
         }
       }
     },
     {
-      "id": "Dia:Beacon",
+      "id": "Gebel Barkal and the Sites of the Napatan Region",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dia:Beacon"
+        "text": "Gebel Barkal and the Sites of the Napatan Region"
       },
       "expected": {
         "coordinates": [
-          -73.98248,
-          41.49971
+          31.82833,
+          18.53667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dia:Beacon"
+          "name": "Gebel Barkal and the Sites of the Napatan Region"
         }
       }
     },
     {
-      "id": "Dallas Museum of Art",
+      "id": "Gough and Inaccessible Islands",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dallas Museum of Art"
+        "text": "Gough and Inaccessible Islands"
       },
       "expected": {
         "coordinates": [
-          -96.80083,
-          32.78722
+          -9.92861,
+          -40.32472
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dallas Museum of Art"
+          "name": "Gough and Inaccessible Islands"
         }
       }
     },
     {
-      "id": "Museo Reina Sofía",
+      "id": "Great Zimbabwe National Monument",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo Reina Sofía"
+        "text": "Great Zimbabwe National Monument"
       },
       "expected": {
         "coordinates": [
-          -3.69444,
-          40.40889
+          30.93333,
+          -20.26667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo Reina Sofía"
+          "name": "Great Zimbabwe National Monument"
         }
       }
     },
     {
-      "id": "Detroit Institute of Arts",
+      "id": "Harar Jugol, the Fortified Historic Town",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Detroit Institute of Arts"
+        "text": "Harar Jugol, the Fortified Historic Town"
       },
       "expected": {
         "coordinates": [
-          -83.06472,
-          42.35944
+          42.11667,
+          9.31667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Detroit Institute of Arts"
+          "name": "Harar Jugol, the Fortified Historic Town"
         }
       }
     },
     {
-      "id": "Kunsthistorisches Museum",
+      "id": "Historic Cairo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kunsthistorisches Museum"
+        "text": "Historic Cairo"
       },
       "expected": {
         "coordinates": [
-          16.3618,
-          48.2037
+          31.26272,
+          30.046
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kunsthistorisches Museum"
+          "name": "Historic Cairo"
         }
       }
     },
     {
-      "id": "The National Art Center, Tokyo",
+      "id": "Historic City of Meknes",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "The National Art Center, Tokyo"
+        "text": "Historic City of Meknes"
       },
       "expected": {
         "coordinates": [
-          139.72634,
-          35.66528
+          -5.55472,
+          33.895
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "The National Art Center, Tokyo"
+          "name": "Historic City of Meknes"
         }
       }
     },
     {
-      "id": "National Taiwan Museum of Fine Arts",
+      "id": "Ichkeul National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Taiwan Museum of Fine Arts"
+        "text": "Ichkeul National Park"
       },
       "expected": {
         "coordinates": [
-          120.66358,
-          24.14136
+          9.66666667,
+          37.16666667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Taiwan Museum of Fine Arts"
+          "name": "Ichkeul National Park"
         }
       }
     },
     {
-      "id": "National Gallery in Prague",
+      "id": "iSimangaliso Wetland Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery in Prague"
+        "text": "iSimangaliso Wetland Park"
       },
       "expected": {
         "coordinates": [
-          14.4325,
-          50.1015
+          32.5,
+          -28
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery in Prague"
+          "name": "iSimangaliso Wetland Park"
         }
       }
     },
     {
-      "id": "Indianapolis Museum of Art",
+      "id": "Island of Gorée",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Indianapolis Museum of Art"
+        "text": "Island of Gorée"
       },
       "expected": {
         "coordinates": [
-          -86.1855,
-          39.8259
+          -17.39833,
+          14.66694
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Indianapolis Museum of Art"
+          "name": "Island of Gorée"
         }
       }
     },
     {
-      "id": "Bavarian National Museum",
+      "id": "Island of Mozambique",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bavarian National Museum"
+        "text": "Island of Mozambique"
       },
       "expected": {
         "coordinates": [
-          11.59111,
-          48.14306
+          40.73278,
+          -15.03667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bavarian National Museum"
+          "name": "Island of Mozambique"
         }
       }
     },
     {
-      "id": "Brooklyn Museum",
+      "id": "Island of Saint-Louis",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Brooklyn Museum"
+        "text": "Island of Saint-Louis"
       },
       "expected": {
         "coordinates": [
-          -73.96375,
-          40.67131
+          -16.5,
+          16.03333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Brooklyn Museum"
+          "name": "Island of Saint-Louis"
         }
       }
     },
     {
-      "id": "Capital Museum",
+      "id": "Kahuzi-Biega National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Capital Museum"
+        "text": "Kahuzi-Biega National Park"
       },
       "expected": {
         "coordinates": [
-          116.336,
-          39.905
+          28.75,
+          -2.5
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Capital Museum"
+          "name": "Kahuzi-Biega National Park"
         }
       }
     },
     {
-      "id": "Montreal Museum of Fine Arts",
+      "id": "Kairouan",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Montreal Museum of Fine Arts"
+        "text": "Kairouan"
       },
       "expected": {
         "coordinates": [
-          -73.5801,
-          45.4987
+          10.10083,
+          35.67722
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Montreal Museum of Fine Arts"
+          "name": "Kairouan"
         }
       }
     },
     {
-      "id": "National Gallery",
+      "id": "Kasbah of Algiers",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery"
+        "text": "Kasbah of Algiers"
       },
       "expected": {
         "coordinates": [
-          -0.1283,
-          51.5086
+          3.06028,
+          36.78333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery"
+          "name": "Kasbah of Algiers"
         }
       }
     },
     {
-      "id": "National Gallery of Victoria",
+      "id": "Khami Ruins National Monument",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Victoria"
+        "text": "Khami Ruins National Monument"
       },
       "expected": {
         "coordinates": [
-          144.96863,
-          -37.82259
+          28.37667,
+          -20.15833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Victoria"
+          "name": "Khami Ruins National Monument"
         }
       }
     },
     {
-      "id": "Palais de Tokyo",
+      "id": "ǂKhomani Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Palais de Tokyo"
+        "text": "ǂKhomani Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          2.29722,
-          48.86389
+          57.50306,
+          -20.15861
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Palais de Tokyo"
+          "name": "ǂKhomani Cultural Landscape"
         }
       }
     },
     {
-      "id": "Salar Jung Museum",
+      "id": "Kilimanjaro National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Salar Jung Museum"
+        "text": "Kilimanjaro National Park"
       },
       "expected": {
         "coordinates": [
-          78.48035,
-          17.37143
+          37.36667,
+          -3.06667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Salar Jung Museum"
+          "name": "Kilimanjaro National Park"
         }
       }
     },
     {
-      "id": "Virginia Museum of Fine Arts",
+      "id": "Kondoa Rock-Art Sites",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Virginia Museum of Fine Arts"
+        "text": "Kondoa Rock-Art Sites"
       },
       "expected": {
         "coordinates": [
-          -77.47472,
-          37.55639
+          35.83389,
+          -4.72444
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Virginia Museum of Fine Arts"
+          "name": "Kondoa Rock-Art Sites"
         }
       }
     },
     {
-      "id": "Tate Modern",
+      "id": "Konso Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tate Modern"
+        "text": "Konso Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          -0.0994,
-          51.5076
+          37.48333,
+          5.25
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tate Modern"
+          "name": "Konso Cultural Landscape"
         }
       }
     },
     {
-      "id": "Cleveland Museum of Art",
+      "id": "Koutammakou, the Land of the Batammariba",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cleveland Museum of Art"
+        "text": "Koutammakou, the Land of the Batammariba"
       },
       "expected": {
         "coordinates": [
-          -81.61167,
-          41.50889
+          1.13333,
+          10.06667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cleveland Museum of Art"
+          "name": "Koutammakou, the Land of the Batammariba"
         }
       }
     },
     {
-      "id": "National Gallery of Canada",
+      "id": "Ksar of Ait-Ben-Haddou",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Canada"
+        "text": "Ksar of Ait-Ben-Haddou"
       },
       "expected": {
         "coordinates": [
-          -75.69839,
-          45.42943
+          -7.12889,
+          31.04722
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Canada"
+          "name": "Ksar of Ait-Ben-Haddou"
         }
       }
     },
     {
-      "id": "Art Gallery of Ontario",
+      "id": "Kunta Kinteh Island and Related Sites",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art Gallery of Ontario"
+        "text": "Kunta Kinteh Island and Related Sites"
       },
       "expected": {
         "coordinates": [
-          -79.39278,
-          43.65389
+          -16.36141,
+          13.31746
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art Gallery of Ontario"
+          "name": "Kunta Kinteh Island and Related Sites"
         }
       }
     },
     {
-      "id": "Hamburger Kunsthalle",
+      "id": "Lake Malawi National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hamburger Kunsthalle"
+        "text": "Lake Malawi National Park"
       },
       "expected": {
         "coordinates": [
-          10.00278,
-          53.555
+          34.88333,
+          -14.03333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Hamburger Kunsthalle"
+          "name": "Lake Malawi National Park"
         }
       }
     },
     {
-      "id": "Museum Boijmans Van Beuningen",
+      "id": "Lakes of Ounianga",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum Boijmans Van Beuningen"
+        "text": "Lakes of Ounianga"
       },
       "expected": {
         "coordinates": [
-          4.4732,
-          51.914
+          20.50556,
+          19.055
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum Boijmans Van Beuningen"
+          "name": "Lakes of Ounianga"
         }
       }
     },
     {
-      "id": "Museum of Fine Arts, Houston",
+      "id": "Lake Turkana National Parks",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Fine Arts, Houston"
+        "text": "Lake Turkana National Parks"
       },
       "expected": {
         "coordinates": [
-          -95.39042,
-          29.72569
+          36.50367,
+          3.05131
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Fine Arts, Houston"
+          "name": "Lake Turkana National Parks"
         }
       }
     },
     {
-      "id": "National Gallery of Modern Art",
+      "id": "Lamu Old Town",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Modern Art"
+        "text": "Lamu Old Town"
       },
       "expected": {
         "coordinates": [
-          77.2344,
-          28.61008
+          40.90222,
+          -2.26944
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Modern Art"
+          "name": "Lamu Old Town"
         }
       }
     },
     {
-      "id": "Palais des Beaux-Arts de Lille",
+      "id": "Le Morne Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Palais des Beaux-Arts de Lille"
+        "text": "Le Morne Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          3.06291,
-          50.63035
+          57.32833,
+          -20.45194
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Palais des Beaux-Arts de Lille"
+          "name": "Le Morne Cultural Landscape"
         }
       }
     },
     {
-      "id": "Pinakothek der Moderne",
+      "id": "Lower Valley of the Awash",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pinakothek der Moderne"
+        "text": "Lower Valley of the Awash"
       },
       "expected": {
         "coordinates": [
-          11.57222,
-          48.14694
+          40.57939,
+          11.10006
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pinakothek der Moderne"
+          "name": "Lower Valley of the Awash"
         }
       }
     },
     {
-      "id": "Rijksmuseum",
+      "id": "Lower Valley of the Omo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Rijksmuseum"
+        "text": "Lower Valley of the Omo"
       },
       "expected": {
         "coordinates": [
-          4.88528,
-          52.36
+          35.96667,
+          4.8
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Rijksmuseum"
+          "name": "Lower Valley of the Omo"
         }
       }
     },
     {
-      "id": "Tretyakov Gallery",
+      "id": "M'Zab Valley",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tretyakov Gallery"
+        "text": "M'Zab Valley"
       },
       "expected": {
         "coordinates": [
-          37.62028,
-          55.74139
+          3.68333,
+          32.48333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tretyakov Gallery"
+          "name": "M'Zab Valley"
         }
       }
     },
     {
-      "id": "Milwaukee Art Museum",
+      "id": "Maloti-Drakensberg Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Milwaukee Art Museum"
+        "text": "Maloti-Drakensberg Park"
       },
       "expected": {
         "coordinates": [
-          -87.8971,
-          43.0393
+          29.12306,
+          -29.76528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Milwaukee Art Museum"
+          "name": "Maloti-Drakensberg Park"
         }
       }
     },
     {
-      "id": "Taipei Fine Arts Museum",
+      "id": "Mana Pools National Park, Sapi and Chewore Safari Areas",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Taipei Fine Arts Museum"
+        "text": "Mana Pools National Park, Sapi and Chewore Safari Areas"
       },
       "expected": {
         "coordinates": [
-          121.52472,
-          25.0725
+          29.33333,
+          -15.75
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Taipei Fine Arts Museum"
+          "name": "Mana Pools National Park, Sapi and Chewore Safari Areas"
         }
       }
     },
     {
-      "id": "Art Gallery of New South Wales",
+      "id": "Manovo-Gounda St. Floris National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Art Gallery of New South Wales"
+        "text": "Manovo-Gounda St. Floris National Park"
       },
       "expected": {
         "coordinates": [
-          151.21714,
-          -33.86869
+          21.5,
+          9
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Art Gallery of New South Wales"
+          "name": "Manovo-Gounda St. Floris National Park"
         }
       }
     },
     {
-      "id": "Capitoline Museums",
+      "id": "Mapungubwe Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Capitoline Museums"
+        "text": "Mapungubwe Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          12.4824,
-          41.8928
+          29.23889,
+          -22.1925
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Capitoline Museums"
+          "name": "Mapungubwe Cultural Landscape"
         }
       }
     },
     {
-      "id": "Guggenheim Museum Bilbao",
+      "id": "Matobo Hills",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Guggenheim Museum Bilbao"
+        "text": "Matobo Hills"
       },
       "expected": {
         "coordinates": [
-          -2.93389,
-          43.26861
+          28.508,
+          -20.55
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Guggenheim Museum Bilbao"
+          "name": "Matobo Hills"
         }
       }
     },
     {
-      "id": "Los Angeles County Museum of Art",
+      "id": "Mbanza-Kongo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Los Angeles County Museum of Art"
+        "text": "Mbanza-Kongo"
       },
       "expected": {
         "coordinates": [
-          -118.35784,
-          34.06289
+          14.24806,
+          -6.26778
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Los Angeles County Museum of Art"
+          "name": "Mbanza-Kongo"
         }
       }
     },
     {
-      "id": "Museum of Contemporary Art, University of São Paulo",
+      "id": "Medina of Essaouira (formerly Mogador)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Contemporary Art, University of São Paulo"
+        "text": "Medina of Essaouira"
       },
       "expected": {
         "coordinates": [
-          -46.65111,
-          -23.58889
+          -9.76972,
+          31.51306
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Contemporary Art, University of São Paulo"
+          "name": "Medina of Essaouira"
         }
       }
     },
     {
-      "id": "Pergamon Museum",
+      "id": "Medina of Fez",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pergamon Museum"
+        "text": "Medina of Fez"
       },
       "expected": {
         "coordinates": [
-          13.396,
-          52.521
+          -4.97778,
+          34.06111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pergamon Museum"
+          "name": "Medina of Fez"
         }
       }
     },
     {
-      "id": "Shaanxi History Museum",
+      "id": "Medina of Marrakesh",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Shaanxi History Museum"
+        "text": "Medina of Marrakesh"
       },
       "expected": {
         "coordinates": [
-          108.95139,
-          34.22528
+          -8.00889,
+          31.63
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Shaanxi History Museum"
+          "name": "Medina of Marrakesh"
         }
       }
     },
     {
-      "id": "Museu Nacional d'Art de Catalunya",
+      "id": "Medina of Sousse",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museu Nacional d'Art de Catalunya"
+        "text": "Medina of Sousse"
       },
       "expected": {
         "coordinates": [
-          2.15333,
-          41.36833
+          10.63861,
+          35.82778
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museu Nacional d'Art de Catalunya"
+          "name": "Medina of Sousse"
         }
       }
     },
     {
-      "id": "Tibet Museum (Lhasa)",
+      "id": "Medina of Tétouan (formerly known as Titawin)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tibet Museum"
+        "text": "Medina of Tétouan"
       },
       "expected": {
         "coordinates": [
-          91.09687,
-          29.65133
+          -5.36667,
+          35.56667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tibet Museum"
+          "name": "Medina of Tétouan"
         }
       }
     },
     {
-      "id": "Portland Art Museum",
+      "id": "Medina of Tunis",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Portland Art Museum"
+        "text": "Medina of Tunis"
       },
       "expected": {
         "coordinates": [
-          -122.68351,
-          45.51621
+          10.16667,
+          36.81667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Portland Art Museum"
+          "name": "Medina of Tunis"
         }
       }
     },
     {
-      "id": "Museum of Fine Arts (Budapest)",
+      "id": "Mosi-oa-Tunya / Victoria Falls",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum of Fine Arts"
+        "text": "Mosi-oa-Tunya / Victoria Falls"
       },
       "expected": {
         "coordinates": [
-          19.07639,
-          47.51611
+          25.85667,
+          -17.92444
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum of Fine Arts"
+          "name": "Mosi-oa-Tunya / Victoria Falls"
         }
       }
     },
     {
-      "id": "Carnegie Museum of Art",
+      "id": "Mount Kenya National Park/Natural Forest",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Carnegie Museum of Art"
+        "text": "Mount Kenya National Park/Natural Forest"
       },
       "expected": {
         "coordinates": [
-          -79.94898,
-          40.44369
+          37.33667,
+          -0.12389
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Carnegie Museum of Art"
+          "name": "Mount Kenya National Park/Natural Forest"
         }
       }
     },
     {
-      "id": "Hamburger Bahnhof",
+      "id": "Mount Nimba Strict Nature Reserve",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hamburger Bahnhof"
+        "text": "Mount Nimba Strict Nature Reserve"
       },
       "expected": {
         "coordinates": [
-          13.37222,
-          52.52833
+          -8.42061,
+          7.63776
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Hamburger Bahnhof"
+          "name": "Mount Nimba Strict Nature Reserve"
         }
       }
     },
     {
-      "id": "Kunstmuseum Basel",
+      "id": "Namib Sand Sea",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kunstmuseum Basel"
+        "text": "Namib Sand Sea"
       },
       "expected": {
         "coordinates": [
-          7.59417,
-          47.55417
+          15.27639,
+          -24.75194
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kunstmuseum Basel"
+          "name": "Namib Sand Sea"
         }
       }
     },
     {
-      "id": "MAXXI",
+      "id": "Ngorongoro Conservation Area",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "MAXXI"
+        "text": "Ngorongoro Conservation Area"
       },
       "expected": {
         "coordinates": [
-          12.466,
-          41.929
+          35.46,
+          -3.21
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "MAXXI"
+          "name": "Ngorongoro Conservation Area"
         }
       }
     },
     {
-      "id": "Museo Egizio",
+      "id": "Niokolo-Koba National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museo Egizio"
+        "text": "Niokolo-Koba National Park"
       },
       "expected": {
         "coordinates": [
-          7.68444,
-          45.06833
+          -12.71667,
+          13.06667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museo Egizio"
+          "name": "Niokolo-Koba National Park"
         }
       }
     },
     {
-      "id": "Museum Kunstpalast",
+      "id": "Nubian Monuments from Abu Simbel to Philae",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum Kunstpalast"
+        "text": "Nubian Monuments from Abu Simbel to Philae"
       },
       "expected": {
         "coordinates": [
-          6.77333,
-          51.23444
+          31.62556,
+          22.33694
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum Kunstpalast"
+          "name": "Nubian Monuments from Abu Simbel to Philae"
         }
       }
     },
     {
-      "id": "National Museum, Poznań",
+      "id": "Okapi Wildlife Reserve",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum, Poznań"
+        "text": "Okapi Wildlife Reserve"
       },
       "expected": {
         "coordinates": [
-          16.92889,
-          52.40861
+          28.5,
+          2
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum, Poznań"
+          "name": "Okapi Wildlife Reserve"
         }
       }
     },
     {
-      "id": "Russian Museum",
+      "id": "Okavango Delta",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Russian Museum"
+        "text": "Okavango Delta"
       },
       "expected": {
         "coordinates": [
-          30.33239,
-          59.93874
+          22.9,
+          -19.28333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Russian Museum"
+          "name": "Okavango Delta"
         }
       }
     },
     {
-      "id": "Saint Louis Art Museum",
+      "id": "Old Towns of Djenné",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Saint Louis Art Museum"
+        "text": "Old Towns of Djenné"
       },
       "expected": {
         "coordinates": [
-          -90.29444,
-          38.63944
+          -4.555,
+          13.90556
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Saint Louis Art Museum"
+          "name": "Old Towns of Djenné"
         }
       }
     },
     {
-      "id": "Sforza Castle",
+      "id": "Old Town of Ghadamès",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Sforza Castle"
+        "text": "Old Town of Ghadamès"
       },
       "expected": {
         "coordinates": [
-          9.17861,
-          45.47
+          9.5,
+          30.13333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Sforza Castle"
+          "name": "Old Town of Ghadamès"
         }
       }
     },
     {
-      "id": "Tel Aviv Museum of Art",
+      "id": "Osun-Osogbo Sacred Grove",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Tel Aviv Museum of Art"
+        "text": "Osun-Osogbo Sacred Grove"
       },
       "expected": {
         "coordinates": [
-          34.78685,
-          32.07744
+          4.55222,
+          7.75556
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Tel Aviv Museum of Art"
+          "name": "Osun-Osogbo Sacred Grove"
         }
       }
     },
     {
-      "id": "National Palace Museum",
+      "id": "Pitons, cirques and remparts of Reunion Island",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Palace Museum"
+        "text": "Pitons, cirques and remparts of Reunion Island"
       },
       "expected": {
         "coordinates": [
-          121.54861,
-          25.10194
+          55.5,
+          -21.15
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Palace Museum"
+          "name": "Pitons, cirques and remparts of Reunion Island"
         }
       }
     },
     {
-      "id": "Musée Fabre",
+      "id": "Portuguese City of Mazagan (El Jadida)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Musée Fabre"
+        "text": "Portuguese City of Mazagan"
       },
       "expected": {
         "coordinates": [
-          3.88,
-          43.612
+          -8.5,
+          33.23333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Musée Fabre"
+          "name": "Portuguese City of Mazagan"
         }
       }
     },
     {
-      "id": "Cité de l'Architecture et du Patrimoine",
+      "id": "Punic Town of Kerkuane and its Necropolis",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cité de l'Architecture et du Patrimoine"
+        "text": "Punic Town of Kerkuane and its Necropolis"
       },
       "expected": {
         "coordinates": [
-          2.2885,
-          48.8627
+          11.09917,
+          36.94639
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cité de l'Architecture et du Patrimoine"
+          "name": "Punic Town of Kerkuane and its Necropolis"
         }
       }
     },
     {
-      "id": "National Museum, New Delhi",
+      "id": "Rainforests of the Atsinanana",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum, New Delhi"
+        "text": "Rainforests of the Atsinanana"
       },
       "expected": {
         "coordinates": [
-          77.21926,
-          28.61181
+          49.7025,
+          -14.45972
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum, New Delhi"
+          "name": "Rainforests of the Atsinanana"
         }
       }
     },
     {
-      "id": "National Gallery (Norway)",
+      "id": "Richtersveld Cultural and Botanical Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery"
+        "text": "Richtersveld Cultural and Botanical Landscape"
       },
       "expected": {
         "coordinates": [
-          10.7375,
-          59.9162
+          17.20389,
+          -28.6
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery"
+          "name": "Richtersveld Cultural and Botanical Landscape"
         }
       }
     },
     {
-      "id": "Smithsonian American Art Museum",
+      "id": "Robben Island",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Smithsonian American Art Museum"
+        "text": "Robben Island"
       },
       "expected": {
         "coordinates": [
-          -77.02333,
-          38.89778
+          18.36622,
+          -33.80673
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Smithsonian American Art Museum"
+          "name": "Robben Island"
         }
       }
     },
     {
-      "id": "Musée du quai Branly – Jacques Chirac",
+      "id": "Rock-Art Sites of Tadrart Acacus",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Musée du quai Branly - Jacques Chirac"
+        "text": "Rock-Art Sites of Tadrart Acacus"
       },
       "expected": {
         "coordinates": [
-          2.2975,
-          48.86083
+          10.33333,
+          24.83333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Musée du quai Branly - Jacques Chirac"
+          "name": "Rock-Art Sites of Tadrart Acacus"
         }
       }
     },
     {
-      "id": "High Museum of Art",
+      "id": "Rock-Hewn Churches, Lalibela",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "High Museum of Art"
+        "text": "Rock-Hewn Churches, Lalibela"
       },
       "expected": {
         "coordinates": [
-          -84.38517,
-          33.79051
+          39.04333,
+          12.0325
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "High Museum of Art"
+          "name": "Rock-Hewn Churches, Lalibela"
         }
       }
     },
     {
-      "id": "Liaoning Provincial Museum",
+      "id": "Royal Hill of Ambohimanga",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Liaoning Provincial Museum"
+        "text": "Royal Hill of Ambohimanga"
       },
       "expected": {
         "coordinates": [
-          123.43028,
-          41.80083
+          47.56278,
+          -18.75917
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Liaoning Provincial Museum"
+          "name": "Royal Hill of Ambohimanga"
         }
       }
     },
     {
-      "id": "Gallerie di Piazza Scala",
+      "id": "Royal Palaces of Abomey",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gallerie di Piazza Scala"
+        "text": "Royal Palaces of Abomey"
       },
       "expected": {
         "coordinates": [
-          9.19102,
-          45.46827
+          1.994,
+          7.18645
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gallerie di Piazza Scala"
+          "name": "Royal Palaces of Abomey"
         }
       }
     },
     {
-      "id": "National Art Museum of China",
+      "id": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Art Museum of China"
+        "text": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara"
       },
       "expected": {
         "coordinates": [
-          116.40278,
-          39.92361
+          39.5128,
+          -8.96
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Art Museum of China"
+          "name": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara"
         }
       }
     },
     {
-      "id": "Galleria degli Uffizi",
+      "id": "Ruins of Loropéni",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Galleria degli Uffizi"
+        "text": "Ruins of Loropéni"
       },
       "expected": {
         "coordinates": [
-          11.2556,
-          43.7684
+          -3.56278,
+          10.31028
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Galleria degli Uffizi"
+          "name": "Ruins of Loropéni"
         }
       }
     },
     {
-      "id": "Galleria Nazionale d'Arte Moderna",
+      "id": "Rwenzori Mountains National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Galleria Nazionale d'Arte Moderna"
+        "text": "Rwenzori Mountains National Park"
       },
       "expected": {
         "coordinates": [
-          12.4821,
-          41.917
+          29.95,
+          0.36667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Galleria Nazionale d'Arte Moderna"
+          "name": "Rwenzori Mountains National Park"
         }
       }
     },
     {
-      "id": "Gemäldegalerie",
+      "id": "Sacred Mijikenda Kaya Forests",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gemäldegalerie"
+        "text": "Sacred Mijikenda Kaya Forests"
       },
       "expected": {
         "coordinates": [
-          13.36542,
-          52.50847
+          39.59611,
+          -3.93194
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gemäldegalerie"
+          "name": "Sacred Mijikenda Kaya Forests"
         }
       }
     },
     {
-      "id": "Louvre Abu Dhabi",
+      "id": "Saint Catherine Area",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Louvre Abu Dhabi"
+        "text": "Saint Catherine Area"
       },
       "expected": {
         "coordinates": [
-          54.39846,
-          24.53366
+          33.97611,
+          28.55556
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Louvre Abu Dhabi"
+          "name": "Saint Catherine Area"
         }
       }
     },
     {
-      "id": "Museum Ludwig",
+      "id": "Salonga National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museum Ludwig"
+        "text": "Salonga National Park"
       },
       "expected": {
         "coordinates": [
-          6.96028,
-          50.94083
+          21,
+          -2
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museum Ludwig"
+          "name": "Salonga National Park"
         }
       }
     },
     {
-      "id": "National Archaeological Museum, Athens",
+      "id": "Saloum Delta",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Archaeological Museum, Athens"
+        "text": "Saloum Delta"
       },
       "expected": {
         "coordinates": [
-          23.73222,
-          37.98917
+          -16.49861,
+          13.83528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Archaeological Museum, Athens"
+          "name": "Saloum Delta"
         }
       }
     },
     {
-      "id": "Neues Museum",
+      "id": "San Cristóbal de La Laguna",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Neues Museum"
+        "text": "San Cristóbal de La Laguna"
       },
       "expected": {
         "coordinates": [
-          13.39778,
-          52.52056
+          -16.3,
+          28.48333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Neues Museum"
+          "name": "San Cristóbal de La Laguna"
         }
       }
     },
     {
-      "id": "Petit Palais",
+      "id": "Sangha Trinational",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Petit Palais"
+        "text": "Sangha Trinational"
       },
       "expected": {
         "coordinates": [
-          2.31521,
-          48.86598
+          16.55417,
+          2.60944
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Petit Palais"
+          "name": "Sangha Trinational"
         }
       }
     },
     {
-      "id": "Pushkin Museum",
+      "id": "Selous Game Reserve",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pushkin Museum"
+        "text": "Selous Game Reserve"
       },
       "expected": {
         "coordinates": [
-          37.605,
-          55.74722
+          37.4,
+          -9
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pushkin Museum"
+          "name": "Selous Game Reserve"
         }
       }
     },
     {
-      "id": "Stedelijk Museum Amsterdam",
+      "id": "Serengeti National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Stedelijk Museum Amsterdam"
+        "text": "Serengeti National Park"
       },
       "expected": {
         "coordinates": [
-          4.87972,
-          52.35806
+          34.56667,
+          -2.33333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Stedelijk Museum Amsterdam"
+          "name": "Serengeti National Park"
         }
       }
     },
     {
-      "id": "Thyssen-Bornemisza Museum",
+      "id": "Simien National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Thyssen-Bornemisza Museum"
+        "text": "Simien National Park"
       },
       "expected": {
         "coordinates": [
-          -3.695,
-          40.41611
+          38.06667,
+          13.18333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Thyssen-Bornemisza Museum"
+          "name": "Simien National Park"
         }
       }
     },
     {
-      "id": "Toledo Museum of Art",
+      "id": "Stone Circles of Senegambia",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Toledo Museum of Art"
+        "text": "Stone Circles of Senegambia"
       },
       "expected": {
         "coordinates": [
-          -83.55944,
-          41.65806
+          -15.5225,
+          13.69111
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Toledo Museum of Art"
+          "name": "Stone Circles of Senegambia"
         }
       }
     },
     {
-      "id": "Nelson-Atkins Museum of Art",
+      "id": "Stone Town of Zanzibar",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Nelson-Atkins Museum of Art"
+        "text": "Stone Town of Zanzibar"
       },
       "expected": {
         "coordinates": [
-          -94.58101,
-          39.04497
+          39.1913,
+          -6.1624
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Nelson-Atkins Museum of Art"
+          "name": "Stone Town of Zanzibar"
         }
       }
     },
     {
-      "id": "de Young (museum)",
+      "id": "Sukur Cultural Landscape",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "de Young"
+        "text": "Sukur Cultural Landscape"
       },
       "expected": {
         "coordinates": [
-          -122.46861,
-          37.77139
+          13.57194,
+          10.74056
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "de Young"
+          "name": "Sukur Cultural Landscape"
         }
       }
     },
     {
-      "id": "Alte Pinakothek",
+      "id": "Taï National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Alte Pinakothek"
+        "text": "Taï National Park"
       },
       "expected": {
         "coordinates": [
-          11.57,
-          48.14833
+          -7.11667,
+          5.75
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Alte Pinakothek"
+          "name": "Taï National Park"
         }
       }
     },
     {
-      "id": "Acropolis Museum",
+      "id": "Tassili n'Ajjer",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Acropolis Museum"
+        "text": "Tassili n'Ajjer"
       },
       "expected": {
         "coordinates": [
-          23.7283,
-          37.96911
+          9,
+          25.5
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Acropolis Museum"
+          "name": "Tassili n'Ajjer"
         }
       }
     },
     {
-      "id": "Bangkok National Museum",
+      "id": "Teide National Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bangkok National Museum"
+        "text": "Teide National Park"
       },
       "expected": {
         "coordinates": [
-          100.49222,
-          13.7575
+          -16.616,
+          28.263
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bangkok National Museum"
+          "name": "Teide National Park"
         }
       }
     },
     {
-      "id": "Pinacoteca di Brera",
+      "id": "Thimlich Ohinga",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Pinacoteca di Brera"
+        "text": "Thimlich Ohinga"
       },
       "expected": {
         "coordinates": [
-          9.18806,
-          45.47194
+          34.32517,
+          -0.8911
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Pinacoteca di Brera"
+          "name": "Thimlich Ohinga"
         }
       }
     },
     {
-      "id": "China Art Museum",
+      "id": "Timbuktu",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "China Art Museum"
+        "text": "Timbuktu"
       },
       "expected": {
         "coordinates": [
-          121.49,
-          31.18639
+          -3.00944,
+          16.77583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "China Art Museum"
+          "name": "Timbuktu"
         }
       }
     },
     {
-      "id": "Lenbachhaus",
+      "id": "Timgad",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Lenbachhaus"
+        "text": "Timgad"
       },
       "expected": {
         "coordinates": [
-          11.56361,
-          48.14694
+          6.46861,
+          35.48417
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Lenbachhaus"
+          "name": "Timgad"
         }
       }
     },
     {
-      "id": "Museu Nacional de Arte Antiga",
+      "id": "Tipasa",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Museu Nacional de Arte Antiga"
+        "text": "Tipasa"
       },
       "expected": {
         "coordinates": [
-          -9.1618,
-          38.70442
+          2.44944,
+          36.59194
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Museu Nacional de Arte Antiga"
+          "name": "Tipasa"
         }
       }
     },
     {
-      "id": "Palazzo Pitti",
+      "id": "Tiya",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Palazzo Pitti"
+        "text": "Tiya"
       },
       "expected": {
         "coordinates": [
-          11.2501,
-          43.7652
+          38.61667,
+          8.43333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Palazzo Pitti"
+          "name": "Tiya"
         }
       }
     },
     {
-      "id": "National Gallery of Denmark",
+      "id": "Tomb of Askia",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Gallery of Denmark"
+        "text": "Tomb of Askia"
       },
       "expected": {
         "coordinates": [
-          12.57861,
-          55.68889
+          -0.04444,
+          16.28972
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Gallery of Denmark"
+          "name": "Tomb of Askia"
         }
       }
     },
     {
-      "id": "National Museum of Art of Romania",
+      "id": "Tombs of Buganda Kings at Kasubi",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of Art of Romania"
+        "text": "Tombs of Buganda Kings at Kasubi"
       },
       "expected": {
         "coordinates": [
-          26.09553,
-          44.44016
+          32.55333,
+          0.32917
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of Art of Romania"
+          "name": "Tombs of Buganda Kings at Kasubi"
         }
       }
     },
     {
-      "id": "National Museum of Iran",
+      "id": "Tsingy de Bemaraha Strict Nature Reserve",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "National Museum of Iran"
+        "text": "Tsingy de Bemaraha Strict Nature Reserve"
       },
       "expected": {
         "coordinates": [
-          51.41461,
-          35.68704
+          44.75,
+          -18.66667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "National Museum of Iran"
+          "name": "Tsingy de Bemaraha Strict Nature Reserve"
         }
       }
     },
     {
-      "id": "Ny Carlsberg Glyptotek",
+      "id": "Tsodilo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ny Carlsberg Glyptotek"
+        "text": "Tsodilo"
       },
       "expected": {
         "coordinates": [
-          12.57194,
-          55.6725
+          21.73333,
+          -18.75
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ny Carlsberg Glyptotek"
+          "name": "Tsodilo"
         }
       }
     },
     {
-      "id": "Chimei Museum",
+      "id": "Twyfelfontein or /Ui-//aes",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Chimei Museum"
+        "text": "Twyfelfontein or /Ui-//aes"
       },
       "expected": {
         "coordinates": [
-          120.2259,
-          22.93459
+          14.37222,
+          -20.59056
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Chimei Museum"
+          "name": "Twyfelfontein or /Ui-//aes"
+        }
+      }
+    },
+    {
+      "id": "Vallée de Mai Nature Reserve",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vallée de Mai Nature Reserve"
+      },
+      "expected": {
+        "coordinates": [
+          55.7375,
+          -4.32917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vallée de Mai Nature Reserve"
+        }
+      }
+    },
+    {
+      "id": "Virunga National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virunga National Park"
+      },
+      "expected": {
+        "coordinates": [
+          29.16666667,
+          -0.91666667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virunga National Park"
+        }
+      }
+    },
+    {
+      "id": "Vredefort Dome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vredefort Dome"
+      },
+      "expected": {
+        "coordinates": [
+          27.5,
+          -27
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vredefort Dome"
+        }
+      }
+    },
+    {
+      "id": "W-Arly-Pendjari Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "W-Arly-Pendjari Complex"
+      },
+      "expected": {
+        "coordinates": [
+          1.46666667,
+          11.58333333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "W-Arly-Pendjari Complex"
+        }
+      }
+    },
+    {
+      "id": "Wadi Al-Hitan (Whale Valley)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wadi Al-Hitan"
+      },
+      "expected": {
+        "coordinates": [
+          30.18333,
+          29.33333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wadi Al-Hitan"
         }
       }
     }

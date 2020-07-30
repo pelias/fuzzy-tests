@@ -1,5 +1,5 @@
 {
-  "name": "wikipedia scrape: List_of_U.S._stadiums_by_capacity",
+  "name": "wikipedia scrape: List_of_AZA_member_zoos_and_aquaria",
   "description": "",
   "priorityThresh": "",
   "source": "Wikipedia",
@@ -13,3460 +13,4239 @@
   },
   "tests": [
     {
-      "id": "Kyle Field",
+      "id": "Abilene Zoological Gardens",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kyle Field"
+        "text": "Abilene Zoological Gardens"
       },
       "expected": {
         "coordinates": [
-          -96.34028,
-          30.61
+          -99.69189,
+          32.4362
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kyle Field"
+          "name": "Abilene Zoological Gardens"
         }
       }
     },
     {
-      "id": "Gaylord Family Oklahoma Memorial Stadium",
+      "id": "Adventure Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gaylord Family Oklahoma Memorial Stadium"
+        "text": "Adventure Aquarium"
       },
       "expected": {
         "coordinates": [
-          -97.4425,
-          35.20583
+          -75.131,
+          39.945
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gaylord Family Oklahoma Memorial Stadium"
+          "name": "Adventure Aquarium"
         }
       }
     },
     {
-      "id": "MetLife Stadium",
+      "id": "Africam Safari Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "MetLife Stadium"
+        "text": "Africam Safari Park"
       },
       "expected": {
         "coordinates": [
-          -74.07436,
-          40.81353
+          -98.13671,
+          18.93712
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "MetLife Stadium"
+          "name": "Africam Safari Park"
         }
       }
     },
     {
-      "id": "Lambeau Field",
+      "id": "African Safari Wildlife Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Lambeau Field"
+        "text": "African Safari Wildlife Park"
       },
       "expected": {
         "coordinates": [
-          -88.06222,
-          44.50139
+          -82.85163,
+          41.51809
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Lambeau Field"
+          "name": "African Safari Wildlife Park"
         }
       }
     },
     {
-      "id": "Notre Dame Stadium",
+      "id": "Akron Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Notre Dame Stadium"
+        "text": "Akron Zoo"
       },
       "expected": {
         "coordinates": [
-          -86.234,
-          41.698
+          -81.54143,
+          41.08005
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Notre Dame Stadium"
+          "name": "Akron Zoo"
         }
       }
     },
     {
-      "id": "Camp Randall Stadium",
+      "id": "Alaska SeaLife Center",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Camp Randall Stadium"
+        "text": "Alaska SeaLife Center"
       },
       "expected": {
         "coordinates": [
-          -89.41278,
-          43.07
+          -149.44083,
+          60.1
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Camp Randall Stadium"
+          "name": "Alaska SeaLife Center"
         }
       }
     },
     {
-      "id": "Williams–Brice Stadium",
+      "id": "Albuquerque Biological Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Williams-Brice Stadium"
+        "text": "Albuquerque Biological Park"
       },
       "expected": {
         "coordinates": [
-          -81.01917,
-          33.97306
+          -106.6632,
+          35.0781
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Williams-Brice Stadium"
+          "name": "Albuquerque Biological Park"
         }
       }
     },
     {
-      "id": "AT&T Stadium",
+      "id": "Alexandria Zoological Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "AT&T Stadium"
+        "text": "Alexandria Zoological Park"
       },
       "expected": {
         "coordinates": [
-          -97.09278,
-          32.74778
+          -92.45736,
+          31.28764
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "AT&T Stadium"
+          "name": "Alexandria Zoological Park"
         }
       }
     },
     {
-      "id": "Doak Campbell Stadium",
+      "id": "Aquarium of Niagara",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Doak Campbell Stadium"
+        "text": "Aquarium of Niagara"
       },
       "expected": {
         "coordinates": [
-          -84.30444,
-          30.43806
+          -79.06014,
+          43.09432
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Doak Campbell Stadium"
+          "name": "Aquarium of Niagara"
         }
       }
     },
     {
-      "id": "Los Angeles Memorial Coliseum",
+      "id": "Aquarium of the Bay",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Los Angeles Memorial Coliseum"
+        "text": "Aquarium of the Bay"
       },
       "expected": {
         "coordinates": [
-          -118.28778,
-          34.01417
+          -122.4093,
+          37.80875
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Los Angeles Memorial Coliseum"
+          "name": "Aquarium of the Bay"
         }
       }
     },
     {
-      "id": "TIAA Bank Field",
+      "id": "Aquarium of the Pacific",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "TIAA Bank Field"
+        "text": "Aquarium of the Pacific"
       },
       "expected": {
         "coordinates": [
-          -81.6375,
-          30.32389
+          -118.19692,
+          33.76216
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "TIAA Bank Field"
+          "name": "Aquarium of the Pacific"
         }
       }
     },
     {
-      "id": "Arrowhead Stadium",
+      "id": "Arizona-Sonora Desert Museum",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Arrowhead Stadium"
+        "text": "Arizona-Sonora Desert Museum"
       },
       "expected": {
         "coordinates": [
-          -94.48389,
-          39.04889
+          -111.16806,
+          32.24389
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Arrowhead Stadium"
+          "name": "Arizona-Sonora Desert Museum"
         }
       }
     },
     {
-      "id": "Empower Field at Mile High",
+      "id": "Assiniboine Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Empower Field at Mile High"
+        "text": "Assiniboine Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -105.02,
-          39.74389
+          -97.23056,
+          49.86917
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Empower Field at Mile High"
+          "name": "Assiniboine Park Zoo"
         }
       }
     },
     {
-      "id": "Donald W. Reynolds Razorback Stadium",
+      "id": "Atlantis The Palm, Dubai",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Donald W. Reynolds Razorback Stadium"
+        "text": "Atlantis The Palm, Dubai"
       },
       "expected": {
         "coordinates": [
-          -94.17889,
-          36.06806
+          55.1171,
+          25.1309
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Donald W. Reynolds Razorback Stadium"
+          "name": "Atlantis The Palm, Dubai"
         }
       }
     },
     {
-      "id": "Bank of America Stadium",
+      "id": "Atlantis Paradise Island",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bank of America Stadium"
+        "text": "Atlantis Paradise Island"
       },
       "expected": {
         "coordinates": [
-          -80.85278,
-          35.22583
+          -77.32083,
+          25.085
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bank of America Stadium"
+          "name": "Atlantis Paradise Island"
         }
       }
     },
     {
-      "id": "Mercedes-Benz Superdome",
+      "id": "Aquarium of the Americas",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Mercedes-Benz Superdome"
+        "text": "Aquarium of the Americas"
       },
       "expected": {
         "coordinates": [
-          -90.08111,
-          29.95083
+          -90.06306,
+          29.95028
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Mercedes-Benz Superdome"
+          "name": "Aquarium of the Americas"
         }
       }
     },
     {
-      "id": "CenturyLink Field",
+      "id": "Audubon Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "CenturyLink Field"
+        "text": "Audubon Zoo"
       },
       "expected": {
         "coordinates": [
-          -122.3316,
-          47.5952
+          -90.1322,
+          29.9231
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "CenturyLink Field"
+          "name": "Audubon Zoo"
         }
       }
     },
     {
-      "id": "New Era Field",
+      "id": "Bergen County Zoological Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "New Era Field"
+        "text": "Bergen County Zoological Park"
       },
       "expected": {
         "coordinates": [
-          -78.787,
-          42.774
+          -74.04794,
+          40.92966
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "New Era Field"
+          "name": "Bergen County Zoological Park"
         }
       }
     },
     {
-      "id": "Legion Field",
+      "id": "Bermuda Aquarium, Museum and Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Legion Field"
+        "text": "Bermuda Aquarium, Museum and Zoo"
       },
       "expected": {
         "coordinates": [
-          -86.84278,
-          33.51139
+          -64.73713,
+          32.3234
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Legion Field"
+          "name": "Bermuda Aquarium, Museum and Zoo"
         }
       }
     },
     {
-      "id": "NRG Stadium",
+      "id": "Binder Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "NRG Stadium"
+        "text": "Binder Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -95.41083,
-          29.68472
+          -85.15502,
+          42.24646
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "NRG Stadium"
+          "name": "Binder Park Zoo"
         }
       }
     },
     {
-      "id": "SDCCU Stadium",
+      "id": "Birch Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "SDCCU Stadium"
+        "text": "Birch Aquarium"
       },
       "expected": {
         "coordinates": [
-          -117.11944,
-          32.78306
+          -117.2496,
+          32.8678
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "SDCCU Stadium"
+          "name": "Birch Aquarium"
         }
       }
     },
     {
-      "id": "M&T Bank Stadium",
+      "id": "Birmingham Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "M&T Bank Stadium"
+        "text": "Birmingham Zoo"
       },
       "expected": {
         "coordinates": [
-          -76.62278,
-          39.27806
+          -86.77959,
+          33.4874
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "M&T Bank Stadium"
+          "name": "Birmingham Zoo"
         }
       }
     },
     {
-      "id": "Faurot Field",
+      "id": "Boonshoft Museum of Discovery",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Faurot Field"
+        "text": "Boonshoft Museum of Discovery"
       },
       "expected": {
         "coordinates": [
-          -92.33306,
-          38.93583
+          -84.20179,
+          39.78882
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Faurot Field"
+          "name": "Boonshoft Museum of Discovery"
         }
       }
     },
     {
-      "id": "Mercedes-Benz Stadium",
+      "id": "Bramble Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Mercedes-Benz Stadium"
+        "text": "Bramble Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -84.4,
-          33.75556
+          -97.12656,
+          44.90864
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Mercedes-Benz Stadium"
+          "name": "Bramble Park Zoo"
         }
       }
     },
     {
-      "id": "Kinnick Stadium",
+      "id": "Brandywine Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kinnick Stadium"
+        "text": "Brandywine Zoo"
       },
       "expected": {
         "coordinates": [
-          -91.55111,
-          41.65861
+          -75.5487,
+          39.7555
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kinnick Stadium"
+          "name": "Brandywine Zoo"
         }
       }
     },
     {
-      "id": "SoFi Stadium",
+      "id": "Brevard Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "SoFi Stadium"
+        "text": "Brevard Zoo"
       },
       "expected": {
         "coordinates": [
-          -118.3392,
-          33.95345
+          -80.71398,
+          28.22509
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "SoFi Stadium"
+          "name": "Brevard Zoo"
         }
       }
     },
     {
-      "id": "Husky Stadium",
+      "id": "Bronx Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Husky Stadium"
+        "text": "Bronx Zoo"
       },
       "expected": {
         "coordinates": [
-          -122.30167,
-          47.65028
+          -73.87538,
+          40.85058
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Husky Stadium"
+          "name": "Bronx Zoo"
         }
       }
     },
     {
-      "id": "Nissan Stadium",
+      "id": "Brookgreen Gardens",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Nissan Stadium"
+        "text": "Brookgreen Gardens"
       },
       "expected": {
         "coordinates": [
-          -86.77139,
-          36.16639
+          -79.09972,
+          33.52056
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Nissan Stadium"
+          "name": "Brookgreen Gardens"
         }
       }
     },
     {
-      "id": "Gillette Stadium",
+      "id": "Buffalo Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gillette Stadium"
+        "text": "Buffalo Zoo"
       },
       "expected": {
         "coordinates": [
-          -71.264,
-          42.091
+          -78.8536,
+          42.9391
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gillette Stadium"
+          "name": "Buffalo Zoo"
         }
       }
     },
     {
-      "id": "Lincoln Financial Field",
+      "id": "Busch Gardens Tampa",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Lincoln Financial Field"
+        "text": "Busch Gardens Tampa"
       },
       "expected": {
         "coordinates": [
-          -75.1675,
-          39.90083
+          -82.4216,
+          28.0379
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Lincoln Financial Field"
+          "name": "Busch Gardens Tampa"
         }
       }
     },
     {
-      "id": "Levi's Stadium",
+      "id": "Butterfly House, Missouri Botanical Garden",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Levi's Stadium"
+        "text": "Butterfly House, Missouri Botanical Garden"
       },
       "expected": {
         "coordinates": [
-          -121.97,
-          37.403
+          -90.54283,
+          38.66463
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Levi's Stadium"
+          "name": "Butterfly House, Missouri Botanical Garden"
         }
       }
     },
     {
-      "id": "Heinz Field",
+      "id": "Butterfly Pavilion",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Heinz Field"
+        "text": "Butterfly Pavilion"
       },
       "expected": {
         "coordinates": [
-          -80.01583,
-          40.44667
+          -105.0665,
+          39.8872
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Heinz Field"
+          "name": "Butterfly Pavilion"
         }
       }
     },
     {
-      "id": "FirstEnergy Stadium",
+      "id": "Buttonwood Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "FirstEnergy Stadium"
+        "text": "Buttonwood Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -81.69944,
-          41.50611
+          -70.95273,
+          41.62996
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "FirstEnergy Stadium"
+          "name": "Buttonwood Park Zoo"
         }
       }
     },
     {
-      "id": "Lucas Oil Stadium",
+      "id": "Cabrillo Marine Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Lucas Oil Stadium"
+        "text": "Cabrillo Marine Aquarium"
       },
       "expected": {
         "coordinates": [
-          -86.16381,
-          39.76006
+          -118.28545,
+          33.71128
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Lucas Oil Stadium"
+          "name": "Cabrillo Marine Aquarium"
         }
       }
     },
     {
-      "id": "The Dome at America's Center",
+      "id": "Caldwell Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "The Dome at America's Center"
+        "text": "Caldwell Zoo"
       },
       "expected": {
         "coordinates": [
-          -90.18861,
-          38.63278
+          -95.3268,
+          32.3704
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "The Dome at America's Center"
+          "name": "Caldwell Zoo"
         }
       }
     },
     {
-      "id": "U.S. Bank Stadium",
+      "id": "Calgary Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "U.S. Bank Stadium"
+        "text": "Calgary Zoo"
       },
       "expected": {
         "coordinates": [
-          -93.258,
-          44.974
+          -114.03333,
+          51.04583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "U.S. Bank Stadium"
+          "name": "Calgary Zoo"
         }
       }
     },
     {
-      "id": "Lane Stadium",
+      "id": "California Science Center",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Lane Stadium"
+        "text": "California Science Center"
       },
       "expected": {
         "coordinates": [
-          -80.41806,
-          37.22
+          -118.28583,
+          34.01556
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Lane Stadium"
+          "name": "California Science Center"
         }
       }
     },
     {
-      "id": "Raymond James Stadium",
+      "id": "Cameron Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Raymond James Stadium"
+        "text": "Cameron Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -82.50333,
-          27.97583
+          -97.14472,
+          31.57
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Raymond James Stadium"
+          "name": "Cameron Park Zoo"
         }
       }
     },
     {
-      "id": "Paul Brown Stadium",
+      "id": "Cape May County Park & Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Paul Brown Stadium"
+        "text": "Cape May County Park & Zoo"
       },
       "expected": {
         "coordinates": [
-          -84.516,
-          39.095
+          -74.8154,
+          39.1025
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Paul Brown Stadium"
+          "name": "Cape May County Park & Zoo"
         }
       }
     },
     {
-      "id": "Hard Rock Stadium",
+      "id": "Capron Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Hard Rock Stadium"
+        "text": "Capron Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -80.23889,
-          25.95806
+          -71.2976,
+          41.9377
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Hard Rock Stadium"
+          "name": "Capron Park Zoo"
         }
       }
     },
     {
-      "id": "Camping World Stadium",
+      "id": "Central Florida Zoo and Botanical Gardens",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Camping World Stadium"
+        "text": "Central Florida Zoo and Botanical Gardens"
       },
       "expected": {
         "coordinates": [
-          -81.40278,
-          28.53889
+          -81.31623,
+          28.82783
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Camping World Stadium"
+          "name": "Central Florida Zoo and Botanical Gardens"
         }
       }
     },
     {
-      "id": "Alamodome",
+      "id": "Central Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Alamodome"
+        "text": "Central Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -98.47889,
-          29.41694
+          -73.97167,
+          40.76778
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Alamodome"
+          "name": "Central Park Zoo"
         }
       }
     },
     {
-      "id": "Ford Field",
+      "id": "Chahinkapa Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ford Field"
+        "text": "Chahinkapa Zoo"
       },
       "expected": {
         "coordinates": [
-          -83.04556,
-          42.34
+          -96.598,
+          46.2747
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ford Field"
+          "name": "Chahinkapa Zoo"
         }
       }
     },
     {
-      "id": "Allegiant Stadium",
+      "id": "Charles Paddock Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Allegiant Stadium"
+        "text": "Charles Paddock Zoo"
       },
       "expected": {
         "coordinates": [
-          -115.18372,
-          36.09075
+          -120.67028,
+          35.46667
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Allegiant Stadium"
+          "name": "Charles Paddock Zoo"
         }
       }
     },
     {
-      "id": "Vaught–Hemingway Stadium",
+      "id": "Chattanooga Zoo at Warner Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Vaught-Hemingway Stadium"
+        "text": "Chattanooga Zoo at Warner Park"
       },
       "expected": {
         "coordinates": [
-          -89.53417,
-          34.36194
+          -85.2829,
+          35.0431
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Vaught-Hemingway Stadium"
+          "name": "Chattanooga Zoo at Warner Park"
         }
       }
     },
     {
-      "id": "LaVell Edwards Stadium",
+      "id": "Cheyenne Mountain Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "LaVell Edwards Stadium"
+        "text": "Cheyenne Mountain Zoo"
       },
       "expected": {
         "coordinates": [
-          -111.655,
-          40.258
+          -104.855,
+          38.77
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "LaVell Edwards Stadium"
+          "name": "Cheyenne Mountain Zoo"
         }
       }
     },
     {
-      "id": "State Farm Stadium",
+      "id": "Brookfield Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "State Farm Stadium"
+        "text": "Brookfield Zoo"
       },
       "expected": {
         "coordinates": [
-          -112.263,
-          33.528
+          -87.83346,
+          41.83267
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "State Farm Stadium"
+          "name": "Brookfield Zoo"
         }
       }
     },
     {
-      "id": "RingCentral Coliseum",
+      "id": "Cincinnati Zoo and Botanical Garden",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "RingCentral Coliseum"
+        "text": "Cincinnati Zoo and Botanical Garden"
       },
       "expected": {
         "coordinates": [
-          -122.20056,
-          37.75167
+          -84.508,
+          39.145
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "RingCentral Coliseum"
+          "name": "Cincinnati Zoo and Botanical Garden"
         }
       }
     },
     {
-      "id": "California Memorial Stadium",
+      "id": "Cleveland Metroparks Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "California Memorial Stadium"
+        "text": "Cleveland Metroparks Zoo"
       },
       "expected": {
         "coordinates": [
-          -122.25083,
-          37.87111
+          -81.712,
+          41.447
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "California Memorial Stadium"
+          "name": "Cleveland Metroparks Zoo"
         }
       }
     },
     {
-      "id": "Ross–Ade Stadium",
+      "id": "Clyde Peeling's Reptiland",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ross-Ade Stadium"
+        "text": "Clyde Peeling's Reptiland"
       },
       "expected": {
         "coordinates": [
-          -86.91833,
-          40.43444
+          -76.8967,
+          41.10587
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ross-Ade Stadium"
+          "name": "Clyde Peeling's Reptiland"
         }
       }
     },
     {
-      "id": "Liberty Bowl Memorial Stadium",
+      "id": "Columbus Zoo and Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Liberty Bowl Memorial Stadium"
+        "text": "Columbus Zoo and Aquarium"
       },
       "expected": {
         "coordinates": [
-          -89.9775,
-          35.12111
+          -83.1184,
+          40.15627
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Liberty Bowl Memorial Stadium"
+          "name": "Columbus Zoo and Aquarium"
         }
       }
     },
     {
-      "id": "Soldier Field",
+      "id": "Como Park Zoo and Conservatory",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Soldier Field"
+        "text": "Como Park Zoo and Conservatory"
       },
       "expected": {
         "coordinates": [
-          -87.6167,
-          41.8623
+          -93.15081,
+          44.9814
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Soldier Field"
+          "name": "Como Park Zoo and Conservatory"
         }
       }
     },
     {
-      "id": "Jack Trice Stadium",
+      "id": "Beardsley Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Jack Trice Stadium"
+        "text": "Beardsley Zoo"
       },
       "expected": {
         "coordinates": [
-          -93.63583,
-          42.01417
+          -73.1815,
+          41.2103
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Jack Trice Stadium"
+          "name": "Beardsley Zoo"
         }
       }
     },
     {
-      "id": "Scott Stadium",
+      "id": "Cosley Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Scott Stadium"
+        "text": "Cosley Zoo"
       },
       "expected": {
         "coordinates": [
-          -78.51361,
-          38.03111
+          -88.1208,
+          41.8781
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Scott Stadium"
+          "name": "Cosley Zoo"
         }
       }
     },
     {
-      "id": "Yale Bowl",
+      "id": "CuriOdyssey",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Yale Bowl"
+        "text": "CuriOdyssey"
       },
       "expected": {
         "coordinates": [
-          -72.96,
-          41.313
+          -122.31764,
+          37.58655
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Yale Bowl"
+          "name": "CuriOdyssey"
         }
       }
     },
     {
-      "id": "Davis Wade Stadium",
+      "id": "Dakota Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Davis Wade Stadium"
+        "text": "Dakota Zoo"
       },
       "expected": {
         "coordinates": [
-          -88.79361,
-          33.45639
+          -100.8068,
+          46.7995
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Davis Wade Stadium"
+          "name": "Dakota Zoo"
         }
       }
     },
     {
-      "id": "Jones AT&T Stadium",
+      "id": "Dallas World Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Jones AT&T Stadium"
+        "text": "Dallas World Aquarium"
       },
       "expected": {
         "coordinates": [
-          -101.87278,
-          33.59111
+          -96.80513,
+          32.78346
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Jones AT&T Stadium"
+          "name": "Dallas World Aquarium"
         }
       }
     },
     {
-      "id": "Kroger Field",
+      "id": "Dallas Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kroger Field"
+        "text": "Dallas Zoo"
       },
       "expected": {
         "coordinates": [
-          -84.50528,
-          38.02278
+          -96.81415,
+          32.74412
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kroger Field"
+          "name": "Dallas Zoo"
         }
       }
     },
     {
-      "id": "Cardinal Stadium",
+      "id": "David Traylor Zoo of Emporia",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cardinal Stadium"
+        "text": "David Traylor Zoo of Emporia"
       },
       "expected": {
         "coordinates": [
-          -85.75889,
-          38.20583
+          -96.17758,
+          38.38338
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cardinal Stadium"
+          "name": "David Traylor Zoo of Emporia"
         }
       }
     },
     {
-      "id": "Mississippi Veterans Memorial Stadium",
+      "id": "Denver Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Mississippi Veterans Memorial Stadium"
+        "text": "Denver Zoo"
       },
       "expected": {
         "coordinates": [
-          -90.17978,
-          32.32964
+          -104.95,
+          39.75
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Mississippi Veterans Memorial Stadium"
+          "name": "Denver Zoo"
         }
       }
     },
     {
-      "id": "Boone Pickens Stadium",
+      "id": "Detroit Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Boone Pickens Stadium"
+        "text": "Detroit Zoo"
       },
       "expected": {
         "coordinates": [
-          -97.06639,
-          36.12583
+          -83.15694,
+          42.47694
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Boone Pickens Stadium"
+          "name": "Detroit Zoo"
         }
       }
     },
     {
-      "id": "Arizona Stadium",
+      "id": "Dickerson Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Arizona Stadium"
+        "text": "Dickerson Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -110.949,
-          32.229
+          -93.3095,
+          37.2557
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Arizona Stadium"
+          "name": "Dickerson Park Zoo"
         }
       }
     },
     {
-      "id": "RFK Stadium",
+      "id": "Discovery Cove",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "RFK Stadium"
+        "text": "Discovery Cove"
       },
       "expected": {
         "coordinates": [
-          -76.972,
-          38.89
+          -81.46167,
+          28.40542
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "RFK Stadium"
+          "name": "Discovery Cove"
         }
       }
     },
     {
-      "id": "Sun Devil Stadium",
+      "id": "Disney's Animal Kingdom",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Sun Devil Stadium"
+        "text": "Disney's Animal Kingdom"
       },
       "expected": {
         "coordinates": [
-          -111.9325,
-          33.42639
+          -81.59,
+          28.358
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Sun Devil Stadium"
+          "name": "Disney's Animal Kingdom"
         }
       }
     },
     {
-      "id": "Bobby Dodd Stadium at Historic Grant Field",
+      "id": "El Paso Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bobby Dodd Stadium at Historic Grant Field"
+        "text": "El Paso Zoo"
       },
       "expected": {
         "coordinates": [
-          -84.39278,
-          33.7725
+          -106.4429,
+          31.7684
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bobby Dodd Stadium at Historic Grant Field"
+          "name": "El Paso Zoo"
         }
       }
     },
     {
-      "id": "Autzen Stadium",
+      "id": "Ellen Trout Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Autzen Stadium"
+        "text": "Ellen Trout Zoo"
       },
       "expected": {
         "coordinates": [
-          -123.06861,
-          44.05833
+          -94.7271,
+          31.37529
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Autzen Stadium"
+          "name": "Ellen Trout Zoo"
         }
       }
     },
     {
-      "id": "Folsom Field",
+      "id": "Elmwood Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Folsom Field"
+        "text": "Elmwood Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -105.267,
-          40.009
+          -75.3375,
+          40.1332
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Folsom Field"
+          "name": "Elmwood Park Zoo"
         }
       }
     },
     {
-      "id": "Franklin Field",
+      "id": "Erie Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Franklin Field"
+        "text": "Erie Zoo"
       },
       "expected": {
         "coordinates": [
-          -75.19,
-          39.95
+          -80.0755,
+          42.0968
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Franklin Field"
+          "name": "Erie Zoo"
         }
       }
     },
     {
-      "id": "Falcon Stadium",
+      "id": "Florida Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Falcon Stadium"
+        "text": "Florida Aquarium"
       },
       "expected": {
         "coordinates": [
-          -104.843,
-          38.997
+          -82.445,
+          27.94417
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Falcon Stadium"
+          "name": "Florida Aquarium"
         }
       }
     },
     {
-      "id": "HighPoint.com Stadium",
+      "id": "Fort Wayne Children's Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "HighPoint.com Stadium"
+        "text": "Fort Wayne Children's Zoo"
       },
       "expected": {
         "coordinates": [
-          -74.46528,
-          40.51361
+          -85.15451,
+          41.10639
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "HighPoint.com Stadium"
+          "name": "Fort Wayne Children's Zoo"
         }
       }
     },
     {
-      "id": "Bill Snyder Family Football Stadium",
+      "id": "Fort Worth Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bill Snyder Family Football Stadium"
+        "text": "Fort Worth Zoo"
       },
       "expected": {
         "coordinates": [
-          -96.59389,
-          39.20194
+          -97.3566,
+          32.7219
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bill Snyder Family Football Stadium"
+          "name": "Fort Worth Zoo"
         }
       }
     },
     {
-      "id": "Maryland Stadium",
+      "id": "Fossil Rim Wildlife Center",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Maryland Stadium"
+        "text": "Fossil Rim Wildlife Center"
       },
       "expected": {
         "coordinates": [
-          -76.94722,
-          38.99028
+          -97.79639,
+          32.18056
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Maryland Stadium"
+          "name": "Fossil Rim Wildlife Center"
         }
       }
     },
     {
-      "id": "Sun Bowl Stadium",
+      "id": "Franklin Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Sun Bowl Stadium"
+        "text": "Franklin Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -106.508,
-          31.773
+          -71.0891,
+          42.3052
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Sun Bowl Stadium"
+          "name": "Franklin Park Zoo"
         }
       }
     },
     {
-      "id": "TCF Bank Stadium",
+      "id": "Fresno Chaffee Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "TCF Bank Stadium"
+        "text": "Fresno Chaffee Zoo"
       },
       "expected": {
         "coordinates": [
-          -93.225,
-          44.976
+          -119.8215,
+          36.7522
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "TCF Bank Stadium"
+          "name": "Fresno Chaffee Zoo"
         }
       }
     },
     {
-      "id": "Kenan Memorial Stadium",
+      "id": "Temaikèn",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kenan Memorial Stadium"
+        "text": "Temaikèn"
       },
       "expected": {
         "coordinates": [
-          -79.04778,
-          35.90694
+          -58.80278,
+          -34.36389
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kenan Memorial Stadium"
+          "name": "Temaikèn"
         }
       }
     },
     {
-      "id": "David Booth Kansas Memorial Stadium",
+      "id": "Georgia Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "David Booth Kansas Memorial Stadium"
+        "text": "Georgia Aquarium"
       },
       "expected": {
         "coordinates": [
-          -95.31306,
-          38.87972
+          -84.39472,
+          33.76278
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "David Booth Kansas Memorial Stadium"
+          "name": "Georgia Aquarium"
         }
       }
     },
     {
-      "id": "Aloha Stadium",
+      "id": "Gladys Porter Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Aloha Stadium"
+        "text": "Gladys Porter Zoo"
       },
       "expected": {
         "coordinates": [
-          -157.93,
-          21.373
+          -97.4962,
+          25.9123
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Aloha Stadium"
+          "name": "Gladys Porter Zoo"
         }
       }
     },
     {
-      "id": "Stanford Stadium",
+      "id": "Great Plains Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Stanford Stadium"
+        "text": "Great Plains Zoo"
       },
       "expected": {
         "coordinates": [
-          -122.16111,
-          37.43444
+          -96.7648,
+          43.53738
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Stanford Stadium"
+          "name": "Great Plains Zoo"
         }
       }
     },
     {
-      "id": "Carrier Dome",
+      "id": "Greensboro Science Center",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Carrier Dome"
+        "text": "Greensboro Science Center"
       },
       "expected": {
         "coordinates": [
-          -76.13639,
-          43.03611
+          -79.8341,
+          36.1299
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Carrier Dome"
+          "name": "Greensboro Science Center"
         }
       }
     },
     {
-      "id": "Globe Life Park in Arlington",
+      "id": "Greenville Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Globe Life Park in Arlington"
+        "text": "Greenville Zoo"
       },
       "expected": {
         "coordinates": [
-          -97.08278,
-          32.75139
+          -82.3871,
+          34.8474
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Globe Life Park in Arlington"
+          "name": "Greenville Zoo"
         }
       }
     },
     {
-      "id": "T-Mobile Park",
+      "id": "Grizzly & Wolf Discovery Center",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "T-Mobile Park"
+        "text": "Grizzly & Wolf Discovery Center"
       },
       "expected": {
         "coordinates": [
-          -122.333,
-          47.591
+          -111.09839,
+          44.65695
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "T-Mobile Park"
+          "name": "Grizzly & Wolf Discovery Center"
         }
       }
     },
     {
-      "id": "Reser Stadium",
+      "id": "Happy Hollow Park & Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Reser Stadium"
+        "text": "Happy Hollow Park & Zoo"
       },
       "expected": {
         "coordinates": [
-          -123.281,
-          44.559
+          -121.86206,
+          37.32568
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Reser Stadium"
+          "name": "Happy Hollow Park & Zoo"
         }
       }
     },
     {
-      "id": "Rice-Eccles Stadium",
+      "id": "Henry Vilas Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Rice-Eccles Stadium"
+        "text": "Henry Vilas Zoo"
       },
       "expected": {
         "coordinates": [
-          -111.849,
-          40.76
+          -89.41028,
+          43.05944
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Rice-Eccles Stadium"
+          "name": "Henry Vilas Zoo"
         }
       }
     },
     {
-      "id": "Spectrum Stadium",
+      "id": "Honolulu Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Spectrum Stadium"
+        "text": "Honolulu Zoo"
       },
       "expected": {
         "coordinates": [
-          -81.1924,
-          28.6091
+          -157.8192,
+          21.2709
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Spectrum Stadium"
+          "name": "Honolulu Zoo"
         }
       }
     },
     {
-      "id": "McLane Stadium",
+      "id": "Houston Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "McLane Stadium"
+        "text": "Houston Zoo"
       },
       "expected": {
         "coordinates": [
-          -97.1157,
-          31.5582
+          -95.39057,
+          29.71613
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "McLane Stadium"
+          "name": "Houston Zoo"
         }
       }
     },
     {
-      "id": "Alumni Stadium",
+      "id": "Hutchinson Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Alumni Stadium"
+        "text": "Hutchinson Zoo"
       },
       "expected": {
         "coordinates": [
-          -71.16639,
-          42.335
+          -97.91671,
+          38.02911
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Alumni Stadium"
+          "name": "Hutchinson Zoo"
         }
       }
     },
     {
-      "id": "Amon G. Carter Stadium",
+      "id": "Indianapolis Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Amon G. Carter Stadium"
+        "text": "Indianapolis Zoo"
       },
       "expected": {
         "coordinates": [
-          -97.36806,
-          32.70972
+          -86.17694,
+          39.76694
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Amon G. Carter Stadium"
+          "name": "Indianapolis Zoo"
         }
       }
     },
     {
-      "id": "Canvas Stadium",
+      "id": "International Crane Foundation",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Canvas Stadium"
+        "text": "International Crane Foundation"
       },
       "expected": {
         "coordinates": [
-          -105.0885,
-          40.57
+          -89.7563,
+          43.5477
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Canvas Stadium"
+          "name": "International Crane Foundation"
         }
       }
     },
     {
-      "id": "Truist Park",
+      "id": "Jacksonville Zoo and Gardens",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Truist Park"
+        "text": "Jacksonville Zoo and Gardens"
       },
       "expected": {
         "coordinates": [
-          -84.468,
-          33.89
+          -81.64334,
+          30.40408
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Truist Park"
+          "name": "Jacksonville Zoo and Gardens"
         }
       }
     },
     {
-      "id": "Bulldog Stadium",
+      "id": "John Ball Zoological Garden",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bulldog Stadium"
+        "text": "John Ball Zoological Garden"
       },
       "expected": {
         "coordinates": [
-          -119.758,
-          36.814
+          -85.70479,
+          42.96278
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bulldog Stadium"
+          "name": "John Ball Zoological Garden"
         }
       }
     },
     {
-      "id": "Ladd–Peebles Stadium",
+      "id": "Shedd Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ladd-Peebles Stadium"
+        "text": "Shedd Aquarium"
       },
       "expected": {
         "coordinates": [
-          -88.076,
-          30.673
+          -87.61389,
+          41.86778
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ladd-Peebles Stadium"
+          "name": "Shedd Aquarium"
         }
       }
     },
     {
-      "id": "Dreamstyle Stadium",
+      "id": "Kansas City Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dreamstyle Stadium"
+        "text": "Kansas City Zoo"
       },
       "expected": {
         "coordinates": [
-          -106.62833,
-          35.06694
+          -94.52917,
+          39.00694
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dreamstyle Stadium"
+          "name": "Kansas City Zoo"
         }
       }
     },
     {
-      "id": "Howard J. Lamade Stadium",
+      "id": "Lake Superior Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Howard J. Lamade Stadium"
+        "text": "Lake Superior Zoo"
       },
       "expected": {
         "coordinates": [
-          -76.98,
-          41.23
+          -92.191,
+          46.725
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Howard J. Lamade Stadium"
+          "name": "Lake Superior Zoo"
         }
       }
     },
     {
-      "id": "Rentschler Field",
+      "id": "Downtown Aquarium, Denver",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Rentschler Field"
+        "text": "Downtown Aquarium, Denver"
       },
       "expected": {
         "coordinates": [
-          -72.62833,
-          41.75333
+          -105.01417,
+          39.75167
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Rentschler Field"
+          "name": "Downtown Aquarium, Denver"
         }
       }
     },
     {
-      "id": "Michie Stadium",
+      "id": "Downtown Aquarium, Houston",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Michie Stadium"
+        "text": "Downtown Aquarium, Houston"
       },
       "expected": {
         "coordinates": [
-          -73.96417,
-          41.3875
+          -95.36737,
+          29.7642
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Michie Stadium"
+          "name": "Downtown Aquarium, Houston"
         }
       }
     },
     {
-      "id": "Nippert Stadium",
+      "id": "Lee G. Simmons Conservation Park and Wildlife Safari",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Nippert Stadium"
+        "text": "Lee G. Simmons Conservation Park and Wildlife Safari"
       },
       "expected": {
         "coordinates": [
-          -84.516,
-          39.131
+          -96.299,
+          41.01
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Nippert Stadium"
+          "name": "Lee G. Simmons Conservation Park and Wildlife Safari"
         }
       }
     },
     {
-      "id": "TDECU Stadium",
+      "id": "Lee Richardson Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "TDECU Stadium"
+        "text": "Lee Richardson Zoo"
       },
       "expected": {
         "coordinates": [
-          -95.34917,
-          29.72194
+          -100.8722,
+          37.9591
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "TDECU Stadium"
+          "name": "Lee Richardson Zoo"
         }
       }
     },
     {
-      "id": "Globe Life Field",
+      "id": "Lehigh Valley Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Globe Life Field"
+        "text": "Lehigh Valley Zoo"
       },
       "expected": {
         "coordinates": [
-          -97.08417,
-          32.74736
+          -75.62596,
+          40.65825
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Globe Life Field"
+          "name": "Lehigh Valley Zoo"
         }
       }
     },
     {
-      "id": "Joan C. Edwards Stadium",
+      "id": "Lincoln Children's Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Joan C. Edwards Stadium"
+        "text": "Lincoln Children's Zoo"
       },
       "expected": {
         "coordinates": [
-          -82.42083,
-          38.425
+          -96.67914,
+          40.80018
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Joan C. Edwards Stadium"
+          "name": "Lincoln Children's Zoo"
         }
       }
     },
     {
-      "id": "Albertsons Stadium",
+      "id": "Lincoln Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Albertsons Stadium"
+        "text": "Lincoln Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -116.196,
-          43.603
+          -87.63384,
+          41.92137
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Albertsons Stadium"
+          "name": "Lincoln Park Zoo"
         }
       }
     },
     {
-      "id": "Sam Boyd Stadium",
+      "id": "Lion Country Safari",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Sam Boyd Stadium"
+        "text": "Lion Country Safari"
       },
       "expected": {
         "coordinates": [
-          -115.017,
-          36.086
+          -80.32213,
+          26.71608
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Sam Boyd Stadium"
+          "name": "Lion Country Safari"
         }
       }
     },
     {
-      "id": "M. M. Roberts Stadium",
+      "id": "Little Rock Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "M. M. Roberts Stadium"
+        "text": "Little Rock Zoo"
       },
       "expected": {
         "coordinates": [
-          -89.33139,
-          31.32889
+          -92.3321,
+          34.7464
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "M. M. Roberts Stadium"
+          "name": "Little Rock Zoo"
         }
       }
     },
     {
-      "id": "Martin Stadium",
+      "id": "Living Desert Zoo and Gardens State Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Martin Stadium"
+        "text": "Living Desert Zoo and Gardens State Park"
       },
       "expected": {
         "coordinates": [
-          -117.16,
-          46.732
+          -104.2775,
+          32.44167
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Martin Stadium"
+          "name": "Living Desert Zoo and Gardens State Park"
         }
       }
     },
     {
-      "id": "Navy–Marine Corps Memorial Stadium",
+      "id": "Living Desert Zoo and Gardens",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Navy-Marine Corps Memorial Stadium"
+        "text": "Living Desert Zoo and Gardens"
       },
       "expected": {
         "coordinates": [
-          -76.507,
-          38.985
+          -116.37028,
+          33.69583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Navy-Marine Corps Memorial Stadium"
+          "name": "Living Desert Zoo and Gardens"
         }
       }
     },
     {
-      "id": "Wallace Wade Stadium",
+      "id": "Los Angeles Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Wallace Wade Stadium"
+        "text": "Los Angeles Zoo"
       },
       "expected": {
         "coordinates": [
-          -78.94167,
-          35.99528
+          -118.28388,
+          34.14815
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Wallace Wade Stadium"
+          "name": "Los Angeles Zoo"
         }
       }
     },
     {
-      "id": "Gerald J. Ford Stadium",
+      "id": "Louisville Zoological Garden",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Gerald J. Ford Stadium"
+        "text": "Louisville Zoological Garden"
       },
       "expected": {
         "coordinates": [
-          -96.78399,
-          32.83664
+          -85.70528,
+          38.20528
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Gerald J. Ford Stadium"
+          "name": "Louisville Zoological Garden"
         }
       }
     },
     {
-      "id": "BB&T Field at Groves Stadium",
+      "id": "Loveland Living Planet Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "BB&T Field at Groves Stadium"
+        "text": "Loveland Living Planet Aquarium"
       },
       "expected": {
         "coordinates": [
-          -80.25472,
-          36.13056
+          -111.8714,
+          40.5599
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "BB&T Field at Groves Stadium"
+          "name": "Loveland Living Planet Aquarium"
         }
       }
     },
     {
-      "id": "Cajun Field",
+      "id": "Maritime Aquarium at Norwalk",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cajun Field"
+        "text": "Maritime Aquarium at Norwalk"
       },
       "expected": {
         "coordinates": [
-          -92.04194,
-          30.21583
+          -73.4164,
+          41.101
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cajun Field"
+          "name": "Maritime Aquarium at Norwalk"
         }
       }
     },
     {
-      "id": "Brigham Field at Huskie Stadium",
+      "id": "Maryland Zoo in Baltimore",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Brigham Field at Huskie Stadium"
+        "text": "Maryland Zoo in Baltimore"
       },
       "expected": {
         "coordinates": [
-          -88.778,
-          41.934
+          -76.64944,
+          39.32333
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Brigham Field at Huskie Stadium"
+          "name": "Maryland Zoo in Baltimore"
         }
       }
     },
     {
-      "id": "Centennial Bank Stadium",
+      "id": "Memphis Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Centennial Bank Stadium"
+        "text": "Memphis Zoo"
       },
       "expected": {
         "coordinates": [
-          -90.66722,
-          35.84889
+          -89.9943,
+          35.15
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Centennial Bank Stadium"
+          "name": "Memphis Zoo"
         }
       }
     },
     {
-      "id": "Apogee Stadium",
+      "id": "Mesker Park Zoo and Botanic Garden",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Apogee Stadium"
+        "text": "Mesker Park Zoo and Botanic Garden"
       },
       "expected": {
         "coordinates": [
-          -97.15944,
-          33.20361
+          -87.6016,
+          37.9971
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Apogee Stadium"
+          "name": "Mesker Park Zoo and Botanic Garden"
         }
       }
     },
     {
-      "id": "Johnny \"Red\" Floyd Stadium",
+      "id": "Miller Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Johnny \"Red\" Floyd Stadium"
+        "text": "Miller Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -86.36822,
-          35.85051
+          -89.0055,
+          40.469
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Johnny \"Red\" Floyd Stadium"
+          "name": "Miller Park Zoo"
         }
       }
     },
     {
-      "id": "Joe Aillet Stadium",
+      "id": "Milwaukee County Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Joe Aillet Stadium"
+        "text": "Milwaukee County Zoo"
       },
       "expected": {
         "coordinates": [
-          -92.65583,
-          32.53222
+          -88.0374,
+          43.03266
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Joe Aillet Stadium"
+          "name": "Milwaukee County Zoo"
         }
       }
     },
     {
-      "id": "CEFCU Stadium",
+      "id": "Minnesota Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "CEFCU Stadium"
+        "text": "Minnesota Zoo"
       },
       "expected": {
         "coordinates": [
-          -121.86833,
-          37.31972
+          -93.19889,
+          44.76861
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "CEFCU Stadium"
+          "name": "Minnesota Zoo"
         }
       }
     },
     {
-      "id": "Malone Stadium",
+      "id": "Monterey Bay Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Malone Stadium"
+        "text": "Monterey Bay Aquarium"
       },
       "expected": {
         "coordinates": [
-          -92.06583,
-          32.53083
+          -121.9019,
+          36.6181
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Malone Stadium"
+          "name": "Monterey Bay Aquarium"
         }
       }
     },
     {
-      "id": "Aggie Memorial Stadium",
+      "id": "Moody Gardens",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Aggie Memorial Stadium"
+        "text": "Moody Gardens"
       },
       "expected": {
         "coordinates": [
-          -106.74111,
-          32.27972
+          -94.8513,
+          29.2741
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Aggie Memorial Stadium"
+          "name": "Moody Gardens"
         }
       }
     },
     {
-      "id": "Harvard Stadium",
+      "id": "Mote Marine Laboratory",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Harvard Stadium"
+        "text": "Mote Marine Laboratory"
       },
       "expected": {
         "coordinates": [
-          -71.12722,
-          42.36639
+          -82.57714,
+          27.33292
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Harvard Stadium"
+          "name": "Mote Marine Laboratory"
         }
       }
     },
     {
-      "id": "Kelly/Shorts Stadium",
+      "id": "Museum of Life and Science",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kelly/Shorts Stadium"
+        "text": "Museum of Life and Science"
       },
       "expected": {
         "coordinates": [
-          -84.77083,
-          43.5775
+          -78.89734,
+          36.02865
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kelly/Shorts Stadium"
+          "name": "Museum of Life and Science"
         }
       }
     },
     {
-      "id": "Rynearson Stadium",
+      "id": "Museum of Science (Boston)",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Rynearson Stadium"
+        "text": "Museum of Science"
       },
       "expected": {
         "coordinates": [
-          -83.64722,
-          42.25583
+          -71.071,
+          42.36778
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Rynearson Stadium"
+          "name": "Museum of Science"
         }
       }
     },
     {
-      "id": "Waldo Stadium",
+      "id": "Mystic Aquarium & Institute for Exploration",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Waldo Stadium"
+        "text": "Mystic Aquarium & Institute for Exploration"
       },
       "expected": {
         "coordinates": [
-          -85.60111,
-          42.28583
+          -71.9529,
+          41.3748
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Waldo Stadium"
+          "name": "Mystic Aquarium & Institute for Exploration"
         }
       }
     },
     {
-      "id": "FAU Stadium",
+      "id": "Naples Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "FAU Stadium"
+        "text": "Naples Zoo"
       },
       "expected": {
         "coordinates": [
-          -80.10028,
-          26.37528
+          -81.79068,
+          26.16821
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "FAU Stadium"
+          "name": "Naples Zoo"
         }
       }
     },
     {
-      "id": "Benson Field at Yulman Stadium",
+      "id": "Nashville Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Benson Field at Yulman Stadium"
+        "text": "Nashville Zoo"
       },
       "expected": {
         "coordinates": [
-          -90.11682,
-          29.94482
+          -86.74372,
+          36.08919
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Benson Field at Yulman Stadium"
+          "name": "Nashville Zoo"
         }
       }
     },
     {
-      "id": "ASU Stadium",
+      "id": "National Aquarium in Baltimore",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "ASU Stadium"
+        "text": "National Aquarium in Baltimore"
       },
       "expected": {
         "coordinates": [
-          -90.66722,
-          35.84889
+          -76.60694,
+          39.2844
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "ASU Stadium"
+          "name": "National Aquarium in Baltimore"
         }
       }
     },
     {
-      "id": "H. A. Chapman Stadium",
+      "id": "National Aviary",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "H. A. Chapman Stadium"
+        "text": "National Aviary"
       },
       "expected": {
         "coordinates": [
-          -95.94389,
-          36.14861
+          -80.01,
+          40.4533
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "H. A. Chapman Stadium"
+          "name": "National Aviary"
         }
       }
     },
     {
-      "id": "InfoCision Stadium – Summa Field",
+      "id": "National Mississippi River Museum & Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "InfoCision Stadium - Summa Field"
+        "text": "National Mississippi River Museum & Aquarium"
       },
       "expected": {
         "coordinates": [
-          -81.50802,
-          41.07235
+          -90.6613,
+          42.4968
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "InfoCision Stadium - Summa Field"
+          "name": "National Mississippi River Museum & Aquarium"
         }
       }
     },
     {
-      "id": "William \"Dick\" Price Stadium",
+      "id": "New England Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "William \"Dick\" Price Stadium"
+        "text": "New England Aquarium"
       },
       "expected": {
         "coordinates": [
-          -76.26005,
-          36.84696
+          -71.04944,
+          42.35917
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "William \"Dick\" Price Stadium"
+          "name": "New England Aquarium"
         }
       }
     },
     {
-      "id": "Kidd Brewer Stadium",
+      "id": "New York Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kidd Brewer Stadium"
+        "text": "New York Aquarium"
       },
       "expected": {
         "coordinates": [
-          -81.68556,
-          36.21167
+          -73.97512,
+          40.57429
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kidd Brewer Stadium"
+          "name": "New York Aquarium"
         }
       }
     },
     {
-      "id": "UB Stadium",
+      "id": "Newport Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "UB Stadium"
+        "text": "Newport Aquarium"
       },
       "expected": {
         "coordinates": [
-          -78.7775,
-          42.99917
+          -84.49759,
+          39.09437
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "UB Stadium"
+          "name": "Newport Aquarium"
         }
       }
     },
     {
-      "id": "Ace W. Mumford Stadium",
+      "id": "North Carolina Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Ace W. Mumford Stadium"
+        "text": "North Carolina Zoo"
       },
       "expected": {
         "coordinates": [
-          -91.18953,
-          30.52186
+          -79.7645,
+          35.6295
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Ace W. Mumford Stadium"
+          "name": "North Carolina Zoo"
         }
       }
     },
     {
-      "id": "Joe Albi Stadium",
+      "id": "Northeastern Wisconsin Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Joe Albi Stadium"
+        "text": "Northeastern Wisconsin Zoo"
       },
       "expected": {
         "coordinates": [
-          -117.483,
-          47.705
+          -88.08979,
+          44.66075
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Joe Albi Stadium"
+          "name": "Northeastern Wisconsin Zoo"
         }
       }
     },
     {
-      "id": "Doyt L. Perry Stadium",
+      "id": "Northwest Trek",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Doyt L. Perry Stadium"
+        "text": "Northwest Trek"
       },
       "expected": {
         "coordinates": [
-          -83.6225,
-          41.37806
+          -122.27182,
+          46.91615
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Doyt L. Perry Stadium"
+          "name": "Northwest Trek"
         }
       }
     },
     {
-      "id": "Paulson Stadium",
+      "id": "Oakland Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Paulson Stadium"
+        "text": "Oakland Zoo"
       },
       "expected": {
         "coordinates": [
-          -81.78313,
-          32.41216
+          -122.1477,
+          37.7508
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Paulson Stadium"
+          "name": "Oakland Zoo"
         }
       }
     },
     {
-      "id": "Princeton University Stadium",
+      "id": "L'Oceanogràfic",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Princeton University Stadium"
+        "text": "L'Oceanogràfic"
       },
       "expected": {
         "coordinates": [
-          -74.65003,
-          40.34575
+          -0.34812,
+          39.45279
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Princeton University Stadium"
+          "name": "L'Oceanogràfic"
         }
       }
     },
     {
-      "id": "Dignity Health Sports Park",
+      "id": "Ocean Park, Hong Kong",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dignity Health Sports Park"
+        "text": "Ocean Park, Hong Kong"
       },
       "expected": {
         "coordinates": [
-          -118.261,
-          33.864
+          114.17592,
+          22.24586
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dignity Health Sports Park"
+          "name": "Ocean Park, Hong Kong"
         }
       }
     },
     {
-      "id": "Eddie Robinson Stadium",
+      "id": "OdySea Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Eddie Robinson Stadium"
+        "text": "OdySea Aquarium"
       },
       "expected": {
         "coordinates": [
-          -92.72129,
-          32.52093
+          -111.8776,
+          33.55447
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Eddie Robinson Stadium"
+          "name": "OdySea Aquarium"
         }
       }
     },
     {
-      "id": "Schoellkopf Field",
+      "id": "Oglebay's Good Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Schoellkopf Field"
+        "text": "Oglebay's Good Zoo"
       },
       "expected": {
         "coordinates": [
-          -76.47866,
-          42.44409
+          -80.66889,
+          40.10194
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Schoellkopf Field"
+          "name": "Oglebay's Good Zoo"
         }
       }
     },
     {
-      "id": "Maverik Stadium",
+      "id": "Oklahoma City Zoological Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Maverik Stadium"
+        "text": "Oklahoma City Zoological Park"
       },
       "expected": {
         "coordinates": [
-          -111.81167,
-          41.75167
+          -97.4724,
+          35.5212
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Maverik Stadium"
+          "name": "Oklahoma City Zoological Park"
         }
       }
     },
     {
-      "id": "Bragg Memorial Stadium",
+      "id": "Henry Doorly Zoo and Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bragg Memorial Stadium"
+        "text": "Henry Doorly Zoo and Aquarium"
       },
       "expected": {
         "coordinates": [
-          -84.29167,
-          30.42611
+          -95.9287,
+          41.2247
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bragg Memorial Stadium"
+          "name": "Henry Doorly Zoo and Aquarium"
         }
       }
     },
     {
-      "id": "Exploria Stadium",
+      "id": "Oregon Coast Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Exploria Stadium"
+        "text": "Oregon Coast Aquarium"
       },
       "expected": {
         "coordinates": [
-          -81.3893,
-          28.5411
+          -124.04709,
+          44.61784
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Exploria Stadium"
+          "name": "Oregon Coast Aquarium"
         }
       }
     },
     {
-      "id": "Dix Stadium",
+      "id": "Oregon Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dix Stadium"
+        "text": "Oregon Zoo"
       },
       "expected": {
         "coordinates": [
-          -81.31333,
-          41.13917
+          -122.71472,
+          45.50833
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dix Stadium"
+          "name": "Oregon Zoo"
         }
       }
     },
     {
-      "id": "Providence Park",
+      "id": "Palm Beach Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Providence Park"
+        "text": "Palm Beach Zoo"
       },
       "expected": {
         "coordinates": [
-          -122.69167,
-          45.52139
+          -80.0693,
+          26.66641
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Providence Park"
+          "name": "Palm Beach Zoo"
         }
       }
     },
     {
-      "id": "Washington–Grizzly Stadium",
+      "id": "Zoo León",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Washington-Grizzly Stadium"
+        "text": "Zoo León"
       },
       "expected": {
         "coordinates": [
-          -113.981,
-          46.864
+          -101.6598,
+          21.11125
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Washington-Grizzly Stadium"
+          "name": "Zoo León"
         }
       }
     },
     {
-      "id": "Williams Stadium",
+      "id": "Peoria Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Williams Stadium"
+        "text": "Peoria Zoo"
       },
       "expected": {
         "coordinates": [
-          -79.175,
-          37.354
+          -89.57419,
+          40.71548
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Williams Stadium"
+          "name": "Peoria Zoo"
         }
       }
     },
     {
-      "id": "Bridgeforth Stadium",
+      "id": "Philadelphia Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Bridgeforth Stadium"
+        "text": "Philadelphia Zoo"
       },
       "expected": {
         "coordinates": [
-          -78.87306,
-          38.43528
+          -75.19568,
+          39.97451
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Bridgeforth Stadium"
+          "name": "Philadelphia Zoo"
         }
       }
     },
     {
-      "id": "Cramton Bowl",
+      "id": "Phoenix Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Cramton Bowl"
+        "text": "Phoenix Zoo"
       },
       "expected": {
         "coordinates": [
-          -86.293,
-          32.37949
+          -111.94926,
+          33.45249
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Cramton Bowl"
+          "name": "Phoenix Zoo"
         }
       }
     },
     {
-      "id": "Georgia State Stadium",
+      "id": "Point Defiance Zoo & Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Georgia State Stadium"
+        "text": "Point Defiance Zoo & Aquarium"
       },
       "expected": {
         "coordinates": [
-          -84.38944,
-          33.73528
+          -122.5207,
+          47.3048
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Georgia State Stadium"
+          "name": "Point Defiance Zoo & Aquarium"
         }
       }
     },
     {
-      "id": "Fred C. Yager Stadium",
+      "id": "Potawatomi Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Fred C. Yager Stadium"
+        "text": "Potawatomi Zoo"
       },
       "expected": {
         "coordinates": [
-          -84.73278,
-          39.51944
+          -86.21792,
+          41.66933
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Fred C. Yager Stadium"
+          "name": "Potawatomi Zoo"
         }
       }
     },
     {
-      "id": "TD Ameritrade Park Omaha",
+      "id": "Potter Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "TD Ameritrade Park Omaha"
+        "text": "Potter Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -95.932,
-          41.267
+          -84.5284,
+          42.71774
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "TD Ameritrade Park Omaha"
+          "name": "Potter Park Zoo"
         }
       }
     },
     {
-      "id": "JSU Stadium",
+      "id": "Prospect Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "JSU Stadium"
+        "text": "Prospect Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -85.76639,
-          33.82028
+          -73.96444,
+          40.66583
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "JSU Stadium"
+          "name": "Prospect Park Zoo"
         }
       }
     },
     {
-      "id": "Arthur Ashe Stadium",
+      "id": "Pueblo Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Arthur Ashe Stadium"
+        "text": "Pueblo Zoo"
       },
       "expected": {
         "coordinates": [
-          -73.84703,
-          40.74989
+          -104.6581,
+          38.2617
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Arthur Ashe Stadium"
+          "name": "Pueblo Zoo"
         }
       }
     },
     {
-      "id": "Fitton Field",
+      "id": "Queens Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Fitton Field"
+        "text": "Queens Zoo"
       },
       "expected": {
         "coordinates": [
-          -71.80997,
-          42.24156
+          -73.84859,
+          40.74374
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Fitton Field"
+          "name": "Queens Zoo"
         }
       }
     },
     {
-      "id": "Jack Spinks Stadium",
+      "id": "Racine Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Jack Spinks Stadium"
+        "text": "Racine Zoo"
       },
       "expected": {
         "coordinates": [
-          -91.13492,
-          31.87355
+          -87.7837,
+          42.7488
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Jack Spinks Stadium"
+          "name": "Racine Zoo"
         }
       }
     },
     {
-      "id": "BBVA Stadium",
+      "id": "Red River Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "BBVA Stadium"
+        "text": "Red River Zoo"
       },
       "expected": {
         "coordinates": [
-          -95.3524,
-          29.7522
+          -96.8531,
+          46.8462
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "BBVA Stadium"
+          "name": "Red River Zoo"
         }
       }
     },
     {
-      "id": "Banc of California Stadium",
+      "id": "Reid Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Banc of California Stadium"
+        "text": "Reid Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -118.285,
-          34.013
+          -110.92,
+          32.208
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Banc of California Stadium"
+          "name": "Reid Park Zoo"
         }
       }
     },
     {
-      "id": "Delaware Stadium",
+      "id": "Ripley's Aquarium of Canada",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Delaware Stadium"
+        "text": "Ripley's Aquarium of Canada"
       },
       "expected": {
         "coordinates": [
-          -75.7488,
-          39.6617
+          -79.38605,
+          43.64248
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Delaware Stadium"
+          "name": "Ripley's Aquarium of Canada"
         }
       }
     },
     {
-      "id": "Houchens Industries–L. T. Smith Stadium",
+      "id": "Riverbanks Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Houchens Industries-L. T. Smith Stadium"
+        "text": "Riverbanks Zoo"
       },
       "expected": {
         "coordinates": [
-          -86.45944,
-          36.98472
+          -81.07244,
+          34.00965
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Houchens Industries-L. T. Smith Stadium"
+          "name": "Riverbanks Zoo"
         }
       }
     },
     {
-      "id": "Oliver C. Dawson Stadium",
+      "id": "Riverside Discovery Center",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Oliver C. Dawson Stadium"
+        "text": "Riverside Discovery Center"
       },
       "expected": {
         "coordinates": [
-          -80.84464,
-          33.49859
+          -103.6841,
+          41.8552
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Oliver C. Dawson Stadium"
+          "name": "Riverside Discovery Center"
         }
       }
     },
     {
-      "id": "BB&T Stadium",
+      "id": "Roger Williams Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "BB&T Stadium"
+        "text": "Roger Williams Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -79.77028,
-          36.08139
+          -71.4163,
+          41.7899
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "BB&T Stadium"
+          "name": "Roger Williams Park Zoo"
         }
       }
     },
     {
-      "id": "Johnson Hagood Stadium",
+      "id": "Rolling Hills Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Johnson Hagood Stadium"
+        "text": "Rolling Hills Zoo"
       },
       "expected": {
         "coordinates": [
-          -79.95588,
-          32.79371
+          -97.76477,
+          38.85334
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Johnson Hagood Stadium"
+          "name": "Rolling Hills Zoo"
         }
       }
     },
     {
-      "id": "Louis Crews Stadium",
+      "id": "Roosevelt Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Louis Crews Stadium"
+        "text": "Roosevelt Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -86.57844,
-          34.78367
+          -101.27306,
+          48.23417
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Louis Crews Stadium"
+          "name": "Roosevelt Park Zoo"
         }
       }
     },
     {
-      "id": "Alerus Center",
+      "id": "Rosamond Gifford Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Alerus Center"
+        "text": "Rosamond Gifford Zoo"
       },
       "expected": {
         "coordinates": [
-          -97.09083,
-          47.91611
+          -76.18111,
+          43.04222
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Alerus Center"
+          "name": "Rosamond Gifford Zoo"
         }
       }
     },
     {
-      "id": "Finley Stadium",
+      "id": "Sacramento Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Finley Stadium"
+        "text": "Sacramento Zoo"
       },
       "expected": {
         "coordinates": [
-          -85.31576,
-          35.03637
+          -121.50403,
+          38.53961
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Finley Stadium"
+          "name": "Sacramento Zoo"
         }
       }
     },
     {
-      "id": "Stambaugh Stadium",
+      "id": "Safari West",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Stambaugh Stadium"
+        "text": "Safari West"
       },
       "expected": {
         "coordinates": [
-          -80.6493,
-          41.10946
+          -122.6959,
+          38.5571
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Stambaugh Stadium"
+          "name": "Safari West"
         }
       }
     },
     {
-      "id": "Toyota Stadium",
+      "id": "Children's Zoo at Celebration Square",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Toyota Stadium"
+        "text": "Children's Zoo at Celebration Square"
       },
       "expected": {
         "coordinates": [
-          137.17083,
-          35.08444
+          -83.95259,
+          43.41197
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Toyota Stadium"
+          "name": "Children's Zoo at Celebration Square"
         }
       }
     },
     {
-      "id": "Rio Tinto Stadium",
+      "id": "Saint Louis Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Rio Tinto Stadium"
+        "text": "Saint Louis Zoo"
       },
       "expected": {
         "coordinates": [
-          -111.89316,
-          40.58292
+          -90.29,
+          38.635
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Rio Tinto Stadium"
+          "name": "Saint Louis Zoo"
         }
       }
     },
     {
-      "id": "Brown Stadium",
+      "id": "San Antonio Zoological Gardens & Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Brown Stadium"
+        "text": "San Antonio Zoological Gardens & Aquarium"
       },
       "expected": {
         "coordinates": [
-          -71.39444,
-          41.84222
+          -98.4719,
+          29.4648
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Brown Stadium"
+          "name": "San Antonio Zoological Gardens & Aquarium"
         }
       }
     },
     {
-      "id": "Riccardo Silva Stadium",
+      "id": "San Diego Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Riccardo Silva Stadium"
+        "text": "San Diego Zoo"
       },
       "expected": {
         "coordinates": [
-          -80.37778,
-          25.7525
+          -117.15139,
+          32.73611
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Riccardo Silva Stadium"
+          "name": "San Diego Zoo"
         }
       }
     },
     {
-      "id": "Roy Kidd Stadium",
+      "id": "San Diego Zoo Safari Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Roy Kidd Stadium"
+        "text": "San Diego Zoo Safari Park"
       },
       "expected": {
         "coordinates": [
-          -84.29741,
-          37.73439
+          -117.00152,
+          33.0997
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Roy Kidd Stadium"
+          "name": "San Diego Zoo Safari Park"
         }
       }
     },
     {
-      "id": "Mesquite Memorial Stadium",
+      "id": "San Francisco Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Mesquite Memorial Stadium"
+        "text": "San Francisco Zoo"
       },
       "expected": {
         "coordinates": [
-          -96.6348,
-          32.7644
+          -122.50306,
+          37.73306
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Mesquite Memorial Stadium"
+          "name": "San Francisco Zoo"
         }
       }
     },
     {
-      "id": "Kimbrough Memorial Stadium",
+      "id": "Santa Barbara Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Kimbrough Memorial Stadium"
+        "text": "Santa Barbara Zoo"
       },
       "expected": {
         "coordinates": [
-          -101.91667,
-          35.01194
+          -119.665,
+          34.41944
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Kimbrough Memorial Stadium"
+          "name": "Santa Barbara Zoo"
         }
       }
     },
     {
-      "id": "SeatGeek Stadium",
+      "id": "Santa Fe College Teaching Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "SeatGeek Stadium"
+        "text": "Santa Fe College Teaching Zoo"
       },
       "expected": {
         "coordinates": [
-          -87.80611,
-          41.76472
+          -82.4382,
+          29.6819
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "SeatGeek Stadium"
+          "name": "Santa Fe College Teaching Zoo"
         }
       }
     },
     {
-      "id": "Audi Field",
+      "id": "Scovill Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Audi Field"
+        "text": "Scovill Zoo"
       },
       "expected": {
         "coordinates": [
-          -77.01222,
-          38.86833
+          -88.90667,
+          39.82889
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Audi Field"
+          "name": "Scovill Zoo"
         }
       }
     },
     {
-      "id": "Brooks Stadium",
+      "id": "Sea Life Arizona",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Brooks Stadium"
+        "text": "Sea Life Arizona"
       },
       "expected": {
         "coordinates": [
-          -79.01765,
-          33.79301
+          -111.96332,
+          33.38485
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Brooks Stadium"
+          "name": "Sea Life Arizona"
         }
       }
     },
     {
-      "id": "Mapfre Stadium",
+      "id": "Sea Life Kansas City",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Mapfre Stadium"
+        "text": "Sea Life Kansas City"
       },
       "expected": {
         "coordinates": [
-          -82.99111,
-          40.00944
+          -94.58144,
+          39.081
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Mapfre Stadium"
+          "name": "Sea Life Kansas City"
         }
       }
     },
     {
-      "id": "Dana J. Dykhouse Stadium",
+      "id": "The Seas with Nemo & Friends",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dana J. Dykhouse Stadium"
+        "text": "The Seas with Nemo & Friends"
       },
       "expected": {
         "coordinates": [
-          -96.78014,
-          44.32103
+          -81.55088,
+          28.37537
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dana J. Dykhouse Stadium"
+          "name": "The Seas with Nemo & Friends"
         }
       }
     },
     {
-      "id": "Allianz Field",
+      "id": "Seattle Aquarium",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Allianz Field"
+        "text": "Seattle Aquarium"
       },
       "expected": {
         "coordinates": [
-          -93.165,
-          44.95278
+          -122.34313,
+          47.6077
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Allianz Field"
+          "name": "Seattle Aquarium"
         }
       }
     },
     {
-      "id": "Fargodome",
+      "id": "SeaWorld Orlando",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Fargodome"
+        "text": "SeaWorld Orlando"
       },
       "expected": {
         "coordinates": [
-          -96.80155,
-          46.90304
+          -81.4625,
+          28.41083
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Fargodome"
+          "name": "SeaWorld Orlando"
         }
       }
     },
     {
-      "id": "Talen Energy Stadium",
+      "id": "SeaWorld San Antonio",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Talen Energy Stadium"
+        "text": "SeaWorld San Antonio"
       },
       "expected": {
         "coordinates": [
-          -75.37889,
-          39.83222
+          -98.6998,
+          29.4584
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Talen Energy Stadium"
+          "name": "SeaWorld San Antonio"
         }
       }
     },
     {
-      "id": "Children's Mercy Park",
+      "id": "SeaWorld San Diego",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Children's Mercy Park"
+        "text": "SeaWorld San Diego"
       },
       "expected": {
         "coordinates": [
-          -94.821,
-          39.1214
+          -117.22727,
+          32.76575
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Children's Mercy Park"
+          "name": "SeaWorld San Diego"
         }
       }
     },
     {
-      "id": "Dick's Sporting Goods Park",
+      "id": "Sedgwick County Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Dick's Sporting Goods Park"
+        "text": "Sedgwick County Zoo"
       },
       "expected": {
         "coordinates": [
-          -104.89194,
-          39.80556
+          -97.4104,
+          37.7158
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Dick's Sporting Goods Park"
+          "name": "Sedgwick County Zoo"
         }
       }
     },
     {
-      "id": "Earthquakes Stadium",
+      "id": "Seneca Park Zoo",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Earthquakes Stadium"
+        "text": "Seneca Park Zoo"
       },
       "expected": {
         "coordinates": [
-          -121.925,
-          37.35139
+          -77.6238,
+          43.2065
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Earthquakes Stadium"
+          "name": "Seneca Park Zoo"
         }
       }
     },
     {
-      "id": "Inter Miami CF Stadium",
+      "id": "Seoul Grand Park",
       "status": "pass",
       "type": "wiki-poi",
       "in": {
-        "text": "Inter Miami CF Stadium"
+        "text": "Seoul Grand Park"
       },
       "expected": {
         "coordinates": [
-          -80.16111,
-          26.19306
+          127.01722,
+          37.43056
         ],
         "distanceThresh": 5000,
         "properties": {
           "layer": "venue",
-          "name": "Inter Miami CF Stadium"
+          "name": "Seoul Grand Park"
+        }
+      }
+    },
+    {
+      "id": "Sequoia Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sequoia Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -124.14496,
+          40.77698
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sequoia Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Shark Reef at Mandalay Bay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shark Reef at Mandalay Bay"
+      },
+      "expected": {
+        "coordinates": [
+          -115.17654,
+          36.09033
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shark Reef at Mandalay Bay"
+        }
+      }
+    },
+    {
+      "id": "National Zoological Park (United States)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -77.04972,
+          38.93111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "South Carolina Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "South Carolina Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -79.92556,
+          32.79111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "South Carolina Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Squam Lakes Natural Science Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Squam Lakes Natural Science Center"
+      },
+      "expected": {
+        "coordinates": [
+          -71.58944,
+          43.73389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Squam Lakes Natural Science Center"
+        }
+      }
+    },
+    {
+      "id": "St. Augustine Alligator Farm Zoological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "St. Augustine Alligator Farm Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -81.28833,
+          29.88139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "St. Augustine Alligator Farm Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "Staten Island Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Staten Island Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -74.115,
+          40.625
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Staten Island Zoo"
+        }
+      }
+    },
+    {
+      "id": "California Academy of Sciences",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "California Academy of Sciences"
+      },
+      "expected": {
+        "coordinates": [
+          -122.46641,
+          37.7701
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "California Academy of Sciences"
+        }
+      }
+    },
+    {
+      "id": "Stone Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stone Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -71.09295,
+          42.46296
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stone Zoo"
+        }
+      }
+    },
+    {
+      "id": "Sunset Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sunset Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -96.596,
+          39.1773
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sunset Zoo"
+        }
+      }
+    },
+    {
+      "id": "Tennessee Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tennessee Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -85.3108,
+          35.0557
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tennessee Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Texas State Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Texas State Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.39222,
+          27.81389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Texas State Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Toledo Zoological Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Toledo Zoological Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -83.5807,
+          41.6191
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Toledo Zoological Gardens"
+        }
+      }
+    },
+    {
+      "id": "Topeka Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Topeka Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -95.7259,
+          39.0569
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Topeka Zoo"
+        }
+      }
+    },
+    {
+      "id": "Toronto Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Toronto Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -79.18278,
+          43.82028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Toronto Zoo"
+        }
+      }
+    },
+    {
+      "id": "Tracy Aviary",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tracy Aviary"
+      },
+      "expected": {
+        "coordinates": [
+          -111.87389,
+          40.74556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tracy Aviary"
+        }
+      }
+    },
+    {
+      "id": "Trevor Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Trevor Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -73.62111,
+          41.85556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Trevor Zoo"
+        }
+      }
+    },
+    {
+      "id": "Tulsa Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tulsa Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -95.92978,
+          36.20868
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tulsa Zoo"
+        }
+      }
+    },
+    {
+      "id": "Turtle Back Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Turtle Back Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -74.28194,
+          40.7675
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Turtle Back Zoo"
+        }
+      }
+    },
+    {
+      "id": "Hogle Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hogle Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -111.814,
+          40.7498
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hogle Zoo"
+        }
+      }
+    },
+    {
+      "id": "Utica Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Utica Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -75.246,
+          43.082
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Utica Zoo"
+        }
+      }
+    },
+    {
+      "id": "Vancouver Aquarium Marine Science Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vancouver Aquarium Marine Science Centre"
+      },
+      "expected": {
+        "coordinates": [
+          -123.13105,
+          49.30059
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vancouver Aquarium Marine Science Centre"
+        }
+      }
+    },
+    {
+      "id": "Virginia Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virginia Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -75.98377,
+          36.82105
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virginia Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Virginia Living Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virginia Living Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -76.4887,
+          37.0546
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virginia Living Museum"
+        }
+      }
+    },
+    {
+      "id": "Virginia Zoological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virginia Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -76.2774,
+          36.8786
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virginia Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "Wildlife Safari",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wildlife Safari"
+      },
+      "expected": {
+        "coordinates": [
+          -123.4265,
+          43.1417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wildlife Safari"
+        }
+      }
+    },
+    {
+      "id": "The Wilds",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Wilds"
+      },
+      "expected": {
+        "coordinates": [
+          -81.73278,
+          39.82944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Wilds"
+        }
+      }
+    },
+    {
+      "id": "Woodland Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Woodland Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -122.34984,
+          47.66834
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Woodland Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Zoo Atlanta",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Atlanta"
+      },
+      "expected": {
+        "coordinates": [
+          -84.36972,
+          33.7325
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Atlanta"
+        }
+      }
+    },
+    {
+      "id": "Zoo Boise",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Boise"
+      },
+      "expected": {
+        "coordinates": [
+          -116.20151,
+          43.60756
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Boise"
+        }
+      }
+    },
+    {
+      "id": "Granby Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Granby Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -72.71931,
+          45.41661
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Granby Zoo"
+        }
+      }
+    },
+    {
+      "id": "Zoo Knoxville",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Knoxville"
+      },
+      "expected": {
+        "coordinates": [
+          -83.888,
+          35.9999
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Knoxville"
+        }
+      }
+    },
+    {
+      "id": "Zoo Miami",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Miami"
+      },
+      "expected": {
+        "coordinates": [
+          -80.4001,
+          25.6077
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Miami"
+        }
+      }
+    },
+    {
+      "id": "ZooAmerica",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "ZooAmerica"
+      },
+      "expected": {
+        "coordinates": [
+          -76.65083,
+          40.2875
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "ZooAmerica"
+        }
+      }
+    },
+    {
+      "id": "Cali Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cali Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -76.55861,
+          3.44861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cali Zoo"
+        }
+      }
+    },
+    {
+      "id": "ZooMontana",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "ZooMontana"
+      },
+      "expected": {
+        "coordinates": [
+          -108.6226,
+          45.7315
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "ZooMontana"
+        }
+      }
+    },
+    {
+      "id": "ZooTampa at Lowry Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "ZooTampa at Lowry Park"
+      },
+      "expected": {
+        "coordinates": [
+          -82.4697,
+          28.0133
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "ZooTampa at Lowry Park"
+        }
+      }
+    },
+    {
+      "id": "Duke Lemur Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Duke Lemur Center"
+      },
+      "expected": {
+        "coordinates": [
+          -78.9604,
+          35.9949
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Duke Lemur Center"
+        }
+      }
+    },
+    {
+      "id": "The Elephant Sanctuary (Hohenwald)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Elephant Sanctuary"
+      },
+      "expected": {
+        "coordinates": [
+          -87.55092,
+          35.54832
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Elephant Sanctuary"
+        }
+      }
+    },
+    {
+      "id": "Endangered Wolf Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Endangered Wolf Center"
+      },
+      "expected": {
+        "coordinates": [
+          -90.5522,
+          38.5155
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Endangered Wolf Center"
+        }
+      }
+    },
+    {
+      "id": "Lubee Bat Conservancy",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lubee Bat Conservancy"
+      },
+      "expected": {
+        "coordinates": [
+          -82.3405,
+          29.8252
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lubee Bat Conservancy"
         }
       }
     }

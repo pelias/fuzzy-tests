@@ -35,8 +35,5 @@
   "pre-commit": [
     "lint",
     "validate"
-  ],
-  "engines": {
-    "npm": "~2.0.0"
-  }
+  ]
 }

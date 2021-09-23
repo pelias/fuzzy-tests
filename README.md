@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/pelias/fuzzy-tests.png)](https://travis-ci.org/pelias/fuzzy-tests)
-
 # Fuzzy tests
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/pelias/fuzzy-tests.svg)](https://greenkeeper.io/)

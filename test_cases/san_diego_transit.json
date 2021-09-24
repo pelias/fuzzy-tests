@@ -5,10 +5,11 @@
   "source": "OSM",
   "normalizers": {
     "name": [
-      "toLowerCase",
+      "toUpperCase",
       "removeOrdinals",
       "stripPunctuation",
-      "abbreviateDirectionals"
+      "abbreviateDirectionals",
+      "toLowerCase"
     ]
   },
   "tests": [

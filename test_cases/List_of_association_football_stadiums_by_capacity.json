@@ -1,0 +1,6761 @@
+{
+  "name": "wikipedia scrape: List_of_association_football_stadiums_by_capacity",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Rungrado 1st of May Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rungrado 1st of May Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          125.77528,
+          39.04944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rungrado 1st of May Stadium"
+        }
+      }
+    },
+    {
+      "id": "AT&T Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "AT&T Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.09278,
+          32.74778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "AT&T Stadium"
+        }
+      }
+    },
+    {
+      "id": "Melbourne Cricket Ground",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Melbourne Cricket Ground"
+      },
+      "expected": {
+        "coordinates": [
+          144.98333,
+          -37.82
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Melbourne Cricket Ground"
+        }
+      }
+    },
+    {
+      "id": "Camp Nou",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Camp Nou"
+      },
+      "expected": {
+        "coordinates": [
+          2.1228,
+          41.38087
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Camp Nou"
+        }
+      }
+    },
+    {
+      "id": "FNB Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "FNB Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          27.98235,
+          -26.2348
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "FNB Stadium"
+        }
+      }
+    },
+    {
+      "id": "Rose Bowl (stadium)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rose Bowl"
+      },
+      "expected": {
+        "coordinates": [
+          -118.168,
+          34.161
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rose Bowl"
+        }
+      }
+    },
+    {
+      "id": "Wembley Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wembley Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -0.27972,
+          51.55583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wembley Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Azteca",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Azteca"
+      },
+      "expected": {
+        "coordinates": [
+          -99.15056,
+          19.30306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Azteca"
+        }
+      }
+    },
+    {
+      "id": "Bukit Jalil National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bukit Jalil National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          101.69117,
+          3.05467
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bukit Jalil National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Borg El Arab Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Borg El Arab Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          29.72325,
+          30.99762
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Borg El Arab Stadium"
+        }
+      }
+    },
+    {
+      "id": "Salt Lake Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Salt Lake Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          88.40917,
+          22.56889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Salt Lake Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stadium Australia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadium Australia"
+      },
+      "expected": {
+        "coordinates": [
+          151.06333,
+          -33.84722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadium Australia"
+        }
+      }
+    },
+    {
+      "id": "MetLife Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "MetLife Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -74.07436,
+          40.81353
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "MetLife Stadium"
+        }
+      }
+    },
+    {
+      "id": "Croke Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Croke Park"
+      },
+      "expected": {
+        "coordinates": [
+          -6.25133,
+          53.36075
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Croke Park"
+        }
+      }
+    },
+    {
+      "id": "Westfalenstadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Westfalenstadion"
+      },
+      "expected": {
+        "coordinates": [
+          7.45184,
+          51.49257
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Westfalenstadion"
+        }
+      }
+    },
+    {
+      "id": "Stade de France",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade de France"
+      },
+      "expected": {
+        "coordinates": [
+          2.36,
+          48.92444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade de France"
+        }
+      }
+    },
+    {
+      "id": "Santiago Bernabeu Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Santiago Bernabeu Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -3.68835,
+          40.45306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Santiago Bernabeu Stadium"
+        }
+      }
+    },
+    {
+      "id": "Shah Alam Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shah Alam Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          101.54494,
+          3.08225
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shah Alam Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Monumental \"U\"",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Monumental \"U\""
+      },
+      "expected": {
+        "coordinates": [
+          -76.93597,
+          -12.05569
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Monumental \"U\""
+        }
+      }
+    },
+    {
+      "id": "San Siro",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Siro"
+      },
+      "expected": {
+        "coordinates": [
+          9.124,
+          45.47808
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "San Siro"
+        }
+      }
+    },
+    {
+      "id": "Guangdong Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Guangdong Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          113.40352,
+          23.13766
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Guangdong Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "FedExField",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "FedExField"
+      },
+      "expected": {
+        "coordinates": [
+          -76.86444,
+          38.90778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "FedExField"
+        }
+      }
+    },
+    {
+      "id": "Stade des Martyrs",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade des Martyrs"
+      },
+      "expected": {
+        "coordinates": [
+          15.31028,
+          -4.33
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade des Martyrs"
+        }
+      }
+    },
+    {
+      "id": "National Sports Stadium (Zimbabwe)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Sports Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          30.99474,
+          -17.82136
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Sports Stadium"
+        }
+      }
+    },
+    {
+      "id": "Beijing National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Beijing National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          116.39056,
+          39.99167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Beijing National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Maracanã Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maracanã Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -43.23016,
+          -22.91217
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maracanã Stadium"
+        }
+      }
+    },
+    {
+      "id": "Los Angeles Memorial Coliseum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Los Angeles Memorial Coliseum"
+      },
+      "expected": {
+        "coordinates": [
+          -118.28778,
+          34.01417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Los Angeles Memorial Coliseum"
+        }
+      }
+    },
+    {
+      "id": "Gelora Bung Karno Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gelora Bung Karno Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          106.80251,
+          -6.21858
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gelora Bung Karno Stadium"
+        }
+      }
+    },
+    {
+      "id": "Azadi Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Azadi Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          51.27552,
+          35.72444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Azadi Stadium"
+        }
+      }
+    },
+    {
+      "id": "Atatürk Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Atatürk Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          28.7657,
+          41.07447
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Atatürk Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Monumental Antonio Vespucio Liberti",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Monumental Antonio Vespucio Liberti"
+      },
+      "expected": {
+        "coordinates": [
+          -58.44974,
+          -34.54532
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Monumental Antonio Vespucio Liberti"
+        }
+      }
+    },
+    {
+      "id": "Old Trafford",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old Trafford"
+      },
+      "expected": {
+        "coordinates": [
+          -2.29139,
+          53.46306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old Trafford"
+        }
+      }
+    },
+    {
+      "id": "Allianz Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Allianz Arena"
+      },
+      "expected": {
+        "coordinates": [
+          11.62475,
+          48.21878
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Allianz Arena"
+        }
+      }
+    },
+    {
+      "id": "Aleppo International Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aleppo International Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          37.11778,
+          36.185
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aleppo International Stadium"
+        }
+      }
+    },
+    {
+      "id": "Naghsh-e-Jahan Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Naghsh-e-Jahan Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          51.6862,
+          32.74327
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Naghsh-e-Jahan Stadium"
+        }
+      }
+    },
+    {
+      "id": "Millennium Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Millennium Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -3.1825,
+          51.47806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Millennium Stadium"
+        }
+      }
+    },
+    {
+      "id": "Cairo International Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cairo International Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          31.31233,
+          30.06911
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cairo International Stadium"
+        }
+      }
+    },
+    {
+      "id": "Olympiastadion (Berlin)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Olympiastadion"
+      },
+      "expected": {
+        "coordinates": [
+          13.23944,
+          52.51472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Olympiastadion"
+        }
+      }
+    },
+    {
+      "id": "Mercedes-Benz Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mercedes-Benz Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.4,
+          33.75556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mercedes-Benz Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stadio Olimpico",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadio Olimpico"
+      },
+      "expected": {
+        "coordinates": [
+          12.45479,
+          41.93389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadio Olimpico"
+        }
+      }
+    },
+    {
+      "id": "International Stadium Yokohama",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "International Stadium Yokohama"
+      },
+      "expected": {
+        "coordinates": [
+          139.60625,
+          35.51004
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "International Stadium Yokohama"
+        }
+      }
+    },
+    {
+      "id": "NRG Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "NRG Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -95.41083,
+          29.68472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "NRG Stadium"
+        }
+      }
+    },
+    {
+      "id": "Olimpiyskiy National Sports Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Olimpiyskiy National Sports Complex"
+      },
+      "expected": {
+        "coordinates": [
+          30.52167,
+          50.43333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Olimpiyskiy National Sports Complex"
+        }
+      }
+    },
+    {
+      "id": "Seoul Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Seoul Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          127.07281,
+          37.51586
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Seoul Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Baku Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Baku Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          49.91979,
+          40.42977
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Baku Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Olympic Stadium (Athens)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          23.7875,
+          38.03611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estádio Nacional Mané Garrincha",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio Nacional Mané Garrincha"
+      },
+      "expected": {
+        "coordinates": [
+          -47.89916,
+          -15.7835
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio Nacional Mané Garrincha"
+        }
+      }
+    },
+    {
+      "id": "Olympiastadion (Munich)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Olympiastadion"
+      },
+      "expected": {
+        "coordinates": [
+          11.54667,
+          48.17306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Olympiastadion"
+        }
+      }
+    },
+    {
+      "id": "CenturyLink Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "CenturyLink Field"
+      },
+      "expected": {
+        "coordinates": [
+          -122.3316,
+          47.5952
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "CenturyLink Field"
+        }
+      }
+    },
+    {
+      "id": "Estadio Olímpico Universitario",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Olímpico Universitario"
+      },
+      "expected": {
+        "coordinates": [
+          -99.19211,
+          19.33193
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Olímpico Universitario"
+        }
+      }
+    },
+    {
+      "id": "Gillette Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gillette Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -71.264,
+          42.091
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gillette Stadium"
+        }
+      }
+    },
+    {
+      "id": "King Abdullah Sports City",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "King Abdullah Sports City"
+      },
+      "expected": {
+        "coordinates": [
+          39.16417,
+          21.76322
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "King Abdullah Sports City"
+        }
+      }
+    },
+    {
+      "id": "Krestovsky Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Krestovsky Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          30.22053,
+          59.97295
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Krestovsky Stadium"
+        }
+      }
+    },
+    {
+      "id": "Japan National Stadium (2019)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Japan National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          139.71472,
+          35.67806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Japan National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Metropolitano Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Metropolitano Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -3.59944,
+          40.43611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Metropolitano Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade Vélodrome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade Vélodrome"
+      },
+      "expected": {
+        "coordinates": [
+          5.39583,
+          43.26972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade Vélodrome"
+        }
+      }
+    },
+    {
+      "id": "Puskás Aréna",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Puskás Aréna"
+      },
+      "expected": {
+        "coordinates": [
+          19.0982,
+          47.50309
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Puskás Aréna"
+        }
+      }
+    },
+    {
+      "id": "Palaran Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palaran Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          117.13167,
+          -0.58611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Palaran Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estádio do Morumbi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio do Morumbi"
+      },
+      "expected": {
+        "coordinates": [
+          -46.72016,
+          -23.60012
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio do Morumbi"
+        }
+      }
+    },
+    {
+      "id": "Yadegar-e-Emam Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yadegar-e-Emam Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          46.29639,
+          38.02667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Yadegar-e-Emam Stadium"
+        }
+      }
+    },
+    {
+      "id": "Seoul World Cup Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Seoul World Cup Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          126.89736,
+          37.56822
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Seoul World Cup Stadium"
+        }
+      }
+    },
+    {
+      "id": "Daegu Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Daegu Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          128.69031,
+          35.82978
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Daegu Stadium"
+        }
+      }
+    },
+    {
+      "id": "Workers' Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Workers' Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          116.44114,
+          39.92953
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Workers' Stadium"
+        }
+      }
+    },
+    {
+      "id": "London Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "London Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -0.01639,
+          51.53861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "London Stadium"
+        }
+      }
+    },
+    {
+      "id": "Olympic Stadium (Montreal)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -73.552,
+          45.558
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Basra Sports City",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Basra Sports City"
+      },
+      "expected": {
+        "coordinates": [
+          47.78083,
+          30.44028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Basra Sports City"
+        }
+      }
+    },
+    {
+      "id": "Camping World Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Camping World Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.40278,
+          28.53889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Camping World Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estádio da Luz",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio da Luz"
+      },
+      "expected": {
+        "coordinates": [
+          -9.18468,
+          38.75268
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio da Luz"
+        }
+      }
+    },
+    {
+      "id": "July 5, 1962 Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "July 5, 1962 Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          2.99519,
+          36.75989
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "July 5, 1962 Stadium"
+        }
+      }
+    },
+    {
+      "id": "Castelão (Ceará)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Castelão"
+      },
+      "expected": {
+        "coordinates": [
+          -38.5225,
+          -3.80722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Castelão"
+        }
+      }
+    },
+    {
+      "id": "Saitama Stadium 2002",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Saitama Stadium 2002"
+      },
+      "expected": {
+        "coordinates": [
+          139.71749,
+          35.90314
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Saitama Stadium 2002"
+        }
+      }
+    },
+    {
+      "id": "Ellis Park Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ellis Park Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          28.06083,
+          -26.1975
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ellis Park Stadium"
+        }
+      }
+    },
+    {
+      "id": "Tottenham Hotspur Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tottenham Hotspur Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -0.06639,
+          51.60444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tottenham Hotspur Stadium"
+        }
+      }
+    },
+    {
+      "id": "Veltins-Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Veltins-Arena"
+      },
+      "expected": {
+        "coordinates": [
+          7.06759,
+          51.5545
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Veltins-Arena"
+        }
+      }
+    },
+    {
+      "id": "Yizhong Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yizhong Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          120.44048,
+          36.10331
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Yizhong Sports Center"
+        }
+      }
+    },
+    {
+      "id": "King Fahd International Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "King Fahd International Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          46.83924,
+          24.78821
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "King Fahd International Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Benito Villamarín",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Benito Villamarín"
+      },
+      "expected": {
+        "coordinates": [
+          -5.98139,
+          37.35639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Benito Villamarín"
+        }
+      }
+    },
+    {
+      "id": "Nanjing Olympic Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nanjing Olympic Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          118.7197,
+          32.01064
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nanjing Olympic Sports Center"
+        }
+      }
+    },
+    {
+      "id": "Abuja Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Abuja Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          7.45339,
+          9.03792
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Abuja Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mercedes-Benz Arena (Stuttgart)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mercedes-Benz Arena"
+      },
+      "expected": {
+        "coordinates": [
+          9.23203,
+          48.79227
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mercedes-Benz Arena"
+        }
+      }
+    },
+    {
+      "id": "Celtic Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Celtic Park"
+      },
+      "expected": {
+        "coordinates": [
+          -4.20559,
+          55.84971
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Celtic Park"
+        }
+      }
+    },
+    {
+      "id": "Emirates Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Emirates Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -0.10861,
+          51.555
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Emirates Stadium"
+        }
+      }
+    },
+    {
+      "id": "Shenzhen Universiade Sports Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shenzhen Universiade Sports Centre"
+      },
+      "expected": {
+        "coordinates": [
+          114.21219,
+          22.69714
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shenzhen Universiade Sports Centre"
+        }
+      }
+    },
+    {
+      "id": "Stadio San Paolo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadio San Paolo"
+      },
+      "expected": {
+        "coordinates": [
+          14.19301,
+          40.82797
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadio San Paolo"
+        }
+      }
+    },
+    {
+      "id": "Jawaharlal Nehru Stadium (Kochi)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jawaharlal Nehru Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          76.30111,
+          9.99722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jawaharlal Nehru Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Centenario",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Centenario"
+      },
+      "expected": {
+        "coordinates": [
+          -56.15278,
+          -34.89444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Centenario"
+        }
+      }
+    },
+    {
+      "id": "Estádio do Arruda",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio do Arruda"
+      },
+      "expected": {
+        "coordinates": [
+          -34.89117,
+          -8.02671
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio do Arruda"
+        }
+      }
+    },
+    {
+      "id": "Stade 7 November",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade 7 November"
+      },
+      "expected": {
+        "coordinates": [
+          10.27278,
+          36.74778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade 7 November"
+        }
+      }
+    },
+    {
+      "id": "Jawaharlal Nehru Stadium, Delhi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jawaharlal Nehru Stadium, Delhi"
+      },
+      "expected": {
+        "coordinates": [
+          77.23438,
+          28.58287
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jawaharlal Nehru Stadium, Delhi"
+        }
+      }
+    },
+    {
+      "id": "Mogadishu Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mogadishu Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          45.33546,
+          2.06754
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mogadishu Stadium"
+        }
+      }
+    },
+    {
+      "id": "Hefei Olympic Sports Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hefei Olympic Sports Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          117.2225,
+          31.79778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hefei Olympic Sports Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estádio Fonte Nova",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio Fonte Nova"
+      },
+      "expected": {
+        "coordinates": [
+          -38.50419,
+          -12.97881
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio Fonte Nova"
+        }
+      }
+    },
+    {
+      "id": "National Heroes Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Heroes Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          28.27264,
+          -15.36951
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Heroes Stadium"
+        }
+      }
+    },
+    {
+      "id": "Jaber Al-Ahmad International Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jaber Al-Ahmad International Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          47.91861,
+          29.27143
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jaber Al-Ahmad International Stadium"
+        }
+      }
+    },
+    {
+      "id": "Benjamin Mkapa National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Benjamin Mkapa National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          39.27382,
+          -6.85356
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Benjamin Mkapa National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade Léopold Sédar Senghor",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade Léopold Sédar Senghor"
+      },
+      "expected": {
+        "coordinates": [
+          -17.45201,
+          14.74669
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade Léopold Sédar Senghor"
+        }
+      }
+    },
+    {
+      "id": "Moi International Sports Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Moi International Sports Centre"
+      },
+      "expected": {
+        "coordinates": [
+          36.89056,
+          -1.22806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Moi International Sports Centre"
+        }
+      }
+    },
+    {
+      "id": "Jatidiri Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jatidiri Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          110.40952,
+          -7.02605
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jatidiri Stadium"
+        }
+      }
+    },
+    {
+      "id": "Odi Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Odi Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          28.04045,
+          -25.5219
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Odi Stadium"
+        }
+      }
+    },
+    {
+      "id": "Shenyang Olympic Sports Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shenyang Olympic Sports Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          123.45748,
+          41.73904
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shenyang Olympic Sports Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "Optus Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Optus Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          115.88903,
+          -31.95111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Optus Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Monumental Isidro Romero Carbo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Monumental Isidro Romero Carbo"
+      },
+      "expected": {
+        "coordinates": [
+          -79.92493,
+          -2.18587
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Monumental Isidro Romero Carbo"
+        }
+      }
+    },
+    {
+      "id": "Parc Olympique Lyonnais",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Parc Olympique Lyonnais"
+      },
+      "expected": {
+        "coordinates": [
+          4.98194,
+          45.76528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Parc Olympique Lyonnais"
+        }
+      }
+    },
+    {
+      "id": "Chongqing Olympic Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chongqing Olympic Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          106.50628,
+          29.52525
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chongqing Olympic Sports Center"
+        }
+      }
+    },
+    {
+      "id": "National Stadium, Warsaw",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Stadium, Warsaw"
+      },
+      "expected": {
+        "coordinates": [
+          21.04556,
+          52.23944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Stadium, Warsaw"
+        }
+      }
+    },
+    {
+      "id": "Stadio San Nicola",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadio San Nicola"
+      },
+      "expected": {
+        "coordinates": [
+          16.84007,
+          41.08474
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadio San Nicola"
+        }
+      }
+    },
+    {
+      "id": "Mineirão",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mineirão"
+      },
+      "expected": {
+        "coordinates": [
+          -43.97083,
+          -19.86583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mineirão"
+        }
+      }
+    },
+    {
+      "id": "Estadio de La Cartuja",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio de La Cartuja"
+      },
+      "expected": {
+        "coordinates": [
+          -6.00456,
+          37.41724
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio de La Cartuja"
+        }
+      }
+    },
+    {
+      "id": "Volksparkstadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Volksparkstadion"
+      },
+      "expected": {
+        "coordinates": [
+          9.89862,
+          53.58716
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Volksparkstadion"
+        }
+      }
+    },
+    {
+      "id": "Estadio Mario Alberto Kempes",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Mario Alberto Kempes"
+      },
+      "expected": {
+        "coordinates": [
+          -64.24624,
+          -31.36896
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Mario Alberto Kempes"
+        }
+      }
+    },
+    {
+      "id": "May 19, 1956 Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "May 19, 1956 Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          7.73306,
+          36.88583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "May 19, 1956 Stadium"
+        }
+      }
+    },
+    {
+      "id": "Shanghai Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shanghai Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          121.4373,
+          31.1835
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shanghai Stadium"
+        }
+      }
+    },
+    {
+      "id": "Jinan Olympic Sports Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jinan Olympic Sports Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          117.11005,
+          36.65665
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jinan Olympic Sports Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Jalisco",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Jalisco"
+      },
+      "expected": {
+        "coordinates": [
+          -103.32815,
+          20.70501
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Jalisco"
+        }
+      }
+    },
+    {
+      "id": "Commonwealth Stadium (Edmonton)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Commonwealth Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -113.475,
+          53.55833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Commonwealth Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadi Olímpic Lluís Companys",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadi Olímpic Lluís Companys"
+      },
+      "expected": {
+        "coordinates": [
+          2.15566,
+          41.36476
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadi Olímpic Lluís Companys"
+        }
+      }
+    },
+    {
+      "id": "Arena do Grêmio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arena do Grêmio"
+      },
+      "expected": {
+        "coordinates": [
+          -51.1944,
+          -29.97344
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arena do Grêmio"
+        }
+      }
+    },
+    {
+      "id": "Arena Națională",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arena Națională"
+      },
+      "expected": {
+        "coordinates": [
+          26.15251,
+          44.43721
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arena Națională"
+        }
+      }
+    },
+    {
+      "id": "Red Star Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Red Star Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          20.4649,
+          44.7832
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Red Star Stadium"
+        }
+      }
+    },
+    {
+      "id": "Silesian Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Silesian Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          18.97296,
+          50.2882
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Silesian Stadium"
+        }
+      }
+    },
+    {
+      "id": "City of Manchester Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "City of Manchester Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -2.20027778,
+          53.48305556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "City of Manchester Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Mestalla",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Mestalla"
+      },
+      "expected": {
+        "coordinates": [
+          -0.35836,
+          39.47466
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Mestalla"
+        }
+      }
+    },
+    {
+      "id": "New Singapore National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "New Singapore National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          103.87422,
+          1.30069
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "New Singapore National Stadium"
+        }
+      }
+    },
+    {
+      "id": "National Stadium (Kaohsiung)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          120.295,
+          22.70278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Helong Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Helong Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          112.9773,
+          28.18176
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Helong Stadium"
+        }
+      }
+    },
+    {
+      "id": "Cape Town Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cape Town Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          18.41115,
+          -33.90346
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cape Town Stadium"
+        }
+      }
+    },
+    {
+      "id": "Gelora Bung Tomo Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gelora Bung Tomo Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          112.62272,
+          -7.22328
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gelora Bung Tomo Stadium"
+        }
+      }
+    },
+    {
+      "id": "Plovdiv Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Plovdiv Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          24.71972,
+          42.14972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Plovdiv Stadium"
+        }
+      }
+    },
+    {
+      "id": "Johan Cruyff Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Johan Cruyff Arena"
+      },
+      "expected": {
+        "coordinates": [
+          4.94194,
+          52.31417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Johan Cruyff Arena"
+        }
+      }
+    },
+    {
+      "id": "Vicente Calderón Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vicente Calderón Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -3.72061,
+          40.40172
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vicente Calderón Stadium"
+        }
+      }
+    },
+    {
+      "id": "Tianhe Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tianhe Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          113.31933,
+          23.14065
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tianhe Stadium"
+        }
+      }
+    },
+    {
+      "id": "Tianjin Olympic Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tianjin Olympic Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          117.16939,
+          39.07344
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tianjin Olympic Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "Esprit Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Esprit Arena"
+      },
+      "expected": {
+        "coordinates": [
+          6.73306,
+          51.26167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Esprit Arena"
+        }
+      }
+    },
+    {
+      "id": "Boris Paichadze Dinamo Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Boris Paichadze Dinamo Arena"
+      },
+      "expected": {
+        "coordinates": [
+          44.78976,
+          41.72301
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Boris Paichadze Dinamo Arena"
+        }
+      }
+    },
+    {
+      "id": "Wuhan Sports Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wuhan Sports Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          114.16625,
+          30.50231
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wuhan Sports Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "BC Place",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "BC Place"
+      },
+      "expected": {
+        "coordinates": [
+          -123.11194,
+          49.27667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "BC Place"
+        }
+      }
+    },
+    {
+      "id": "Hrazdan Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hrazdan Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          44.49497,
+          40.1804
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hrazdan Stadium"
+        }
+      }
+    },
+    {
+      "id": "Anfield",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Anfield"
+      },
+      "expected": {
+        "coordinates": [
+          -2.96083,
+          53.43083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Anfield"
+        }
+      }
+    },
+    {
+      "id": "Estádio Serra Dourada",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio Serra Dourada"
+      },
+      "expected": {
+        "coordinates": [
+          -49.23389,
+          -16.69889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio Serra Dourada"
+        }
+      }
+    },
+    {
+      "id": "Borussia-Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Borussia-Park"
+      },
+      "expected": {
+        "coordinates": [
+          6.38546,
+          51.17458
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Borussia-Park"
+        }
+      }
+    },
+    {
+      "id": "Moses Mabhida Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Moses Mabhida Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          31.0303,
+          -29.829
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Moses Mabhida Stadium"
+        }
+      }
+    },
+    {
+      "id": "Busan Asiad Main Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Busan Asiad Main Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          129.05822,
+          35.19
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Busan Asiad Main Stadium"
+        }
+      }
+    },
+    {
+      "id": "Adelaide Oval",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Adelaide Oval"
+      },
+      "expected": {
+        "coordinates": [
+          138.59611,
+          -34.91556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Adelaide Oval"
+        }
+      }
+    },
+    {
+      "id": "Docklands Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Docklands Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          144.9475,
+          -37.81639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Docklands Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estádio Parque do Sabiá",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio Parque do Sabiá"
+      },
+      "expected": {
+        "coordinates": [
+          -48.2325,
+          -18.91389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio Parque do Sabiá"
+        }
+      }
+    },
+    {
+      "id": "San Mamés Stadium (2013)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Mamés Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -2.95037,
+          43.26428
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "San Mamés Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Ciudad de La Plata",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Ciudad de La Plata"
+      },
+      "expected": {
+        "coordinates": [
+          -57.98903,
+          -34.91375
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Ciudad de La Plata"
+        }
+      }
+    },
+    {
+      "id": "EMS Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "EMS Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          75.78571,
+          11.25641
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "EMS Stadium"
+        }
+      }
+    },
+    {
+      "id": "Yellow Dragon Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yellow Dragon Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          120.129,
+          30.2683
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Yellow Dragon Sports Center"
+        }
+      }
+    },
+    {
+      "id": "Türk Telekom Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Türk Telekom Arena"
+      },
+      "expected": {
+        "coordinates": [
+          28.99042,
+          41.10287
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Türk Telekom Arena"
+        }
+      }
+    },
+    {
+      "id": "Suncorp Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Suncorp Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          153.00944,
+          -27.46472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Suncorp Stadium"
+        }
+      }
+    },
+    {
+      "id": "St James' Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "St James' Park"
+      },
+      "expected": {
+        "coordinates": [
+          -1.62167,
+          54.97556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "St James' Park"
+        }
+      }
+    },
+    {
+      "id": "Estadio de Palmaseca",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio de Palmaseca"
+      },
+      "expected": {
+        "coordinates": [
+          -76.41704,
+          3.52164
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio de Palmaseca"
+        }
+      }
+    },
+    {
+      "id": "Prince Moulay Abdellah Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Prince Moulay Abdellah Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -6.88911,
+          33.95988
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Prince Moulay Abdellah Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kings Park Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kings Park Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          31.02972,
+          -29.825
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kings Park Stadium"
+        }
+      }
+    },
+    {
+      "id": "Newlands Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Newlands Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          18.46833,
+          -33.97056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Newlands Stadium"
+        }
+      }
+    },
+    {
+      "id": "Hampden Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hampden Park"
+      },
+      "expected": {
+        "coordinates": [
+          -4.25194,
+          55.82583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hampden Park"
+        }
+      }
+    },
+    {
+      "id": "Estadio Monumental de Maturín",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Monumental de Maturín"
+      },
+      "expected": {
+        "coordinates": [
+          -63.22426,
+          9.71684
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Monumental de Maturín"
+        }
+      }
+    },
+    {
+      "id": "Loftus Versfeld Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Loftus Versfeld Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          28.22278,
+          -25.75333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Loftus Versfeld Stadium"
+        }
+      }
+    },
+    {
+      "id": "Aviva Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aviva Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -6.22833,
+          53.33514
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aviva Stadium"
+        }
+      }
+    },
+    {
+      "id": "Guiyang Olympic Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Guiyang Olympic Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          106.60575,
+          26.62072
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Guiyang Olympic Sports Center"
+        }
+      }
+    },
+    {
+      "id": "Hohhot City Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hohhot City Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          111.65042,
+          40.85125
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hohhot City Stadium"
+        }
+      }
+    },
+    {
+      "id": "Donbass Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Donbass Arena"
+      },
+      "expected": {
+        "coordinates": [
+          37.80972,
+          48.02083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Donbass Arena"
+        }
+      }
+    },
+    {
+      "id": "Waldstadion (Frankfurt)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Waldstadion"
+      },
+      "expected": {
+        "coordinates": [
+          8.64528,
+          50.06861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Waldstadion"
+        }
+      }
+    },
+    {
+      "id": "Estadio Presidente Juan Domingo Perón",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Presidente Juan Domingo Perón"
+      },
+      "expected": {
+        "coordinates": [
+          -58.36858,
+          -34.66756
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Presidente Juan Domingo Perón"
+        }
+      }
+    },
+    {
+      "id": "Estádio Beira-Rio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio Beira-Rio"
+      },
+      "expected": {
+        "coordinates": [
+          -51.23609,
+          -30.06561
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio Beira-Rio"
+        }
+      }
+    },
+    {
+      "id": "İzmir Atatürk Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "İzmir Atatürk Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          27.17806,
+          38.435
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "İzmir Atatürk Stadium"
+        }
+      }
+    },
+    {
+      "id": "De Kuip",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "De Kuip"
+      },
+      "expected": {
+        "coordinates": [
+          4.52325,
+          51.89389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "De Kuip"
+        }
+      }
+    },
+    {
+      "id": "Estadio BBVA",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio BBVA"
+      },
+      "expected": {
+        "coordinates": [
+          -100.24444,
+          25.66917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio BBVA"
+        }
+      }
+    },
+    {
+      "id": "Ghadir Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ghadir Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          48.63583,
+          31.38417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ghadir Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ibrox Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ibrox Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -4.30926,
+          55.85321
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ibrox Stadium"
+        }
+      }
+    },
+    {
+      "id": "Shizuoka Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shizuoka Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          137.9705,
+          34.74322
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shizuoka Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ernst-Happel-Stadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ernst-Happel-Stadion"
+      },
+      "expected": {
+        "coordinates": [
+          16.42053,
+          48.20717
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ernst-Happel-Stadion"
+        }
+      }
+    },
+    {
+      "id": "Estadio Cuauhtémoc",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Cuauhtémoc"
+      },
+      "expected": {
+        "coordinates": [
+          -98.16444,
+          19.07806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Cuauhtémoc"
+        }
+      }
+    },
+    {
+      "id": "Friends Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Friends Arena"
+      },
+      "expected": {
+        "coordinates": [
+          18,
+          59.3725
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Friends Arena"
+        }
+      }
+    },
+    {
+      "id": "Şükrü Saracoğlu Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Şükrü Saracoğlu Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          29.03703,
+          40.98769
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Şükrü Saracoğlu Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stanford Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stanford Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -122.16111,
+          37.43444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stanford Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade Pierre-Mauroy",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade Pierre-Mauroy"
+      },
+      "expected": {
+        "coordinates": [
+          3.13043,
+          50.61188
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade Pierre-Mauroy"
+        }
+      }
+    },
+    {
+      "id": "King Baudouin Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "King Baudouin Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          4.33408,
+          50.89571
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "King Baudouin Stadium"
+        }
+      }
+    },
+    {
+      "id": "Shaanxi Province Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shaanxi Province Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          108.9375,
+          34.23389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shaanxi Province Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ajinomoto Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ajinomoto Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          139.52714,
+          35.66428
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ajinomoto Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estádio José Alvalade",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio José Alvalade"
+      },
+      "expected": {
+        "coordinates": [
+          -9.16078,
+          38.76119
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio José Alvalade"
+        }
+      }
+    },
+    {
+      "id": "Estádio do Dragão",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio do Dragão"
+      },
+      "expected": {
+        "coordinates": [
+          -8.58393,
+          41.16176
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio do Dragão"
+        }
+      }
+    },
+    {
+      "id": "RheinEnergieStadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "RheinEnergieStadion"
+      },
+      "expected": {
+        "coordinates": [
+          6.875,
+          50.9335
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "RheinEnergieStadion"
+        }
+      }
+    },
+    {
+      "id": "Harbin Sports City Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Harbin Sports City Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          126.7011,
+          45.75209
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Harbin Sports City Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "Trivandrum International Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Trivandrum International Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          76.88431,
+          8.5715
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Trivandrum International Stadium"
+        }
+      }
+    },
+    {
+      "id": "Eden Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Eden Park"
+      },
+      "expected": {
+        "coordinates": [
+          174.74472,
+          -36.875
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Eden Park"
+        }
+      }
+    },
+    {
+      "id": "Estádio 11 de Novembro",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio 11 de Novembro"
+      },
+      "expected": {
+        "coordinates": [
+          13.28349,
+          -8.96985
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio 11 de Novembro"
+        }
+      }
+    },
+    {
+      "id": "Henan Provincial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Henan Provincial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          113.62267,
+          34.83744
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Henan Provincial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Jiangxi Olympic Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jiangxi Olympic Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          116.02333,
+          28.67444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jiangxi Olympic Sports Center"
+        }
+      }
+    },
+    {
+      "id": "Max-Morlock-Stadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Max-Morlock-Stadion"
+      },
+      "expected": {
+        "coordinates": [
+          11.12583,
+          49.42611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Max-Morlock-Stadion"
+        }
+      }
+    },
+    {
+      "id": "June 11 Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "June 11 Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          13.13588,
+          32.85987
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "June 11 Stadium"
+        }
+      }
+    },
+    {
+      "id": "Xinjiang Sports Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Xinjiang Sports Centre"
+      },
+      "expected": {
+        "coordinates": [
+          87.55831,
+          43.87906
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Xinjiang Sports Centre"
+        }
+      }
+    },
+    {
+      "id": "Kim Il-sung Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kim Il-sung Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          125.75769,
+          39.04372
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kim Il-sung Stadium"
+        }
+      }
+    },
+    {
+      "id": "Hiroshima Big Arch",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hiroshima Big Arch"
+      },
+      "expected": {
+        "coordinates": [
+          132.39425,
+          34.44078
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hiroshima Big Arch"
+        }
+      }
+    },
+    {
+      "id": "Pars Shiraz Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pars Shiraz Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          52.49139,
+          29.565
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pars Shiraz Stadium"
+        }
+      }
+    },
+    {
+      "id": "Olympic Stadium (Phnom Penh)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          104.91194,
+          11.55833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade du 26 Mars",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade du 26 Mars"
+      },
+      "expected": {
+        "coordinates": [
+          -7.92167,
+          12.60444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade du 26 Mars"
+        }
+      }
+    },
+    {
+      "id": "Sultan Mizan Zainal Abidin Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sultan Mizan Zainal Abidin Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          103.10639,
+          5.37278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sultan Mizan Zainal Abidin Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Omnilife",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Omnilife"
+      },
+      "expected": {
+        "coordinates": [
+          -103.46278,
+          20.68167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Omnilife"
+        }
+      }
+    },
+    {
+      "id": "Levy Mwanawasa Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Levy Mwanawasa Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          28.61139,
+          -12.975
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Levy Mwanawasa Stadium"
+        }
+      }
+    },
+    {
+      "id": "Fritz-Walter-Stadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fritz-Walter-Stadion"
+      },
+      "expected": {
+        "coordinates": [
+          7.77667,
+          49.43472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fritz-Walter-Stadion"
+        }
+      }
+    },
+    {
+      "id": "Rajamangala National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rajamangala National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          100.62217,
+          13.75542
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rajamangala National Stadium"
+        }
+      }
+    },
+    {
+      "id": "José Amalfitani Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "José Amalfitani Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -58.52071,
+          -34.63537
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "José Amalfitani Stadium"
+        }
+      }
+    },
+    {
+      "id": "Camille Chamoun Sports City Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Camille Chamoun Sports City Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          35.49614,
+          33.8671
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Camille Chamoun Sports City Stadium"
+        }
+      }
+    },
+    {
+      "id": "Arena Corinthians",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arena Corinthians"
+      },
+      "expected": {
+        "coordinates": [
+          -46.47428,
+          -23.54525
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arena Corinthians"
+        }
+      }
+    },
+    {
+      "id": "Miyagi Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Miyagi Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          140.95042,
+          38.33539
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Miyagi Stadium"
+        }
+      }
+    },
+    {
+      "id": "Incheon Munhak Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Incheon Munhak Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          126.69081,
+          37.43514
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Incheon Munhak Stadium"
+        }
+      }
+    },
+    {
+      "id": "La Bombonera",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "La Bombonera"
+      },
+      "expected": {
+        "coordinates": [
+          -58.36465,
+          -34.63565
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "La Bombonera"
+        }
+      }
+    },
+    {
+      "id": "Niedersachsenstadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Niedersachsenstadion"
+      },
+      "expected": {
+        "coordinates": [
+          9.7312,
+          52.36007
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Niedersachsenstadion"
+        }
+      }
+    },
+    {
+      "id": "Parc des Princes",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Parc des Princes"
+      },
+      "expected": {
+        "coordinates": [
+          2.25306,
+          48.84139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Parc des Princes"
+        }
+      }
+    },
+    {
+      "id": "Stadium of Light",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadium of Light"
+      },
+      "expected": {
+        "coordinates": [
+          -1.3882,
+          54.9144
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadium of Light"
+        }
+      }
+    },
+    {
+      "id": "Estadio Nacional de Chile",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Nacional de Chile"
+      },
+      "expected": {
+        "coordinates": [
+          -70.61056,
+          -33.46444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Nacional de Chile"
+        }
+      }
+    },
+    {
+      "id": "Nelson Mandela Bay Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nelson Mandela Bay Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          25.59889,
+          -33.93778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nelson Mandela Bay Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Tomás Adolfo Ducó",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Tomás Adolfo Ducó"
+      },
+      "expected": {
+        "coordinates": [
+          -58.39651,
+          -34.64349
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Tomás Adolfo Ducó"
+        }
+      }
+    },
+    {
+      "id": "Jinnah Sports Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jinnah Sports Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          73.09278,
+          33.70056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jinnah Sports Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Libertadores de América",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Libertadores de América"
+      },
+      "expected": {
+        "coordinates": [
+          -58.37097,
+          -34.67027
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Libertadores de América"
+        }
+      }
+    },
+    {
+      "id": "Free State Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Free State Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          26.20889,
+          -29.11722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Free State Stadium"
+        }
+      }
+    },
+    {
+      "id": "Nagai Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nagai Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          135.51845,
+          34.61412
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nagai Stadium"
+        }
+      }
+    },
+    {
+      "id": "Rogers Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rogers Centre"
+      },
+      "expected": {
+        "coordinates": [
+          -79.38917,
+          43.64139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rogers Centre"
+        }
+      }
+    },
+    {
+      "id": "Estadio Monumental David Arellano",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Monumental David Arellano"
+      },
+      "expected": {
+        "coordinates": [
+          -70.60594,
+          -33.50661
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Monumental David Arellano"
+        }
+      }
+    },
+    {
+      "id": "Stadio Artemio Franchi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadio Artemio Franchi"
+      },
+      "expected": {
+        "coordinates": [
+          11.28226,
+          43.78082
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadio Artemio Franchi"
+        }
+      }
+    },
+    {
+      "id": "Estadio Ciudad de Lanús – Néstor Díaz Pérez",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Ciudad de Lanús - Néstor Díaz Pérez"
+      },
+      "expected": {
+        "coordinates": [
+          -58.38381,
+          -34.71767
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Ciudad de Lanús - Néstor Díaz Pérez"
+        }
+      }
+    },
+    {
+      "id": "Estadio Metropolitano Roberto Meléndez",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Metropolitano Roberto Meléndez"
+      },
+      "expected": {
+        "coordinates": [
+          -74.80072,
+          10.92686
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Metropolitano Roberto Meléndez"
+        }
+      }
+    },
+    {
+      "id": "Estádio Olímpico João Havelange",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio Olímpico João Havelange"
+      },
+      "expected": {
+        "coordinates": [
+          -43.29227,
+          -22.89317
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio Olímpico João Havelange"
+        }
+      }
+    },
+    {
+      "id": "Atanasio Girardot Sports Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Atanasio Girardot Sports Complex"
+      },
+      "expected": {
+        "coordinates": [
+          -75.59017,
+          6.2568
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Atanasio Girardot Sports Complex"
+        }
+      }
+    },
+    {
+      "id": "Robert F. Kennedy Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Robert F. Kennedy Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -76.972,
+          38.89
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Robert F. Kennedy Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Nacional (Lima)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Nacional"
+      },
+      "expected": {
+        "coordinates": [
+          -77.03372,
+          -12.06728
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Nacional"
+        }
+      }
+    },
+    {
+      "id": "Estadio Ramón Sánchez Pizjuán",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Ramón Sánchez Pizjuán"
+      },
+      "expected": {
+        "coordinates": [
+          -5.9705,
+          37.384
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Ramón Sánchez Pizjuán"
+        }
+      }
+    },
+    {
+      "id": "Stade Adrar",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade Adrar"
+      },
+      "expected": {
+        "coordinates": [
+          -9.54042,
+          30.42721
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade Adrar"
+        }
+      }
+    },
+    {
+      "id": "Otkrytiye Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Otkrytiye Arena"
+      },
+      "expected": {
+        "coordinates": [
+          37.44025,
+          55.81786
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Otkrytiye Arena"
+        }
+      }
+    },
+    {
+      "id": "Stade de Marrakech",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade de Marrakech"
+      },
+      "expected": {
+        "coordinates": [
+          -7.98056,
+          31.70667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade de Marrakech"
+        }
+      }
+    },
+    {
+      "id": "Mandela National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mandela National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          32.65917,
+          0.34778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mandela National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stadion Miejski (Wrocław)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadion Miejski"
+      },
+      "expected": {
+        "coordinates": [
+          16.94378,
+          51.14117
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadion Miejski"
+        }
+      }
+    },
+    {
+      "id": "Kazan Arena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kazan Arena"
+      },
+      "expected": {
+        "coordinates": [
+          49.16083,
+          55.82111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kazan Arena"
+        }
+      }
+    },
+    {
+      "id": "Estádio Olímpico do Pará",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio Olímpico do Pará"
+      },
+      "expected": {
+        "coordinates": [
+          -48.444,
+          -1.38111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio Olímpico do Pará"
+        }
+      }
+    },
+    {
+      "id": "Estadio General Pablo Rojas",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio General Pablo Rojas"
+      },
+      "expected": {
+        "coordinates": [
+          -57.6375,
+          -25.3
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio General Pablo Rojas"
+        }
+      }
+    },
+    {
+      "id": "February 24, 1956 Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "February 24, 1956 Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -0.62214,
+          35.18503
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "February 24, 1956 Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade Mohamed V",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade Mohamed V"
+      },
+      "expected": {
+        "coordinates": [
+          -7.64682,
+          33.58287
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade Mohamed V"
+        }
+      }
+    },
+    {
+      "id": "Latakia Sports City Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Latakia Sports City Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          35.74472,
+          35.56056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Latakia Sports City Stadium"
+        }
+      }
+    },
+    {
+      "id": "Zibo Sports Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zibo Sports Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          117.98286,
+          36.81331
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zibo Sports Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "Weifang Sports Center Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Weifang Sports Center Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          119.12361,
+          36.71705
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Weifang Sports Center Stadium"
+        }
+      }
+    },
+    {
+      "id": "Yantai Sports Park Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yantai Sports Park Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          121.45362,
+          37.46298
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Yantai Sports Park Stadium"
+        }
+      }
+    },
+    {
+      "id": "Grand Stade de Tanger",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Grand Stade de Tanger"
+      },
+      "expected": {
+        "coordinates": [
+          -5.8581,
+          35.74121
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Grand Stade de Tanger"
+        }
+      }
+    },
+    {
+      "id": "Kobe Universiade Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kobe Universiade Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          135.08027,
+          34.68214
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kobe Universiade Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estádio da Machava",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio da Machava"
+      },
+      "expected": {
+        "coordinates": [
+          32.52629,
+          -25.91742
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio da Machava"
+        }
+      }
+    },
+    {
+      "id": "Fez Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fez Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -4.96885,
+          34.00283
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fez Stadium"
+        }
+      }
+    },
+    {
+      "id": "Harapan Bangsa Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Harapan Bangsa Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          95.32361,
+          5.5225
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Harapan Bangsa Stadium"
+        }
+      }
+    },
+    {
+      "id": "Lagos National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lagos National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          3.36472,
+          6.49694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lagos National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Egyptian Army Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Egyptian Army Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          32.56833,
+          29.9625
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Egyptian Army Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade El Menzah",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade El Menzah"
+      },
+      "expected": {
+        "coordinates": [
+          10.18536,
+          36.83978
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade El Menzah"
+        }
+      }
+    },
+    {
+      "id": "Tinsulanon Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tinsulanon Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          100.59861,
+          7.20722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tinsulanon Stadium"
+        }
+      }
+    },
+    {
+      "id": "Toyota Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Toyota Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          137.17083,
+          35.08444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Toyota Stadium"
+        }
+      }
+    },
+    {
+      "id": "Zayed Sports City Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zayed Sports City Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          54.45361,
+          24.41611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zayed Sports City Stadium"
+        }
+      }
+    },
+    {
+      "id": "Cần Thơ Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cần Thơ Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          103.76381,
+          22.25111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cần Thơ Stadium"
+        }
+      }
+    },
+    {
+      "id": "Red Bull Arena (Leipzig)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Red Bull Arena"
+      },
+      "expected": {
+        "coordinates": [
+          12.34822,
+          51.34579
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Red Bull Arena"
+        }
+      }
+    },
+    {
+      "id": "Itaipava Arena Pernambuco",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Itaipava Arena Pernambuco"
+      },
+      "expected": {
+        "coordinates": [
+          -35.00833,
+          -8.04056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Itaipava Arena Pernambuco"
+        }
+      }
+    },
+    {
+      "id": "Albertão",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Albertão"
+      },
+      "expected": {
+        "coordinates": [
+          -42.793,
+          -5.116
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Albertão"
+        }
+      }
+    },
+    {
+      "id": "Ulsan Munsu Football Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ulsan Munsu Football Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          129.25944,
+          35.53528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ulsan Munsu Football Stadium"
+        }
+      }
+    },
+    {
+      "id": "Suwon World Cup Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Suwon World Cup Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          127.03689,
+          37.28628
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Suwon World Cup Stadium"
+        }
+      }
+    },
+    {
+      "id": "Riau Main Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Riau Main Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          101.44599,
+          0.54972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Riau Main Stadium"
+        }
+      }
+    },
+    {
+      "id": "Shandong Provincial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shandong Provincial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          117.00583,
+          36.64667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shandong Provincial Stadium"
+        }
+      }
+    },
+    {
+      "id": "PGE Arena Gdańsk",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "PGE Arena Gdańsk"
+      },
+      "expected": {
+        "coordinates": [
+          18.64028,
+          54.39
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "PGE Arena Gdańsk"
+        }
+      }
+    },
+    {
+      "id": "Allianz Parque",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Allianz Parque"
+      },
+      "expected": {
+        "coordinates": [
+          -46.6785,
+          -23.5275
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Allianz Parque"
+        }
+      }
+    },
+    {
+      "id": "Estadio Pedro Bidegain",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Pedro Bidegain"
+      },
+      "expected": {
+        "coordinates": [
+          -58.44012,
+          -34.65206
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Pedro Bidegain"
+        }
+      }
+    },
+    {
+      "id": "Stadion Miejski (Poznań)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stadion Miejski"
+      },
+      "expected": {
+        "coordinates": [
+          16.85778,
+          52.3975
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stadion Miejski"
+        }
+      }
+    },
+    {
+      "id": "Vasil Levski National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vasil Levski National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          23.33544,
+          42.68758
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vasil Levski National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade de Gerland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade de Gerland"
+      },
+      "expected": {
+        "coordinates": [
+          4.83222,
+          45.72389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade de Gerland"
+        }
+      }
+    },
+    {
+      "id": "Estadio Universidad San Marcos",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Universidad San Marcos"
+      },
+      "expected": {
+        "coordinates": [
+          -77.075,
+          -12.057
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Universidad San Marcos"
+        }
+      }
+    },
+    {
+      "id": "Ullevi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ullevi"
+      },
+      "expected": {
+        "coordinates": [
+          11.98722,
+          57.70583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ullevi"
+        }
+      }
+    },
+    {
+      "id": "Estadio General Santander",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio General Santander"
+      },
+      "expected": {
+        "coordinates": [
+          -72.50172,
+          7.89448
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio General Santander"
+        }
+      }
+    },
+    {
+      "id": "Villa Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Villa Park"
+      },
+      "expected": {
+        "coordinates": [
+          -1.88472,
+          52.50917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Villa Park"
+        }
+      }
+    },
+    {
+      "id": "Perak Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Perak Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          101.10344,
+          4.60943
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Perak Stadium"
+        }
+      }
+    },
+    {
+      "id": "Jeonju World Cup Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jeonju World Cup Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          127.06444,
+          35.86811
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jeonju World Cup Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kanjuruhan Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kanjuruhan Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          112.574,
+          -8.15025
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kanjuruhan Stadium"
+        }
+      }
+    },
+    {
+      "id": "Weserstadion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Weserstadion"
+      },
+      "expected": {
+        "coordinates": [
+          8.83763,
+          53.06639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Weserstadion"
+        }
+      }
+    },
+    {
+      "id": "Denka Big Swan Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Denka Big Swan Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          139.05917,
+          37.8825
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Denka Big Swan Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Metropolitano de Mérida",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Metropolitano de Mérida"
+      },
+      "expected": {
+        "coordinates": [
+          -71.21667,
+          8.55639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Metropolitano de Mérida"
+        }
+      }
+    },
+    {
+      "id": "Daejeon World Cup Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Daejeon World Cup Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          127.32517,
+          36.36514
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Daejeon World Cup Stadium"
+        }
+      }
+    },
+    {
+      "id": "Nouveau Stade de Bordeaux",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nouveau Stade de Bordeaux"
+      },
+      "expected": {
+        "coordinates": [
+          -0.56167,
+          44.89722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nouveau Stade de Bordeaux"
+        }
+      }
+    },
+    {
+      "id": "Helsinki Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Helsinki Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          24.92722,
+          60.18694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Helsinki Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Garcilaso",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Garcilaso"
+      },
+      "expected": {
+        "coordinates": [
+          -71.966,
+          -13.525
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Garcilaso"
+        }
+      }
+    },
+    {
+      "id": "Batakan Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Batakan Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          116.94333,
+          -1.23317
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Batakan Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Modelo Alberto Spencer",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Modelo Alberto Spencer"
+      },
+      "expected": {
+        "coordinates": [
+          -79.89437,
+          -2.17886
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Modelo Alberto Spencer"
+        }
+      }
+    },
+    {
+      "id": "Estádio do Zimpeto",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estádio do Zimpeto"
+      },
+      "expected": {
+        "coordinates": [
+          32.575,
+          -25.828
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estádio do Zimpeto"
+        }
+      }
+    },
+    {
+      "id": "Chengdu Sports Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chengdu Sports Centre"
+      },
+      "expected": {
+        "coordinates": [
+          104.06556,
+          30.66588
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chengdu Sports Centre"
+        }
+      }
+    },
+    {
+      "id": "Royal Bafokeng Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Royal Bafokeng Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          27.1607,
+          -25.5786
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Royal Bafokeng Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Universitario (UANL)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Universitario"
+      },
+      "expected": {
+        "coordinates": [
+          -100.31197,
+          25.72257
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Universitario"
+        }
+      }
+    },
+    {
+      "id": "Estadio Brigadier General Estanislao López",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Brigadier General Estanislao López"
+      },
+      "expected": {
+        "coordinates": [
+          -60.72539,
+          -31.66322
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Brigadier General Estanislao López"
+        }
+      }
+    },
+    {
+      "id": "Estadio Marcelo Bielsa",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Marcelo Bielsa"
+      },
+      "expected": {
+        "coordinates": [
+          -60.66144,
+          -32.95606
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Marcelo Bielsa"
+        }
+      }
+    },
+    {
+      "id": "Stade Geoffroy-Guichard",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade Geoffroy-Guichard"
+      },
+      "expected": {
+        "coordinates": [
+          4.39028,
+          45.46083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade Geoffroy-Guichard"
+        }
+      }
+    },
+    {
+      "id": "Vodafone Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vodafone Park"
+      },
+      "expected": {
+        "coordinates": [
+          28.99474,
+          41.03921
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vodafone Park"
+        }
+      }
+    },
+    {
+      "id": "Peter Mokaba Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Peter Mokaba Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          29.468765,
+          -23.924689
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Peter Mokaba Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Gigante de Arroyito",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Gigante de Arroyito"
+      },
+      "expected": {
+        "coordinates": [
+          -60.67457,
+          -32.914
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Gigante de Arroyito"
+        }
+      }
+    },
+    {
+      "id": "Polideportivo Cachamay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Polideportivo Cachamay"
+      },
+      "expected": {
+        "coordinates": [
+          -62.69667,
+          8.3125
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Polideportivo Cachamay"
+        }
+      }
+    },
+    {
+      "id": "Estadio de Liga Deportiva Universitaria",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio de Liga Deportiva Universitaria"
+      },
+      "expected": {
+        "coordinates": [
+          -78.4891,
+          -0.10772
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio de Liga Deportiva Universitaria"
+        }
+      }
+    },
+    {
+      "id": "Juventus Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Juventus Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          7.64111,
+          45.10944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Juventus Stadium"
+        }
+      }
+    },
+    {
+      "id": "Sapporo Dome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sapporo Dome"
+      },
+      "expected": {
+        "coordinates": [
+          141.40977,
+          43.01517
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sapporo Dome"
+        }
+      }
+    },
+    {
+      "id": "Stamford Bridge (stadium)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stamford Bridge"
+      },
+      "expected": {
+        "coordinates": [
+          -0.19111,
+          51.48167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stamford Bridge"
+        }
+      }
+    },
+    {
+      "id": "Goyang Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Goyang Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          126.74321,
+          37.67635
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Goyang Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Hernando Siles",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Hernando Siles"
+      },
+      "expected": {
+        "coordinates": [
+          -68.12278,
+          -16.49944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Hernando Siles"
+        }
+      }
+    },
+    {
+      "id": "Arena Pantanal",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arena Pantanal"
+      },
+      "expected": {
+        "coordinates": [
+          -56.12164,
+          -15.60397
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arena Pantanal"
+        }
+      }
+    },
+    {
+      "id": "Arena da Amazônia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arena da Amazônia"
+      },
+      "expected": {
+        "coordinates": [
+          -60.02806,
+          -3.08306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arena da Amazônia"
+        }
+      }
+    },
+    {
+      "id": "Mbombela Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mbombela Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          30.929,
+          -25.461
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mbombela Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio José Pachencho Romero",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio José Pachencho Romero"
+      },
+      "expected": {
+        "coordinates": [
+          -71.64501,
+          10.67411
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio José Pachencho Romero"
+        }
+      }
+    },
+    {
+      "id": "Kashima Soccer Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kashima Soccer Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          140.64053,
+          35.99174
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kashima Soccer Stadium"
+        }
+      }
+    },
+    {
+      "id": "Baba Yara Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Baba Yara Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -1.60511,
+          6.68268
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Baba Yara Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadi Cornellà-El Prat",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadi Cornellà-El Prat"
+      },
+      "expected": {
+        "coordinates": [
+          2.07567,
+          41.34786
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadi Cornellà-El Prat"
+        }
+      }
+    },
+    {
+      "id": "Estadio Metropolitano de Fútbol de Lara",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Metropolitano de Fútbol de Lara"
+      },
+      "expected": {
+        "coordinates": [
+          -69.21986,
+          9.99354
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Metropolitano de Fútbol de Lara"
+        }
+      }
+    },
+    {
+      "id": "Estadio Malvinas Argentinas",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Malvinas Argentinas"
+      },
+      "expected": {
+        "coordinates": [
+          -68.87999,
+          -32.88956
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Malvinas Argentinas"
+        }
+      }
+    },
+    {
+      "id": "Gwangju World Cup Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gwangju World Cup Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          126.87486,
+          35.13367
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gwangju World Cup Stadium"
+        }
+      }
+    },
+    {
+      "id": "Estadio Monumental Virgen de Chapi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Monumental Virgen de Chapi"
+      },
+      "expected": {
+        "coordinates": [
+          -71.5202,
+          -16.40729
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Monumental Virgen de Chapi"
+        }
+      }
+    },
+    {
+      "id": "Pacaembu Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pacaembu Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -46.66511,
+          -23.54864
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pacaembu Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mỹ Đình National Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mỹ Đình National Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          105.76381,
+          21.02056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mỹ Đình National Stadium"
+        }
+      }
+    },
+    {
+      "id": "Goodison Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Goodison Park"
+      },
+      "expected": {
+        "coordinates": [
+          -2.96639,
+          53.43889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Goodison Park"
+        }
+      }
+    },
+    {
+      "id": "Castelão (Maranhão)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Castelão"
+      },
+      "expected": {
+        "coordinates": [
+          -44.25972,
+          -2.54861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Castelão"
+        }
+      }
+    },
+    {
+      "id": "Estadio Campeón del Siglo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Estadio Campeón del Siglo"
+      },
+      "expected": {
+        "coordinates": [
+          -56.06717,
+          -34.79692
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Estadio Campeón del Siglo"
+        }
+      }
+    },
+    {
+      "id": "Metalist Oblast Sports Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Metalist Oblast Sports Complex"
+      },
+      "expected": {
+        "coordinates": [
+          36.2617,
+          49.98086
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Metalist Oblast Sports Complex"
+        }
+      }
+    },
+    {
+      "id": "Al-Shaab Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Al-Shaab Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          44.4353,
+          33.32487
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Al-Shaab Stadium"
+        }
+      }
+    },
+    {
+      "id": "Jalak Harupat Soreang Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jalak Harupat Soreang Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          107.52972,
+          -6.99639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jalak Harupat Soreang Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ahmed Zabana Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ahmed Zabana Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -0.63622,
+          35.68332
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ahmed Zabana Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mohamed Hamlaoui Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mohamed Hamlaoui Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          6.62583,
+          36.34917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mohamed Hamlaoui Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kapten I Wayan Dipta Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kapten I Wayan Dipta Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          115.3065,
+          -8.54681
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kapten I Wayan Dipta Stadium"
+        }
+      }
+    },
+    {
+      "id": "Fisht Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fisht Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          39.95611,
+          43.40227
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fisht Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Rentschler Field (stadium)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rentschler Field"
+      },
+      "expected": {
+        "coordinates": [
+          -72.61889,
+          41.75972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rentschler Field"
+        }
+      }
+    },
+    {
+      "id": "Nippert Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nippert Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.516,
+          39.131
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nippert Stadium"
+        }
+      }
+    },
+    {
+      "id": "March 28 Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "March 28 Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          20.07242,
+          32.10181
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "March 28 Stadium"
+        }
+      }
+    },
+    {
+      "id": "Almeidão",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Almeidão"
+      },
+      "expected": {
+        "coordinates": [
+          -34.87278,
+          -7.1675
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Almeidão"
+        }
+      }
+    },
+    {
+      "id": "Jawaharlal Nehru Stadium, Kochi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jawaharlal Nehru Stadium, Kochi"
+      },
+      "expected": {
+        "coordinates": [
+          76.30111,
+          9.99722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jawaharlal Nehru Stadium, Kochi"
+        }
+      }
+    },
+    {
+      "id": "Hang Jebat Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hang Jebat Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          102.23309,
+          2.28908
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hang Jebat Stadium"
+        }
+      }
+    },
+    {
+      "id": "Hong Kong Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hong Kong Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          114.18872,
+          22.27386
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hong Kong Stadium"
+        }
+      }
+    },
+    {
+      "id": "Negeri Pulau Pinang Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Negeri Pulau Pinang Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          100.43747,
+          5.26087
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Negeri Pulau Pinang Stadium"
+        }
+      }
+    },
+    {
+      "id": "Accra Sports Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Accra Sports Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -0.19177,
+          5.55153
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Accra Sports Stadium"
+        }
+      }
+    },
+    {
+      "id": "Sarawak Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sarawak Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          110.36019,
+          1.58854
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sarawak Stadium"
+        }
+      }
+    },
+    {
+      "id": "Bogyoke Aung San Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bogyoke Aung San Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          96.16073,
+          16.78386
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bogyoke Aung San Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ōita Bank Dome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ōita Bank Dome"
+      },
+      "expected": {
+        "coordinates": [
+          131.6575,
+          33.20056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ōita Bank Dome"
+        }
+      }
+    },
+    {
+      "id": "Darul Makmur Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Darul Makmur Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          103.32389,
+          3.81472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Darul Makmur Stadium"
+        }
+      }
+    },
+    {
+      "id": "Khalifa International Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Khalifa International Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          51.44806,
+          25.26361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Khalifa International Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stade d'Angondjé",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stade d'Angondjé"
+      },
+      "expected": {
+        "coordinates": [
+          9.39778,
+          0.52417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stade d'Angondjé"
+        }
+      }
+    },
+    {
+      "id": "Peoples Football Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Peoples Football Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          66.98833,
+          24.85861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Peoples Football Stadium"
+        }
+      }
+    },
+    {
+      "id": "JRD Tata Sports Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "JRD Tata Sports Complex"
+      },
+      "expected": {
+        "coordinates": [
+          86.19354,
+          22.80602
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "JRD Tata Sports Complex"
+        }
+      }
+    },
+    {
+      "id": "Bao'an Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bao'an Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          113.87629,
+          22.56099
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bao'an Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kunming Tuodong Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kunming Tuodong Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          102.72875,
+          25.03801
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kunming Tuodong Sports Center"
+        }
+      }
+    },
+    {
+      "id": "Taizhou Sports Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Taizhou Sports Center"
+      },
+      "expected": {
+        "coordinates": [
+          121.39531,
+          28.64963
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Taizhou Sports Center"
+        }
+      }
+    },
+    {
+      "id": "Wuhu Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wuhu Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          118.37588,
+          31.3112
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wuhu Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Huizhou Olympic Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Huizhou Olympic Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          114.4465,
+          23.0333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Huizhou Olympic Stadium"
+        }
+      }
+    },
+    {
+      "id": "Dasarath Rangasala Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dasarath Rangasala Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          85.31484,
+          27.69505
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dasarath Rangasala Stadium"
+        }
+      }
+    },
+    {
+      "id": "Gelora Sriwijaya Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gelora Sriwijaya Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          104.7892,
+          -3.0214
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gelora Sriwijaya Stadium"
+        }
+      }
+    },
+    {
+      "id": "Gajayana Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gajayana Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          112.62498,
+          -7.97551
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gajayana Stadium"
+        }
+      }
+    },
+    {
+      "id": "Gelora Bandung Lautan Api Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gelora Bandung Lautan Api Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          107.71139,
+          -6.95861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gelora Bandung Lautan Api Stadium"
+        }
+      }
+    },
+    {
+      "id": "Aji Imbut Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aji Imbut Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          117.0075,
+          -0.425
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aji Imbut Stadium"
+        }
+      }
+    },
+    {
+      "id": "Maguwoharjo Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maguwoharjo Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          110.4182,
+          -7.7505
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maguwoharjo Stadium"
+        }
+      }
+    },
+    {
+      "id": "Sultan Agung Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sultan Agung Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          110.38039,
+          -7.87525
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sultan Agung Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mandala Krida Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mandala Krida Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          110.38417,
+          -7.79583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mandala Krida Stadium"
+        }
+      }
+    },
+    {
+      "id": "Manahan Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Manahan Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          110.80639,
+          -7.55556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Manahan Stadium"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1194 @@
+{
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_Eastern_Europe",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Ancient City of Nessebar",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ancient City of Nessebar"
+      },
+      "expected": {
+        "coordinates": [
+          27.73333,
+          42.65
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ancient City of Nessebar"
+        }
+      }
+    },
+    {
+      "id": "Architectural Ensemble of the Trinity Sergius Lavra in Sergiev Posad",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Architectural Ensemble of the Trinity Sergius Lavra in Sergiev Posad"
+      },
+      "expected": {
+        "coordinates": [
+          38.1312,
+          56.31035
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Architectural Ensemble of the Trinity Sergius Lavra in Sergiev Posad"
+        }
+      }
+    },
+    {
+      "id": "Architectural, Residential and Cultural Complex of the Radziwill Family at Nesvizh",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Architectural, Residential and Cultural Complex of the Radziwill Family at Nesvizh"
+      },
+      "expected": {
+        "coordinates": [
+          26.69139,
+          53.22278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Architectural, Residential and Cultural Complex of the Radziwill Family at Nesvizh"
+        }
+      }
+    },
+    {
+      "id": "Bardejov",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bardejov"
+      },
+      "expected": {
+        "coordinates": [
+          21.27611,
+          49.29333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bardejov"
+        }
+      }
+    },
+    {
+      "id": "Boyana Church",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Boyana Church"
+      },
+      "expected": {
+        "coordinates": [
+          23.26617,
+          42.64467
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Boyana Church"
+        }
+      }
+    },
+    {
+      "id": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue"
+      },
+      "expected": {
+        "coordinates": [
+          19.07067,
+          47.48242
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue"
+        }
+      }
+    },
+    {
+      "id": "Castle of the Teutonic Order in Malbork",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Castle of the Teutonic Order in Malbork"
+      },
+      "expected": {
+        "coordinates": [
+          19.02778,
+          54.03972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Castle of the Teutonic Order in Malbork"
+        }
+      }
+    },
+    {
+      "id": "Church of the Ascension, Kolomenskoye",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Church of the Ascension, Kolomenskoye"
+      },
+      "expected": {
+        "coordinates": [
+          37.66889,
+          55.66944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Church of the Ascension, Kolomenskoye"
+        }
+      }
+    },
+    {
+      "id": "Citadel, Ancient City and Fortress Buildings of Derbent",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Citadel, Ancient City and Fortress Buildings of Derbent"
+      },
+      "expected": {
+        "coordinates": [
+          48.3,
+          42.05
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Citadel, Ancient City and Fortress Buildings of Derbent"
+        }
+      }
+    },
+    {
+      "id": "Churches of Moldavia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Churches of Moldavia"
+      },
+      "expected": {
+        "coordinates": [
+          25.71278,
+          47.77833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Churches of Moldavia"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Kraków",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Kraków"
+      },
+      "expected": {
+        "coordinates": [
+          19.93722,
+          50.06139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Kraków"
+        }
+      }
+    },
+    {
+      "id": "Cultural and Historic Ensemble of the Solovetsky Islands",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cultural and Historic Ensemble of the Solovetsky Islands"
+      },
+      "expected": {
+        "coordinates": [
+          35.88333,
+          65.08333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cultural and Historic Ensemble of the Solovetsky Islands"
+        }
+      }
+    },
+    {
+      "id": "Dacian Fortresses of the Orastie Mountains",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dacian Fortresses of the Orastie Mountains"
+      },
+      "expected": {
+        "coordinates": [
+          23.31194,
+          45.62306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dacian Fortresses of the Orastie Mountains"
+        }
+      }
+    },
+    {
+      "id": "Danube Delta",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Danube Delta"
+      },
+      "expected": {
+        "coordinates": [
+          29.5,
+          45.08333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Danube Delta"
+        }
+      }
+    },
+    {
+      "id": "Early Christian Necropolis of Pécs (Sopianae)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Early Christian Necropolis of Pécs"
+      },
+      "expected": {
+        "coordinates": [
+          18.23311,
+          46.07125
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Early Christian Necropolis of Pécs"
+        }
+      }
+    },
+    {
+      "id": "Ensemble of the Ferrapontov Monastery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ensemble of the Ferrapontov Monastery"
+      },
+      "expected": {
+        "coordinates": [
+          38.5675,
+          59.95639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ensemble of the Ferrapontov Monastery"
+        }
+      }
+    },
+    {
+      "id": "Ensemble of the Novodevichy Convent",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ensemble of the Novodevichy Convent"
+      },
+      "expected": {
+        "coordinates": [
+          37.55611,
+          55.72611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ensemble of the Novodevichy Convent"
+        }
+      }
+    },
+    {
+      "id": "Gardens and Castle at Kroměříž",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gardens and Castle at Kroměříž"
+      },
+      "expected": {
+        "coordinates": [
+          17.37722,
+          49.3
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gardens and Castle at Kroměříž"
+        }
+      }
+    },
+    {
+      "id": "Historic and Architectural Complex of the Kazan Kremlin",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic and Architectural Complex of the Kazan Kremlin"
+      },
+      "expected": {
+        "coordinates": [
+          49.10556,
+          55.8
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic and Architectural Complex of the Kazan Kremlin"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Saint Petersburg and Related Groups of Monuments",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Saint Petersburg and Related Groups of Monuments"
+      },
+      "expected": {
+        "coordinates": [
+          30.31833,
+          59.95
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Saint Petersburg and Related Groups of Monuments"
+        }
+      }
+    },
+    {
+      "id": "Historical Centre of the City of Yaroslavl",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historical Centre of the City of Yaroslavl"
+      },
+      "expected": {
+        "coordinates": [
+          39.85,
+          57.61667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historical Centre of the City of Yaroslavl"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Český Krumlov",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Český Krumlov"
+      },
+      "expected": {
+        "coordinates": [
+          14.31528,
+          48.81111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Český Krumlov"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Prague",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Prague"
+      },
+      "expected": {
+        "coordinates": [
+          14.41667,
+          50.08333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Prague"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Sighişoara",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Sighişoara"
+      },
+      "expected": {
+        "coordinates": [
+          24.79222,
+          46.21778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Sighişoara"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Telč",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Telč"
+      },
+      "expected": {
+        "coordinates": [
+          15.46972,
+          49.18444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Telč"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Warsaw",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Warsaw"
+      },
+      "expected": {
+        "coordinates": [
+          21.01167,
+          52.26639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Warsaw"
+        }
+      }
+    },
+    {
+      "id": "Historic Monuments of Novgorod and Surroundings",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Monuments of Novgorod and Surroundings"
+      },
+      "expected": {
+        "coordinates": [
+          31.28333,
+          58.53333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Monuments of Novgorod and Surroundings"
+        }
+      }
+    },
+    {
+      "id": "Historic Town of Banská Štiavnica and the Technical Monuments in its Vicinity",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Town of Banská Štiavnica and the Technical Monuments in its Vicinity"
+      },
+      "expected": {
+        "coordinates": [
+          18.89639,
+          48.45806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Town of Banská Štiavnica and the Technical Monuments in its Vicinity"
+        }
+      }
+    },
+    {
+      "id": "Holašovice Historical Village Reservation",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Holašovice Historical Village Reservation"
+      },
+      "expected": {
+        "coordinates": [
+          14.26667,
+          48.96667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Holašovice Historical Village Reservation"
+        }
+      }
+    },
+    {
+      "id": "Holy Trinity Column in Olomouc",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Holy Trinity Column in Olomouc"
+      },
+      "expected": {
+        "coordinates": [
+          17.25043,
+          49.59394
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Holy Trinity Column in Olomouc"
+        }
+      }
+    },
+    {
+      "id": "Hortobágy National Park - the Puszta",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hortobágy National Park - the Puszta"
+      },
+      "expected": {
+        "coordinates": [
+          21.15667,
+          47.59444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hortobágy National Park - the Puszta"
+        }
+      }
+    },
+    {
+      "id": "Jewish Quarter and St Procopius' Basilica in Třebíč",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jewish Quarter and St Procopius' Basilica in Třebíč"
+      },
+      "expected": {
+        "coordinates": [
+          15.87889,
+          49.21722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jewish Quarter and St Procopius' Basilica in Třebíč"
+        }
+      }
+    },
+    {
+      "id": "Kizhi Pogost",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kizhi Pogost"
+      },
+      "expected": {
+        "coordinates": [
+          35.225,
+          62.06667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kizhi Pogost"
+        }
+      }
+    },
+    {
+      "id": "Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec"
+      },
+      "expected": {
+        "coordinates": [
+          15.26833,
+          49.94833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec"
+        }
+      }
+    },
+    {
+      "id": "Lednice-Valtice Cultural Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lednice-Valtice Cultural Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          16.775,
+          48.77583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lednice-Valtice Cultural Landscape"
+        }
+      }
+    },
+    {
+      "id": "Litomyšl Castle",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Litomyšl Castle"
+      },
+      "expected": {
+        "coordinates": [
+          16.31444,
+          49.87361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Litomyšl Castle"
+        }
+      }
+    },
+    {
+      "id": "L'viv – the Ensemble of the Historic Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "L'viv - the Ensemble of the Historic Centre"
+      },
+      "expected": {
+        "coordinates": [
+          24.03194,
+          49.84167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "L'viv - the Ensemble of the Historic Centre"
+        }
+      }
+    },
+    {
+      "id": "Madara Rider",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Madara Rider"
+      },
+      "expected": {
+        "coordinates": [
+          27.11956,
+          43.27669
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Madara Rider"
+        }
+      }
+    },
+    {
+      "id": "Medieval Town of Toruń",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Medieval Town of Toruń"
+      },
+      "expected": {
+        "coordinates": [
+          18.61944,
+          53.01
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Medieval Town of Toruń"
+        }
+      }
+    },
+    {
+      "id": "Millenary Benedictine Abbey of Pannonhalma and its Natural Environment",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Millenary Benedictine Abbey of Pannonhalma and its Natural Environment"
+      },
+      "expected": {
+        "coordinates": [
+          17.76111,
+          47.55278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Millenary Benedictine Abbey of Pannonhalma and its Natural Environment"
+        }
+      }
+    },
+    {
+      "id": "Mir Castle Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mir Castle Complex"
+      },
+      "expected": {
+        "coordinates": [
+          26.473,
+          53.45124
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mir Castle Complex"
+        }
+      }
+    },
+    {
+      "id": "Monastery of Horezu",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monastery of Horezu"
+      },
+      "expected": {
+        "coordinates": [
+          24.00674,
+          45.16949
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monastery of Horezu"
+        }
+      }
+    },
+    {
+      "id": "Old City of Zamość",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old City of Zamość"
+      },
+      "expected": {
+        "coordinates": [
+          23.26667,
+          50.71667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old City of Zamość"
+        }
+      }
+    },
+    {
+      "id": "Old Village of Hollókő and its Surroundings",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old Village of Hollókő and its Surroundings"
+      },
+      "expected": {
+        "coordinates": [
+          19.59182,
+          47.9962
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old Village of Hollókő and its Surroundings"
+        }
+      }
+    },
+    {
+      "id": "Pilgrimage Church of St John of Nepomuk at Zelená Hora",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pilgrimage Church of St John of Nepomuk at Zelená Hora"
+      },
+      "expected": {
+        "coordinates": [
+          15.94206,
+          49.58019
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pilgrimage Church of St John of Nepomuk at Zelená Hora"
+        }
+      }
+    },
+    {
+      "id": "Pirin National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pirin National Park"
+      },
+      "expected": {
+        "coordinates": [
+          23.5,
+          41.66667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pirin National Park"
+        }
+      }
+    },
+    {
+      "id": "Residence of Bukovinian and Dalmatian Metropolitans",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Residence of Bukovinian and Dalmatian Metropolitans"
+      },
+      "expected": {
+        "coordinates": [
+          25.92444,
+          48.29694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Residence of Bukovinian and Dalmatian Metropolitans"
+        }
+      }
+    },
+    {
+      "id": "Rila Monastery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rila Monastery"
+      },
+      "expected": {
+        "coordinates": [
+          23.34028,
+          42.13333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rila Monastery"
+        }
+      }
+    },
+    {
+      "id": "Rock-Hewn Churches of Ivanovo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rock-Hewn Churches of Ivanovo"
+      },
+      "expected": {
+        "coordinates": [
+          25.96667,
+          43.71667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rock-Hewn Churches of Ivanovo"
+        }
+      }
+    },
+    {
+      "id": "Srebarna Nature Reserve",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Srebarna Nature Reserve"
+      },
+      "expected": {
+        "coordinates": [
+          27.07806,
+          44.11444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Srebarna Nature Reserve"
+        }
+      }
+    },
+    {
+      "id": "Thracian Tomb of Kazanlak",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Thracian Tomb of Kazanlak"
+      },
+      "expected": {
+        "coordinates": [
+          25.39919,
+          42.62576
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Thracian Tomb of Kazanlak"
+        }
+      }
+    },
+    {
+      "id": "Thracian Tomb of Sveshtari",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Thracian Tomb of Sveshtari"
+      },
+      "expected": {
+        "coordinates": [
+          26.7663,
+          43.74496
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Thracian Tomb of Sveshtari"
+        }
+      }
+    },
+    {
+      "id": "Tokaj Wine Region Historic Cultural Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tokaj Wine Region Historic Cultural Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          21.35,
+          48.15
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tokaj Wine Region Historic Cultural Landscape"
+        }
+      }
+    },
+    {
+      "id": "Tugendhat Villa in Brno",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tugendhat Villa in Brno"
+      },
+      "expected": {
+        "coordinates": [
+          16.61583,
+          49.20722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tugendhat Villa in Brno"
+        }
+      }
+    },
+    {
+      "id": "Villages with Fortified Churches in Transylvania",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Villages with Fortified Churches in Transylvania"
+      },
+      "expected": {
+        "coordinates": [
+          24.77306,
+          46.13583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Villages with Fortified Churches in Transylvania"
+        }
+      }
+    },
+    {
+      "id": "Virgin Komi Forests",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virgin Komi Forests"
+      },
+      "expected": {
+        "coordinates": [
+          58.9525,
+          63.62583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virgin Komi Forests"
+        }
+      }
+    },
+    {
+      "id": "Vlkolínec",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vlkolínec"
+      },
+      "expected": {
+        "coordinates": [
+          19.275,
+          49.04167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vlkolínec"
+        }
+      }
+    },
+    {
+      "id": "Western Caucasus",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Western Caucasus"
+      },
+      "expected": {
+        "coordinates": [
+          40,
+          44
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Western Caucasus"
+        }
+      }
+    },
+    {
+      "id": "White Monuments of Vladimir and Suzdal",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "White Monuments of Vladimir and Suzdal"
+      },
+      "expected": {
+        "coordinates": [
+          40.41667,
+          56.15
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "White Monuments of Vladimir and Suzdal"
+        }
+      }
+    },
+    {
+      "id": "Wieliczka Salt Mine",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wieliczka Salt Mine"
+      },
+      "expected": {
+        "coordinates": [
+          20.06389,
+          49.97917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wieliczka Salt Mine"
+        }
+      }
+    },
+    {
+      "id": "Wooden Churches of Maramureş",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wooden Churches of Maramureş"
+      },
+      "expected": {
+        "coordinates": [
+          24.05583,
+          47.82083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wooden Churches of Maramureş"
+        }
+      }
+    },
+    {
+      "id": "Wooden Churches of the Slovak part of the Carpathian Mountain Area",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wooden Churches of the Slovak part of the Carpathian Mountain Area"
+      },
+      "expected": {
+        "coordinates": [
+          19.55833,
+          49.33611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wooden Churches of the Slovak part of the Carpathian Mountain Area"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "name": "wikipedia scrape: Tourist_attractions_in_the_United_States",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Times Square",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Times Square"
+      },
+      "expected": {
+        "coordinates": [
+          -73.986,
+          40.757
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Times Square"
+        }
+      }
+    },
+    {
+      "id": "Mall Of America",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mall Of America"
+      },
+      "expected": {
+        "coordinates": [
+          -93.24222,
+          44.85417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mall Of America"
+        }
+      }
+    },
+    {
+      "id": "Central Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Central Park"
+      },
+      "expected": {
+        "coordinates": [
+          -73.96528,
+          40.78222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Central Park"
+        }
+      }
+    },
+    {
+      "id": "Union Station (Washington, D.C.)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Union Station"
+      },
+      "expected": {
+        "coordinates": [
+          -77.00626,
+          38.89731
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Union Station"
+        }
+      }
+    },
+    {
+      "id": "Millennium Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Millennium Park"
+      },
+      "expected": {
+        "coordinates": [
+          -87.62267,
+          41.88271
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Millennium Park"
+        }
+      }
+    },
+    {
+      "id": "Grand Central Terminal",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Grand Central Terminal"
+      },
+      "expected": {
+        "coordinates": [
+          -73.97722222,
+          40.75277778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Grand Central Terminal"
+        }
+      }
+    },
+    {
+      "id": "Lincoln Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lincoln Park"
+      },
+      "expected": {
+        "coordinates": [
+          -87.635,
+          41.94
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lincoln Park"
+        }
+      }
+    },
+    {
+      "id": "Magic Kingdom",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Magic Kingdom"
+      },
+      "expected": {
+        "coordinates": [
+          -81.58111,
+          28.41861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Magic Kingdom"
+        }
+      }
+    },
+    {
+      "id": "Disneyland Resort",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disneyland Resort"
+      },
+      "expected": {
+        "coordinates": [
+          -117.919,
+          33.8091
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disneyland Resort"
+        }
+      }
+    },
+    {
+      "id": "Golden Gate Bridge",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Golden Gate Bridge"
+      },
+      "expected": {
+        "coordinates": [
+          -122.47861,
+          37.81972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Golden Gate Bridge"
+        }
+      }
+    },
+    {
+      "id": "Faneuil Hall",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Faneuil Hall"
+      },
+      "expected": {
+        "coordinates": [
+          -71.05625,
+          42.36
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Faneuil Hall"
+        }
+      }
+    },
+    {
+      "id": "Golden Gate Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Golden Gate Park"
+      },
+      "expected": {
+        "coordinates": [
+          -122.47694,
+          37.76972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Golden Gate Park"
+        }
+      }
+    },
+    {
+      "id": "Balboa Park (San Diego)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Balboa Park"
+      },
+      "expected": {
+        "coordinates": [
+          -117.14528,
+          32.73139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Balboa Park"
+        }
+      }
+    },
+    {
+      "id": "Epcot",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Epcot"
+      },
+      "expected": {
+        "coordinates": [
+          -81.55,
+          28.371
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Epcot"
+        }
+      }
+    },
+    {
+      "id": "Pike Place Market",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pike Place Market"
+      },
+      "expected": {
+        "coordinates": [
+          -122.3417,
+          47.60943
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pike Place Market"
+        }
+      }
+    },
+    {
+      "id": "Disney's Animal Kingdom",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney's Animal Kingdom"
+      },
+      "expected": {
+        "coordinates": [
+          -81.59,
+          28.358
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney's Animal Kingdom"
+        }
+      }
+    },
+    {
+      "id": "Disney's Hollywood Studios",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney's Hollywood Studios"
+      },
+      "expected": {
+        "coordinates": [
+          -81.5561,
+          28.357
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney's Hollywood Studios"
+        }
+      }
+    },
+    {
+      "id": "Great Smoky Mountains National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Great Smoky Mountains National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -83.51667,
+          35.6
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Great Smoky Mountains National Park"
+        }
+      }
+    },
+    {
+      "id": "South Street Seaport",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "South Street Seaport"
+      },
+      "expected": {
+        "coordinates": [
+          -74.00333,
+          40.70611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "South Street Seaport"
+        }
+      }
+    },
+    {
+      "id": "Mackinac Bridge",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mackinac Bridge"
+      },
+      "expected": {
+        "coordinates": [
+          -84.72782,
+          45.81706
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mackinac Bridge"
+        }
+      }
+    },
+    {
+      "id": "Navy Pier",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Navy Pier"
+      },
+      "expected": {
+        "coordinates": [
+          -87.59972,
+          41.89139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Navy Pier"
+        }
+      }
+    },
+    {
+      "id": "Pier 39",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pier 39"
+      },
+      "expected": {
+        "coordinates": [
+          -122.4104,
+          37.81
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pier 39"
+        }
+      }
+    },
+    {
+      "id": "High Line",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "High Line"
+      },
+      "expected": {
+        "coordinates": [
+          -74.005,
+          40.74833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "High Line"
+        }
+      }
+    }
+  ]
+}

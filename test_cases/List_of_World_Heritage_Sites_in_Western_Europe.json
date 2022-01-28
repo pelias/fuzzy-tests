@@ -1,0 +1,2201 @@
+{
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_Western_Europe",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Aachen Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aachen Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          6.08392,
+          50.77475
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aachen Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Abbey and Altenmünster of Lorsch",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Abbey and Altenmünster of Lorsch"
+      },
+      "expected": {
+        "coordinates": [
+          8.56972,
+          49.65361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Abbey and Altenmünster of Lorsch"
+        }
+      }
+    },
+    {
+      "id": "Abbey Church of Saint-Savin-sur-Gartempe",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Abbey Church of Saint-Savin-sur-Gartempe"
+      },
+      "expected": {
+        "coordinates": [
+          0.86611,
+          46.56417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Abbey Church of Saint-Savin-sur-Gartempe"
+        }
+      }
+    },
+    {
+      "id": "Amiens Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Amiens Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          2.30222,
+          49.895
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Amiens Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Arles, Roman and Romanesque Monuments",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arles, Roman and Romanesque Monuments"
+      },
+      "expected": {
+        "coordinates": [
+          4.63069,
+          43.67764
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arles, Roman and Romanesque Monuments"
+        }
+      }
+    },
+    {
+      "id": "Bauhaus and its sites in Weimar, Dessau and Bernau",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bauhaus and its sites in Weimar, Dessau and Bernau"
+      },
+      "expected": {
+        "coordinates": [
+          11.32944,
+          50.97472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bauhaus and its sites in Weimar, Dessau and Bernau"
+        }
+      }
+    },
+    {
+      "id": "Belfries of Belgium and France",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Belfries of Belgium and France"
+      },
+      "expected": {
+        "coordinates": [
+          2.8824,
+          50.68645
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Belfries of Belgium and France"
+        }
+      }
+    },
+    {
+      "id": "Berlin Modernism Housing Estates",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Berlin Modernism Housing Estates"
+      },
+      "expected": {
+        "coordinates": [
+          13.45,
+          52.44833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Berlin Modernism Housing Estates"
+        }
+      }
+    },
+    {
+      "id": "Blaenavon Industrial Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Blaenavon Industrial Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          -3.08806,
+          51.77639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Blaenavon Industrial Landscape"
+        }
+      }
+    },
+    {
+      "id": "Blenheim Palace",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Blenheim Palace"
+      },
+      "expected": {
+        "coordinates": [
+          -1.36139,
+          51.84194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Blenheim Palace"
+        }
+      }
+    },
+    {
+      "id": "Bourges Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bourges Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          2.39944,
+          47.08194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bourges Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Canal du Midi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Canal du Midi"
+      },
+      "expected": {
+        "coordinates": [
+          1.41844,
+          43.61102
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Canal du Midi"
+        }
+      }
+    },
+    {
+      "id": "Castles and Town Walls of King Edward in Gwynedd",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Castles and Town Walls of King Edward in Gwynedd"
+      },
+      "expected": {
+        "coordinates": [
+          -4.27694,
+          53.13972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Castles and Town Walls of King Edward in Gwynedd"
+        }
+      }
+    },
+    {
+      "id": "Castles of Augustusburg and Falkenlust at Brühl",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Castles of Augustusburg and Falkenlust at Brühl"
+      },
+      "expected": {
+        "coordinates": [
+          6.90806,
+          50.8275
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Castles of Augustusburg and Falkenlust at Brühl"
+        }
+      }
+    },
+    {
+      "id": "Champagne hillsides, houses and cellars",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Champagne hillsides, houses and cellars"
+      },
+      "expected": {
+        "coordinates": [
+          3.94611,
+          49.0775
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Champagne hillsides, houses and cellars"
+        }
+      }
+    },
+    {
+      "id": "Chartres Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chartres Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          1.48778,
+          48.44722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chartres Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Chaîne des Puys",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chaîne des Puys"
+      },
+      "expected": {
+        "coordinates": [
+          2.8,
+          45.5
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chaîne des Puys"
+        }
+      }
+    },
+    {
+      "id": "Cistercian Abbey of Fontenay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cistercian Abbey of Fontenay"
+      },
+      "expected": {
+        "coordinates": [
+          4.38911,
+          47.63944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cistercian Abbey of Fontenay"
+        }
+      }
+    },
+    {
+      "id": "City of Bath",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "City of Bath"
+      },
+      "expected": {
+        "coordinates": [
+          -2.36,
+          51.38
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "City of Bath"
+        }
+      }
+    },
+    {
+      "id": "City of Graz – Historic Centre and Schloss Eggenberg",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "City of Graz - Historic Centre and Schloss Eggenberg"
+      },
+      "expected": {
+        "coordinates": [
+          15.43333,
+          47.06667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "City of Graz - Historic Centre and Schloss Eggenberg"
+        }
+      }
+    },
+    {
+      "id": "Classical Weimar",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Classical Weimar"
+      },
+      "expected": {
+        "coordinates": [
+          11.31667,
+          50.98333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Classical Weimar"
+        }
+      }
+    },
+    {
+      "id": "The Climats, terroirs of Burgundy",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Climats, terroirs of Burgundy"
+      },
+      "expected": {
+        "coordinates": [
+          4.8644,
+          47.0581
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Climats, terroirs of Burgundy"
+        }
+      }
+    },
+    {
+      "id": "Cologne Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cologne Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          6.95817,
+          50.94129
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cologne Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Cornwall and West Devon Mining Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cornwall and West Devon Mining Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          -5.38361,
+          50.13611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cornwall and West Devon Mining Landscape"
+        }
+      }
+    },
+    {
+      "id": "Defence Line of Amsterdam",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Defence Line of Amsterdam"
+      },
+      "expected": {
+        "coordinates": [
+          4.89306,
+          52.37444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Defence Line of Amsterdam"
+        }
+      }
+    },
+    {
+      "id": "Derwent Valley Mills",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Derwent Valley Mills"
+      },
+      "expected": {
+        "coordinates": [
+          -1.48806,
+          53.02889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Derwent Valley Mills"
+        }
+      }
+    },
+    {
+      "id": "Dorset and East Devon Coast",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dorset and East Devon Coast"
+      },
+      "expected": {
+        "coordinates": [
+          -2.99,
+          50.70556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dorset and East Devon Coast"
+        }
+      }
+    },
+    {
+      "id": "Droogmakerij de Beemster (Beemster Polder)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Droogmakerij de Beemster"
+      },
+      "expected": {
+        "coordinates": [
+          4.91667,
+          52.55
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Droogmakerij de Beemster"
+        }
+      }
+    },
+    {
+      "id": "The English Lake District",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The English Lake District"
+      },
+      "expected": {
+        "coordinates": [
+          -3.16667,
+          54.5
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The English Lake District"
+        }
+      }
+    },
+    {
+      "id": "Cité épiscopale d'Albi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cité épiscopale d'Albi"
+      },
+      "expected": {
+        "coordinates": [
+          2.1464,
+          43.9289
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cité épiscopale d'Albi"
+        }
+      }
+    },
+    {
+      "id": "Fertö / Neusiedlersee Cultural Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fertö / Neusiedlersee Cultural Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          16.75,
+          47.83333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fertö / Neusiedlersee Cultural Landscape"
+        }
+      }
+    },
+    {
+      "id": "Flemish Béguinages",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Flemish Béguinages"
+      },
+      "expected": {
+        "coordinates": [
+          4.47375,
+          51.03097
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Flemish Béguinages"
+        }
+      }
+    },
+    {
+      "id": "Forth Bridge",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Forth Bridge"
+      },
+      "expected": {
+        "coordinates": [
+          -3.3886,
+          56.0004
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Forth Bridge"
+        }
+      }
+    },
+    {
+      "id": "Fortifications of Vauban",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fortifications of Vauban"
+      },
+      "expected": {
+        "coordinates": [
+          6.02694,
+          47.23611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fortifications of Vauban"
+        }
+      }
+    },
+    {
+      "id": "Frontiers of the Roman Empire",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Frontiers of the Roman Empire"
+      },
+      "expected": {
+        "coordinates": [
+          -3.215,
+          54.95222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Frontiers of the Roman Empire"
+        }
+      }
+    },
+    {
+      "id": "Garden Kingdom of Dessau-Wörlitz",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Garden Kingdom of Dessau-Wörlitz"
+      },
+      "expected": {
+        "coordinates": [
+          12.42083,
+          51.8425
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Garden Kingdom of Dessau-Wörlitz"
+        }
+      }
+    },
+    {
+      "id": "Giant's Causeway and Causeway Coast",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Giant's Causeway and Causeway Coast"
+      },
+      "expected": {
+        "coordinates": [
+          -6.51167,
+          55.24083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Giant's Causeway and Causeway Coast"
+        }
+      }
+    },
+    {
+      "id": "La Grand-Place, Brussels",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "La Grand-Place, Brussels"
+      },
+      "expected": {
+        "coordinates": [
+          4.3525,
+          50.84667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "La Grand-Place, Brussels"
+        }
+      }
+    },
+    {
+      "id": "Hallstatt-Dachstein / Salzkammergut Cultural Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hallstatt-Dachstein / Salzkammergut Cultural Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          13.649,
+          47.562
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hallstatt-Dachstein / Salzkammergut Cultural Landscape"
+        }
+      }
+    },
+    {
+      "id": "Hanseatic City of Lübeck",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hanseatic City of Lübeck"
+      },
+      "expected": {
+        "coordinates": [
+          10.68639,
+          53.86972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hanseatic City of Lübeck"
+        }
+      }
+    },
+    {
+      "id": "Heart of Neolithic Orkney",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Heart of Neolithic Orkney"
+      },
+      "expected": {
+        "coordinates": [
+          -3.20806,
+          58.99406
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Heart of Neolithic Orkney"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Brugge",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Brugge"
+      },
+      "expected": {
+        "coordinates": [
+          3.22417,
+          51.20889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Brugge"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of the City of Salzburg",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of the City of Salzburg"
+      },
+      "expected": {
+        "coordinates": [
+          13.03333,
+          47.8
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of the City of Salzburg"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Vienna",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Vienna"
+      },
+      "expected": {
+        "coordinates": [
+          16.37,
+          48.20972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Vienna"
+        }
+      }
+    },
+    {
+      "id": "Historic Fortified City of Carcassonne",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Fortified City of Carcassonne"
+      },
+      "expected": {
+        "coordinates": [
+          2.35,
+          43.21
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Fortified City of Carcassonne"
+        }
+      }
+    },
+    {
+      "id": "Ir.D.F. Woudagemaal (D.F. Wouda Steam Pumping Station)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ir.D.F. Woudagemaal"
+      },
+      "expected": {
+        "coordinates": [
+          5.67889,
+          52.84583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ir.D.F. Woudagemaal"
+        }
+      }
+    },
+    {
+      "id": "Ironbridge Gorge",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ironbridge Gorge"
+      },
+      "expected": {
+        "coordinates": [
+          -2.47278,
+          52.62639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ironbridge Gorge"
+        }
+      }
+    },
+    {
+      "id": "Jodrell Bank Observatory",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jodrell Bank Observatory"
+      },
+      "expected": {
+        "coordinates": [
+          -2.30713889,
+          53.23625
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jodrell Bank Observatory"
+        }
+      }
+    },
+    {
+      "id": "Jurisdiction of Saint-Emilion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jurisdiction of Saint-Emilion"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1547,
+          44.8936
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jurisdiction of Saint-Emilion"
+        }
+      }
+    },
+    {
+      "id": "Mill Network at Kinderdijk-Elshout",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mill Network at Kinderdijk-Elshout"
+      },
+      "expected": {
+        "coordinates": [
+          4.64944,
+          51.8825
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mill Network at Kinderdijk-Elshout"
+        }
+      }
+    },
+    {
+      "id": "Le Havre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Le Havre"
+      },
+      "expected": {
+        "coordinates": [
+          0.1,
+          49.49
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Le Havre"
+        }
+      }
+    },
+    {
+      "id": "Liverpool – Maritime Mercantile City",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Liverpool - Maritime Mercantile City"
+      },
+      "expected": {
+        "coordinates": [
+          -2.99444,
+          53.40667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Liverpool - Maritime Mercantile City"
+        }
+      }
+    },
+    {
+      "id": "The Loire Valley between Sully-sur-Loire and Chalonnes",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Loire Valley between Sully-sur-Loire and Chalonnes"
+      },
+      "expected": {
+        "coordinates": [
+          2.37611,
+          47.76583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Loire Valley between Sully-sur-Loire and Chalonnes"
+        }
+      }
+    },
+    {
+      "id": "Major Mining Sites of Wallonia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Major Mining Sites of Wallonia"
+      },
+      "expected": {
+        "coordinates": [
+          3.83833,
+          50.43528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Major Mining Sites of Wallonia"
+        }
+      }
+    },
+    {
+      "id": "Major Town Houses of the Architect Victor Horta (Brussels)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Major Town Houses of the Architect Victor Horta"
+      },
+      "expected": {
+        "coordinates": [
+          4.36222,
+          50.82806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Major Town Houses of the Architect Victor Horta"
+        }
+      }
+    },
+    {
+      "id": "Margravial Opera House Bayreuth",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Margravial Opera House Bayreuth"
+      },
+      "expected": {
+        "coordinates": [
+          11.57861,
+          49.94444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Margravial Opera House Bayreuth"
+        }
+      }
+    },
+    {
+      "id": "Maritime Greenwich",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maritime Greenwich"
+      },
+      "expected": {
+        "coordinates": [
+          0,
+          51.48
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maritime Greenwich"
+        }
+      }
+    },
+    {
+      "id": "Maulbronn Monastery Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maulbronn Monastery Complex"
+      },
+      "expected": {
+        "coordinates": [
+          8.81278,
+          49.00111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maulbronn Monastery Complex"
+        }
+      }
+    },
+    {
+      "id": "Messel Pit Fossil Site",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Messel Pit Fossil Site"
+      },
+      "expected": {
+        "coordinates": [
+          8.7567,
+          49.9175
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Messel Pit Fossil Site"
+        }
+      }
+    },
+    {
+      "id": "Monastic Island of Reichenau",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monastic Island of Reichenau"
+      },
+      "expected": {
+        "coordinates": [
+          9.0625,
+          47.69444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monastic Island of Reichenau"
+        }
+      }
+    },
+    {
+      "id": "Mont-Saint-Michel and its Bay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mont-Saint-Michel and its Bay"
+      },
+      "expected": {
+        "coordinates": [
+          -1.51056,
+          48.63472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mont-Saint-Michel and its Bay"
+        }
+      }
+    },
+    {
+      "id": "Monte San Giorgio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monte San Giorgio"
+      },
+      "expected": {
+        "coordinates": [
+          8.94972,
+          45.91361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monte San Giorgio"
+        }
+      }
+    },
+    {
+      "id": "Museumsinsel (Museum Island), Berlin",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museumsinsel, Berlin"
+      },
+      "expected": {
+        "coordinates": [
+          13.39556,
+          52.52139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Museumsinsel, Berlin"
+        }
+      }
+    },
+    {
+      "id": "Muskauer Park / Park Mużakowski",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Muskauer Park / Park Mużakowski"
+      },
+      "expected": {
+        "coordinates": [
+          14.72667,
+          51.55028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Muskauer Park / Park Mużakowski"
+        }
+      }
+    },
+    {
+      "id": "Naumburg Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Naumburg Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          11.80389,
+          51.15472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Naumburg Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Van Nellefabriek",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Van Nellefabriek"
+      },
+      "expected": {
+        "coordinates": [
+          4.43361,
+          51.92278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Van Nellefabriek"
+        }
+      }
+    },
+    {
+      "id": "Neolithic Flint Mines at Spiennes (Mons)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Neolithic Flint Mines at Spiennes"
+      },
+      "expected": {
+        "coordinates": [
+          3.98944,
+          50.42528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Neolithic Flint Mines at Spiennes"
+        }
+      }
+    },
+    {
+      "id": "New Lanark",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "New Lanark"
+      },
+      "expected": {
+        "coordinates": [
+          -3.78,
+          55.66
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "New Lanark"
+        }
+      }
+    },
+    {
+      "id": "Nord-Pas de Calais Mining Basin",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nord-Pas de Calais Mining Basin"
+      },
+      "expected": {
+        "coordinates": [
+          3.54611,
+          50.4625
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nord-Pas de Calais Mining Basin"
+        }
+      }
+    },
+    {
+      "id": "Notre-Dame Cathedral in Tournai",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Notre-Dame Cathedral in Tournai"
+      },
+      "expected": {
+        "coordinates": [
+          3.38886,
+          50.60655
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Notre-Dame Cathedral in Tournai"
+        }
+      }
+    },
+    {
+      "id": "Old City of Bern",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old City of Bern"
+      },
+      "expected": {
+        "coordinates": [
+          7.45028,
+          46.94806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old City of Bern"
+        }
+      }
+    },
+    {
+      "id": "Old and New Towns of Edinburgh",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old and New Towns of Edinburgh"
+      },
+      "expected": {
+        "coordinates": [
+          -3.189,
+          55.953
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old and New Towns of Edinburgh"
+        }
+      }
+    },
+    {
+      "id": "Old town of Regensburg with Stadtamhof",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old town of Regensburg with Stadtamhof"
+      },
+      "expected": {
+        "coordinates": [
+          12.08333,
+          49.01667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old town of Regensburg with Stadtamhof"
+        }
+      }
+    },
+    {
+      "id": "Palace and Gardens of Schönbrunn",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palace and Gardens of Schönbrunn"
+      },
+      "expected": {
+        "coordinates": [
+          16.31187,
+          48.18452
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Palace and Gardens of Schönbrunn"
+        }
+      }
+    },
+    {
+      "id": "Palace and Park of Fontainebleau",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palace and Park of Fontainebleau"
+      },
+      "expected": {
+        "coordinates": [
+          2.70056,
+          48.40222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Palace and Park of Fontainebleau"
+        }
+      }
+    },
+    {
+      "id": "Palace and Park of Versailles",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palace and Park of Versailles"
+      },
+      "expected": {
+        "coordinates": [
+          2.1203,
+          48.8048
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Palace and Park of Versailles"
+        }
+      }
+    },
+    {
+      "id": "Palaces and Parks of Potsdam and Berlin",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palaces and Parks of Potsdam and Berlin"
+      },
+      "expected": {
+        "coordinates": [
+          13.03333,
+          52.4
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Palaces and Parks of Potsdam and Berlin"
+        }
+      }
+    },
+    {
+      "id": "Paris, Banks of the Seine",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Paris, Banks of the Seine"
+      },
+      "expected": {
+        "coordinates": [
+          2.35222,
+          48.85661
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Paris, Banks of the Seine"
+        }
+      }
+    },
+    {
+      "id": "Pilgrimage Church of Wies",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pilgrimage Church of Wies"
+      },
+      "expected": {
+        "coordinates": [
+          10.9,
+          47.68111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pilgrimage Church of Wies"
+        }
+      }
+    },
+    {
+      "id": "Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy"
+      },
+      "expected": {
+        "coordinates": [
+          6.18306,
+          48.69361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy"
+        }
+      }
+    },
+    {
+      "id": "Plantin-Moretus House-Workshops-Museum Complex",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Plantin-Moretus House-Workshops-Museum Complex"
+      },
+      "expected": {
+        "coordinates": [
+          4.39778,
+          51.21833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Plantin-Moretus House-Workshops-Museum Complex"
+        }
+      }
+    },
+    {
+      "id": "Pont du Gard (Roman Aqueduct)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pont du Gard"
+      },
+      "expected": {
+        "coordinates": [
+          4.53556,
+          43.94722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pont du Gard"
+        }
+      }
+    },
+    {
+      "id": "Prehistoric Pile Dwellings around the Alps",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Prehistoric Pile Dwellings around the Alps"
+      },
+      "expected": {
+        "coordinates": [
+          8.20762,
+          47.27862
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Prehistoric Pile Dwellings around the Alps"
+        }
+      }
+    },
+    {
+      "id": "Prehistoric Sites and Decorated Caves of the Vézère Valley",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Prehistoric Sites and Decorated Caves of the Vézère Valley"
+      },
+      "expected": {
+        "coordinates": [
+          1.17,
+          45.0575
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Prehistoric Sites and Decorated Caves of the Vézère Valley"
+        }
+      }
+    },
+    {
+      "id": "Provins, Town of Medieval Fairs",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Provins, Town of Medieval Fairs"
+      },
+      "expected": {
+        "coordinates": [
+          3.299,
+          48.5604
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Provins, Town of Medieval Fairs"
+        }
+      }
+    },
+    {
+      "id": "Pyrénées - Mont Perdu",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pyrénées - Mont Perdu"
+      },
+      "expected": {
+        "coordinates": [
+          0.03333,
+          42.66667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pyrénées - Mont Perdu"
+        }
+      }
+    },
+    {
+      "id": "Rhaetian Railway",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rhaetian Railway"
+      },
+      "expected": {
+        "coordinates": [
+          10.01972,
+          46.40889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rhaetian Railway"
+        }
+      }
+    },
+    {
+      "id": "Rietveld Schröder House",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rietveld Schröder House"
+      },
+      "expected": {
+        "coordinates": [
+          5.14722,
+          52.08528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rietveld Schröder House"
+        }
+      }
+    },
+    {
+      "id": "Routes of Santiago de Compostela in France",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Routes of Santiago de Compostela in France"
+      },
+      "expected": {
+        "coordinates": [
+          -0.72294,
+          45.18406
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Routes of Santiago de Compostela in France"
+        }
+      }
+    },
+    {
+      "id": "Royal Saltworks of Arc-et-Senans",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Royal Saltworks of Arc-et-Senans"
+      },
+      "expected": {
+        "coordinates": [
+          5.778,
+          47.033
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Royal Saltworks of Arc-et-Senans"
+        }
+      }
+    },
+    {
+      "id": "Saltaire",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Saltaire"
+      },
+      "expected": {
+        "coordinates": [
+          -1.79028,
+          53.83722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Saltaire"
+        }
+      }
+    },
+    {
+      "id": "Schokland and Surroundings",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Schokland and Surroundings"
+      },
+      "expected": {
+        "coordinates": [
+          5.77788,
+          52.63418
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Schokland and Surroundings"
+        }
+      }
+    },
+    {
+      "id": "Semmering railway",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Semmering railway"
+      },
+      "expected": {
+        "coordinates": [
+          15.831,
+          47.643
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Semmering railway"
+        }
+      }
+    },
+    {
+      "id": "Sceilg Mhichíl",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sceilg Mhichíl"
+      },
+      "expected": {
+        "coordinates": [
+          -10.54056,
+          51.77111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sceilg Mhichíl"
+        }
+      }
+    },
+    {
+      "id": "Speicherstadt",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Speicherstadt"
+      },
+      "expected": {
+        "coordinates": [
+          9.99194,
+          53.54333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Speicherstadt"
+        }
+      }
+    },
+    {
+      "id": "Speyer Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Speyer Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          8.4424,
+          49.3172
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Speyer Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Stoclet House",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stoclet House"
+      },
+      "expected": {
+        "coordinates": [
+          4.41611,
+          50.83528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stoclet House"
+        }
+      }
+    },
+    {
+      "id": "Stonehenge, Avebury and Associated Sites",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stonehenge, Avebury and Associated Sites"
+      },
+      "expected": {
+        "coordinates": [
+          -1.82528,
+          51.17889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stonehenge, Avebury and Associated Sites"
+        }
+      }
+    },
+    {
+      "id": "Strasbourg – Grande île",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Strasbourg - Grande île"
+      },
+      "expected": {
+        "coordinates": [
+          7.748,
+          48.583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Strasbourg - Grande île"
+        }
+      }
+    },
+    {
+      "id": "Studley Royal Park including the Ruins of Fountains Abbey",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Studley Royal Park including the Ruins of Fountains Abbey"
+      },
+      "expected": {
+        "coordinates": [
+          -1.57306,
+          54.11611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Studley Royal Park including the Ruins of Fountains Abbey"
+        }
+      }
+    },
+    {
+      "id": "Swiss Alps Jungfrau-Aletsch",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Swiss Alps Jungfrau-Aletsch"
+      },
+      "expected": {
+        "coordinates": [
+          8.03333,
+          46.5
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Swiss Alps Jungfrau-Aletsch"
+        }
+      }
+    },
+    {
+      "id": "Swiss Tectonic Arena Sardona",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Swiss Tectonic Arena Sardona"
+      },
+      "expected": {
+        "coordinates": [
+          9.25,
+          46.91667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Swiss Tectonic Arena Sardona"
+        }
+      }
+    },
+    {
+      "id": "Three Castles of Bellinzona",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Three Castles of Bellinzona"
+      },
+      "expected": {
+        "coordinates": [
+          9.02242,
+          46.19314
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Three Castles of Bellinzona"
+        }
+      }
+    },
+    {
+      "id": "Tower of London",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tower of London"
+      },
+      "expected": {
+        "coordinates": [
+          -0.07611,
+          51.50806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tower of London"
+        }
+      }
+    },
+    {
+      "id": "Town of Bamberg",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Town of Bamberg"
+      },
+      "expected": {
+        "coordinates": [
+          10.9,
+          49.9
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Town of Bamberg"
+        }
+      }
+    },
+    {
+      "id": "Upper Middle Rhine Valley",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Upper Middle Rhine Valley"
+      },
+      "expected": {
+        "coordinates": [
+          7.69417,
+          50.1736
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Upper Middle Rhine Valley"
+        }
+      }
+    },
+    {
+      "id": "Vézelay, Church and Hill",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vézelay, Church and Hill"
+      },
+      "expected": {
+        "coordinates": [
+          3.74861,
+          47.46639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vézelay, Church and Hill"
+        }
+      }
+    },
+    {
+      "id": "Völklingen Ironworks",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Völklingen Ironworks"
+      },
+      "expected": {
+        "coordinates": [
+          6.85,
+          49.24444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Völklingen Ironworks"
+        }
+      }
+    },
+    {
+      "id": "Wachau Cultural Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wachau Cultural Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          15.43417,
+          48.36444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wachau Cultural Landscape"
+        }
+      }
+    },
+    {
+      "id": "The Wadden Sea",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Wadden Sea"
+      },
+      "expected": {
+        "coordinates": [
+          5.66583,
+          53.39083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Wadden Sea"
+        }
+      }
+    },
+    {
+      "id": "Wartburg Castle",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wartburg Castle"
+      },
+      "expected": {
+        "coordinates": [
+          10.3065,
+          50.9662
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wartburg Castle"
+        }
+      }
+    },
+    {
+      "id": "Augsburg",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Augsburg"
+      },
+      "expected": {
+        "coordinates": [
+          10.9,
+          48.36667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Augsburg"
+        }
+      }
+    },
+    {
+      "id": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Westminster Palace, Westminster Abbey and Saint Margaret's Church"
+      },
+      "expected": {
+        "coordinates": [
+          -0.1275,
+          51.49944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church"
+        }
+      }
+    },
+    {
+      "id": "Würzburg Residence with the Court Gardens and Residence Square",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Würzburg Residence with the Court Gardens and Residence Square"
+      },
+      "expected": {
+        "coordinates": [
+          9.93861,
+          49.79278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Würzburg Residence with the Court Gardens and Residence Square"
+        }
+      }
+    },
+    {
+      "id": "Zollverein Coal Mine Industrial Complex in Essen",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zollverein Coal Mine Industrial Complex in Essen"
+      },
+      "expected": {
+        "coordinates": [
+          7.04611,
+          51.49139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zollverein Coal Mine Industrial Complex in Essen"
+        }
+      }
+    }
+  ]
+}

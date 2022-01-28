@@ -1,0 +1,1764 @@
+{
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_Southern_Europe",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Acropolis, Athens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Acropolis, Athens"
+      },
+      "expected": {
+        "coordinates": [
+          23.72611,
+          37.97083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Acropolis, Athens"
+        }
+      }
+    },
+    {
+      "id": "Alto Douro Wine Region",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alto Douro Wine Region"
+      },
+      "expected": {
+        "coordinates": [
+          -7.79889,
+          41.10167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Alto Douro Wine Region"
+        }
+      }
+    },
+    {
+      "id": "Aranjuez Cultural Landscape",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aranjuez Cultural Landscape"
+      },
+      "expected": {
+        "coordinates": [
+          -3.60278,
+          40.03333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aranjuez Cultural Landscape"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Area of Agrigento",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Area of Agrigento"
+      },
+      "expected": {
+        "coordinates": [
+          13.59333,
+          37.28972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Area of Agrigento"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Ensemble of Tárraco",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Ensemble of Tárraco"
+      },
+      "expected": {
+        "coordinates": [
+          1.25931,
+          41.11472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Ensemble of Tárraco"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Ensemble of Mérida",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Ensemble of Mérida"
+      },
+      "expected": {
+        "coordinates": [
+          -6.33333,
+          38.91667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Ensemble of Mérida"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Site of Atapuerca",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Site of Atapuerca"
+      },
+      "expected": {
+        "coordinates": [
+          -3.51833,
+          42.3525
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Site of Atapuerca"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Site of Delphi",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Site of Delphi"
+      },
+      "expected": {
+        "coordinates": [
+          22.5013,
+          38.4823
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Site of Delphi"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Site of Mystras",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Site of Mystras"
+      },
+      "expected": {
+        "coordinates": [
+          22.38333,
+          37.06667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Site of Mystras"
+        }
+      }
+    },
+    {
+      "id": "Archaeological Site of Olympia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Archaeological Site of Olympia"
+      },
+      "expected": {
+        "coordinates": [
+          21.63,
+          37.638
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Archaeological Site of Olympia"
+        }
+      }
+    },
+    {
+      "id": "Burgos Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Burgos Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          -3.70447,
+          42.34081
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Burgos Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Butrint",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Butrint"
+      },
+      "expected": {
+        "coordinates": [
+          20.02056,
+          39.74556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Butrint"
+        }
+      }
+    },
+    {
+      "id": "Catalan Romanesque Churches of the Vall de Boí",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Catalan Romanesque Churches of the Vall de Boí"
+      },
+      "expected": {
+        "coordinates": [
+          0.80361,
+          42.50472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Catalan Romanesque Churches of the Vall de Boí"
+        }
+      }
+    },
+    {
+      "id": "Cave of Altamira and Paleolithic Cave Art of Northern Spain",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cave of Altamira and Paleolithic Cave Art of Northern Spain"
+      },
+      "expected": {
+        "coordinates": [
+          -4.1225,
+          43.3774
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cave of Altamira and Paleolithic Cave Art of Northern Spain"
+        }
+      }
+    },
+    {
+      "id": "Central Zone of the Town of Angra do Heroismo in the Azores",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Central Zone of the Town of Angra do Heroismo in the Azores"
+      },
+      "expected": {
+        "coordinates": [
+          -27.21944,
+          38.65556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Central Zone of the Town of Angra do Heroismo in the Azores"
+        }
+      }
+    },
+    {
+      "id": "City of Verona",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "City of Verona"
+      },
+      "expected": {
+        "coordinates": [
+          10.99278,
+          45.43861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "City of Verona"
+        }
+      }
+    },
+    {
+      "id": "City of Vicenza and the Palladian Villas of the Veneto",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "City of Vicenza and the Palladian Villas of the Veneto"
+      },
+      "expected": {
+        "coordinates": [
+          11.54944,
+          45.54917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "City of Vicenza and the Palladian Villas of the Veneto"
+        }
+      }
+    },
+    {
+      "id": "Costiera Amalfitana",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Costiera Amalfitana"
+      },
+      "expected": {
+        "coordinates": [
+          14.6,
+          40.65
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Costiera Amalfitana"
+        }
+      }
+    },
+    {
+      "id": "Crespi d'Adda",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Crespi d'Adda"
+      },
+      "expected": {
+        "coordinates": [
+          9.53611,
+          45.59667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Crespi d'Adda"
+        }
+      }
+    },
+    {
+      "id": "Delos",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Delos"
+      },
+      "expected": {
+        "coordinates": [
+          25.27111,
+          37.39333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Delos"
+        }
+      }
+    },
+    {
+      "id": "Doñana National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Doñana National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -6.5,
+          37
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Doñana National Park"
+        }
+      }
+    },
+    {
+      "id": "Durmitor National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Durmitor National Park"
+      },
+      "expected": {
+        "coordinates": [
+          19.03333,
+          43.12778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Durmitor National Park"
+        }
+      }
+    },
+    {
+      "id": "Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč"
+      },
+      "expected": {
+        "coordinates": [
+          13.59361,
+          45.22861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč"
+        }
+      }
+    },
+    {
+      "id": "Garajonay National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Garajonay National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -17.23722222,
+          28.12611111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Garajonay National Park"
+        }
+      }
+    },
+    {
+      "id": "Garrison Border Town of Elvas and its Fortifications",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Garrison Border Town of Elvas and its Fortifications"
+      },
+      "expected": {
+        "coordinates": [
+          -7.16332,
+          38.88062
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Garrison Border Town of Elvas and its Fortifications"
+        }
+      }
+    },
+    {
+      "id": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli"
+      },
+      "expected": {
+        "coordinates": [
+          8.93111,
+          44.41222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli"
+        }
+      }
+    },
+    {
+      "id": "Gorham's Cave",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gorham's Cave"
+      },
+      "expected": {
+        "coordinates": [
+          -5.34207,
+          36.1204
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gorham's Cave"
+        }
+      }
+    },
+    {
+      "id": "Ħal Saflieni Hypogeum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ħal Saflieni Hypogeum"
+      },
+      "expected": {
+        "coordinates": [
+          14.50681,
+          35.86958
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ħal Saflieni Hypogeum"
+        }
+      }
+    },
+    {
+      "id": "Heritage of Mercury. Almadén and Idrija",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Heritage of Mercury. Almadén and Idrija"
+      },
+      "expected": {
+        "coordinates": [
+          -4.83889,
+          38.77528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Heritage of Mercury. Almadén and Idrija"
+        }
+      }
+    },
+    {
+      "id": "Historical Complex of Split with the Palace of Diocletian",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historical Complex of Split with the Palace of Diocletian"
+      },
+      "expected": {
+        "coordinates": [
+          16.44,
+          43.50833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historical Complex of Split with the Palace of Diocletian"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Cordoba",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Cordoba"
+      },
+      "expected": {
+        "coordinates": [
+          -4.77972,
+          37.87919
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Cordoba"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Florence",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Florence"
+      },
+      "expected": {
+        "coordinates": [
+          11.25611,
+          43.77306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Florence"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Guimarães",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Guimarães"
+      },
+      "expected": {
+        "coordinates": [
+          -8.2928,
+          41.44373
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Guimarães"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of San Gimignano",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of San Gimignano"
+      },
+      "expected": {
+        "coordinates": [
+          11.042,
+          43.468
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of San Gimignano"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Siena",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Siena"
+      },
+      "expected": {
+        "coordinates": [
+          11.33056,
+          43.31861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Siena"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of the City of Pienza",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of the City of Pienza"
+      },
+      "expected": {
+        "coordinates": [
+          11.67889,
+          43.07861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of the City of Pienza"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Urbino",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Urbino"
+      },
+      "expected": {
+        "coordinates": [
+          12.63333,
+          43.71667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Urbino"
+        }
+      }
+    },
+    {
+      "id": "Historic City of Toledo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic City of Toledo"
+      },
+      "expected": {
+        "coordinates": [
+          -4.02444,
+          39.85667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic City of Toledo"
+        }
+      }
+    },
+    {
+      "id": "Historic City of Trogir",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic City of Trogir"
+      },
+      "expected": {
+        "coordinates": [
+          16.25136,
+          43.5169
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic City of Trogir"
+        }
+      }
+    },
+    {
+      "id": "Ivrea",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ivrea"
+      },
+      "expected": {
+        "coordinates": [
+          7.88333,
+          45.46667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ivrea"
+        }
+      }
+    },
+    {
+      "id": "La Lonja de la Seda de Valencia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "La Lonja de la Seda de Valencia"
+      },
+      "expected": {
+        "coordinates": [
+          -0.37844,
+          39.47442
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "La Lonja de la Seda de Valencia"
+        }
+      }
+    },
+    {
+      "id": "Landscape of the Pico Island Vineyard Culture",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Landscape of the Pico Island Vineyard Culture"
+      },
+      "expected": {
+        "coordinates": [
+          -28.54117,
+          38.51344
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Landscape of the Pico Island Vineyard Culture"
+        }
+      }
+    },
+    {
+      "id": "Las Médulas",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Las Médulas"
+      },
+      "expected": {
+        "coordinates": [
+          -6.77075,
+          42.46939
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Las Médulas"
+        }
+      }
+    },
+    {
+      "id": "Madriu-Perafita-Claror Valley",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Madriu-Perafita-Claror Valley"
+      },
+      "expected": {
+        "coordinates": [
+          1.59556,
+          42.49472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Madriu-Perafita-Claror Valley"
+        }
+      }
+    },
+    {
+      "id": "Medieval City of Rhodes",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Medieval City of Rhodes"
+      },
+      "expected": {
+        "coordinates": [
+          28.21667,
+          36.43333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Medieval City of Rhodes"
+        }
+      }
+    },
+    {
+      "id": "Medici Villas and Gardens in Tuscany",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Medici Villas and Gardens in Tuscany"
+      },
+      "expected": {
+        "coordinates": [
+          11.30417,
+          43.85778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Medici Villas and Gardens in Tuscany"
+        }
+      }
+    },
+    {
+      "id": "Medieval Monuments in Kosovo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Medieval Monuments in Kosovo"
+      },
+      "expected": {
+        "coordinates": [
+          20.26556,
+          42.66111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Medieval Monuments in Kosovo"
+        }
+      }
+    },
+    {
+      "id": "Megalithic Temples of Malta",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Megalithic Temples of Malta"
+      },
+      "expected": {
+        "coordinates": [
+          14.26917,
+          36.04722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Megalithic Temples of Malta"
+        }
+      }
+    },
+    {
+      "id": "Meteora",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Meteora"
+      },
+      "expected": {
+        "coordinates": [
+          21.63111,
+          39.71417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Meteora"
+        }
+      }
+    },
+    {
+      "id": "Monastery of Alcobaça",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monastery of Alcobaça"
+      },
+      "expected": {
+        "coordinates": [
+          -8.98,
+          39.54833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monastery of Alcobaça"
+        }
+      }
+    },
+    {
+      "id": "Monastery of Batalha",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monastery of Batalha"
+      },
+      "expected": {
+        "coordinates": [
+          -8.82611,
+          39.65917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monastery of Batalha"
+        }
+      }
+    },
+    {
+      "id": "Monte San Giorgio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monte San Giorgio"
+      },
+      "expected": {
+        "coordinates": [
+          8.94972,
+          45.91361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monte San Giorgio"
+        }
+      }
+    },
+    {
+      "id": "Mount Athos",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mount Athos"
+      },
+      "expected": {
+        "coordinates": [
+          24.32639,
+          40.15722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mount Athos"
+        }
+      }
+    },
+    {
+      "id": "Mount Etna",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mount Etna"
+      },
+      "expected": {
+        "coordinates": [
+          14.995,
+          37.755
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mount Etna"
+        }
+      }
+    },
+    {
+      "id": "Mudéjar Architecture of Aragon",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mudéjar Architecture of Aragon"
+      },
+      "expected": {
+        "coordinates": [
+          -1.10722,
+          40.34389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mudéjar Architecture of Aragon"
+        }
+      }
+    },
+    {
+      "id": "Natural and Culturo-Historical Region of Kotor",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Natural and Culturo-Historical Region of Kotor"
+      },
+      "expected": {
+        "coordinates": [
+          18.7,
+          42.48333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Natural and Culturo-Historical Region of Kotor"
+        }
+      }
+    },
+    {
+      "id": "Old Bridge Area of the Old City of Mostar",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old Bridge Area of the Old City of Mostar"
+      },
+      "expected": {
+        "coordinates": [
+          17.81485,
+          43.3371
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old Bridge Area of the Old City of Mostar"
+        }
+      }
+    },
+    {
+      "id": "Old City of Dubrovnik",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old City of Dubrovnik"
+      },
+      "expected": {
+        "coordinates": [
+          18.10833,
+          42.64028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old City of Dubrovnik"
+        }
+      }
+    },
+    {
+      "id": "Old Town of Cáceres",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old Town of Cáceres"
+      },
+      "expected": {
+        "coordinates": [
+          -6.371,
+          39.474
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old Town of Cáceres"
+        }
+      }
+    },
+    {
+      "id": "Old Town of Corfu",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old Town of Corfu"
+      },
+      "expected": {
+        "coordinates": [
+          19.92139,
+          39.62389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old Town of Corfu"
+        }
+      }
+    },
+    {
+      "id": "Paleochristian and Byzantine Monuments of Thessalonika",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Paleochristian and Byzantine Monuments of Thessalonika"
+      },
+      "expected": {
+        "coordinates": [
+          22.965,
+          40.63833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Paleochristian and Byzantine Monuments of Thessalonika"
+        }
+      }
+    },
+    {
+      "id": "Palmeral of Elche",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palmeral of Elche"
+      },
+      "expected": {
+        "coordinates": [
+          -0.698,
+          38.27
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Palmeral of Elche"
+        }
+      }
+    },
+    {
+      "id": "Piazza del Duomo, Pisa",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Piazza del Duomo, Pisa"
+      },
+      "expected": {
+        "coordinates": [
+          10.39639,
+          43.72306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Piazza del Duomo, Pisa"
+        }
+      }
+    },
+    {
+      "id": "Plitvice Lakes National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Plitvice Lakes National Park"
+      },
+      "expected": {
+        "coordinates": [
+          15.61611,
+          44.88056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Plitvice Lakes National Park"
+        }
+      }
+    },
+    {
+      "id": "Poblet Monastery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Poblet Monastery"
+      },
+      "expected": {
+        "coordinates": [
+          1.0825,
+          41.38083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Poblet Monastery"
+        }
+      }
+    },
+    {
+      "id": "Prehistoric Pile dwellings around the Alps",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Prehistoric Pile dwellings around the Alps"
+      },
+      "expected": {
+        "coordinates": [
+          8.20762,
+          47.27862
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Prehistoric Pile dwellings around the Alps"
+        }
+      }
+    },
+    {
+      "id": "Pyrénées - Mont Perdu",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pyrénées - Mont Perdu"
+      },
+      "expected": {
+        "coordinates": [
+          0.03333,
+          42.66667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pyrénées - Mont Perdu"
+        }
+      }
+    },
+    {
+      "id": "Residences of the Royal House of Savoy",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Residences of the Royal House of Savoy"
+      },
+      "expected": {
+        "coordinates": [
+          7.68583,
+          45.0725
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Residences of the Royal House of Savoy"
+        }
+      }
+    },
+    {
+      "id": "Rhaetian Railway in the Albula / Bernina Landscapes",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rhaetian Railway in the Albula / Bernina Landscapes"
+      },
+      "expected": {
+        "coordinates": [
+          9.84639,
+          46.49833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rhaetian Railway in the Albula / Bernina Landscapes"
+        }
+      }
+    },
+    {
+      "id": "Rock Art of the Mediterranean Basin on the Iberian Peninsula",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rock Art of the Mediterranean Basin on the Iberian Peninsula"
+      },
+      "expected": {
+        "coordinates": [
+          -1.03333,
+          39.79
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rock Art of the Mediterranean Basin on the Iberian Peninsula"
+        }
+      }
+    },
+    {
+      "id": "Rock Drawings in Valcamonica",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rock Drawings in Valcamonica"
+      },
+      "expected": {
+        "coordinates": [
+          10.29733,
+          45.95706
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rock Drawings in Valcamonica"
+        }
+      }
+    },
+    {
+      "id": "Roman Walls of Lugo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Roman Walls of Lugo"
+      },
+      "expected": {
+        "coordinates": [
+          -7.5533,
+          43.0111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Roman Walls of Lugo"
+        }
+      }
+    },
+    {
+      "id": "Royal Monastery of Santa María de Guadalupe",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Royal Monastery of Santa María de Guadalupe"
+      },
+      "expected": {
+        "coordinates": [
+          -5.3275,
+          39.45278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Royal Monastery of Santa María de Guadalupe"
+        }
+      }
+    },
+    {
+      "id": "Sacri Monti of Piedmont and Lombardy",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sacri Monti of Piedmont and Lombardy"
+      },
+      "expected": {
+        "coordinates": [
+          9.16956,
+          45.97456
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sacri Monti of Piedmont and Lombardy"
+        }
+      }
+    },
+    {
+      "id": "Sanctuary of Asklepios at Epidaurus",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sanctuary of Asklepios at Epidaurus"
+      },
+      "expected": {
+        "coordinates": [
+          23.0744,
+          37.5986
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sanctuary of Asklepios at Epidaurus"
+        }
+      }
+    },
+    {
+      "id": "San Cristóbal de La Laguna",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Cristóbal de La Laguna"
+      },
+      "expected": {
+        "coordinates": [
+          -16.3,
+          28.48333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "San Cristóbal de La Laguna"
+        }
+      }
+    },
+    {
+      "id": "Mafra Palace",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mafra Palace"
+      },
+      "expected": {
+        "coordinates": [
+          -9.32553,
+          38.93717
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mafra Palace"
+        }
+      }
+    },
+    {
+      "id": "Škocjan Caves",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Škocjan Caves"
+      },
+      "expected": {
+        "coordinates": [
+          14,
+          45.66667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Škocjan Caves"
+        }
+      }
+    },
+    {
+      "id": "Stari Grad Plain",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stari Grad Plain"
+      },
+      "expected": {
+        "coordinates": [
+          16.63861,
+          43.18167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stari Grad Plain"
+        }
+      }
+    },
+    {
+      "id": "Stećci Medieval Tombstones Graveyards",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stećci Medieval Tombstones Graveyards"
+      },
+      "expected": {
+        "coordinates": [
+          17.92405,
+          43.09221
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stećci Medieval Tombstones Graveyards"
+        }
+      }
+    },
+    {
+      "id": "Studenica Monastery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Studenica Monastery"
+      },
+      "expected": {
+        "coordinates": [
+          20.53667,
+          43.48611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Studenica Monastery"
+        }
+      }
+    },
+    {
+      "id": "Su Nuraxi di Barumini",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Su Nuraxi di Barumini"
+      },
+      "expected": {
+        "coordinates": [
+          8.99056,
+          39.70583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Su Nuraxi di Barumini"
+        }
+      }
+    },
+    {
+      "id": "Temple of Apollo Epicurius at Bassae",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Temple of Apollo Epicurius at Bassae"
+      },
+      "expected": {
+        "coordinates": [
+          21.89694,
+          37.435
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Temple of Apollo Epicurius at Bassae"
+        }
+      }
+    },
+    {
+      "id": "The Cathedral of St James in Šibenik",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Cathedral of St James in Šibenik"
+      },
+      "expected": {
+        "coordinates": [
+          15.88915,
+          43.73566
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Cathedral of St James in Šibenik"
+        }
+      }
+    },
+    {
+      "id": "The Dolomites",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Dolomites"
+      },
+      "expected": {
+        "coordinates": [
+          11.85,
+          46.43333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Dolomites"
+        }
+      }
+    },
+    {
+      "id": "Tower of Hercules",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tower of Hercules"
+      },
+      "expected": {
+        "coordinates": [
+          -8.40639,
+          43.38583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tower of Hercules"
+        }
+      }
+    },
+    {
+      "id": "Val d'Orcia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Val d'Orcia"
+      },
+      "expected": {
+        "coordinates": [
+          11.55,
+          43.06667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Val d'Orcia"
+        }
+      }
+    },
+    {
+      "id": "Vatican City",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vatican City"
+      },
+      "expected": {
+        "coordinates": [
+          12.4525,
+          41.9025
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vatican City"
+        }
+      }
+    },
+    {
+      "id": "Villa Romana del Casale",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Villa Romana del Casale"
+      },
+      "expected": {
+        "coordinates": [
+          14.33472,
+          37.36472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Villa Romana del Casale"
+        }
+      }
+    },
+    {
+      "id": "Vineyard Landscape of Piedmont",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vineyard Landscape of Piedmont"
+      },
+      "expected": {
+        "coordinates": [
+          7.96361,
+          44.60861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vineyard Landscape of Piedmont"
+        }
+      }
+    },
+    {
+      "id": "Vizcaya Bridge",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vizcaya Bridge"
+      },
+      "expected": {
+        "coordinates": [
+          -3.0169,
+          43.3231
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vizcaya Bridge"
+        }
+      }
+    },
+    {
+      "id": "Works of Antoni Gaudí",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Works of Antoni Gaudí"
+      },
+      "expected": {
+        "coordinates": [
+          2.17444,
+          41.40361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Works of Antoni Gaudí"
+        }
+      }
+    }
+  ]
+}

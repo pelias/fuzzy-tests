@@ -1,0 +1,605 @@
+{
+  "name": "wikipedia scrape: List_of_World_Heritage_Sites_in_Northern_Europe",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Agricultural Landscape of Southern Öland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Agricultural Landscape of Southern Öland"
+      },
+      "expected": {
+        "coordinates": [
+          16.55,
+          56.46667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Agricultural Landscape of Southern Öland"
+        }
+      }
+    },
+    {
+      "id": "Bronze Age Burial Site of Sammallahdenmäki",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bronze Age Burial Site of Sammallahdenmäki"
+      },
+      "expected": {
+        "coordinates": [
+          21.7775,
+          61.12056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bronze Age Burial Site of Sammallahdenmäki"
+        }
+      }
+    },
+    {
+      "id": "Bryggen",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bryggen"
+      },
+      "expected": {
+        "coordinates": [
+          5.32306,
+          60.39722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bryggen"
+        }
+      }
+    },
+    {
+      "id": "Church Village of Gammelstad, Luleå",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Church Village of Gammelstad, Luleå"
+      },
+      "expected": {
+        "coordinates": [
+          22.02861,
+          65.64611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Church Village of Gammelstad, Luleå"
+        }
+      }
+    },
+    {
+      "id": "Decorated Farmhouses of Hälsingland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Decorated Farmhouses of Hälsingland"
+      },
+      "expected": {
+        "coordinates": [
+          16.19583,
+          61.70722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Decorated Farmhouses of Hälsingland"
+        }
+      }
+    },
+    {
+      "id": "Engelsberg Ironworks",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Engelsberg Ironworks"
+      },
+      "expected": {
+        "coordinates": [
+          16.00833,
+          59.96667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Engelsberg Ironworks"
+        }
+      }
+    },
+    {
+      "id": "Fortress of Suomenlinna",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fortress of Suomenlinna"
+      },
+      "expected": {
+        "coordinates": [
+          24.98444,
+          60.14361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fortress of Suomenlinna"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre of Riga",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Riga"
+      },
+      "expected": {
+        "coordinates": [
+          24.11667,
+          56.95417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Riga"
+        }
+      }
+    },
+    {
+      "id": "Historic Centre (Old Town) of Tallinn",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Historic Centre of Tallinn"
+      },
+      "expected": {
+        "coordinates": [
+          24.74528,
+          59.43722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Historic Centre of Tallinn"
+        }
+      }
+    },
+    {
+      "id": "Jelling Mounds, Runic Stones and Church",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jelling Mounds, Runic Stones and Church"
+      },
+      "expected": {
+        "coordinates": [
+          9.41944,
+          55.75583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jelling Mounds, Runic Stones and Church"
+        }
+      }
+    },
+    {
+      "id": "Kernavė Archaeological Site (Cultural Reserve of Kernavė)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kernavė Archaeological Site"
+      },
+      "expected": {
+        "coordinates": [
+          24.85,
+          54.88333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kernavė Archaeological Site"
+        }
+      }
+    },
+    {
+      "id": "Kronborg Castle",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kronborg Castle"
+      },
+      "expected": {
+        "coordinates": [
+          12.62083,
+          56.03889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kronborg Castle"
+        }
+      }
+    },
+    {
+      "id": "Naval Port of Karlskrona",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Naval Port of Karlskrona"
+      },
+      "expected": {
+        "coordinates": [
+          15.58333,
+          56.16667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Naval Port of Karlskrona"
+        }
+      }
+    },
+    {
+      "id": "Old Rauma",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Old Rauma"
+      },
+      "expected": {
+        "coordinates": [
+          21.51167,
+          61.12833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Old Rauma"
+        }
+      }
+    },
+    {
+      "id": "Petäjävesi Old Church",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Petäjävesi Old Church"
+      },
+      "expected": {
+        "coordinates": [
+          25.18333,
+          62.25
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Petäjävesi Old Church"
+        }
+      }
+    },
+    {
+      "id": "Rock Art of Alta",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rock Art of Alta"
+      },
+      "expected": {
+        "coordinates": [
+          23.18778,
+          69.94694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rock Art of Alta"
+        }
+      }
+    },
+    {
+      "id": "Rock Carvings in Tanum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rock Carvings in Tanum"
+      },
+      "expected": {
+        "coordinates": [
+          11.34111,
+          58.70111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rock Carvings in Tanum"
+        }
+      }
+    },
+    {
+      "id": "Røros Mining Town and the Circumference",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Røros Mining Town and the Circumference"
+      },
+      "expected": {
+        "coordinates": [
+          11.38306,
+          62.57417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Røros Mining Town and the Circumference"
+        }
+      }
+    },
+    {
+      "id": "Roskilde Cathedral",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Roskilde Cathedral"
+      },
+      "expected": {
+        "coordinates": [
+          12.08,
+          55.64278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Roskilde Cathedral"
+        }
+      }
+    },
+    {
+      "id": "Skogskyrkogården",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Skogskyrkogården"
+      },
+      "expected": {
+        "coordinates": [
+          18.09944,
+          59.27556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Skogskyrkogården"
+        }
+      }
+    },
+    {
+      "id": "Stevns Klint",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stevns Klint"
+      },
+      "expected": {
+        "coordinates": [
+          12.42333,
+          55.26722
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stevns Klint"
+        }
+      }
+    },
+    {
+      "id": "Struve Geodetic Arc",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Struve Geodetic Arc"
+      },
+      "expected": {
+        "coordinates": [
+          26.33778,
+          59.05778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Struve Geodetic Arc"
+        }
+      }
+    },
+    {
+      "id": "Surtsey",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Surtsey"
+      },
+      "expected": {
+        "coordinates": [
+          -20.605,
+          63.303
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Surtsey"
+        }
+      }
+    },
+    {
+      "id": "Þingvellir National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Þingvellir National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -21.03725,
+          64.25381
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Þingvellir National Park"
+        }
+      }
+    },
+    {
+      "id": "Urnes Stave Church",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Urnes Stave Church"
+      },
+      "expected": {
+        "coordinates": [
+          7.3225,
+          61.29806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Urnes Stave Church"
+        }
+      }
+    },
+    {
+      "id": "Varberg Radio Station",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Varberg Radio Station"
+      },
+      "expected": {
+        "coordinates": [
+          12.40439,
+          57.114
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Varberg Radio Station"
+        }
+      }
+    },
+    {
+      "id": "Vatnajökull National Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vatnajökull National Park"
+      },
+      "expected": {
+        "coordinates": [
+          -17,
+          64.5
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vatnajökull National Park"
+        }
+      }
+    },
+    {
+      "id": "Vegaøyan — The Vega Archipelago",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vegaøyan — The Vega Archipelago"
+      },
+      "expected": {
+        "coordinates": [
+          11.75,
+          65.61667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vegaøyan — The Vega Archipelago"
+        }
+      }
+    },
+    {
+      "id": "Verla Groundwood and Board Mill",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Verla Groundwood and Board Mill"
+      },
+      "expected": {
+        "coordinates": [
+          26.64083,
+          61.06194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Verla Groundwood and Board Mill"
+        }
+      }
+    },
+    {
+      "id": "Vilnius Historic Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vilnius Historic Centre"
+      },
+      "expected": {
+        "coordinates": [
+          25.29306,
+          54.68667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vilnius Historic Centre"
+        }
+      }
+    },
+    {
+      "id": "The Wadden Sea",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Wadden Sea"
+      },
+      "expected": {
+        "coordinates": [
+          5.66583,
+          53.39083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Wadden Sea"
+        }
+      }
+    }
+  ]
+}

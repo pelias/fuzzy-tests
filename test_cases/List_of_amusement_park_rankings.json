@@ -1,0 +1,1688 @@
+{
+  "name": "wikipedia scrape: List_of_amusement_park_rankings",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Magic Kingdom",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Magic Kingdom"
+      },
+      "expected": {
+        "coordinates": [
+          -81.58111,
+          28.41861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Magic Kingdom"
+        }
+      }
+    },
+    {
+      "id": "Disneyland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disneyland"
+      },
+      "expected": {
+        "coordinates": [
+          -117.92,
+          33.81
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disneyland"
+        }
+      }
+    },
+    {
+      "id": "Tokyo Disneyland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tokyo Disneyland"
+      },
+      "expected": {
+        "coordinates": [
+          139.88056,
+          35.63278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tokyo Disneyland"
+        }
+      }
+    },
+    {
+      "id": "Tokyo DisneySea",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tokyo DisneySea"
+      },
+      "expected": {
+        "coordinates": [
+          139.88806,
+          35.62667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tokyo DisneySea"
+        }
+      }
+    },
+    {
+      "id": "Universal Studios Japan",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Universal Studios Japan"
+      },
+      "expected": {
+        "coordinates": [
+          135.43306,
+          34.66472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Universal Studios Japan"
+        }
+      }
+    },
+    {
+      "id": "Disney's Animal Kingdom",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney's Animal Kingdom"
+      },
+      "expected": {
+        "coordinates": [
+          -81.59,
+          28.358
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney's Animal Kingdom"
+        }
+      }
+    },
+    {
+      "id": "Epcot",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Epcot"
+      },
+      "expected": {
+        "coordinates": [
+          -81.55,
+          28.371
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Epcot"
+        }
+      }
+    },
+    {
+      "id": "Chimelong Ocean Kingdom",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chimelong Ocean Kingdom"
+      },
+      "expected": {
+        "coordinates": [
+          113.53,
+          22.1001
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chimelong Ocean Kingdom"
+        }
+      }
+    },
+    {
+      "id": "Disney's Hollywood Studios",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney's Hollywood Studios"
+      },
+      "expected": {
+        "coordinates": [
+          -81.5561,
+          28.357
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney's Hollywood Studios"
+        }
+      }
+    },
+    {
+      "id": "Shanghai Disneyland Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shanghai Disneyland Park"
+      },
+      "expected": {
+        "coordinates": [
+          121.657,
+          31.144
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shanghai Disneyland Park"
+        }
+      }
+    },
+    {
+      "id": "Universal Studios Florida",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Universal Studios Florida"
+      },
+      "expected": {
+        "coordinates": [
+          -81.467,
+          28.4752
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Universal Studios Florida"
+        }
+      }
+    },
+    {
+      "id": "Universal's Islands of Adventure",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Universal's Islands of Adventure"
+      },
+      "expected": {
+        "coordinates": [
+          -81.47139,
+          28.47167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Universal's Islands of Adventure"
+        }
+      }
+    },
+    {
+      "id": "Disney California Adventure",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney California Adventure"
+      },
+      "expected": {
+        "coordinates": [
+          -117.92195,
+          33.80547
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney California Adventure"
+        }
+      }
+    },
+    {
+      "id": "Disneyland Park (Paris)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disneyland Park"
+      },
+      "expected": {
+        "coordinates": [
+          2.77675,
+          48.87261
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disneyland Park"
+        }
+      }
+    },
+    {
+      "id": "Universal Studios Hollywood",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Universal Studios Hollywood"
+      },
+      "expected": {
+        "coordinates": [
+          -118.35605,
+          34.13652
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Universal Studios Hollywood"
+        }
+      }
+    },
+    {
+      "id": "Everland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Everland"
+      },
+      "expected": {
+        "coordinates": [
+          127.204,
+          37.29563
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Everland"
+        }
+      }
+    },
+    {
+      "id": "Lotte World",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lotte World"
+      },
+      "expected": {
+        "coordinates": [
+          127.1,
+          37.51
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lotte World"
+        }
+      }
+    },
+    {
+      "id": "Nagashima Spa Land",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nagashima Spa Land"
+      },
+      "expected": {
+        "coordinates": [
+          136.73001,
+          35.0297
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nagashima Spa Land"
+        }
+      }
+    },
+    {
+      "id": "Europa-Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Europa-Park"
+      },
+      "expected": {
+        "coordinates": [
+          7.72083,
+          48.26833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Europa-Park"
+        }
+      }
+    },
+    {
+      "id": "Ocean Park Hong Kong",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ocean Park Hong Kong"
+      },
+      "expected": {
+        "coordinates": [
+          114.17592,
+          22.24586
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ocean Park Hong Kong"
+        }
+      }
+    },
+    {
+      "id": "Hong Kong Disneyland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hong Kong Disneyland"
+      },
+      "expected": {
+        "coordinates": [
+          114.04333,
+          22.31333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hong Kong Disneyland"
+        }
+      }
+    },
+    {
+      "id": "Efteling",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Efteling"
+      },
+      "expected": {
+        "coordinates": [
+          5.04806,
+          51.65028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Efteling"
+        }
+      }
+    },
+    {
+      "id": "Walt Disney Studios Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Walt Disney Studios Park"
+      },
+      "expected": {
+        "coordinates": [
+          2.77901,
+          48.8673
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Walt Disney Studios Park"
+        }
+      }
+    },
+    {
+      "id": "Happy Valley Beijing",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Happy Valley Beijing"
+      },
+      "expected": {
+        "coordinates": [
+          116.48863,
+          39.86642
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Happy Valley Beijing"
+        }
+      }
+    },
+    {
+      "id": "Chimelong Paradise",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chimelong Paradise"
+      },
+      "expected": {
+        "coordinates": [
+          113.32691,
+          23.00436
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chimelong Paradise"
+        }
+      }
+    },
+    {
+      "id": "SeaWorld Orlando",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SeaWorld Orlando"
+      },
+      "expected": {
+        "coordinates": [
+          -81.4625,
+          28.41083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SeaWorld Orlando"
+        }
+      }
+    },
+    {
+      "id": "Knott's Berry Farm",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Knott's Berry Farm"
+      },
+      "expected": {
+        "coordinates": [
+          -118.00027,
+          33.84418
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Knott's Berry Farm"
+        }
+      }
+    },
+    {
+      "id": "Busch Gardens Tampa",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Busch Gardens Tampa"
+      },
+      "expected": {
+        "coordinates": [
+          -82.4216,
+          28.0379
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Busch Gardens Tampa"
+        }
+      }
+    },
+    {
+      "id": "Canada's Wonderland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Canada's Wonderland"
+      },
+      "expected": {
+        "coordinates": [
+          -79.54306,
+          43.84167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Canada's Wonderland"
+        }
+      }
+    },
+    {
+      "id": "Cedar Point",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cedar Point"
+      },
+      "expected": {
+        "coordinates": [
+          -82.67891,
+          41.47809
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cedar Point"
+        }
+      }
+    },
+    {
+      "id": "Six Flags Magic Mountain",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags Magic Mountain"
+      },
+      "expected": {
+        "coordinates": [
+          -118.597,
+          34.427
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags Magic Mountain"
+        }
+      }
+    },
+    {
+      "id": "Kings Island",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kings Island"
+      },
+      "expected": {
+        "coordinates": [
+          -84.26861,
+          39.34479
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kings Island"
+        }
+      }
+    },
+    {
+      "id": "SeaWorld San Diego",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SeaWorld San Diego"
+      },
+      "expected": {
+        "coordinates": [
+          -117.22727,
+          32.76575
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SeaWorld San Diego"
+        }
+      }
+    },
+    {
+      "id": "Six Flags Great Adventure",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags Great Adventure"
+      },
+      "expected": {
+        "coordinates": [
+          -74.44046,
+          40.1377
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags Great Adventure"
+        }
+      }
+    },
+    {
+      "id": "Hersheypark",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hersheypark"
+      },
+      "expected": {
+        "coordinates": [
+          -76.65694,
+          40.28806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hersheypark"
+        }
+      }
+    },
+    {
+      "id": "Six Flags Great America",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags Great America"
+      },
+      "expected": {
+        "coordinates": [
+          -87.93579,
+          42.37
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags Great America"
+        }
+      }
+    },
+    {
+      "id": "Tivoli Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tivoli Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          12.56833,
+          55.67361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tivoli Gardens"
+        }
+      }
+    },
+    {
+      "id": "PortAventura Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "PortAventura Park"
+      },
+      "expected": {
+        "coordinates": [
+          1.15767,
+          41.08771
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "PortAventura Park"
+        }
+      }
+    },
+    {
+      "id": "Liseberg",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Liseberg"
+      },
+      "expected": {
+        "coordinates": [
+          11.99,
+          57.69556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Liseberg"
+        }
+      }
+    },
+    {
+      "id": "Gardaland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gardaland"
+      },
+      "expected": {
+        "coordinates": [
+          10.71389,
+          45.45444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gardaland"
+        }
+      }
+    },
+    {
+      "id": "Legoland Windsor Resort",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Legoland Windsor Resort"
+      },
+      "expected": {
+        "coordinates": [
+          -0.65114,
+          51.46351
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Legoland Windsor Resort"
+        }
+      }
+    },
+    {
+      "id": "Parc Astérix",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Parc Astérix"
+      },
+      "expected": {
+        "coordinates": [
+          2.57028,
+          49.13444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Parc Astérix"
+        }
+      }
+    },
+    {
+      "id": "Puy du Fou",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Puy du Fou"
+      },
+      "expected": {
+        "coordinates": [
+          -0.93207,
+          46.89334
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Puy du Fou"
+        }
+      }
+    },
+    {
+      "id": "Parque Warner Madrid",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Parque Warner Madrid"
+      },
+      "expected": {
+        "coordinates": [
+          -3.5937,
+          40.23
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Parque Warner Madrid"
+        }
+      }
+    },
+    {
+      "id": "Alton Towers",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alton Towers"
+      },
+      "expected": {
+        "coordinates": [
+          -1.89083,
+          52.9875
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Alton Towers"
+        }
+      }
+    },
+    {
+      "id": "Phantasialand",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Phantasialand"
+      },
+      "expected": {
+        "coordinates": [
+          6.87944,
+          50.8
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Phantasialand"
+        }
+      }
+    },
+    {
+      "id": "Legoland Billund Resort",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Legoland Billund Resort"
+      },
+      "expected": {
+        "coordinates": [
+          9.12611,
+          55.73556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Legoland Billund Resort"
+        }
+      }
+    },
+    {
+      "id": "Thorpe Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Thorpe Park"
+      },
+      "expected": {
+        "coordinates": [
+          -0.51306,
+          51.40472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Thorpe Park"
+        }
+      }
+    },
+    {
+      "id": "Futuroscope",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Futuroscope"
+      },
+      "expected": {
+        "coordinates": [
+          0.36889,
+          46.66917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Futuroscope"
+        }
+      }
+    },
+    {
+      "id": "Legoland Deutschland Resort",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Legoland Deutschland Resort"
+      },
+      "expected": {
+        "coordinates": [
+          10.29972,
+          48.42444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Legoland Deutschland Resort"
+        }
+      }
+    },
+    {
+      "id": "Heide Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Heide Park"
+      },
+      "expected": {
+        "coordinates": [
+          9.86917,
+          53.02806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Heide Park"
+        }
+      }
+    },
+    {
+      "id": "Chessington World of Adventures",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chessington World of Adventures"
+      },
+      "expected": {
+        "coordinates": [
+          -0.31667,
+          51.34861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chessington World of Adventures"
+        }
+      }
+    },
+    {
+      "id": "Six Flags México",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags México"
+      },
+      "expected": {
+        "coordinates": [
+          -99.209,
+          19.295
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags México"
+        }
+      }
+    },
+    {
+      "id": "Beto Carrero World",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Beto Carrero World"
+      },
+      "expected": {
+        "coordinates": [
+          -48.61437,
+          -26.80248
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Beto Carrero World"
+        }
+      }
+    },
+    {
+      "id": "La Feria Chapultepec Mágico",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "La Feria Chapultepec Mágico"
+      },
+      "expected": {
+        "coordinates": [
+          -99.19556,
+          19.41639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "La Feria Chapultepec Mágico"
+        }
+      }
+    },
+    {
+      "id": "Fantasilandia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fantasilandia"
+      },
+      "expected": {
+        "coordinates": [
+          -70.66278,
+          -33.45956
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fantasilandia"
+        }
+      }
+    },
+    {
+      "id": "Parque de la Costa",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Parque de la Costa"
+      },
+      "expected": {
+        "coordinates": [
+          -58.57625,
+          -34.41819
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Parque de la Costa"
+        }
+      }
+    },
+    {
+      "id": "Universal Studios Singapore",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Universal Studios Singapore"
+      },
+      "expected": {
+        "coordinates": [
+          103.824,
+          1.254
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Universal Studios Singapore"
+        }
+      }
+    },
+    {
+      "id": "China Dinosaurs Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "China Dinosaurs Park"
+      },
+      "expected": {
+        "coordinates": [
+          119.99761,
+          31.82617
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "China Dinosaurs Park"
+        }
+      }
+    },
+    {
+      "id": "Window of the World",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Window of the World"
+      },
+      "expected": {
+        "coordinates": [
+          113.96976,
+          22.53751
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Window of the World"
+        }
+      }
+    },
+    {
+      "id": "Happy Valley Shenzhen",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Happy Valley Shenzhen"
+      },
+      "expected": {
+        "coordinates": [
+          113.97395,
+          22.54157
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Happy Valley Shenzhen"
+        }
+      }
+    },
+    {
+      "id": "Happy Valley Chengdu",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Happy Valley Chengdu"
+      },
+      "expected": {
+        "coordinates": [
+          104.03282,
+          30.72352
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Happy Valley Chengdu"
+        }
+      }
+    },
+    {
+      "id": "Happy Valley Shanghai",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Happy Valley Shanghai"
+      },
+      "expected": {
+        "coordinates": [
+          121.2137,
+          31.0983
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Happy Valley Shanghai"
+        }
+      }
+    },
+    {
+      "id": "Disney's Typhoon Lagoon",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney's Typhoon Lagoon"
+      },
+      "expected": {
+        "coordinates": [
+          -81.52777,
+          28.36503
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney's Typhoon Lagoon"
+        }
+      }
+    },
+    {
+      "id": "Disney's Blizzard Beach",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney's Blizzard Beach"
+      },
+      "expected": {
+        "coordinates": [
+          -81.57542,
+          28.3518
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney's Blizzard Beach"
+        }
+      }
+    },
+    {
+      "id": "Therme Erding",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Therme Erding"
+      },
+      "expected": {
+        "coordinates": [
+          11.88667,
+          48.29028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Therme Erding"
+        }
+      }
+    },
+    {
+      "id": "Volcano Bay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Volcano Bay"
+      },
+      "expected": {
+        "coordinates": [
+          -81.79194,
+          28.77056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Volcano Bay"
+        }
+      }
+    },
+    {
+      "id": "Aquatica (water parks)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aquatica"
+      },
+      "expected": {
+        "coordinates": [
+          -81.456,
+          28.4156
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aquatica"
+        }
+      }
+    },
+    {
+      "id": "Caribbean Bay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Caribbean Bay"
+      },
+      "expected": {
+        "coordinates": [
+          127.20056,
+          37.29694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Caribbean Bay"
+        }
+      }
+    },
+    {
+      "id": "Aquapalace Prague",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aquapalace Prague"
+      },
+      "expected": {
+        "coordinates": [
+          14.57111,
+          50.0075
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aquapalace Prague"
+        }
+      }
+    },
+    {
+      "id": "Tropical Islands Resort",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tropical Islands Resort"
+      },
+      "expected": {
+        "coordinates": [
+          13.74861,
+          52.0375
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tropical Islands Resort"
+        }
+      }
+    },
+    {
+      "id": "Sunway Lagoon",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sunway Lagoon"
+      },
+      "expected": {
+        "coordinates": [
+          101.60675,
+          3.06914
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sunway Lagoon"
+        }
+      }
+    },
+    {
+      "id": "Siam Park (Tenerife)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Siam Park"
+      },
+      "expected": {
+        "coordinates": [
+          -16.72657,
+          28.07176
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Siam Park"
+        }
+      }
+    },
+    {
+      "id": "Wet'n'Wild Gold Coast",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wet'n'Wild Gold Coast"
+      },
+      "expected": {
+        "coordinates": [
+          153.31767,
+          -27.91511
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wet'n'Wild Gold Coast"
+        }
+      }
+    },
+    {
+      "id": "Schlitterbahn",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Schlitterbahn"
+      },
+      "expected": {
+        "coordinates": [
+          -98.12505,
+          29.71336
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Schlitterbahn"
+        }
+      }
+    },
+    {
+      "id": "Water Country USA",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Water Country USA"
+      },
+      "expected": {
+        "coordinates": [
+          -76.63561,
+          37.26253
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Water Country USA"
+        }
+      }
+    },
+    {
+      "id": "Adventure Island (water park)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Adventure Island"
+      },
+      "expected": {
+        "coordinates": [
+          -82.41306,
+          28.04167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Adventure Island"
+        }
+      }
+    },
+    {
+      "id": "Splish Splash",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Splish Splash"
+      },
+      "expected": {
+        "coordinates": [
+          -72.72824,
+          40.92074
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Splish Splash"
+        }
+      }
+    },
+    {
+      "id": "Six Flags Hurricane Harbor",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags Hurricane Harbor"
+      },
+      "expected": {
+        "coordinates": [
+          -93.5,
+          34
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags Hurricane Harbor"
+        }
+      }
+    },
+    {
+      "id": "Six Flags White Water",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags White Water"
+      },
+      "expected": {
+        "coordinates": [
+          -84.52139,
+          33.95806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags White Water"
+        }
+      }
+    },
+    {
+      "id": "Six Flags Hurricane Harbor SplashTown",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags Hurricane Harbor SplashTown"
+      },
+      "expected": {
+        "coordinates": [
+          -95.43193,
+          30.07017
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags Hurricane Harbor SplashTown"
+        }
+      }
+    },
+    {
+      "id": "Zoombezi Bay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoombezi Bay"
+      },
+      "expected": {
+        "coordinates": [
+          -83.11987,
+          40.1549
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoombezi Bay"
+        }
+      }
+    },
+    {
+      "id": "Six Flags Hurricane Harbor Phoenix",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Six Flags Hurricane Harbor Phoenix"
+      },
+      "expected": {
+        "coordinates": [
+          -112.15027,
+          33.69588
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Six Flags Hurricane Harbor Phoenix"
+        }
+      }
+    },
+    {
+      "id": "Camelbeach Waterpark",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Camelbeach Waterpark"
+      },
+      "expected": {
+        "coordinates": [
+          -75.3535,
+          41.0526
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Camelbeach Waterpark"
+        }
+      }
+    },
+    {
+      "id": "Cedar Point Shores",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cedar Point Shores"
+      },
+      "expected": {
+        "coordinates": [
+          -82.68722,
+          41.48806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cedar Point Shores"
+        }
+      }
+    },
+    {
+      "id": "Beach Park (water park)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Beach Park"
+      },
+      "expected": {
+        "coordinates": [
+          -38.39056,
+          -3.84444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Beach Park"
+        }
+      }
+    },
+    {
+      "id": "Ancol Dreamland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ancol Dreamland"
+      },
+      "expected": {
+        "coordinates": [
+          106.83153,
+          -6.12274
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ancol Dreamland"
+        }
+      }
+    },
+    {
+      "id": "Wild Wadi Water Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wild Wadi Water Park"
+      },
+      "expected": {
+        "coordinates": [
+          55.18917,
+          25.13944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wild Wadi Water Park"
+        }
+      }
+    }
+  ]
+}

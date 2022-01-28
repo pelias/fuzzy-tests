@@ -1,0 +1,4253 @@
+{
+  "name": "wikipedia scrape: List_of_AZA_member_zoos_and_aquaria",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Abilene Zoological Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Abilene Zoological Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -99.69189,
+          32.4362
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Abilene Zoological Gardens"
+        }
+      }
+    },
+    {
+      "id": "Adventure Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Adventure Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -75.131,
+          39.945
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Adventure Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Africam Safari Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Africam Safari Park"
+      },
+      "expected": {
+        "coordinates": [
+          -98.13671,
+          18.93712
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Africam Safari Park"
+        }
+      }
+    },
+    {
+      "id": "African Safari Wildlife Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "African Safari Wildlife Park"
+      },
+      "expected": {
+        "coordinates": [
+          -82.85163,
+          41.51809
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "African Safari Wildlife Park"
+        }
+      }
+    },
+    {
+      "id": "Akron Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Akron Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -81.54143,
+          41.08005
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Akron Zoo"
+        }
+      }
+    },
+    {
+      "id": "Alaska SeaLife Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alaska SeaLife Center"
+      },
+      "expected": {
+        "coordinates": [
+          -149.44083,
+          60.1
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Alaska SeaLife Center"
+        }
+      }
+    },
+    {
+      "id": "Albuquerque Biological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Albuquerque Biological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -106.6632,
+          35.0781
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Albuquerque Biological Park"
+        }
+      }
+    },
+    {
+      "id": "Alexandria Zoological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alexandria Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -92.45736,
+          31.28764
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Alexandria Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "Aquarium of Niagara",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aquarium of Niagara"
+      },
+      "expected": {
+        "coordinates": [
+          -79.06014,
+          43.09432
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aquarium of Niagara"
+        }
+      }
+    },
+    {
+      "id": "Aquarium of the Bay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aquarium of the Bay"
+      },
+      "expected": {
+        "coordinates": [
+          -122.4093,
+          37.80875
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aquarium of the Bay"
+        }
+      }
+    },
+    {
+      "id": "Aquarium of the Pacific",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aquarium of the Pacific"
+      },
+      "expected": {
+        "coordinates": [
+          -118.19692,
+          33.76216
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aquarium of the Pacific"
+        }
+      }
+    },
+    {
+      "id": "Arizona-Sonora Desert Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arizona-Sonora Desert Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -111.16806,
+          32.24389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arizona-Sonora Desert Museum"
+        }
+      }
+    },
+    {
+      "id": "Assiniboine Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Assiniboine Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.23056,
+          49.86917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Assiniboine Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Atlantis The Palm, Dubai",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Atlantis The Palm, Dubai"
+      },
+      "expected": {
+        "coordinates": [
+          55.1171,
+          25.1309
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Atlantis The Palm, Dubai"
+        }
+      }
+    },
+    {
+      "id": "Atlantis Paradise Island",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Atlantis Paradise Island"
+      },
+      "expected": {
+        "coordinates": [
+          -77.32083,
+          25.085
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Atlantis Paradise Island"
+        }
+      }
+    },
+    {
+      "id": "Aquarium of the Americas",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aquarium of the Americas"
+      },
+      "expected": {
+        "coordinates": [
+          -90.06306,
+          29.95028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aquarium of the Americas"
+        }
+      }
+    },
+    {
+      "id": "Audubon Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Audubon Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -90.1322,
+          29.9231
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Audubon Zoo"
+        }
+      }
+    },
+    {
+      "id": "Bergen County Zoological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bergen County Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -74.04794,
+          40.92966
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bergen County Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "Bermuda Aquarium, Museum and Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bermuda Aquarium, Museum and Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -64.73713,
+          32.3234
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bermuda Aquarium, Museum and Zoo"
+        }
+      }
+    },
+    {
+      "id": "Binder Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Binder Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -85.15502,
+          42.24646
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Binder Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Birch Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Birch Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -117.2496,
+          32.8678
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Birch Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Birmingham Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Birmingham Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -86.77959,
+          33.4874
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Birmingham Zoo"
+        }
+      }
+    },
+    {
+      "id": "Boonshoft Museum of Discovery",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Boonshoft Museum of Discovery"
+      },
+      "expected": {
+        "coordinates": [
+          -84.20179,
+          39.78882
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Boonshoft Museum of Discovery"
+        }
+      }
+    },
+    {
+      "id": "Bramble Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bramble Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.12656,
+          44.90864
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bramble Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Brandywine Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brandywine Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -75.5487,
+          39.7555
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Brandywine Zoo"
+        }
+      }
+    },
+    {
+      "id": "Brevard Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brevard Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -80.71398,
+          28.22509
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Brevard Zoo"
+        }
+      }
+    },
+    {
+      "id": "Bronx Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bronx Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -73.87538,
+          40.85058
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bronx Zoo"
+        }
+      }
+    },
+    {
+      "id": "Brookgreen Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brookgreen Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -79.09972,
+          33.52056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Brookgreen Gardens"
+        }
+      }
+    },
+    {
+      "id": "Buffalo Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Buffalo Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -78.8536,
+          42.9391
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Buffalo Zoo"
+        }
+      }
+    },
+    {
+      "id": "Busch Gardens Tampa",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Busch Gardens Tampa"
+      },
+      "expected": {
+        "coordinates": [
+          -82.4216,
+          28.0379
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Busch Gardens Tampa"
+        }
+      }
+    },
+    {
+      "id": "Butterfly House, Missouri Botanical Garden",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Butterfly House, Missouri Botanical Garden"
+      },
+      "expected": {
+        "coordinates": [
+          -90.54283,
+          38.66463
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Butterfly House, Missouri Botanical Garden"
+        }
+      }
+    },
+    {
+      "id": "Butterfly Pavilion",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Butterfly Pavilion"
+      },
+      "expected": {
+        "coordinates": [
+          -105.0665,
+          39.8872
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Butterfly Pavilion"
+        }
+      }
+    },
+    {
+      "id": "Buttonwood Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Buttonwood Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -70.95273,
+          41.62996
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Buttonwood Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Cabrillo Marine Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cabrillo Marine Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -118.28545,
+          33.71128
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cabrillo Marine Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Caldwell Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Caldwell Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -95.3268,
+          32.3704
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Caldwell Zoo"
+        }
+      }
+    },
+    {
+      "id": "Calgary Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Calgary Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -114.03333,
+          51.04583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Calgary Zoo"
+        }
+      }
+    },
+    {
+      "id": "California Science Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "California Science Center"
+      },
+      "expected": {
+        "coordinates": [
+          -118.28583,
+          34.01556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "California Science Center"
+        }
+      }
+    },
+    {
+      "id": "Cameron Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cameron Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.14472,
+          31.57
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cameron Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Cape May County Park & Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cape May County Park & Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -74.8154,
+          39.1025
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cape May County Park & Zoo"
+        }
+      }
+    },
+    {
+      "id": "Capron Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Capron Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -71.2976,
+          41.9377
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Capron Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Central Florida Zoo and Botanical Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Central Florida Zoo and Botanical Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -81.31623,
+          28.82783
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Central Florida Zoo and Botanical Gardens"
+        }
+      }
+    },
+    {
+      "id": "Central Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Central Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -73.97167,
+          40.76778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Central Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Chahinkapa Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chahinkapa Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -96.598,
+          46.2747
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chahinkapa Zoo"
+        }
+      }
+    },
+    {
+      "id": "Charles Paddock Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Charles Paddock Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -120.67028,
+          35.46667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Charles Paddock Zoo"
+        }
+      }
+    },
+    {
+      "id": "Chattanooga Zoo at Warner Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Chattanooga Zoo at Warner Park"
+      },
+      "expected": {
+        "coordinates": [
+          -85.2829,
+          35.0431
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Chattanooga Zoo at Warner Park"
+        }
+      }
+    },
+    {
+      "id": "Cheyenne Mountain Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cheyenne Mountain Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -104.855,
+          38.77
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cheyenne Mountain Zoo"
+        }
+      }
+    },
+    {
+      "id": "Brookfield Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brookfield Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -87.83346,
+          41.83267
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Brookfield Zoo"
+        }
+      }
+    },
+    {
+      "id": "Cincinnati Zoo and Botanical Garden",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cincinnati Zoo and Botanical Garden"
+      },
+      "expected": {
+        "coordinates": [
+          -84.508,
+          39.145
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cincinnati Zoo and Botanical Garden"
+        }
+      }
+    },
+    {
+      "id": "Cleveland Metroparks Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cleveland Metroparks Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -81.712,
+          41.447
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cleveland Metroparks Zoo"
+        }
+      }
+    },
+    {
+      "id": "Clyde Peeling's Reptiland",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Clyde Peeling's Reptiland"
+      },
+      "expected": {
+        "coordinates": [
+          -76.8967,
+          41.10587
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Clyde Peeling's Reptiland"
+        }
+      }
+    },
+    {
+      "id": "Columbus Zoo and Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Columbus Zoo and Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -83.1184,
+          40.15627
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Columbus Zoo and Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Como Park Zoo and Conservatory",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Como Park Zoo and Conservatory"
+      },
+      "expected": {
+        "coordinates": [
+          -93.15081,
+          44.9814
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Como Park Zoo and Conservatory"
+        }
+      }
+    },
+    {
+      "id": "Beardsley Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Beardsley Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -73.1815,
+          41.2103
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Beardsley Zoo"
+        }
+      }
+    },
+    {
+      "id": "Cosley Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cosley Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -88.1208,
+          41.8781
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cosley Zoo"
+        }
+      }
+    },
+    {
+      "id": "CuriOdyssey",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "CuriOdyssey"
+      },
+      "expected": {
+        "coordinates": [
+          -122.31764,
+          37.58655
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "CuriOdyssey"
+        }
+      }
+    },
+    {
+      "id": "Dakota Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dakota Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -100.8068,
+          46.7995
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dakota Zoo"
+        }
+      }
+    },
+    {
+      "id": "Dallas World Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dallas World Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -96.80513,
+          32.78346
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dallas World Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Dallas Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dallas Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -96.81415,
+          32.74412
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dallas Zoo"
+        }
+      }
+    },
+    {
+      "id": "David Traylor Zoo of Emporia",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "David Traylor Zoo of Emporia"
+      },
+      "expected": {
+        "coordinates": [
+          -96.17758,
+          38.38338
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "David Traylor Zoo of Emporia"
+        }
+      }
+    },
+    {
+      "id": "Denver Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Denver Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -104.95,
+          39.75
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Denver Zoo"
+        }
+      }
+    },
+    {
+      "id": "Detroit Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Detroit Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -83.15694,
+          42.47694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Detroit Zoo"
+        }
+      }
+    },
+    {
+      "id": "Dickerson Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dickerson Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -93.3095,
+          37.2557
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dickerson Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Discovery Cove",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Discovery Cove"
+      },
+      "expected": {
+        "coordinates": [
+          -81.46167,
+          28.40542
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Discovery Cove"
+        }
+      }
+    },
+    {
+      "id": "Disney's Animal Kingdom",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Disney's Animal Kingdom"
+      },
+      "expected": {
+        "coordinates": [
+          -81.59,
+          28.358
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Disney's Animal Kingdom"
+        }
+      }
+    },
+    {
+      "id": "El Paso Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "El Paso Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -106.4429,
+          31.7684
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "El Paso Zoo"
+        }
+      }
+    },
+    {
+      "id": "Ellen Trout Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ellen Trout Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -94.7271,
+          31.37529
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ellen Trout Zoo"
+        }
+      }
+    },
+    {
+      "id": "Elmwood Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Elmwood Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -75.3375,
+          40.1332
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Elmwood Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Erie Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Erie Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -80.0755,
+          42.0968
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Erie Zoo"
+        }
+      }
+    },
+    {
+      "id": "Florida Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Florida Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -82.445,
+          27.94417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Florida Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Fort Wayne Children's Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fort Wayne Children's Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -85.15451,
+          41.10639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fort Wayne Children's Zoo"
+        }
+      }
+    },
+    {
+      "id": "Fort Worth Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fort Worth Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.3566,
+          32.7219
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fort Worth Zoo"
+        }
+      }
+    },
+    {
+      "id": "Fossil Rim Wildlife Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fossil Rim Wildlife Center"
+      },
+      "expected": {
+        "coordinates": [
+          -97.79639,
+          32.18056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fossil Rim Wildlife Center"
+        }
+      }
+    },
+    {
+      "id": "Franklin Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Franklin Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -71.0891,
+          42.3052
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Franklin Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Fresno Chaffee Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fresno Chaffee Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -119.8215,
+          36.7522
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fresno Chaffee Zoo"
+        }
+      }
+    },
+    {
+      "id": "Temaikèn",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Temaikèn"
+      },
+      "expected": {
+        "coordinates": [
+          -58.80278,
+          -34.36389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Temaikèn"
+        }
+      }
+    },
+    {
+      "id": "Georgia Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Georgia Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.39472,
+          33.76278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Georgia Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Gladys Porter Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gladys Porter Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.4962,
+          25.9123
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gladys Porter Zoo"
+        }
+      }
+    },
+    {
+      "id": "Great Plains Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Great Plains Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -96.7648,
+          43.53738
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Great Plains Zoo"
+        }
+      }
+    },
+    {
+      "id": "Greensboro Science Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Greensboro Science Center"
+      },
+      "expected": {
+        "coordinates": [
+          -79.8341,
+          36.1299
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Greensboro Science Center"
+        }
+      }
+    },
+    {
+      "id": "Greenville Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Greenville Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -82.3871,
+          34.8474
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Greenville Zoo"
+        }
+      }
+    },
+    {
+      "id": "Grizzly & Wolf Discovery Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Grizzly & Wolf Discovery Center"
+      },
+      "expected": {
+        "coordinates": [
+          -111.09839,
+          44.65695
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Grizzly & Wolf Discovery Center"
+        }
+      }
+    },
+    {
+      "id": "Happy Hollow Park & Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Happy Hollow Park & Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -121.86206,
+          37.32568
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Happy Hollow Park & Zoo"
+        }
+      }
+    },
+    {
+      "id": "Henry Vilas Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Henry Vilas Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -89.41028,
+          43.05944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Henry Vilas Zoo"
+        }
+      }
+    },
+    {
+      "id": "Honolulu Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Honolulu Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -157.8192,
+          21.2709
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Honolulu Zoo"
+        }
+      }
+    },
+    {
+      "id": "Houston Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Houston Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -95.39057,
+          29.71613
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Houston Zoo"
+        }
+      }
+    },
+    {
+      "id": "Hutchinson Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hutchinson Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.91671,
+          38.02911
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hutchinson Zoo"
+        }
+      }
+    },
+    {
+      "id": "Indianapolis Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Indianapolis Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -86.17694,
+          39.76694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Indianapolis Zoo"
+        }
+      }
+    },
+    {
+      "id": "International Crane Foundation",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "International Crane Foundation"
+      },
+      "expected": {
+        "coordinates": [
+          -89.7563,
+          43.5477
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "International Crane Foundation"
+        }
+      }
+    },
+    {
+      "id": "Jacksonville Zoo and Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jacksonville Zoo and Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -81.64334,
+          30.40408
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jacksonville Zoo and Gardens"
+        }
+      }
+    },
+    {
+      "id": "John Ball Zoological Garden",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "John Ball Zoological Garden"
+      },
+      "expected": {
+        "coordinates": [
+          -85.70479,
+          42.96278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "John Ball Zoological Garden"
+        }
+      }
+    },
+    {
+      "id": "Shedd Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shedd Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -87.61389,
+          41.86778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shedd Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Kansas City Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kansas City Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -94.52917,
+          39.00694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kansas City Zoo"
+        }
+      }
+    },
+    {
+      "id": "Lake Superior Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lake Superior Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -92.191,
+          46.725
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lake Superior Zoo"
+        }
+      }
+    },
+    {
+      "id": "Downtown Aquarium, Denver",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Downtown Aquarium, Denver"
+      },
+      "expected": {
+        "coordinates": [
+          -105.01417,
+          39.75167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Downtown Aquarium, Denver"
+        }
+      }
+    },
+    {
+      "id": "Downtown Aquarium, Houston",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Downtown Aquarium, Houston"
+      },
+      "expected": {
+        "coordinates": [
+          -95.36737,
+          29.7642
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Downtown Aquarium, Houston"
+        }
+      }
+    },
+    {
+      "id": "Lee G. Simmons Conservation Park and Wildlife Safari",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lee G. Simmons Conservation Park and Wildlife Safari"
+      },
+      "expected": {
+        "coordinates": [
+          -96.299,
+          41.01
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lee G. Simmons Conservation Park and Wildlife Safari"
+        }
+      }
+    },
+    {
+      "id": "Lee Richardson Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lee Richardson Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -100.8722,
+          37.9591
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lee Richardson Zoo"
+        }
+      }
+    },
+    {
+      "id": "Lehigh Valley Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lehigh Valley Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -75.62596,
+          40.65825
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lehigh Valley Zoo"
+        }
+      }
+    },
+    {
+      "id": "Lincoln Children's Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lincoln Children's Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -96.67914,
+          40.80018
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lincoln Children's Zoo"
+        }
+      }
+    },
+    {
+      "id": "Lincoln Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lincoln Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -87.63384,
+          41.92137
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lincoln Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Lion Country Safari",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lion Country Safari"
+      },
+      "expected": {
+        "coordinates": [
+          -80.32213,
+          26.71608
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lion Country Safari"
+        }
+      }
+    },
+    {
+      "id": "Little Rock Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Little Rock Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -92.3321,
+          34.7464
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Little Rock Zoo"
+        }
+      }
+    },
+    {
+      "id": "Living Desert Zoo and Gardens State Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Living Desert Zoo and Gardens State Park"
+      },
+      "expected": {
+        "coordinates": [
+          -104.2775,
+          32.44167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Living Desert Zoo and Gardens State Park"
+        }
+      }
+    },
+    {
+      "id": "Living Desert Zoo and Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Living Desert Zoo and Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -116.37028,
+          33.69583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Living Desert Zoo and Gardens"
+        }
+      }
+    },
+    {
+      "id": "Los Angeles Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Los Angeles Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -118.28388,
+          34.14815
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Los Angeles Zoo"
+        }
+      }
+    },
+    {
+      "id": "Louisville Zoological Garden",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Louisville Zoological Garden"
+      },
+      "expected": {
+        "coordinates": [
+          -85.70528,
+          38.20528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Louisville Zoological Garden"
+        }
+      }
+    },
+    {
+      "id": "Loveland Living Planet Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Loveland Living Planet Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -111.8714,
+          40.5599
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Loveland Living Planet Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Maritime Aquarium at Norwalk",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maritime Aquarium at Norwalk"
+      },
+      "expected": {
+        "coordinates": [
+          -73.4164,
+          41.101
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maritime Aquarium at Norwalk"
+        }
+      }
+    },
+    {
+      "id": "Maryland Zoo in Baltimore",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maryland Zoo in Baltimore"
+      },
+      "expected": {
+        "coordinates": [
+          -76.64944,
+          39.32333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maryland Zoo in Baltimore"
+        }
+      }
+    },
+    {
+      "id": "Memphis Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Memphis Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -89.9943,
+          35.15
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Memphis Zoo"
+        }
+      }
+    },
+    {
+      "id": "Mesker Park Zoo and Botanic Garden",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mesker Park Zoo and Botanic Garden"
+      },
+      "expected": {
+        "coordinates": [
+          -87.6016,
+          37.9971
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mesker Park Zoo and Botanic Garden"
+        }
+      }
+    },
+    {
+      "id": "Miller Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Miller Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -89.0055,
+          40.469
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Miller Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Milwaukee County Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Milwaukee County Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -88.0374,
+          43.03266
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Milwaukee County Zoo"
+        }
+      }
+    },
+    {
+      "id": "Minnesota Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Minnesota Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -93.19889,
+          44.76861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Minnesota Zoo"
+        }
+      }
+    },
+    {
+      "id": "Monterey Bay Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Monterey Bay Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -121.9019,
+          36.6181
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Monterey Bay Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Moody Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Moody Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -94.8513,
+          29.2741
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Moody Gardens"
+        }
+      }
+    },
+    {
+      "id": "Mote Marine Laboratory",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mote Marine Laboratory"
+      },
+      "expected": {
+        "coordinates": [
+          -82.57714,
+          27.33292
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mote Marine Laboratory"
+        }
+      }
+    },
+    {
+      "id": "Museum of Life and Science",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum of Life and Science"
+      },
+      "expected": {
+        "coordinates": [
+          -78.89734,
+          36.02865
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Museum of Life and Science"
+        }
+      }
+    },
+    {
+      "id": "Museum of Science (Boston)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Museum of Science"
+      },
+      "expected": {
+        "coordinates": [
+          -71.071,
+          42.36778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Museum of Science"
+        }
+      }
+    },
+    {
+      "id": "Mystic Aquarium & Institute for Exploration",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mystic Aquarium & Institute for Exploration"
+      },
+      "expected": {
+        "coordinates": [
+          -71.9529,
+          41.3748
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mystic Aquarium & Institute for Exploration"
+        }
+      }
+    },
+    {
+      "id": "Naples Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Naples Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -81.79068,
+          26.16821
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Naples Zoo"
+        }
+      }
+    },
+    {
+      "id": "Nashville Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nashville Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -86.74372,
+          36.08919
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nashville Zoo"
+        }
+      }
+    },
+    {
+      "id": "National Aquarium in Baltimore",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Aquarium in Baltimore"
+      },
+      "expected": {
+        "coordinates": [
+          -76.60694,
+          39.2844
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Aquarium in Baltimore"
+        }
+      }
+    },
+    {
+      "id": "National Aviary",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Aviary"
+      },
+      "expected": {
+        "coordinates": [
+          -80.01,
+          40.4533
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Aviary"
+        }
+      }
+    },
+    {
+      "id": "National Mississippi River Museum & Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Mississippi River Museum & Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -90.6613,
+          42.4968
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Mississippi River Museum & Aquarium"
+        }
+      }
+    },
+    {
+      "id": "New England Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "New England Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -71.04944,
+          42.35917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "New England Aquarium"
+        }
+      }
+    },
+    {
+      "id": "New York Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "New York Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -73.97512,
+          40.57429
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "New York Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Newport Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Newport Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.49759,
+          39.09437
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Newport Aquarium"
+        }
+      }
+    },
+    {
+      "id": "North Carolina Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "North Carolina Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -79.7645,
+          35.6295
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "North Carolina Zoo"
+        }
+      }
+    },
+    {
+      "id": "Northeastern Wisconsin Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Northeastern Wisconsin Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -88.08979,
+          44.66075
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Northeastern Wisconsin Zoo"
+        }
+      }
+    },
+    {
+      "id": "Northwest Trek",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Northwest Trek"
+      },
+      "expected": {
+        "coordinates": [
+          -122.27182,
+          46.91615
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Northwest Trek"
+        }
+      }
+    },
+    {
+      "id": "Oakland Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Oakland Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -122.1477,
+          37.7508
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Oakland Zoo"
+        }
+      }
+    },
+    {
+      "id": "L'Oceanogràfic",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "L'Oceanogràfic"
+      },
+      "expected": {
+        "coordinates": [
+          -0.34812,
+          39.45279
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "L'Oceanogràfic"
+        }
+      }
+    },
+    {
+      "id": "Ocean Park, Hong Kong",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ocean Park, Hong Kong"
+      },
+      "expected": {
+        "coordinates": [
+          114.17592,
+          22.24586
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ocean Park, Hong Kong"
+        }
+      }
+    },
+    {
+      "id": "OdySea Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "OdySea Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -111.8776,
+          33.55447
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "OdySea Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Oglebay's Good Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Oglebay's Good Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -80.66889,
+          40.10194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Oglebay's Good Zoo"
+        }
+      }
+    },
+    {
+      "id": "Oklahoma City Zoological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Oklahoma City Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -97.4724,
+          35.5212
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Oklahoma City Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "Henry Doorly Zoo and Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Henry Doorly Zoo and Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -95.9287,
+          41.2247
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Henry Doorly Zoo and Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Oregon Coast Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Oregon Coast Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -124.04709,
+          44.61784
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Oregon Coast Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Oregon Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Oregon Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -122.71472,
+          45.50833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Oregon Zoo"
+        }
+      }
+    },
+    {
+      "id": "Palm Beach Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Palm Beach Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -80.0693,
+          26.66641
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Palm Beach Zoo"
+        }
+      }
+    },
+    {
+      "id": "Zoo León",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo León"
+      },
+      "expected": {
+        "coordinates": [
+          -101.6598,
+          21.11125
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo León"
+        }
+      }
+    },
+    {
+      "id": "Peoria Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Peoria Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -89.57419,
+          40.71548
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Peoria Zoo"
+        }
+      }
+    },
+    {
+      "id": "Philadelphia Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Philadelphia Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -75.19568,
+          39.97451
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Philadelphia Zoo"
+        }
+      }
+    },
+    {
+      "id": "Phoenix Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Phoenix Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -111.94926,
+          33.45249
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Phoenix Zoo"
+        }
+      }
+    },
+    {
+      "id": "Point Defiance Zoo & Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Point Defiance Zoo & Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -122.5207,
+          47.3048
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Point Defiance Zoo & Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Potawatomi Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Potawatomi Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -86.21792,
+          41.66933
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Potawatomi Zoo"
+        }
+      }
+    },
+    {
+      "id": "Potter Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Potter Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -84.5284,
+          42.71774
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Potter Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Prospect Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Prospect Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -73.96444,
+          40.66583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Prospect Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Pueblo Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Pueblo Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -104.6581,
+          38.2617
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Pueblo Zoo"
+        }
+      }
+    },
+    {
+      "id": "Queens Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Queens Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -73.84859,
+          40.74374
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Queens Zoo"
+        }
+      }
+    },
+    {
+      "id": "Racine Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Racine Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -87.7837,
+          42.7488
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Racine Zoo"
+        }
+      }
+    },
+    {
+      "id": "Red River Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Red River Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -96.8531,
+          46.8462
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Red River Zoo"
+        }
+      }
+    },
+    {
+      "id": "Reid Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Reid Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -110.92,
+          32.208
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Reid Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Ripley's Aquarium of Canada",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ripley's Aquarium of Canada"
+      },
+      "expected": {
+        "coordinates": [
+          -79.38605,
+          43.64248
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ripley's Aquarium of Canada"
+        }
+      }
+    },
+    {
+      "id": "Riverbanks Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Riverbanks Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -81.07244,
+          34.00965
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Riverbanks Zoo"
+        }
+      }
+    },
+    {
+      "id": "Riverside Discovery Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Riverside Discovery Center"
+      },
+      "expected": {
+        "coordinates": [
+          -103.6841,
+          41.8552
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Riverside Discovery Center"
+        }
+      }
+    },
+    {
+      "id": "Roger Williams Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Roger Williams Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -71.4163,
+          41.7899
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Roger Williams Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Rolling Hills Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rolling Hills Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.76477,
+          38.85334
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rolling Hills Zoo"
+        }
+      }
+    },
+    {
+      "id": "Roosevelt Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Roosevelt Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -101.27306,
+          48.23417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Roosevelt Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Rosamond Gifford Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rosamond Gifford Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -76.18111,
+          43.04222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rosamond Gifford Zoo"
+        }
+      }
+    },
+    {
+      "id": "Sacramento Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sacramento Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -121.50403,
+          38.53961
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sacramento Zoo"
+        }
+      }
+    },
+    {
+      "id": "Safari West",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Safari West"
+      },
+      "expected": {
+        "coordinates": [
+          -122.6959,
+          38.5571
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Safari West"
+        }
+      }
+    },
+    {
+      "id": "Children's Zoo at Celebration Square",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Children's Zoo at Celebration Square"
+      },
+      "expected": {
+        "coordinates": [
+          -83.95259,
+          43.41197
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Children's Zoo at Celebration Square"
+        }
+      }
+    },
+    {
+      "id": "Saint Louis Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Saint Louis Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -90.29,
+          38.635
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Saint Louis Zoo"
+        }
+      }
+    },
+    {
+      "id": "San Antonio Zoological Gardens & Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Antonio Zoological Gardens & Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -98.4719,
+          29.4648
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "San Antonio Zoological Gardens & Aquarium"
+        }
+      }
+    },
+    {
+      "id": "San Diego Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Diego Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -117.15139,
+          32.73611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "San Diego Zoo"
+        }
+      }
+    },
+    {
+      "id": "San Diego Zoo Safari Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Diego Zoo Safari Park"
+      },
+      "expected": {
+        "coordinates": [
+          -117.00152,
+          33.0997
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "San Diego Zoo Safari Park"
+        }
+      }
+    },
+    {
+      "id": "San Francisco Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "San Francisco Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -122.50306,
+          37.73306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "San Francisco Zoo"
+        }
+      }
+    },
+    {
+      "id": "Santa Barbara Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Santa Barbara Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -119.665,
+          34.41944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Santa Barbara Zoo"
+        }
+      }
+    },
+    {
+      "id": "Santa Fe College Teaching Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Santa Fe College Teaching Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -82.4382,
+          29.6819
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Santa Fe College Teaching Zoo"
+        }
+      }
+    },
+    {
+      "id": "Scovill Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Scovill Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -88.90667,
+          39.82889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Scovill Zoo"
+        }
+      }
+    },
+    {
+      "id": "Sea Life Arizona",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sea Life Arizona"
+      },
+      "expected": {
+        "coordinates": [
+          -111.96332,
+          33.38485
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sea Life Arizona"
+        }
+      }
+    },
+    {
+      "id": "Sea Life Kansas City",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sea Life Kansas City"
+      },
+      "expected": {
+        "coordinates": [
+          -94.58144,
+          39.081
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sea Life Kansas City"
+        }
+      }
+    },
+    {
+      "id": "The Seas with Nemo & Friends",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Seas with Nemo & Friends"
+      },
+      "expected": {
+        "coordinates": [
+          -81.55088,
+          28.37537
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Seas with Nemo & Friends"
+        }
+      }
+    },
+    {
+      "id": "Seattle Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Seattle Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -122.34313,
+          47.6077
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Seattle Aquarium"
+        }
+      }
+    },
+    {
+      "id": "SeaWorld Orlando",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SeaWorld Orlando"
+      },
+      "expected": {
+        "coordinates": [
+          -81.4625,
+          28.41083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SeaWorld Orlando"
+        }
+      }
+    },
+    {
+      "id": "SeaWorld San Antonio",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SeaWorld San Antonio"
+      },
+      "expected": {
+        "coordinates": [
+          -98.6998,
+          29.4584
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SeaWorld San Antonio"
+        }
+      }
+    },
+    {
+      "id": "SeaWorld San Diego",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SeaWorld San Diego"
+      },
+      "expected": {
+        "coordinates": [
+          -117.22727,
+          32.76575
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SeaWorld San Diego"
+        }
+      }
+    },
+    {
+      "id": "Sedgwick County Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sedgwick County Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -97.4104,
+          37.7158
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sedgwick County Zoo"
+        }
+      }
+    },
+    {
+      "id": "Seneca Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Seneca Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -77.6238,
+          43.2065
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Seneca Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Seoul Grand Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Seoul Grand Park"
+      },
+      "expected": {
+        "coordinates": [
+          127.01722,
+          37.43056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Seoul Grand Park"
+        }
+      }
+    },
+    {
+      "id": "Sequoia Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sequoia Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -124.14496,
+          40.77698
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sequoia Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Shark Reef at Mandalay Bay",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Shark Reef at Mandalay Bay"
+      },
+      "expected": {
+        "coordinates": [
+          -115.17654,
+          36.09033
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Shark Reef at Mandalay Bay"
+        }
+      }
+    },
+    {
+      "id": "National Zoological Park (United States)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "National Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -77.04972,
+          38.93111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "National Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "South Carolina Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "South Carolina Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -79.92556,
+          32.79111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "South Carolina Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Squam Lakes Natural Science Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Squam Lakes Natural Science Center"
+      },
+      "expected": {
+        "coordinates": [
+          -71.58944,
+          43.73389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Squam Lakes Natural Science Center"
+        }
+      }
+    },
+    {
+      "id": "St. Augustine Alligator Farm Zoological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "St. Augustine Alligator Farm Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -81.28833,
+          29.88139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "St. Augustine Alligator Farm Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "Staten Island Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Staten Island Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -74.115,
+          40.625
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Staten Island Zoo"
+        }
+      }
+    },
+    {
+      "id": "California Academy of Sciences",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "California Academy of Sciences"
+      },
+      "expected": {
+        "coordinates": [
+          -122.46641,
+          37.7701
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "California Academy of Sciences"
+        }
+      }
+    },
+    {
+      "id": "Stone Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stone Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -71.09295,
+          42.46296
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stone Zoo"
+        }
+      }
+    },
+    {
+      "id": "Sunset Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sunset Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -96.596,
+          39.1773
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sunset Zoo"
+        }
+      }
+    },
+    {
+      "id": "Tennessee Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tennessee Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -85.3108,
+          35.0557
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tennessee Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Texas State Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Texas State Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.39222,
+          27.81389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Texas State Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Toledo Zoological Gardens",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Toledo Zoological Gardens"
+      },
+      "expected": {
+        "coordinates": [
+          -83.5807,
+          41.6191
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Toledo Zoological Gardens"
+        }
+      }
+    },
+    {
+      "id": "Topeka Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Topeka Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -95.7259,
+          39.0569
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Topeka Zoo"
+        }
+      }
+    },
+    {
+      "id": "Toronto Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Toronto Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -79.18278,
+          43.82028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Toronto Zoo"
+        }
+      }
+    },
+    {
+      "id": "Tracy Aviary",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tracy Aviary"
+      },
+      "expected": {
+        "coordinates": [
+          -111.87389,
+          40.74556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tracy Aviary"
+        }
+      }
+    },
+    {
+      "id": "Trevor Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Trevor Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -73.62111,
+          41.85556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Trevor Zoo"
+        }
+      }
+    },
+    {
+      "id": "Tulsa Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Tulsa Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -95.92978,
+          36.20868
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Tulsa Zoo"
+        }
+      }
+    },
+    {
+      "id": "Turtle Back Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Turtle Back Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -74.28194,
+          40.7675
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Turtle Back Zoo"
+        }
+      }
+    },
+    {
+      "id": "Hogle Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hogle Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -111.814,
+          40.7498
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hogle Zoo"
+        }
+      }
+    },
+    {
+      "id": "Utica Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Utica Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -75.246,
+          43.082
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Utica Zoo"
+        }
+      }
+    },
+    {
+      "id": "Vancouver Aquarium Marine Science Centre",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vancouver Aquarium Marine Science Centre"
+      },
+      "expected": {
+        "coordinates": [
+          -123.13105,
+          49.30059
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vancouver Aquarium Marine Science Centre"
+        }
+      }
+    },
+    {
+      "id": "Virginia Aquarium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virginia Aquarium"
+      },
+      "expected": {
+        "coordinates": [
+          -75.98377,
+          36.82105
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virginia Aquarium"
+        }
+      }
+    },
+    {
+      "id": "Virginia Living Museum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virginia Living Museum"
+      },
+      "expected": {
+        "coordinates": [
+          -76.4887,
+          37.0546
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virginia Living Museum"
+        }
+      }
+    },
+    {
+      "id": "Virginia Zoological Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Virginia Zoological Park"
+      },
+      "expected": {
+        "coordinates": [
+          -76.2774,
+          36.8786
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Virginia Zoological Park"
+        }
+      }
+    },
+    {
+      "id": "Wildlife Safari",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wildlife Safari"
+      },
+      "expected": {
+        "coordinates": [
+          -123.4265,
+          43.1417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wildlife Safari"
+        }
+      }
+    },
+    {
+      "id": "The Wilds",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Wilds"
+      },
+      "expected": {
+        "coordinates": [
+          -81.73278,
+          39.82944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Wilds"
+        }
+      }
+    },
+    {
+      "id": "Woodland Park Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Woodland Park Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -122.34984,
+          47.66834
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Woodland Park Zoo"
+        }
+      }
+    },
+    {
+      "id": "Zoo Atlanta",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Atlanta"
+      },
+      "expected": {
+        "coordinates": [
+          -84.36972,
+          33.7325
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Atlanta"
+        }
+      }
+    },
+    {
+      "id": "Zoo Boise",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Boise"
+      },
+      "expected": {
+        "coordinates": [
+          -116.20151,
+          43.60756
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Boise"
+        }
+      }
+    },
+    {
+      "id": "Granby Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Granby Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -72.71931,
+          45.41661
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Granby Zoo"
+        }
+      }
+    },
+    {
+      "id": "Zoo Knoxville",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Knoxville"
+      },
+      "expected": {
+        "coordinates": [
+          -83.888,
+          35.9999
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Knoxville"
+        }
+      }
+    },
+    {
+      "id": "Zoo Miami",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Zoo Miami"
+      },
+      "expected": {
+        "coordinates": [
+          -80.4001,
+          25.6077
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Zoo Miami"
+        }
+      }
+    },
+    {
+      "id": "ZooAmerica",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "ZooAmerica"
+      },
+      "expected": {
+        "coordinates": [
+          -76.65083,
+          40.2875
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "ZooAmerica"
+        }
+      }
+    },
+    {
+      "id": "Cali Zoo",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cali Zoo"
+      },
+      "expected": {
+        "coordinates": [
+          -76.55861,
+          3.44861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cali Zoo"
+        }
+      }
+    },
+    {
+      "id": "ZooMontana",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "ZooMontana"
+      },
+      "expected": {
+        "coordinates": [
+          -108.6226,
+          45.7315
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "ZooMontana"
+        }
+      }
+    },
+    {
+      "id": "ZooTampa at Lowry Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "ZooTampa at Lowry Park"
+      },
+      "expected": {
+        "coordinates": [
+          -82.4697,
+          28.0133
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "ZooTampa at Lowry Park"
+        }
+      }
+    },
+    {
+      "id": "Duke Lemur Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Duke Lemur Center"
+      },
+      "expected": {
+        "coordinates": [
+          -78.9604,
+          35.9949
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Duke Lemur Center"
+        }
+      }
+    },
+    {
+      "id": "The Elephant Sanctuary (Hohenwald)",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Elephant Sanctuary"
+      },
+      "expected": {
+        "coordinates": [
+          -87.55092,
+          35.54832
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Elephant Sanctuary"
+        }
+      }
+    },
+    {
+      "id": "Endangered Wolf Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Endangered Wolf Center"
+      },
+      "expected": {
+        "coordinates": [
+          -90.5522,
+          38.5155
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Endangered Wolf Center"
+        }
+      }
+    },
+    {
+      "id": "Lubee Bat Conservancy",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lubee Bat Conservancy"
+      },
+      "expected": {
+        "coordinates": [
+          -82.3405,
+          29.8252
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lubee Bat Conservancy"
+        }
+      }
+    }
+  ]
+}

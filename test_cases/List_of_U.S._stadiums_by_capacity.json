@@ -1,0 +1,3474 @@
+{
+  "name": "wikipedia scrape: List_of_U.S._stadiums_by_capacity",
+  "description": "",
+  "priorityThresh": "",
+  "source": "Wikipedia",
+  "normalizers": {
+    "name": [
+      "toLowerCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": "Kyle Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kyle Field"
+      },
+      "expected": {
+        "coordinates": [
+          -96.34028,
+          30.61
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kyle Field"
+        }
+      }
+    },
+    {
+      "id": "Gaylord Family Oklahoma Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gaylord Family Oklahoma Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.4425,
+          35.20583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gaylord Family Oklahoma Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "MetLife Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "MetLife Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -74.07436,
+          40.81353
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "MetLife Stadium"
+        }
+      }
+    },
+    {
+      "id": "Lambeau Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lambeau Field"
+      },
+      "expected": {
+        "coordinates": [
+          -88.06222,
+          44.50139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lambeau Field"
+        }
+      }
+    },
+    {
+      "id": "Notre Dame Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Notre Dame Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -86.234,
+          41.698
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Notre Dame Stadium"
+        }
+      }
+    },
+    {
+      "id": "Camp Randall Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Camp Randall Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -89.41278,
+          43.07
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Camp Randall Stadium"
+        }
+      }
+    },
+    {
+      "id": "Williams–Brice Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Williams-Brice Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.01917,
+          33.97306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Williams-Brice Stadium"
+        }
+      }
+    },
+    {
+      "id": "AT&T Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "AT&T Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.09278,
+          32.74778
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "AT&T Stadium"
+        }
+      }
+    },
+    {
+      "id": "Doak Campbell Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Doak Campbell Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.30444,
+          30.43806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Doak Campbell Stadium"
+        }
+      }
+    },
+    {
+      "id": "Los Angeles Memorial Coliseum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Los Angeles Memorial Coliseum"
+      },
+      "expected": {
+        "coordinates": [
+          -118.28778,
+          34.01417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Los Angeles Memorial Coliseum"
+        }
+      }
+    },
+    {
+      "id": "TIAA Bank Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "TIAA Bank Field"
+      },
+      "expected": {
+        "coordinates": [
+          -81.6375,
+          30.32389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "TIAA Bank Field"
+        }
+      }
+    },
+    {
+      "id": "Arrowhead Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arrowhead Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -94.48389,
+          39.04889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arrowhead Stadium"
+        }
+      }
+    },
+    {
+      "id": "Empower Field at Mile High",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Empower Field at Mile High"
+      },
+      "expected": {
+        "coordinates": [
+          -105.02,
+          39.74389
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Empower Field at Mile High"
+        }
+      }
+    },
+    {
+      "id": "Donald W. Reynolds Razorback Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Donald W. Reynolds Razorback Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -94.17889,
+          36.06806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Donald W. Reynolds Razorback Stadium"
+        }
+      }
+    },
+    {
+      "id": "Bank of America Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bank of America Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.85278,
+          35.22583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bank of America Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mercedes-Benz Superdome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mercedes-Benz Superdome"
+      },
+      "expected": {
+        "coordinates": [
+          -90.08111,
+          29.95083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mercedes-Benz Superdome"
+        }
+      }
+    },
+    {
+      "id": "CenturyLink Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "CenturyLink Field"
+      },
+      "expected": {
+        "coordinates": [
+          -122.3316,
+          47.5952
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "CenturyLink Field"
+        }
+      }
+    },
+    {
+      "id": "New Era Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "New Era Field"
+      },
+      "expected": {
+        "coordinates": [
+          -78.787,
+          42.774
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "New Era Field"
+        }
+      }
+    },
+    {
+      "id": "Legion Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Legion Field"
+      },
+      "expected": {
+        "coordinates": [
+          -86.84278,
+          33.51139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Legion Field"
+        }
+      }
+    },
+    {
+      "id": "NRG Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "NRG Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -95.41083,
+          29.68472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "NRG Stadium"
+        }
+      }
+    },
+    {
+      "id": "SDCCU Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SDCCU Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -117.11944,
+          32.78306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SDCCU Stadium"
+        }
+      }
+    },
+    {
+      "id": "M&T Bank Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "M&T Bank Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -76.62278,
+          39.27806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "M&T Bank Stadium"
+        }
+      }
+    },
+    {
+      "id": "Faurot Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Faurot Field"
+      },
+      "expected": {
+        "coordinates": [
+          -92.33306,
+          38.93583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Faurot Field"
+        }
+      }
+    },
+    {
+      "id": "Mercedes-Benz Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mercedes-Benz Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.4,
+          33.75556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mercedes-Benz Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kinnick Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kinnick Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -91.55111,
+          41.65861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kinnick Stadium"
+        }
+      }
+    },
+    {
+      "id": "SoFi Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SoFi Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -118.3392,
+          33.95345
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SoFi Stadium"
+        }
+      }
+    },
+    {
+      "id": "Husky Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Husky Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -122.30167,
+          47.65028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Husky Stadium"
+        }
+      }
+    },
+    {
+      "id": "Nissan Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nissan Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -86.77139,
+          36.16639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nissan Stadium"
+        }
+      }
+    },
+    {
+      "id": "Gillette Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gillette Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -71.264,
+          42.091
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gillette Stadium"
+        }
+      }
+    },
+    {
+      "id": "Lincoln Financial Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lincoln Financial Field"
+      },
+      "expected": {
+        "coordinates": [
+          -75.1675,
+          39.90083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lincoln Financial Field"
+        }
+      }
+    },
+    {
+      "id": "Levi's Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Levi's Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -121.97,
+          37.403
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Levi's Stadium"
+        }
+      }
+    },
+    {
+      "id": "Heinz Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Heinz Field"
+      },
+      "expected": {
+        "coordinates": [
+          -80.01583,
+          40.44667
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Heinz Field"
+        }
+      }
+    },
+    {
+      "id": "FirstEnergy Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "FirstEnergy Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.69944,
+          41.50611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "FirstEnergy Stadium"
+        }
+      }
+    },
+    {
+      "id": "Lucas Oil Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lucas Oil Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -86.16381,
+          39.76006
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lucas Oil Stadium"
+        }
+      }
+    },
+    {
+      "id": "The Dome at America's Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "The Dome at America's Center"
+      },
+      "expected": {
+        "coordinates": [
+          -90.18861,
+          38.63278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "The Dome at America's Center"
+        }
+      }
+    },
+    {
+      "id": "U.S. Bank Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "U.S. Bank Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -93.258,
+          44.974
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "U.S. Bank Stadium"
+        }
+      }
+    },
+    {
+      "id": "Lane Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Lane Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.41806,
+          37.22
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Lane Stadium"
+        }
+      }
+    },
+    {
+      "id": "Raymond James Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Raymond James Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -82.50333,
+          27.97583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Raymond James Stadium"
+        }
+      }
+    },
+    {
+      "id": "Paul Brown Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Paul Brown Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.516,
+          39.095
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Paul Brown Stadium"
+        }
+      }
+    },
+    {
+      "id": "Hard Rock Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Hard Rock Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.23889,
+          25.95806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Hard Rock Stadium"
+        }
+      }
+    },
+    {
+      "id": "Camping World Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Camping World Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.40278,
+          28.53889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Camping World Stadium"
+        }
+      }
+    },
+    {
+      "id": "Alamodome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alamodome"
+      },
+      "expected": {
+        "coordinates": [
+          -98.47889,
+          29.41694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Alamodome"
+        }
+      }
+    },
+    {
+      "id": "Ford Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ford Field"
+      },
+      "expected": {
+        "coordinates": [
+          -83.04556,
+          42.34
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ford Field"
+        }
+      }
+    },
+    {
+      "id": "Allegiant Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Allegiant Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -115.18372,
+          36.09075
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Allegiant Stadium"
+        }
+      }
+    },
+    {
+      "id": "Vaught–Hemingway Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Vaught-Hemingway Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -89.53417,
+          34.36194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Vaught-Hemingway Stadium"
+        }
+      }
+    },
+    {
+      "id": "LaVell Edwards Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "LaVell Edwards Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -111.655,
+          40.258
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "LaVell Edwards Stadium"
+        }
+      }
+    },
+    {
+      "id": "State Farm Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "State Farm Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -112.263,
+          33.528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "State Farm Stadium"
+        }
+      }
+    },
+    {
+      "id": "RingCentral Coliseum",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "RingCentral Coliseum"
+      },
+      "expected": {
+        "coordinates": [
+          -122.20056,
+          37.75167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "RingCentral Coliseum"
+        }
+      }
+    },
+    {
+      "id": "California Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "California Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -122.25083,
+          37.87111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "California Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ross–Ade Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ross-Ade Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -86.91833,
+          40.43444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ross-Ade Stadium"
+        }
+      }
+    },
+    {
+      "id": "Liberty Bowl Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Liberty Bowl Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -89.9775,
+          35.12111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Liberty Bowl Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Soldier Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Soldier Field"
+      },
+      "expected": {
+        "coordinates": [
+          -87.6167,
+          41.8623
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Soldier Field"
+        }
+      }
+    },
+    {
+      "id": "Jack Trice Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jack Trice Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -93.63583,
+          42.01417
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jack Trice Stadium"
+        }
+      }
+    },
+    {
+      "id": "Scott Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Scott Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -78.51361,
+          38.03111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Scott Stadium"
+        }
+      }
+    },
+    {
+      "id": "Yale Bowl",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Yale Bowl"
+      },
+      "expected": {
+        "coordinates": [
+          -72.96,
+          41.313
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Yale Bowl"
+        }
+      }
+    },
+    {
+      "id": "Davis Wade Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Davis Wade Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -88.79361,
+          33.45639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Davis Wade Stadium"
+        }
+      }
+    },
+    {
+      "id": "Jones AT&T Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jones AT&T Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -101.87278,
+          33.59111
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jones AT&T Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kroger Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kroger Field"
+      },
+      "expected": {
+        "coordinates": [
+          -84.50528,
+          38.02278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kroger Field"
+        }
+      }
+    },
+    {
+      "id": "Cardinal Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cardinal Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -85.75889,
+          38.20583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cardinal Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mississippi Veterans Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mississippi Veterans Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -90.17978,
+          32.32964
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mississippi Veterans Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Boone Pickens Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Boone Pickens Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.06639,
+          36.12583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Boone Pickens Stadium"
+        }
+      }
+    },
+    {
+      "id": "Arizona Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arizona Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -110.949,
+          32.229
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arizona Stadium"
+        }
+      }
+    },
+    {
+      "id": "RFK Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "RFK Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -76.972,
+          38.89
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "RFK Stadium"
+        }
+      }
+    },
+    {
+      "id": "Sun Devil Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sun Devil Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -111.9325,
+          33.42639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sun Devil Stadium"
+        }
+      }
+    },
+    {
+      "id": "Bobby Dodd Stadium at Historic Grant Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bobby Dodd Stadium at Historic Grant Field"
+      },
+      "expected": {
+        "coordinates": [
+          -84.39278,
+          33.7725
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bobby Dodd Stadium at Historic Grant Field"
+        }
+      }
+    },
+    {
+      "id": "Autzen Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Autzen Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -123.06861,
+          44.05833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Autzen Stadium"
+        }
+      }
+    },
+    {
+      "id": "Folsom Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Folsom Field"
+      },
+      "expected": {
+        "coordinates": [
+          -105.267,
+          40.009
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Folsom Field"
+        }
+      }
+    },
+    {
+      "id": "Franklin Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Franklin Field"
+      },
+      "expected": {
+        "coordinates": [
+          -75.19,
+          39.95
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Franklin Field"
+        }
+      }
+    },
+    {
+      "id": "Falcon Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Falcon Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -104.843,
+          38.997
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Falcon Stadium"
+        }
+      }
+    },
+    {
+      "id": "HighPoint.com Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "HighPoint.com Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -74.46528,
+          40.51361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "HighPoint.com Stadium"
+        }
+      }
+    },
+    {
+      "id": "Bill Snyder Family Football Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bill Snyder Family Football Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -96.59389,
+          39.20194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bill Snyder Family Football Stadium"
+        }
+      }
+    },
+    {
+      "id": "Maryland Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maryland Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -76.94722,
+          38.99028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maryland Stadium"
+        }
+      }
+    },
+    {
+      "id": "Sun Bowl Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sun Bowl Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -106.508,
+          31.773
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sun Bowl Stadium"
+        }
+      }
+    },
+    {
+      "id": "TCF Bank Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "TCF Bank Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -93.225,
+          44.976
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "TCF Bank Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kenan Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kenan Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -79.04778,
+          35.90694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kenan Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "David Booth Kansas Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "David Booth Kansas Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -95.31306,
+          38.87972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "David Booth Kansas Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Aloha Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aloha Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -157.93,
+          21.373
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aloha Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stanford Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stanford Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -122.16111,
+          37.43444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stanford Stadium"
+        }
+      }
+    },
+    {
+      "id": "Carrier Dome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Carrier Dome"
+      },
+      "expected": {
+        "coordinates": [
+          -76.13639,
+          43.03611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Carrier Dome"
+        }
+      }
+    },
+    {
+      "id": "Globe Life Park in Arlington",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Globe Life Park in Arlington"
+      },
+      "expected": {
+        "coordinates": [
+          -97.08278,
+          32.75139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Globe Life Park in Arlington"
+        }
+      }
+    },
+    {
+      "id": "T-Mobile Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "T-Mobile Park"
+      },
+      "expected": {
+        "coordinates": [
+          -122.333,
+          47.591
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "T-Mobile Park"
+        }
+      }
+    },
+    {
+      "id": "Reser Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Reser Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -123.281,
+          44.559
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Reser Stadium"
+        }
+      }
+    },
+    {
+      "id": "Rice-Eccles Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rice-Eccles Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -111.849,
+          40.76
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rice-Eccles Stadium"
+        }
+      }
+    },
+    {
+      "id": "Spectrum Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Spectrum Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.1924,
+          28.6091
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Spectrum Stadium"
+        }
+      }
+    },
+    {
+      "id": "McLane Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "McLane Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.1157,
+          31.5582
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "McLane Stadium"
+        }
+      }
+    },
+    {
+      "id": "Alumni Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alumni Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -71.16639,
+          42.335
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Alumni Stadium"
+        }
+      }
+    },
+    {
+      "id": "Amon G. Carter Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Amon G. Carter Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.36806,
+          32.70972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Amon G. Carter Stadium"
+        }
+      }
+    },
+    {
+      "id": "Canvas Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Canvas Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -105.0885,
+          40.57
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Canvas Stadium"
+        }
+      }
+    },
+    {
+      "id": "Truist Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Truist Park"
+      },
+      "expected": {
+        "coordinates": [
+          -84.468,
+          33.89
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Truist Park"
+        }
+      }
+    },
+    {
+      "id": "Bulldog Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bulldog Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -119.758,
+          36.814
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bulldog Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ladd–Peebles Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ladd-Peebles Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -88.076,
+          30.673
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ladd-Peebles Stadium"
+        }
+      }
+    },
+    {
+      "id": "Dreamstyle Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dreamstyle Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -106.62833,
+          35.06694
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dreamstyle Stadium"
+        }
+      }
+    },
+    {
+      "id": "Howard J. Lamade Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Howard J. Lamade Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -76.98,
+          41.23
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Howard J. Lamade Stadium"
+        }
+      }
+    },
+    {
+      "id": "Rentschler Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rentschler Field"
+      },
+      "expected": {
+        "coordinates": [
+          -72.62833,
+          41.75333
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rentschler Field"
+        }
+      }
+    },
+    {
+      "id": "Michie Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Michie Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -73.96417,
+          41.3875
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Michie Stadium"
+        }
+      }
+    },
+    {
+      "id": "Nippert Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Nippert Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.516,
+          39.131
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Nippert Stadium"
+        }
+      }
+    },
+    {
+      "id": "TDECU Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "TDECU Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -95.34917,
+          29.72194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "TDECU Stadium"
+        }
+      }
+    },
+    {
+      "id": "Globe Life Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Globe Life Field"
+      },
+      "expected": {
+        "coordinates": [
+          -97.08417,
+          32.74736
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Globe Life Field"
+        }
+      }
+    },
+    {
+      "id": "Joan C. Edwards Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Joan C. Edwards Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -82.42083,
+          38.425
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Joan C. Edwards Stadium"
+        }
+      }
+    },
+    {
+      "id": "Albertsons Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Albertsons Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -116.196,
+          43.603
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Albertsons Stadium"
+        }
+      }
+    },
+    {
+      "id": "Sam Boyd Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Sam Boyd Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -115.017,
+          36.086
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Sam Boyd Stadium"
+        }
+      }
+    },
+    {
+      "id": "M. M. Roberts Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "M. M. Roberts Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -89.33139,
+          31.32889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "M. M. Roberts Stadium"
+        }
+      }
+    },
+    {
+      "id": "Martin Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Martin Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -117.16,
+          46.732
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Martin Stadium"
+        }
+      }
+    },
+    {
+      "id": "Navy–Marine Corps Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Navy-Marine Corps Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -76.507,
+          38.985
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Navy-Marine Corps Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Wallace Wade Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Wallace Wade Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -78.94167,
+          35.99528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Wallace Wade Stadium"
+        }
+      }
+    },
+    {
+      "id": "Gerald J. Ford Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Gerald J. Ford Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -96.78399,
+          32.83664
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Gerald J. Ford Stadium"
+        }
+      }
+    },
+    {
+      "id": "BB&T Field at Groves Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "BB&T Field at Groves Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.25472,
+          36.13056
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "BB&T Field at Groves Stadium"
+        }
+      }
+    },
+    {
+      "id": "Cajun Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cajun Field"
+      },
+      "expected": {
+        "coordinates": [
+          -92.04194,
+          30.21583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cajun Field"
+        }
+      }
+    },
+    {
+      "id": "Brigham Field at Huskie Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brigham Field at Huskie Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -88.778,
+          41.934
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Brigham Field at Huskie Stadium"
+        }
+      }
+    },
+    {
+      "id": "Centennial Bank Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Centennial Bank Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -90.66722,
+          35.84889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Centennial Bank Stadium"
+        }
+      }
+    },
+    {
+      "id": "Apogee Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Apogee Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -97.15944,
+          33.20361
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Apogee Stadium"
+        }
+      }
+    },
+    {
+      "id": "Johnny \"Red\" Floyd Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Johnny \"Red\" Floyd Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -86.36822,
+          35.85051
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Johnny \"Red\" Floyd Stadium"
+        }
+      }
+    },
+    {
+      "id": "Joe Aillet Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Joe Aillet Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -92.65583,
+          32.53222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Joe Aillet Stadium"
+        }
+      }
+    },
+    {
+      "id": "CEFCU Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "CEFCU Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -121.86833,
+          37.31972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "CEFCU Stadium"
+        }
+      }
+    },
+    {
+      "id": "Malone Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Malone Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -92.06583,
+          32.53083
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Malone Stadium"
+        }
+      }
+    },
+    {
+      "id": "Aggie Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Aggie Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -106.74111,
+          32.27972
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Aggie Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Harvard Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Harvard Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -71.12722,
+          42.36639
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Harvard Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kelly/Shorts Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kelly/Shorts Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.77083,
+          43.5775
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kelly/Shorts Stadium"
+        }
+      }
+    },
+    {
+      "id": "Rynearson Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rynearson Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -83.64722,
+          42.25583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rynearson Stadium"
+        }
+      }
+    },
+    {
+      "id": "Waldo Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Waldo Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -85.60111,
+          42.28583
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Waldo Stadium"
+        }
+      }
+    },
+    {
+      "id": "FAU Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "FAU Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.10028,
+          26.37528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "FAU Stadium"
+        }
+      }
+    },
+    {
+      "id": "Benson Field at Yulman Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Benson Field at Yulman Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -90.11682,
+          29.94482
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Benson Field at Yulman Stadium"
+        }
+      }
+    },
+    {
+      "id": "ASU Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "ASU Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -90.66722,
+          35.84889
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "ASU Stadium"
+        }
+      }
+    },
+    {
+      "id": "H. A. Chapman Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "H. A. Chapman Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -95.94389,
+          36.14861
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "H. A. Chapman Stadium"
+        }
+      }
+    },
+    {
+      "id": "InfoCision Stadium – Summa Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "InfoCision Stadium - Summa Field"
+      },
+      "expected": {
+        "coordinates": [
+          -81.50802,
+          41.07235
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "InfoCision Stadium - Summa Field"
+        }
+      }
+    },
+    {
+      "id": "William \"Dick\" Price Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "William \"Dick\" Price Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -76.26005,
+          36.84696
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "William \"Dick\" Price Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kidd Brewer Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kidd Brewer Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.68556,
+          36.21167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kidd Brewer Stadium"
+        }
+      }
+    },
+    {
+      "id": "UB Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "UB Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -78.7775,
+          42.99917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "UB Stadium"
+        }
+      }
+    },
+    {
+      "id": "Ace W. Mumford Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Ace W. Mumford Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -91.18953,
+          30.52186
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Ace W. Mumford Stadium"
+        }
+      }
+    },
+    {
+      "id": "Joe Albi Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Joe Albi Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -117.483,
+          47.705
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Joe Albi Stadium"
+        }
+      }
+    },
+    {
+      "id": "Doyt L. Perry Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Doyt L. Perry Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -83.6225,
+          41.37806
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Doyt L. Perry Stadium"
+        }
+      }
+    },
+    {
+      "id": "Paulson Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Paulson Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.78313,
+          32.41216
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Paulson Stadium"
+        }
+      }
+    },
+    {
+      "id": "Princeton University Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Princeton University Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -74.65003,
+          40.34575
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Princeton University Stadium"
+        }
+      }
+    },
+    {
+      "id": "Dignity Health Sports Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dignity Health Sports Park"
+      },
+      "expected": {
+        "coordinates": [
+          -118.261,
+          33.864
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dignity Health Sports Park"
+        }
+      }
+    },
+    {
+      "id": "Eddie Robinson Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Eddie Robinson Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -92.72129,
+          32.52093
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Eddie Robinson Stadium"
+        }
+      }
+    },
+    {
+      "id": "Schoellkopf Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Schoellkopf Field"
+      },
+      "expected": {
+        "coordinates": [
+          -76.47866,
+          42.44409
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Schoellkopf Field"
+        }
+      }
+    },
+    {
+      "id": "Maverik Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Maverik Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -111.81167,
+          41.75167
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Maverik Stadium"
+        }
+      }
+    },
+    {
+      "id": "Bragg Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bragg Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.29167,
+          30.42611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bragg Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Exploria Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Exploria Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.3893,
+          28.5411
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Exploria Stadium"
+        }
+      }
+    },
+    {
+      "id": "Dix Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dix Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -81.31333,
+          41.13917
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dix Stadium"
+        }
+      }
+    },
+    {
+      "id": "Providence Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Providence Park"
+      },
+      "expected": {
+        "coordinates": [
+          -122.69167,
+          45.52139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Providence Park"
+        }
+      }
+    },
+    {
+      "id": "Washington–Grizzly Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Washington-Grizzly Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -113.981,
+          46.864
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Washington-Grizzly Stadium"
+        }
+      }
+    },
+    {
+      "id": "Williams Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Williams Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -79.175,
+          37.354
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Williams Stadium"
+        }
+      }
+    },
+    {
+      "id": "Bridgeforth Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Bridgeforth Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -78.87306,
+          38.43528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Bridgeforth Stadium"
+        }
+      }
+    },
+    {
+      "id": "Cramton Bowl",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Cramton Bowl"
+      },
+      "expected": {
+        "coordinates": [
+          -86.293,
+          32.37949
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Cramton Bowl"
+        }
+      }
+    },
+    {
+      "id": "Georgia State Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Georgia State Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.38944,
+          33.73528
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Georgia State Stadium"
+        }
+      }
+    },
+    {
+      "id": "Fred C. Yager Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fred C. Yager Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.73278,
+          39.51944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fred C. Yager Stadium"
+        }
+      }
+    },
+    {
+      "id": "TD Ameritrade Park Omaha",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "TD Ameritrade Park Omaha"
+      },
+      "expected": {
+        "coordinates": [
+          -95.932,
+          41.267
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "TD Ameritrade Park Omaha"
+        }
+      }
+    },
+    {
+      "id": "JSU Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "JSU Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -85.76639,
+          33.82028
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "JSU Stadium"
+        }
+      }
+    },
+    {
+      "id": "Arthur Ashe Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Arthur Ashe Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -73.84703,
+          40.74989
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Arthur Ashe Stadium"
+        }
+      }
+    },
+    {
+      "id": "Fitton Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fitton Field"
+      },
+      "expected": {
+        "coordinates": [
+          -71.80997,
+          42.24156
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fitton Field"
+        }
+      }
+    },
+    {
+      "id": "Jack Spinks Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Jack Spinks Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -91.13492,
+          31.87355
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Jack Spinks Stadium"
+        }
+      }
+    },
+    {
+      "id": "BBVA Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "BBVA Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -95.3524,
+          29.7522
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "BBVA Stadium"
+        }
+      }
+    },
+    {
+      "id": "Banc of California Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Banc of California Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -118.285,
+          34.013
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Banc of California Stadium"
+        }
+      }
+    },
+    {
+      "id": "Delaware Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Delaware Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -75.7488,
+          39.6617
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Delaware Stadium"
+        }
+      }
+    },
+    {
+      "id": "Houchens Industries–L. T. Smith Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Houchens Industries-L. T. Smith Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -86.45944,
+          36.98472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Houchens Industries-L. T. Smith Stadium"
+        }
+      }
+    },
+    {
+      "id": "Oliver C. Dawson Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Oliver C. Dawson Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.84464,
+          33.49859
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Oliver C. Dawson Stadium"
+        }
+      }
+    },
+    {
+      "id": "BB&T Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "BB&T Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -79.77028,
+          36.08139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "BB&T Stadium"
+        }
+      }
+    },
+    {
+      "id": "Johnson Hagood Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Johnson Hagood Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -79.95588,
+          32.79371
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Johnson Hagood Stadium"
+        }
+      }
+    },
+    {
+      "id": "Louis Crews Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Louis Crews Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -86.57844,
+          34.78367
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Louis Crews Stadium"
+        }
+      }
+    },
+    {
+      "id": "Alerus Center",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Alerus Center"
+      },
+      "expected": {
+        "coordinates": [
+          -97.09083,
+          47.91611
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Alerus Center"
+        }
+      }
+    },
+    {
+      "id": "Finley Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Finley Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -85.31576,
+          35.03637
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Finley Stadium"
+        }
+      }
+    },
+    {
+      "id": "Stambaugh Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Stambaugh Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.6493,
+          41.10946
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Stambaugh Stadium"
+        }
+      }
+    },
+    {
+      "id": "Toyota Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Toyota Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          137.17083,
+          35.08444
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Toyota Stadium"
+        }
+      }
+    },
+    {
+      "id": "Rio Tinto Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Rio Tinto Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -111.89316,
+          40.58292
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Rio Tinto Stadium"
+        }
+      }
+    },
+    {
+      "id": "Brown Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brown Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -71.39444,
+          41.84222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Brown Stadium"
+        }
+      }
+    },
+    {
+      "id": "Riccardo Silva Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Riccardo Silva Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.37778,
+          25.7525
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Riccardo Silva Stadium"
+        }
+      }
+    },
+    {
+      "id": "Roy Kidd Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Roy Kidd Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -84.29741,
+          37.73439
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Roy Kidd Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mesquite Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mesquite Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -96.6348,
+          32.7644
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mesquite Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "Kimbrough Memorial Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Kimbrough Memorial Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -101.91667,
+          35.01194
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Kimbrough Memorial Stadium"
+        }
+      }
+    },
+    {
+      "id": "SeatGeek Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "SeatGeek Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -87.80611,
+          41.76472
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "SeatGeek Stadium"
+        }
+      }
+    },
+    {
+      "id": "Audi Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Audi Field"
+      },
+      "expected": {
+        "coordinates": [
+          -77.01222,
+          38.86833
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Audi Field"
+        }
+      }
+    },
+    {
+      "id": "Brooks Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Brooks Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -79.01765,
+          33.79301
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Brooks Stadium"
+        }
+      }
+    },
+    {
+      "id": "Mapfre Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Mapfre Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -82.99111,
+          40.00944
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Mapfre Stadium"
+        }
+      }
+    },
+    {
+      "id": "Dana J. Dykhouse Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dana J. Dykhouse Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -96.78014,
+          44.32103
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dana J. Dykhouse Stadium"
+        }
+      }
+    },
+    {
+      "id": "Allianz Field",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Allianz Field"
+      },
+      "expected": {
+        "coordinates": [
+          -93.165,
+          44.95278
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Allianz Field"
+        }
+      }
+    },
+    {
+      "id": "Fargodome",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Fargodome"
+      },
+      "expected": {
+        "coordinates": [
+          -96.80155,
+          46.90304
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Fargodome"
+        }
+      }
+    },
+    {
+      "id": "Talen Energy Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Talen Energy Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -75.37889,
+          39.83222
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Talen Energy Stadium"
+        }
+      }
+    },
+    {
+      "id": "Children's Mercy Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Children's Mercy Park"
+      },
+      "expected": {
+        "coordinates": [
+          -94.821,
+          39.1214
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Children's Mercy Park"
+        }
+      }
+    },
+    {
+      "id": "Dick's Sporting Goods Park",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Dick's Sporting Goods Park"
+      },
+      "expected": {
+        "coordinates": [
+          -104.89194,
+          39.80556
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Dick's Sporting Goods Park"
+        }
+      }
+    },
+    {
+      "id": "Earthquakes Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Earthquakes Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -121.925,
+          37.35139
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Earthquakes Stadium"
+        }
+      }
+    },
+    {
+      "id": "Inter Miami CF Stadium",
+      "status": "pass",
+      "type": "wiki-poi",
+      "in": {
+        "text": "Inter Miami CF Stadium"
+      },
+      "expected": {
+        "coordinates": [
+          -80.16111,
+          26.19306
+        ],
+        "distanceThresh": 5000,
+        "properties": {
+          "layer": "venue",
+          "name": "Inter Miami CF Stadium"
+        }
+      }
+    }
+  ]
+}

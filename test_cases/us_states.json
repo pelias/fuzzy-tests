@@ -23,6 +23,7 @@
         "properties": [
           {
             "name": "Alabama",
+            "layer": "region",
             "region": "Alabama",
             "region_a": "AL",
             "country_a": "USA"
@@ -40,6 +41,7 @@
         "properties": [
           {
             "name": "Alaska",
+            "layer": "region",
             "region": "Alaska",
             "region_a": "AK",
             "country_a": "USA"
@@ -57,6 +59,7 @@
         "properties": [
           {
             "name": "Arizona",
+            "layer": "region",
             "region": "Arizona",
             "region_a": "AZ",
             "country_a": "USA"
@@ -74,6 +77,7 @@
         "properties": [
           {
             "name": "Arkansas",
+            "layer": "region",
             "region": "Arkansas",
             "region_a": "AR",
             "country_a": "USA"
@@ -91,6 +95,7 @@
         "properties": [
           {
             "name": "California",
+            "layer": "region",
             "region": "California",
             "region_a": "CA",
             "country_a": "USA"
@@ -108,6 +113,7 @@
         "properties": [
           {
             "name": "Colorado",
+            "layer": "region",
             "region": "Colorado",
             "region_a": "CO",
             "country_a": "USA"
@@ -125,6 +131,7 @@
         "properties": [
           {
             "name": "Connecticut",
+            "layer": "region",
             "region": "Connecticut",
             "region_a": "CT",
             "country_a": "USA"
@@ -142,6 +149,7 @@
         "properties": [
           {
             "name": "Delaware",
+            "layer": "region",
             "region": "Delaware",
             "region_a": "DE",
             "country_a": "USA"
@@ -159,6 +167,7 @@
         "properties": [
           {
             "name": "Florida",
+            "layer": "region",
             "region": "Florida",
             "region_a": "FL",
             "country_a": "USA"
@@ -176,6 +185,7 @@
         "properties": [
           {
             "name": "Georgia",
+            "layer": "region",
             "region": "Georgia",
             "region_a": "GA",
             "country_a": "USA"
@@ -193,6 +203,7 @@
         "properties": [
           {
             "name": "Hawaii",
+            "layer": "region",
             "region": "Hawaii",
             "region_a": "HI",
             "country_a": "USA"
@@ -210,6 +221,7 @@
         "properties": [
           {
             "name": "Idaho",
+            "layer": "region",
             "region": "Idaho",
             "region_a": "ID",
             "country_a": "USA"
@@ -227,6 +239,7 @@
         "properties": [
           {
             "name": "Illinois",
+            "layer": "region",
             "region": "Illinois",
             "region_a": "IL",
             "country_a": "USA"
@@ -244,6 +257,7 @@
         "properties": [
           {
             "name": "Indiana",
+            "layer": "region",
             "region": "Indiana",
             "region_a": "IN",
             "country_a": "USA"
@@ -261,6 +275,7 @@
         "properties": [
           {
             "name": "Iowa",
+            "layer": "region",
             "region": "Iowa",
             "region_a": "IA",
             "country_a": "USA"
@@ -278,6 +293,7 @@
         "properties": [
           {
             "name": "Kansas",
+            "layer": "region",
             "region": "Kansas",
             "region_a": "KS",
             "country_a": "USA"
@@ -295,6 +311,7 @@
         "properties": [
           {
             "name": "Kentucky",
+            "layer": "region",
             "region": "Kentucky",
             "region_a": "KY",
             "country_a": "USA"
@@ -312,6 +329,7 @@
         "properties": [
           {
             "name": "Louisiana",
+            "layer": "region",
             "region": "Louisiana",
             "region_a": "LA",
             "country_a": "USA"
@@ -329,6 +347,7 @@
         "properties": [
           {
             "name": "Maine",
+            "layer": "region",
             "region": "Maine",
             "region_a": "ME",
             "country_a": "USA"
@@ -346,6 +365,7 @@
         "properties": [
           {
             "name": "Maryland",
+            "layer": "region",
             "region": "Maryland",
             "region_a": "MD",
             "country_a": "USA"
@@ -363,6 +383,7 @@
         "properties": [
           {
             "name": "Massachusetts",
+            "layer": "region",
             "region": "Massachusetts",
             "region_a": "MA",
             "country_a": "USA"
@@ -380,6 +401,7 @@
         "properties": [
           {
             "name": "Michigan",
+            "layer": "region",
             "region": "Michigan",
             "region_a": "MI",
             "country_a": "USA"
@@ -397,6 +419,7 @@
         "properties": [
           {
             "name": "Minnesota",
+            "layer": "region",
             "region": "Minnesota",
             "region_a": "MN",
             "country_a": "USA"
@@ -414,6 +437,7 @@
         "properties": [
           {
             "name": "Mississippi",
+            "layer": "region",
             "region": "Mississippi",
             "region_a": "MS",
             "country_a": "USA"
@@ -431,6 +455,7 @@
         "properties": [
           {
             "name": "Missouri",
+            "layer": "region",
             "region": "Missouri",
             "region_a": "MO",
             "country_a": "USA"
@@ -448,6 +473,7 @@
         "properties": [
           {
             "name": "Montana",
+            "layer": "region",
             "region": "Montana",
             "region_a": "MT",
             "country_a": "USA"
@@ -465,6 +491,7 @@
         "properties": [
           {
             "name": "Nebraska",
+            "layer": "region",
             "region": "Nebraska",
             "region_a": "NE",
             "country_a": "USA"
@@ -482,6 +509,7 @@
         "properties": [
           {
             "name": "Nevada",
+            "layer": "region",
             "region": "Nevada",
             "region_a": "NV",
             "country_a": "USA"
@@ -499,6 +527,7 @@
         "properties": [
           {
             "name": "New Hampshire",
+            "layer": "region",
             "region": "New Hampshire",
             "region_a": "NH",
             "country_a": "USA"
@@ -516,6 +545,7 @@
         "properties": [
           {
             "name": "New Jersey",
+            "layer": "region",
             "region": "New Jersey",
             "region_a": "NJ",
             "country_a": "USA"
@@ -533,6 +563,7 @@
         "properties": [
           {
             "name": "New Mexico",
+            "layer": "region",
             "region": "New Mexico",
             "region_a": "NM",
             "country_a": "USA"
@@ -550,6 +581,7 @@
         "properties": [
           {
             "name": "New York",
+            "layer": "region",
             "region": "New York",
             "region_a": "NY",
             "country_a": "USA"
@@ -567,6 +599,7 @@
         "properties": [
           {
             "name": "North Carolina",
+            "layer": "region",
             "region": "North Carolina",
             "region_a": "NC",
             "country_a": "USA"
@@ -584,6 +617,7 @@
         "properties": [
           {
             "name": "North Dakota",
+            "layer": "region",
             "region": "North Dakota",
             "region_a": "ND",
             "country_a": "USA"
@@ -601,6 +635,7 @@
         "properties": [
           {
             "name": "Ohio",
+            "layer": "region",
             "region": "Ohio",
             "region_a": "OH",
             "country_a": "USA"
@@ -618,6 +653,7 @@
         "properties": [
           {
             "name": "Oklahoma",
+            "layer": "region",
             "region": "Oklahoma",
             "region_a": "OK",
             "country_a": "USA"
@@ -635,6 +671,7 @@
         "properties": [
           {
             "name": "Oregon",
+            "layer": "region",
             "region": "Oregon",
             "region_a": "OR",
             "country_a": "USA"
@@ -652,6 +689,7 @@
         "properties": [
           {
             "name": "Pennsylvania",
+            "layer": "region",
             "region": "Pennsylvania",
             "region_a": "PA",
             "country_a": "USA"
@@ -669,6 +707,7 @@
         "properties": [
           {
             "name": "Rhode Island",
+            "layer": "region",
             "region": "Rhode Island",
             "region_a": "RI",
             "country_a": "USA"
@@ -686,6 +725,7 @@
         "properties": [
           {
             "name": "South Carolina",
+            "layer": "region",
             "region": "South Carolina",
             "region_a": "SC",
             "country_a": "USA"
@@ -703,6 +743,7 @@
         "properties": [
           {
             "name": "South Dakota",
+            "layer": "region",
             "region": "South Dakota",
             "region_a": "SD",
             "country_a": "USA"
@@ -720,6 +761,7 @@
         "properties": [
           {
             "name": "Tennessee",
+            "layer": "region",
             "region": "Tennessee",
             "region_a": "TN",
             "country_a": "USA"
@@ -737,6 +779,7 @@
         "properties": [
           {
             "name": "Texas",
+            "layer": "region",
             "region": "Texas",
             "region_a": "TX",
             "country_a": "USA"
@@ -754,6 +797,7 @@
         "properties": [
           {
             "name": "Utah",
+            "layer": "region",
             "region": "Utah",
             "region_a": "UT",
             "country_a": "USA"
@@ -771,6 +815,7 @@
         "properties": [
           {
             "name": "Vermont",
+            "layer": "region",
             "region": "Vermont",
             "region_a": "VT",
             "country_a": "USA"
@@ -788,6 +833,7 @@
         "properties": [
           {
             "name": "Virginia",
+            "layer": "region",
             "region": "Virginia",
             "region_a": "VA",
             "country_a": "USA"
@@ -805,6 +851,7 @@
         "properties": [
           {
             "name": "Washington",
+            "layer": "region",
             "region": "Washington",
             "region_a": "WA",
             "country_a": "USA"
@@ -822,6 +869,7 @@
         "properties": [
           {
             "name": "West Virginia",
+            "layer": "region",
             "region": "West Virginia",
             "region_a": "WV",
             "country_a": "USA"
@@ -839,6 +887,7 @@
         "properties": [
           {
             "name": "Wisconsin",
+            "layer": "region",
             "region": "Wisconsin",
             "region_a": "WI",
             "country_a": "USA"
@@ -856,6 +905,7 @@
         "properties": [
           {
             "name": "Wyoming",
+            "layer": "region",
             "region": "Wyoming",
             "region_a": "WY",
             "country_a": "USA"
